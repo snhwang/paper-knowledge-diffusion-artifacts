@@ -1,0 +1,108 @@
+# Knowledge Diffusion — Paper Artifacts
+
+Evaluation scripts, benchmark harnesses, and result files for the knowledge-
+diffusion paper series, which covers Six Thinking Hats panel deliberation
+(main paper, `bear_tiis.tex`) and its application to two LLM benchmarks:
+Big-Bench Hard (`bear_tiis_bbh.tex`) and Student–Clinician Transfer
+(`bear_tiis_sct.tex`). Preprint links TBD. Uses the BEAR library at
+[snhwang/bear](https://github.com/snhwang/bear), pinned to `v0.1.0`.
+
+## Layout
+
+```
+evals/                          # 9 paper/evaluation scripts + stat_utils
+├── eval_interhat_differentiation.py  # inter-hat centroid distance
+├── eval_role_adherence.py            # role self-alignment, discrimination
+├── eval_significance.py              # t-tests, Wilcoxon, bootstrap, Holm
+├── eval_embed_only_baseline.py       # naive vs embed-only vs BEAR dedup
+├── eval_dmin_sensitivity.py          # d_min threshold sweep (0.20 – 0.50)
+├── eval_temporal_evolution.py        # store growth over turns
+├── eval_response_divergence.py       # BEAR vs Naive inter-hat distance
+├── eval_role_divergence.py           # BEAR vs Role vs Static prompt
+└── stat_utils.py                     # bootstrap CIs shared across evals
+
+benchmarks/                     # 10 experiments scripts + input data
+├── bbh_data/                         # Big-Bench Hard JSONs
+│   ├── causal_judgement.json
+│   ├── disambiguation_qa.json
+│   ├── logical_deduction_five_objects.json
+│   ├── logical_deduction_seven_objects.json
+│   └── snarks.json
+├── sct_data/
+│   └── sct_cleaned_full.csv          # cleaned SCT dataset
+├── brainteaser_puzzles.json          # frozen brainteaser SP puzzles
+├── brainteaser_wp_puzzles.json       # frozen brainteaser WP puzzles
+├── bbh_eval.py                       # single vs panel on BBH
+├── brainteaser_eval.py               # single vs panel on brainteaser
+├── sct_eval.py, sct_eval_v2.py       # SCT evaluation (v1 + v2)
+├── sct_repair_panel.py, sct_repair_panel_trunc.py, sct_rerun_nulls.py
+├── analyze_panel.py                  # cross-model panel analysis
+├── llm_rejudge_brainteaser.py        # LLM re-judging
+├── download_brainteaser.py           # regenerates brainteaser puzzles
+└── sct_results_analysis.md
+
+bear_parlor/                    # data subset of the bear_parlor example
+├── session_logs/                     # 240 brainstorming-hats session logs
+├── instructions/                     # hat / common / barbershop corpora
+├── panel_data/                       # panel configuration data
+├── panels.yaml                       # panel definitions
+├── characters.yaml                   # character/hat assignments
+└── topics/README.md                  # DOIs of source papers for the 8 topics
+
+pet_sim/                        # pet-sim corpus (used by eval_role_divergence)
+└── instructions/                     # 8 YAML files, frozen for role-divergence eval
+
+results/                        # 33 result subdirs (~175 MB)
+├── bbh_{gptoss120b,haiku,medgemma,sonnet}/
+├── bt_*/                             # brainteaser runs across models
+├── sct_v2_*/                         # SCT v2 runs across models
+├── six_hats_panels/                  # main-paper panel results
+└── cloud_optimal/
+
+run_evals.sh                    # runner for paper/evaluation suite
+requirements.txt                # bear@v0.1.0 + scipy/numpy/matplotlib/PyYAML/python-dotenv/openai
+```
+
+## Topic source papers
+
+The 8 topics used in `bear_parlor/session_logs/` (CRISPR, DMG, GLP-1, MS,
+Alzheimer's, Epilepsy, Stroke, LLMs in Clinical Decision Support) were seeded
+with small sets of peer-reviewed papers. Those PDFs are **not redistributed
+here** (third-party copyright). See `bear_parlor/topics/README.md` for the
+per-topic list and DOIs so the inputs can be retrieved independently. The
+eval scripts do not need the PDFs — they read session logs only.
+
+## Reproduce
+
+```bash
+python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate on Windows
+pip install -r requirements.txt
+./run_evals.sh                  # Part A (session-log analysis, no LLM)
+./run_evals.sh --all            # Part A + eval_role_divergence (needs LM Studio)
+```
+
+### Benchmark scripts (BBH, brainteaser, SCT)
+
+These run separately from the main `run_evals.sh` and typically require an
+LLM backend (Anthropic API, LM Studio, or Ollama). See each script's docstring
+for invocation examples. Representative commands:
+
+```bash
+# BBH single vs panel on Claude Sonnet
+python benchmarks/bbh_eval.py --mode all --model claude-sonnet-4-6 \
+    --results-dir results/bbh_sonnet
+
+# Brainteaser analyze mode against pre-existing results
+python benchmarks/brainteaser_eval.py --mode analyze --results-dir results/bt_sonnet_5hat
+
+# SCT v2 single-model run
+python benchmarks/sct_eval_v2.py --mode single --model claude-haiku-4-5-20251001
+
+# Cross-model panel analysis (reads from results/)
+python benchmarks/analyze_panel.py
+```
+
+## Bear version
+
+Pinned to bear `v0.1.0` (commit `515366e`). Bumping bear may change numeric
+results; update the pin in `requirements.txt` and re-run to compare.
