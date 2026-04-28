@@ -1,5 +1,10 @@
 # Knowledge Diffusion — Paper Artifacts
 
+**Provisional Patent Pending (filed April 15, 2026)** | Copyright (c) 2026 The Pennsylvania State University. All rights reserved.
+Inventor: Scott N. Hwang
+
+Licensed under the Open Core Ventures Source Available License (OCVSAL) v1.0. See [LICENSE](LICENSE). Production use requires a commercial agreement. For commercial licensing, contact the Penn State Office of Technology Transfer at ottinfo@psu.edu.
+
 Evaluation scripts, benchmark harnesses, and result files for the knowledge-
 diffusion paper series, which covers Six Thinking Hats panel deliberation
 (main paper, `bear_tiis.tex`) and its application to two LLM benchmarks:
@@ -10,7 +15,7 @@ Big-Bench Hard (`bear_tiis_bbh.tex`) and Student–Clinician Transfer
 ## Layout
 
 ```
-evals/                          # 9 paper/evaluation scripts + stat_utils
+evals/                          # 8 paper/evaluation scripts + stat_utils
 ├── eval_interhat_differentiation.py  # inter-hat centroid distance
 ├── eval_role_adherence.py            # role self-alignment, discrimination
 ├── eval_significance.py              # t-tests, Wilcoxon, bootstrap, Holm
