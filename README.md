@@ -15,7 +15,7 @@ Big-Bench Hard (`bear_tiis_bbh.tex`) and Student–Clinician Transfer
 ## Layout
 
 ```
-evals/                          # 8 paper/evaluation scripts + stat_utils
+evals/                          # 10 paper/evaluation scripts + stat_utils
 ├── eval_interhat_differentiation.py  # inter-hat centroid distance
 ├── eval_role_adherence.py            # role self-alignment, discrimination
 ├── eval_significance.py              # t-tests, Wilcoxon, bootstrap, Holm
@@ -24,6 +24,9 @@ evals/                          # 8 paper/evaluation scripts + stat_utils
 ├── eval_temporal_evolution.py        # store growth over turns
 ├── eval_response_divergence.py       # BEAR vs Naive inter-hat distance
 ├── eval_role_divergence.py           # BEAR vs Role vs Static prompt
+├── eval_architecture_baselines.py    # [rev1] vs shared-memory topologies
+├── eval_knowledge_flow_matrix.py     # [rev1] retention-decision flow matrix
+├── results/                          # [rev1] outputs of the two above
 └── stat_utils.py                     # bootstrap CIs shared across evals
 
 benchmarks/                     # 10 experiments scripts + input data
@@ -85,6 +88,24 @@ pip install -r requirements.txt
 ./run_evals.sh                  # Part A (session-log analysis, no LLM)
 ./run_evals.sh --all            # Part A + eval_role_divergence (needs LM Studio)
 ```
+
+### Revision 1 analyses (Expert Systems, 2026-08)
+
+Two analyses added during the first revision. Both are deterministic, need no
+LLM, and read the same session logs as the rest of Part A. Outputs land in
+`evals/results/`.
+
+```bash
+python evals/eval_architecture_baselines.py     # Table 7: vs shared-memory designs
+python evals/eval_architecture_baselines.py --include-pdf   # secondary variant
+python evals/eval_knowledge_flow_matrix.py      # Figure 6: retention flow matrix
+```
+
+`eval_architecture_baselines.py` compares BEAR-guided diffusion against
+shared-store and shared-context topologies on the context each agent receives
+at generation time. `eval_knowledge_flow_matrix.py` measures retention
+decisions only, never stored text, so it is independent of the reframing step.
+Add `--top-k` to either to reproduce the retrieval-depth sensitivity check.
 
 ### Benchmark scripts (BBH, brainteaser, SCT)
 

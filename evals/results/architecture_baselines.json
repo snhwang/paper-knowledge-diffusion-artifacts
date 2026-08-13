@@ -1,0 +1,780 @@
+{
+  "metadata": {
+    "eval": "architecture_baselines",
+    "purpose": "Expert Systems R1 comment 3 \u2014 direct comparison with existing multi-agent knowledge management methods",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "top_k": 4,
+    "d_min": 0.35,
+    "include_pdf": false,
+    "nn_sim_threshold": 0.85,
+    "topics": [
+      "dmg",
+      "stroke",
+      "ms",
+      "alzheimers",
+      "epilepsy",
+      "glp1",
+      "crispr",
+      "llm-cds"
+    ],
+    "n_topics": 8,
+    "conditions": {
+      "bear": "BEAR-guided (this paper)",
+      "naive": "Unfiltered broadcast",
+      "shared-store": "Shared store, consolidated",
+      "shared-full": "Shared store, full pool",
+      "shared-context": "Shared conversation context"
+    },
+    "sessions": {
+      "dmg_bear": "20260411_080827",
+      "dmg_naive": "20260411_081607",
+      "stroke_bear": "20260411_111855",
+      "stroke_naive": "20260411_112624",
+      "ms_bear": "20260411_083837",
+      "ms_naive": "20260411_084608",
+      "alzheimers_bear": "20260411_085342",
+      "alzheimers_naive": "20260411_114857",
+      "epilepsy_bear": "20260411_090843",
+      "epilepsy_naive": "20260411_091612",
+      "glp1_bear": "20260411_092346",
+      "glp1_naive": "20260411_093120",
+      "crispr_bear": "20260411_093855",
+      "crispr_naive": "20260411_094628",
+      "llm-cds_bear": "20260411_095357",
+      "llm-cds_naive": "20260411_100136"
+    }
+  },
+  "results": {
+    "store_centroid": {
+      "bear": {
+        "mean": 0.07949514736731847,
+        "ci_low": 0.0722103027254343,
+        "ci_high": 0.08783145000537236,
+        "per_topic": [
+          0.07788756291071573,
+          0.06664810180664063,
+          0.08260756731033325,
+          0.07996027072270712,
+          0.07274251778920492,
+          0.08612844546635946,
+          0.10383078654607138,
+          0.0661559263865153
+        ]
+      },
+      "naive": {
+        "mean": 0.007975131769975026,
+        "ci_low": 0.007050657272338867,
+        "ci_high": 0.00895569788912932,
+        "per_topic": [
+          0.00882049798965454,
+          0.007587353388468425,
+          0.006070152918497721,
+          0.007322827974955241,
+          0.007632219791412353,
+          0.010428285598754883,
+          0.009417208035786946,
+          0.006522508462270101
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.267083333821413,
+          "mean_diff": 0.07152001559734344
+        }
+      },
+      "shared-store": {
+        "mean": 3.725290298461914e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 7.450580596923828e-08,
+        "per_topic": [
+          0.0,
+          5.960464477539063e-08,
+          0.0,
+          0.0,
+          1.1920928955078125e-07,
+          1.1920928955078125e-07,
+          0.0,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.530384621625329,
+          "mean_diff": 0.07949511011441548
+        }
+      },
+      "shared-full": {
+        "mean": 2.2351741790771484e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 4.470348358154297e-08,
+        "per_topic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.530385705865775,
+          "mean_diff": 0.07949512501557668
+        }
+      },
+      "shared-context": {
+        "mean": 2.2351741790771484e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 4.470348358154297e-08,
+        "per_topic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.530385705865775,
+          "mean_diff": 0.07949512501557668
+        }
+      }
+    },
+    "store_overlap": {
+      "bear": {
+        "mean": 0.06287973770510535,
+        "ci_low": 0.040469528089013385,
+        "ci_high": 0.09188762558247848,
+        "per_topic": [
+          0.06749999999999999,
+          0.030808080808080805,
+          0.1494444444444444,
+          0.06012987012987014,
+          0.07010489510489509,
+          0.073994708994709,
+          0.027731481481481482,
+          0.023324420677361853
+        ]
+      },
+      "naive": {
+        "mean": 0.8145535714285714,
+        "ci_low": 0.7892261904761905,
+        "ci_high": 0.8427017195767196,
+        "per_topic": [
+          0.8517195767195767,
+          0.8145502645502645,
+          0.8919444444444444,
+          0.798452380952381,
+          0.8239814814814815,
+          0.7651455026455026,
+          0.7732142857142857,
+          0.7974206349206349
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -24.556106287725246,
+          "mean_diff": -0.7516738337234661
+        }
+      },
+      "shared-store": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.093594617653885,
+          "mean_diff": -0.9371202622948946
+        }
+      },
+      "shared-full": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.093594617653885,
+          "mean_diff": -0.9371202622948946
+        }
+      },
+      "shared-context": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.093594617653885,
+          "mean_diff": -0.9371202622948946
+        }
+      }
+    },
+    "retrieved_centroid": {
+      "bear": {
+        "mean": 0.13710952401161194,
+        "ci_low": 0.12425665507713954,
+        "ci_high": 0.15096177756786347,
+        "per_topic": [
+          0.1252644936243693,
+          0.14058735370635986,
+          0.15085623661677042,
+          0.12935779492060342,
+          0.14711214303970338,
+          0.11475542386372885,
+          0.17625645399093628,
+          0.11268629233042399
+        ]
+      },
+      "naive": {
+        "mean": 0.04587429116169611,
+        "ci_low": 0.04324131160974502,
+        "ci_high": 0.048425041064620006,
+        "per_topic": [
+          0.04764422575632731,
+          0.047841978073120114,
+          0.04511504173278809,
+          0.04175625642140706,
+          0.039266165097554526,
+          0.05171509583791097,
+          0.04925153255462646,
+          0.04440403381983439
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 4.2093568354973385,
+          "mean_diff": 0.09123523284991583
+        }
+      },
+      "shared-store": {
+        "mean": 0.00258341779311498,
+        "ci_low": 1.4901161193847657e-09,
+        "ci_high": 0.007750220596790314,
+        "per_topic": [
+          0.0,
+          1.1920928955078126e-08,
+          0.0,
+          0.0,
+          1.1920928955078125e-07,
+          0.0,
+          0.0,
+          0.020667211214701334
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 5.29786680848691,
+          "mean_diff": 0.13452610621849695
+        }
+      },
+      "shared-full": {
+        "mean": 0.04071574459473292,
+        "ci_low": 0.031061002413431807,
+        "ci_high": 0.050097829376657806,
+        "per_topic": [
+          0.04409069220225016,
+          0.025597989559173584,
+          0.017857150236765543,
+          0.04779900709788005,
+          0.04431457122166951,
+          0.035964369773864746,
+          0.06643538077672323,
+          0.04366679588953654
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 4.362279183896697,
+          "mean_diff": 0.09639377941687902
+        }
+      },
+      "shared-context": {
+        "mean": 2.2351741790771484e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 4.470348358154297e-08,
+        "per_topic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.483813309048472,
+          "mean_diff": 0.13710950165987015
+        }
+      }
+    },
+    "retrieved_overlap": {
+      "bear": {
+        "mean": 0.027083333333333334,
+        "ci_low": 0.014583333333333334,
+        "ci_high": 0.04166666666666667,
+        "per_topic": [
+          0.016666666666666666,
+          0.06666666666666667,
+          0.05,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.016666666666666666,
+          0.0,
+          0.03333333333333333
+        ]
+      },
+      "naive": {
+        "mean": 0.5229166666666667,
+        "ci_low": 0.4697916666666667,
+        "ci_high": 0.58125,
+        "per_topic": [
+          0.5166666666666667,
+          0.5083333333333333,
+          0.675,
+          0.6333333333333333,
+          0.5,
+          0.45,
+          0.4166666666666667,
+          0.48333333333333334
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -6.0726933206499645,
+          "mean_diff": -0.49583333333333335
+        }
+      },
+      "shared-store": {
+        "mean": 0.98125,
+        "ci_low": 0.9437500000000001,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          0.85
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -16.010798555695512,
+          "mean_diff": -0.9541666666666666
+        }
+      },
+      "shared-full": {
+        "mean": 0.6166666666666667,
+        "ci_low": 0.53125,
+        "ci_high": 0.7145833333333333,
+        "per_topic": [
+          0.65,
+          0.8,
+          0.85,
+          0.5666666666666667,
+          0.5,
+          0.5833333333333334,
+          0.45,
+          0.5333333333333333
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -4.752253226791488,
+          "mean_diff": -0.5895833333333333
+        }
+      },
+      "shared-context": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -44.81868442607628,
+          "mean_diff": -0.9729166666666667
+        }
+      }
+    },
+    "store_size": {
+      "bear": {
+        "mean": 10.375,
+        "ci_low": 9.104166666666666,
+        "ci_high": 11.520833333333334,
+        "per_topic": [
+          10.833333333333334,
+          13.0,
+          10.166666666666666,
+          9.5,
+          10.0,
+          6.666666666666667,
+          10.833333333333334,
+          12.0
+        ]
+      },
+      "naive": {
+        "mean": 20.854166666666664,
+        "ci_low": 20.375,
+        "ci_high": 21.25,
+        "per_topic": [
+          19.5,
+          20.5,
+          21.333333333333332,
+          21.333333333333332,
+          21.333333333333332,
+          20.5,
+          20.833333333333332,
+          21.5
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -5.274031984024522,
+          "mean_diff": -10.479166666666666
+        }
+      },
+      "shared-store": {
+        "mean": 3.375,
+        "ci_low": 2.625,
+        "ci_high": 4.125,
+        "per_topic": [
+          5.0,
+          3.0,
+          2.0,
+          4.0,
+          2.0,
+          3.0,
+          3.0,
+          5.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 3.578984301544978,
+          "mean_diff": 7.0
+        }
+      },
+      "shared-full": {
+        "mean": 30.625,
+        "ci_low": 29.625,
+        "ci_high": 31.75,
+        "per_topic": [
+          29.0,
+          30.0,
+          29.0,
+          33.0,
+          30.0,
+          33.0,
+          31.0,
+          30.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -6.421474534367534,
+          "mean_diff": -20.25
+        }
+      },
+      "shared-context": {
+        "mean": 30.625,
+        "ci_low": 29.625,
+        "ci_high": 31.75,
+        "per_topic": [
+          29.0,
+          30.0,
+          29.0,
+          33.0,
+          30.0,
+          33.0,
+          31.0,
+          30.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -6.421474534367534,
+          "mean_diff": -20.25
+        }
+      }
+    }
+  },
+  "per_topic": [
+    {
+      "topic": "dmg",
+      "bear_store_centroid": 0.07788756291071573,
+      "bear_store_overlap": 0.06749999999999999,
+      "bear_retr_centroid": 0.1252644936243693,
+      "bear_retr_overlap": 0.016666666666666666,
+      "bear_store_size": 10.833333333333334,
+      "naive_store_centroid": 0.00882049798965454,
+      "naive_store_overlap": 0.8517195767195767,
+      "naive_retr_centroid": 0.04764422575632731,
+      "naive_retr_overlap": 0.5166666666666667,
+      "naive_store_size": 19.5,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04409069220225016,
+      "shared-full_retr_overlap": 0.65,
+      "shared-full_store_size": 29.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 29.0
+    },
+    {
+      "topic": "stroke",
+      "bear_store_centroid": 0.06664810180664063,
+      "bear_store_overlap": 0.030808080808080805,
+      "bear_retr_centroid": 0.14058735370635986,
+      "bear_retr_overlap": 0.06666666666666667,
+      "bear_store_size": 13.0,
+      "naive_store_centroid": 0.007587353388468425,
+      "naive_store_overlap": 0.8145502645502645,
+      "naive_retr_centroid": 0.047841978073120114,
+      "naive_retr_overlap": 0.5083333333333333,
+      "naive_store_size": 20.5,
+      "shared-store_store_centroid": 5.960464477539063e-08,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 1.1920928955078126e-08,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 3.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.025597989559173584,
+      "shared-full_retr_overlap": 0.8,
+      "shared-full_store_size": 30.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 30.0
+    },
+    {
+      "topic": "ms",
+      "bear_store_centroid": 0.08260756731033325,
+      "bear_store_overlap": 0.1494444444444444,
+      "bear_retr_centroid": 0.15085623661677042,
+      "bear_retr_overlap": 0.05,
+      "bear_store_size": 10.166666666666666,
+      "naive_store_centroid": 0.006070152918497721,
+      "naive_store_overlap": 0.8919444444444444,
+      "naive_retr_centroid": 0.04511504173278809,
+      "naive_retr_overlap": 0.675,
+      "naive_store_size": 21.333333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 2.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.017857150236765543,
+      "shared-full_retr_overlap": 0.85,
+      "shared-full_store_size": 29.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 29.0
+    },
+    {
+      "topic": "alzheimers",
+      "bear_store_centroid": 0.07996027072270712,
+      "bear_store_overlap": 0.06012987012987014,
+      "bear_retr_centroid": 0.12935779492060342,
+      "bear_retr_overlap": 0.016666666666666666,
+      "bear_store_size": 9.5,
+      "naive_store_centroid": 0.007322827974955241,
+      "naive_store_overlap": 0.798452380952381,
+      "naive_retr_centroid": 0.04175625642140706,
+      "naive_retr_overlap": 0.6333333333333333,
+      "naive_store_size": 21.333333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 4.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04779900709788005,
+      "shared-full_retr_overlap": 0.5666666666666667,
+      "shared-full_store_size": 33.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 33.0
+    },
+    {
+      "topic": "epilepsy",
+      "bear_store_centroid": 0.07274251778920492,
+      "bear_store_overlap": 0.07010489510489509,
+      "bear_retr_centroid": 0.14711214303970338,
+      "bear_retr_overlap": 0.016666666666666666,
+      "bear_store_size": 10.0,
+      "naive_store_centroid": 0.007632219791412353,
+      "naive_store_overlap": 0.8239814814814815,
+      "naive_retr_centroid": 0.039266165097554526,
+      "naive_retr_overlap": 0.5,
+      "naive_store_size": 21.333333333333332,
+      "shared-store_store_centroid": 1.1920928955078125e-07,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 1.1920928955078125e-07,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 2.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04431457122166951,
+      "shared-full_retr_overlap": 0.5,
+      "shared-full_store_size": 30.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 30.0
+    },
+    {
+      "topic": "glp1",
+      "bear_store_centroid": 0.08612844546635946,
+      "bear_store_overlap": 0.073994708994709,
+      "bear_retr_centroid": 0.11475542386372885,
+      "bear_retr_overlap": 0.016666666666666666,
+      "bear_store_size": 6.666666666666667,
+      "naive_store_centroid": 0.010428285598754883,
+      "naive_store_overlap": 0.7651455026455026,
+      "naive_retr_centroid": 0.05171509583791097,
+      "naive_retr_overlap": 0.45,
+      "naive_store_size": 20.5,
+      "shared-store_store_centroid": 1.1920928955078125e-07,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 3.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.035964369773864746,
+      "shared-full_retr_overlap": 0.5833333333333334,
+      "shared-full_store_size": 33.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 33.0
+    },
+    {
+      "topic": "crispr",
+      "bear_store_centroid": 0.10383078654607138,
+      "bear_store_overlap": 0.027731481481481482,
+      "bear_retr_centroid": 0.17625645399093628,
+      "bear_retr_overlap": 0.0,
+      "bear_store_size": 10.833333333333334,
+      "naive_store_centroid": 0.009417208035786946,
+      "naive_store_overlap": 0.7732142857142857,
+      "naive_retr_centroid": 0.04925153255462646,
+      "naive_retr_overlap": 0.4166666666666667,
+      "naive_store_size": 20.833333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 3.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.06643538077672323,
+      "shared-full_retr_overlap": 0.45,
+      "shared-full_store_size": 31.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 31.0
+    },
+    {
+      "topic": "llm-cds",
+      "bear_store_centroid": 0.0661559263865153,
+      "bear_store_overlap": 0.023324420677361853,
+      "bear_retr_centroid": 0.11268629233042399,
+      "bear_retr_overlap": 0.03333333333333333,
+      "bear_store_size": 12.0,
+      "naive_store_centroid": 0.006522508462270101,
+      "naive_store_overlap": 0.7974206349206349,
+      "naive_retr_centroid": 0.04440403381983439,
+      "naive_retr_overlap": 0.48333333333333334,
+      "naive_store_size": 21.5,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.020667211214701334,
+      "shared-store_retr_overlap": 0.85,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04366679588953654,
+      "shared-full_retr_overlap": 0.5333333333333333,
+      "shared-full_store_size": 30.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 30.0
+    }
+  ]
+}
