@@ -10,6 +10,12 @@ Session-log filenames follow `brainstorming-hats_YYYYMMDD_HHMMSS.md`. The
 mapping from filename to topic lives in the eval scripts
 (`evals/eval_*.py`) — search for `TOPIC_ORDER` or the per-file topic dicts.
 
+Each of the eight topics was seeded with **three** peer-reviewed manuscripts,
+injected at fixed points in the session script. This file is the authoritative
+record of those inputs: the manuscript does not cite them in its bibliography,
+because they are experimental materials consumed by the method rather than
+literature the work builds on.
+
 > Where a DOI is not listed, substitute the publisher URL or PubMed ID.
 > Filenames below reflect the original PDF names used during the study.
 
@@ -21,9 +27,18 @@ mapping from filename to topic lives in the eval scripts
 
 ## DMG (Diffuse Midline Glioma)
 
-- `Liu et al adaptive immunotherapeutic paradigms in DMG.pdf` — Liu et al., DOI: _TBD_
-- `Nonnenbroich DMG from molecular mechanisms to targeted interventions.pdf` — Nonnenbroich et al., DOI: _TBD_
-- `arrillaga-romany ONC201 (Dordaviprone).pdf` — Arrillaga-Romany et al., ONC201 / Dordaviprone, DOI: _TBD_
+- `Liu et al adaptive immunotherapeutic paradigms in DMG.pdf` — Liu J, Ha J,
+  Abikenari M, et al. "Adaptive Immunotherapeutic Paradigms in Diffuse Midline
+  Glioma: Integrating Epigenetic Reprogramming, Neuron–Glioma Interactions, and
+  Tumor Microenvironment Modulation." *Journal of Neuro-Oncology*, 2026.
+  DOI: [10.1007/s11060-025-05347-9](https://doi.org/10.1007/s11060-025-05347-9)
+- `Nonnenbroich DMG from molecular mechanisms to targeted interventions.pdf` —
+  Nonnenbroich LF, Bouchal SM, Millesi E, Rechberger JS, Khatua S, Daniels DJ.
+  "H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular
+  Mechanisms to Targeted Interventions." *Cells*, 2024.
+  DOI: [10.3390/cells13131122](https://doi.org/10.3390/cells13131122)
+- `arrillaga-romany ONC201 (Dordaviprone).pdf` — Arrillaga-Romany et al.,
+  ONC201 / Dordaviprone. DOI: _TBD_
 
 ## GLP-1
 
@@ -33,27 +48,52 @@ mapping from filename to topic lives in the eval scripts
 
 ## MS (Multiple Sclerosis)
 
-- `DMT.pdf` — Disease-Modifying Therapies review, DOI: _TBD_
-- `anderhalten emerging MRI and biofluid biomarkers.pdf` — Anderhalten et al., DOI: _TBD_
-- `remyelination.pdf` — Remyelination review, DOI: _TBD_
+- `DMT.pdf` — Alping P. "Disease-Modifying Therapies in Multiple Sclerosis: A
+  Focused Review of Rituximab." *Basic & Clinical Pharmacology & Toxicology*,
+  2023. DOI: [10.1111/bcpt.13932](https://doi.org/10.1111/bcpt.13932)
+- `anderhalten emerging MRI and biofluid biomarkers.pdf` — Anderhalten et al.,
+  DOI: _TBD_
+- `remyelination.pdf` — De Keersmaecker A-V, van Doninck E, Wens I, et al.
+  "Recent Advances in Interventions Targeting Remyelination and a Systematic
+  Review of Remyelinating Effects of Approved Disease-Modifying Treatments for
+  Multiple Sclerosis." *European Journal of Neurology*, 2025.
+  DOI: [10.1111/ene.70397](https://doi.org/10.1111/ene.70397)
 
 ## Alzheimer's Disease
 
-- `Alzheimer's disease etiology hypotheses and therapeutic strategies.pdf` — DOI: _TBD_
-- `Alzheimer's disease treatment challenges for the future.pdf` — DOI: _TBD_
+- `Alzheimer's disease etiology hypotheses and therapeutic strategies.pdf` —
+  Scarano N, Musumeci F, Casini B, et al. "Alzheimer's Disease Etiology
+  Hypotheses and Therapeutic Strategies: A Perspective." *International Journal
+  of Molecular Sciences*, 2025.
+  DOI: [10.3390/ijms26146980](https://doi.org/10.3390/ijms26146980)
+- `Alzheimer's disease treatment challenges for the future.pdf` — Hardy J.
+  "Alzheimer's Disease: Treatment Challenges for the Future." *Journal of
+  Neurochemistry*, 2025.
+  DOI: [10.1111/jnc.70176](https://doi.org/10.1111/jnc.70176)
 - `espay lecanemab and donanemab.pdf` — Espay et al., DOI: _TBD_
 
 ## Epilepsy
 
-- `Epilepsy as a dynamic disease.pdf` — DOI: _TBD_
-- `State-of-the-art gene therapy in epilepsy.pdf` — DOI: _TBD_
-- `mishra drug resistant epilepsy and ketogenic diet.pdf` — Mishra et al., DOI: _TBD_
+- `Epilepsy as a dynamic disease.pdf` — Schubert KM, Marson AG, Trinka E,
+  Galovic M. "Epilepsy as a Dynamic Disease: Toward Actionable, Individualized
+  Seizure Risk Prediction." *Epilepsia*, 2025.
+  DOI: [10.1111/epi.18602](https://doi.org/10.1111/epi.18602)
+- `State-of-the-art gene therapy in epilepsy.pdf` — Walker MC. "State-of-the-Art
+  Gene Therapy in Epilepsy." *Current Opinion in Neurology*, 2025.
+  DOI: [10.1097/WCO.0000000000001349](https://doi.org/10.1097/WCO.0000000000001349)
+- `mishra drug resistant epilepsy and ketogenic diet.pdf` — Mishra et al.,
+  DOI: _TBD_
 
 ## Stroke
 
-- `neuroprotection.pdf` — Neuroprotection review, DOI: _TBD_
+- `neuroprotection.pdf` — Haupt M, Gerner ST, Bähr M, Doeppner TR.
+  "Neuroprotective Strategies for Ischemic Stroke — Future Perspectives."
+  *International Journal of Molecular Sciences*, 2023.
+  DOI: [10.3390/ijms24054334](https://doi.org/10.3390/ijms24054334)
 - `sposato ischemic stroke prevention.pdf` — Sposato et al., DOI: _TBD_
-- `thrombectomy.pdf` — Thrombectomy review, DOI: _TBD_
+- `thrombectomy.pdf` — Ding D. "Endovascular Mechanical Thrombectomy for Acute
+  Ischemic Stroke: A New Standard of Care." *Journal of Stroke*, 2015.
+  DOI: [10.5853/jos.2015.17.2.123](https://doi.org/10.5853/jos.2015.17.2.123)
 
 ## LLMs in Clinical Decision Support
 
