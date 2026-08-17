@@ -502,7 +502,7 @@
         ]
       },
       "null_nn_similarity_mean": 0.8400882767659922,
-      "null_z_mean": Infinity,
+      "null_z_mean": NaN,
       "overlap_curve_mean": {
         "0.7": 0.8777777777777778,
         "0.75": 0.804861111111111,
@@ -599,7 +599,7 @@
         ]
       },
       "null_nn_similarity_mean": 0.85477374595354,
-      "null_z_mean": Infinity,
+      "null_z_mean": NaN,
       "overlap_curve_mean": {
         "0.7": 0.8305555555555555,
         "0.75": 0.7680555555555555,
@@ -696,7 +696,7 @@
         ]
       },
       "null_nn_similarity_mean": 0.8841761112205685,
-      "null_z_mean": Infinity,
+      "null_z_mean": NaN,
       "overlap_curve_mean": {
         "0.7": 0.8555555555555555,
         "0.75": 0.8138888888888889,

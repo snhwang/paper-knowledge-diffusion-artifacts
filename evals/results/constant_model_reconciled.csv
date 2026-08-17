@@ -1,0 +1,7 @@
+models,condition,session,responses_per_hat,centroid,hausdorff,nn_similarity,overlap_090,overlap_085,null_centroid_z
+"Heterogeneous",BEAR-guided,20260308_131430,4.67,0.1696,0.3411,0.7443,0.0000,0.0639,2.81
+"Heterogeneous",Naive,20260308_133940,5.00,0.1556,0.3556,0.7493,0.0222,0.0556,4.34
+"Uniform (Sonnet 4.6)",BEAR-guided,20260313_013537,4.80,0.1449,0.3712,0.7560,0.0208,0.0542,3.33
+"Uniform (Sonnet 4.6)",Naive,20260313_014207,3.83,0.1203,0.2872,0.7793,0.0000,0.1206,3.34
+"Uniform (12B local)",BEAR-guided,20260313_003943,4.50,0.1635,0.3814,0.7119,0.0000,0.0364,3.09
+"Uniform (12B local)",Naive,20260313_010034,4.33,0.1977,0.3990,0.7066,0.0000,0.0375,2.54
