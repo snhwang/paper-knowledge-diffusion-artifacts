@@ -89,6 +89,20 @@ pip install -r requirements.txt
 ./run_evals.sh --all            # Part A + eval_role_divergence (needs LM Studio)
 ```
 
+### Metric definitions
+
+All store-differentiation metrics come from `evals/overlap_metrics.py`. Nothing
+should define its own overlap: two different definitions of "nearest-neighbour
+overlap" previously coexisted in the manuscript (cosine distance < 0.35 versus
+similarity >= 0.85), differing by 14x on the same data.
+
+It provides a threshold-free primary measure (mean nearest-neighbour
+similarity), the thresholded overlap at an explicit tau, a sweep across tau to
+show orderings are not threshold artefacts, and a **permutation null** that
+reassigns items to hats at random while preserving store sizes. The null is the
+important one: small stores look differentiated trivially, so an observed value
+only means something relative to random assignment of the same items.
+
 ### Revision 1 analyses (Expert Systems, 2026-08)
 
 Two analyses added during the first revision. Both are deterministic, need no
