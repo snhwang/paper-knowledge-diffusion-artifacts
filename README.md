@@ -89,6 +89,18 @@ pip install -r requirements.txt
 ./run_evals.sh --all            # Part A + eval_role_divergence (needs LM Studio)
 ```
 
+### Running experiments, and local-model endpoints
+
+See **[RUNNING_EXPERIMENTS.md](RUNNING_EXPERIMENTS.md)**. It covers what is and
+is not reproducible, how to regenerate panel sessions from the BEAR repository,
+and a coverage table of which manuscript result has which script.
+
+**If a local model fails to connect, start there.** BEAR defaults to
+`http://127.0.0.1:1234/v1` for LM Studio and `http://localhost:11434` for
+ollama, but recent LM Studio releases have changed the default server address
+and port, so these need not match your installation. Set `LM_STUDIO_URL` or
+`OLLAMA_HOST` explicitly; both are read before any default is applied.
+
 ### Metric definitions
 
 All store-differentiation metrics come from `evals/overlap_metrics.py`. Nothing
