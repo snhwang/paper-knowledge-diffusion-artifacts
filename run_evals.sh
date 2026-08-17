@@ -10,7 +10,7 @@
 # LLM REQUIREMENTS:
 #   - Part A (session-log analysis) is deterministic (no LLM needed). It
 #     analyzes pre-recorded logs in bear_parlor/session_logs/.
-#   - eval_role_divergence.py requires:
+#   - superseded/eval_role_divergence.py requires:
 #       LM Studio with: mistral-nemo-instruct-2407 at http://127.0.0.1:1234/v1
 #
 # EMBEDDING MODELS (downloaded automatically):
@@ -79,32 +79,46 @@ echo ""
 echo "===== Part A: Session Log Analysis (no LLM) ====="
 echo ""
 
-echo "--- Inter-Hat Differentiation (centroid distances) ---"
-python3 "$EVAL_DIR/eval_interhat_differentiation.py" | tee "$RESULTS_DIR/eval_interhat_output.txt"
+echo "--- Inter-Hat Store Differentiation (Table 3) ---"
+python3 "$EVAL_DIR/eval_interhat_reconciled.py" --diffusion-only \
+    | tee "$RESULTS_DIR/eval_interhat_output.txt"
 echo ""
 
-echo "--- Role Adherence (self-alignment, discrimination ratio) ---"
+echo "--- Role Adherence (self-alignment, discrimination ratio; Table 6) ---"
 python3 "$EVAL_DIR/eval_role_adherence.py" | tee "$RESULTS_DIR/eval_role_adherence_output.txt"
 echo ""
 
-echo "--- Statistical Significance (t-tests, Wilcoxon, bootstrap, Holm-Bonferroni) ---"
+echo "--- Statistical Significance (Table 5) ---"
 python3 "$EVAL_DIR/eval_significance.py" | tee "$RESULTS_DIR/eval_significance_output.txt"
 echo ""
 
-echo "--- Embed-Only Baseline (naive vs embed-only vs BEAR dedup) ---"
-python3 "$EVAL_DIR/eval_embed_only_baseline.py" | tee "$RESULTS_DIR/eval_embed_only_output.txt"
+echo "--- Deduplication Threshold Sweep (Table 10) ---"
+python3 "$EVAL_DIR/eval_dmin_reconciled.py" | tee "$RESULTS_DIR/eval_dmin_output.txt"
 echo ""
 
-echo "--- d_min Sensitivity Sweep (0.20 - 0.50) ---"
-python3 "$EVAL_DIR/eval_dmin_sensitivity.py" | tee "$RESULTS_DIR/eval_dmin_output.txt"
+echo "--- Temporal Store Evolution (Figure 5) ---"
+python3 "$EVAL_DIR/eval_temporal_reconciled.py" | tee "$RESULTS_DIR/eval_temporal_output.txt"
 echo ""
 
-echo "--- Temporal Store Evolution (growth over turns) ---"
-python3 "$EVAL_DIR/eval_temporal_evolution.py" | tee "$RESULTS_DIR/eval_temporal_output.txt"
+echo "--- Architecture Comparison vs Shared-Memory Designs (Table 7) ---"
+python3 "$EVAL_DIR/eval_architecture_baselines.py" \
+    | tee "$RESULTS_DIR/eval_architecture_baselines_output.txt"
 echo ""
 
-echo "--- Response Divergence (BEAR vs Naive inter-hat response distance) ---"
-python3 "$EVAL_DIR/eval_response_divergence.py" | tee "$RESULTS_DIR/eval_response_divergence_output.txt"
+echo "--- Knowledge Flow Matrix (Figure 6) ---"
+python3 "$EVAL_DIR/eval_knowledge_flow_matrix.py" \
+    | tee "$RESULTS_DIR/eval_knowledge_flow_output.txt"
+echo ""
+
+echo "--- Constant-Model Control (Table 11) ---"
+python3 "$EVAL_DIR/eval_constant_model_reconciled.py" \
+    | tee "$RESULTS_DIR/eval_constant_model_output.txt"
+echo ""
+
+echo "--- Verify manuscript values against these outputs ---"
+python3 "$EVAL_DIR/verify_paper_values.py" | tee "$RESULTS_DIR/verify_paper_values_output.txt"
+echo ""
+
 echo ""
 
 # =====================================================================
@@ -117,11 +131,11 @@ if [[ "$ALL" == true ]]; then
 
     echo "--- Role Divergence (BEAR vs Role vs Static prompt) ---"
     echo "  Expects: LM Studio with mistral-nemo-instruct-2407 at localhost:1234"
-    python3 "$EVAL_DIR/eval_role_divergence.py" $MODEL_ARGS | tee "$RESULTS_DIR/eval_role_divergence_output.txt"
+    python3 "$EVAL_DIR/superseded/eval_role_divergence.py" $MODEL_ARGS | tee "$RESULTS_DIR/eval_role_divergence_output.txt"
     echo ""
 else
     echo "===== Skipping LLM-dependent evals (use --all to include) ====="
-    echo "  eval_role_divergence.py  (needs LM Studio: mistral-nemo-instruct-2407)"
+    echo "  superseded/eval_role_divergence.py  (needs LM Studio; not a current result)"
     echo ""
 fi
 

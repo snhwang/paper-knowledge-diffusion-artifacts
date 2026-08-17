@@ -15,19 +15,20 @@ Big-Bench Hard (`bear_tiis_bbh.tex`) and Student–Clinician Transfer
 ## Layout
 
 ```
-evals/                          # 10 paper/evaluation scripts + stat_utils
-├── eval_interhat_differentiation.py  # inter-hat centroid distance
-├── eval_role_adherence.py            # role self-alignment, discrimination
-├── eval_significance.py              # t-tests, Wilcoxon, bootstrap, Holm
-├── eval_embed_only_baseline.py       # naive vs embed-only vs BEAR dedup
-├── eval_dmin_sensitivity.py          # d_min threshold sweep (0.20 – 0.50)
-├── eval_temporal_evolution.py        # store growth over turns
-├── eval_response_divergence.py       # BEAR vs Naive inter-hat distance
-├── eval_role_divergence.py           # BEAR vs Role vs Static prompt
-├── eval_architecture_baselines.py    # [rev1] vs shared-memory topologies
-├── eval_knowledge_flow_matrix.py     # [rev1] retention-decision flow matrix
-├── results/                          # [rev1] outputs of the two above
-└── stat_utils.py                     # bootstrap CIs shared across evals
+evals/                          # every script here produces a current result
+├── overlap_metrics.py                # SHARED metric definitions, imported by others
+├── eval_interhat_reconciled.py       # Table 3, inter-hat store differentiation
+├── eval_dmin_reconciled.py           # Table 10, d_min sweep
+├── eval_architecture_baselines.py    # Table 7, vs shared-memory topologies
+├── eval_constant_model_reconciled.py # Table 11, constant-model control
+├── eval_role_adherence.py            # Table 6, role self-alignment
+├── eval_significance.py              # Table 5, t-tests, Wilcoxon, bootstrap
+├── eval_temporal_reconciled.py       # Figure 5, store growth over turns
+├── eval_knowledge_flow_matrix.py     # Figure 6, retention-decision flow matrix
+├── verify_paper_values.py            # checks the manuscript against these outputs
+├── stat_utils.py                     # bootstrap CIs shared across evals
+├── results/                          # generated outputs
+└── superseded/                       # older scripts, no current result; see its README
 
 benchmarks/                     # 10 experiments scripts + input data
 ├── bbh_data/                         # Big-Bench Hard JSONs
@@ -57,7 +58,7 @@ bear_parlor/                    # data subset of the bear_parlor example
 ├── characters.yaml                   # character/hat assignments
 └── topics/README.md                  # DOIs of source papers for the 8 topics
 
-pet_sim/                        # pet-sim corpus (used by eval_role_divergence)
+pet_sim/                        # pet-sim corpus (used by evals/superseded/eval_role_divergence)
 └── instructions/                     # 8 YAML files, frozen for role-divergence eval
 
 results/                        # 33 result subdirs (~175 MB)
@@ -86,7 +87,7 @@ eval scripts do not need the PDFs — they read session logs only.
 python -m venv .venv && source .venv/bin/activate   # or .venv\Scripts\activate on Windows
 pip install -r requirements.txt
 ./run_evals.sh                  # Part A (session-log analysis, no LLM)
-./run_evals.sh --all            # Part A + eval_role_divergence (needs LM Studio)
+./run_evals.sh --all            # Part A + superseded/eval_role_divergence (needs LM Studio)
 ```
 
 ### Running experiments, and local-model endpoints
