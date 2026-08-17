@@ -1,7 +1,33 @@
+# Dependencies for reproducing the knowledge-diffusion paper's results.
+#
+#   python -m venv .venv
+#   source .venv/bin/activate        # .venv\Scripts\activate on Windows
+#   pip install -r requirements.txt
+#
+# The session-log analyses (evals/) need only numpy, scipy, matplotlib and
+# sentence-transformers. The benchmark harnesses (benchmarks/) additionally
+# need openai and python-dotenv for API access, and bear is required only by
+# eval_embed_only_baseline.py, which imports bear.retriever.Embedder.
+
+# --- BEAR, pinned to the version that generated the sessions ---------------
+# The sessions in bear_parlor/session_logs/ were produced with v0.1.0
+# (commit 515366e). Later releases changed retrieval over-fetch behaviour under
+# hard gating, so a newer version need not reproduce the published numbers.
+# The eval scripts read recorded logs and store snapshots, so they do not
+# themselves depend on this pin.
 bear @ git+https://github.com/snhwang/bear.git@v0.1.0
-scipy
-numpy
-matplotlib
+
+# --- embeddings ------------------------------------------------------------
+# Required by every eval that embeds text. All results use
+# BAAI/bge-base-en-v1.5 (768-dim), downloaded automatically on first run.
+sentence-transformers>=3.0
+
+# --- numerics, statistics, plotting ----------------------------------------
+numpy>=1.24
+scipy>=1.10
+matplotlib>=3.7
+
+# --- configuration and benchmark harnesses ---------------------------------
 PyYAML
 python-dotenv
 openai
