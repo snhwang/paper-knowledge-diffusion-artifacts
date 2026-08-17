@@ -172,10 +172,16 @@ def permutation_null(hat_embs: dict, fn, n_perm: int = 1000, seed: int = 2026102
         null[i] = mean_pairwise(shuffled, fn, keys, **kw)
 
     mu, sd = float(null.mean()), float(null.std(ddof=1))
-    z = float((observed - mu) / sd) if sd > 0 else float("inf")
-    p = float((np.sum(np.abs(null - mu) >= abs(observed - mu)) + 1) / (n_perm + 1))
+    # A null with zero spread is degenerate, not infinitely significant. It
+    # happens when stores hold one or two items and every permutation gives the
+    # same answer. Report NaN so such rows are visibly uninterpretable rather
+    # than appearing as an infinite effect.
+    z = float((observed - mu) / sd) if sd > 0 else float("nan")
+    p = (float((np.sum(np.abs(null - mu) >= abs(observed - mu)) + 1) / (n_perm + 1))
+         if sd > 0 else float("nan"))
     return {"observed": observed, "null_mean": mu, "null_sd": sd,
-            "z": z, "p": p, "n_perm": n_perm}
+            "z": z, "p": p, "n_perm": n_perm,
+            "degenerate": bool(sd == 0)}
 
 
 # ---------------------------------------------------------------------------

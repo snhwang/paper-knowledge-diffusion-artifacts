@@ -66,6 +66,12 @@ from pathlib import Path
 
 import numpy as np
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from overlap_metrics import (  # noqa: E402
+    centroid_distance as _centroid_pair, mean_pairwise, nn_overlap as _nn_overlap_pair,
+    nn_similarity as _nn_sim_pair, permutation_null,
+)
+
 HERE = Path(__file__).resolve().parent
 OUT_DIR = HERE / "results"
 
@@ -196,6 +202,11 @@ def main():
     ap.add_argument("--diffusion-only", action="store_true",
                     help="Exclude per-hat ingested PDF chunks. Default keeps "
                          "all stored items, matching the published table.")
+    ap.add_argument("--n-perm", type=int, default=1000,
+                    help="Permutations for the null model (0 to skip). The null "
+                         "reassigns items to hats at random while preserving "
+                         "store sizes, and asks whether the observed value "
+                         "beats random assignment of the same items.")
     args = ap.parse_args()
 
     from sentence_transformers import SentenceTransformer
@@ -236,6 +247,16 @@ def main():
             per_cond[cond]["n"].append(n)
             row.update({f"{cond}_centroid": c, f"{cond}_nn_overlap": o,
                         f"{cond}_items_per_hat": n})
+
+            # Does this value beat random assignment of the same items?
+            if args.n_perm:
+                for stat, fn, kw in (("centroid", _centroid_pair, {}),
+                                     ("nn_sim", _nn_sim_pair, {}),
+                                     ("nn_overlap", _nn_overlap_pair, {"tau": 0.85})):
+                    nl = permutation_null(embs, fn, n_perm=args.n_perm,
+                                          hats=HATS, **kw)
+                    per_cond[cond].setdefault(f"null_{stat}", []).append(nl)
+                    row[f"{cond}_null_{stat}_z"] = nl["z"]
         if not ok:
             continue
         rows.append(row)
@@ -276,6 +297,36 @@ def main():
             print(f"    Ratio (BEAR/Naive)  {np.mean(b) / np.mean(nv):.2f}x")
         print(f"    paired t p={st['t_p']:.3e}  Wilcoxon p={st['wilcoxon_p']:.4f}"
               f"  d={st['cohens_d']:+.2f}")
+
+    # ------------------------------------------------------------------
+    if args.n_perm:
+        print("\n" + "-" * 72)
+        print("  VS PERMUTATION NULL — does the assignment of items to hats matter?")
+        print("  Items are reshuffled across hats keeping store sizes fixed.")
+        print("-" * 72)
+        print(f"  {'condition':<8}{'statistic':<14}{'observed':>10}{'null':>10}"
+              f"{'z':>8}{'p':>8}")
+        null_summary = {}
+        for cond in ("bear", "naive"):
+            for stat in ("centroid", "nn_sim", "nn_overlap"):
+                runs = per_cond[cond].get(f"null_{stat}", [])
+                if not runs:
+                    continue
+                obs = float(np.nanmean([r["observed"] for r in runs]))
+                nul = float(np.nanmean([r["null_mean"] for r in runs]))
+                z = float(np.nanmean([r["z"] for r in runs]))
+                p = float(np.nanmean([r["p"] for r in runs]))
+                null_summary[f"{cond}_{stat}"] = {
+                    "observed": obs, "null_mean": nul, "z": z, "p": p,
+                    "per_topic": runs}
+                print(f"  {cond:<8}{stat:<14}{obs:>10.3f}{nul:>10.3f}"
+                      f"{z:>8.2f}{p:>8.3f}")
+        print("\n  A statistic whose observed value sits on its null is not")
+        print("  evidence of role differentiation: it would look the same if the")
+        print("  same items were sorted into hats at random. Report only the")
+        print("  statistics that beat their null as evidence for the mechanism.")
+    else:
+        null_summary = {}
 
     # ------------------------------------------------------------------
     c, o = summary["c"], summary["o"]
@@ -320,6 +371,7 @@ Condition & Centroid Dist & NN Overlap \\
                          for (t, cd) in sessions if t in topics_used},
         },
         "summary": summary,
+        "permutation_null": null_summary,
         "per_topic": rows,
     }
     suffix = "_diffusion_only" if args.diffusion_only else ""
