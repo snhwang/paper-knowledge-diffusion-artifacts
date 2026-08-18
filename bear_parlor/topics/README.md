@@ -9,11 +9,15 @@ consumed by the method rather than literature the work builds on.
 The PDFs themselves are **not redistributed here** (third-party copyright). The
 DOIs below let the inputs be retrieved independently.
 
-> **Provenance of these DOIs.** They were extracted from the PDFs themselves
-> with `pdftotext`, not looked up by title. As a check, ten of these papers had
-> been cited in the manuscript's bibliography at submission; the extracted DOI
-> matched the bibliography entry in all ten cases. Two entries could not be
-> resolved from the file and are marked accordingly rather than guessed.
+> **Provenance of these identifiers.** Twenty-two were extracted from the PDFs
+> themselves with `pdftotext`, not looked up by title. As a check, ten of these
+> papers had been cited in the manuscript's bibliography at submission; the
+> extracted DOI matched the bibliography entry in all ten cases.
+>
+> Two files carry no DOI in their text (`deanfield semaglutide.pdf`, which is a
+> Lancet offprint, and `Wang safety challenges of AI in medicine.pdf`, an arXiv
+> preprint). Those two were identified by matching the title and full author
+> list on the PDF's first page against the published record.
 
 The eval scripts do not need these PDFs. They read session logs and store
 snapshots only.
@@ -33,7 +37,7 @@ snapshots only.
 ## GLP-1 Receptor Agonists
 
 - `Uriti systemic effect of GLP-1.pdf` — Uriti et al. *Journal of Pharma Insights and Research*. [10.69613/akgbn956](https://doi.org/10.69613/akgbn956)
-- `deanfield semaglutide.pdf` — Deanfield et al., "Semaglutide and cardiovascular outcomes." DOI not present in the file; resolve by title.
+- `deanfield semaglutide.pdf` — Deanfield J, Verma S, Scirica BM, et al. "Semaglutide and cardiovascular outcomes in patients with obesity and prevalent heart failure: a prespecified analysis of the SELECT trial." *The Lancet*, 2024. [10.1016/S0140-6736(24)01498-3](https://doi.org/10.1016/S0140-6736(24)01498-3)
 - `tzang metabolic rebound after GLP-1 receptor agaonist discontinuation.pdf` — Tzang et al., "Metabolic rebound after GLP-1 receptor agonist discontinuation." *eClinicalMedicine*, 2025. [10.1016/j.eclinm.2025.103680](https://doi.org/10.1016/j.eclinm.2025.103680)
   *(note: the filename contains a typo, "agaonist")*
 
@@ -63,7 +67,7 @@ snapshots only.
 
 ## LLMs in Clinical Decision Support
 
-- `Wang safety challenges of AI in medicine.pdf` — Wang et al., "Safety challenges of AI in medicine in the era of large language models." DOI not present in the file; resolve by title.
+- `Wang safety challenges of AI in medicine.pdf` — Wang X, Zhang NX, He H, et al. "Safety challenges of AI in medicine in the era of large language models." arXiv:2409.18968, 2024. [arXiv:2409.18968](https://arxiv.org/abs/2409.18968)
 - `arriola-omontenegro deterministic LLM framework.pdf` — Arriola-Omontenegro et al. *Frontiers in Artificial Intelligence*, 2025. [10.3389/frai.2025.1728320](https://doi.org/10.3389/frai.2025.1728320)
 - `dennstadt implementing LLMs in healthcare.pdf` — Dennstädt et al. *npj Digital Medicine*, 2025. [10.1038/s41746-025-01476-7](https://doi.org/10.1038/s41746-025-01476-7)
 
