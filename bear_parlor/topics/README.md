@@ -67,7 +67,7 @@ snapshots only.
 
 ## LLMs in Clinical Decision Support
 
-- `Wang safety challenges of AI in medicine.pdf` — Wang X, Zhang NX, He H, et al. "Safety challenges of AI in medicine in the era of large language models." arXiv:2409.18968, 2024. [arXiv:2409.18968](https://arxiv.org/abs/2409.18968)
+- `Wang safety challenges of AI in medicine.pdf` — Wang X, Zhang NX, He H, et al. "Safety challenges of AI in medicine in the era of large language models." arXiv, 2024. [10.48550/arXiv.2409.18968](https://doi.org/10.48550/arXiv.2409.18968)
 - `arriola-omontenegro deterministic LLM framework.pdf` — Arriola-Omontenegro et al. *Frontiers in Artificial Intelligence*, 2025. [10.3389/frai.2025.1728320](https://doi.org/10.3389/frai.2025.1728320)
 - `dennstadt implementing LLMs in healthcare.pdf` — Dennstädt et al. *npj Digital Medicine*, 2025. [10.1038/s41746-025-01476-7](https://doi.org/10.1038/s41746-025-01476-7)
 
