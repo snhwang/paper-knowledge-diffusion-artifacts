@@ -22,6 +22,12 @@ DOIs below let the inputs be retrieved independently.
 The eval scripts do not need these PDFs. They read session logs and store
 snapshots only.
 
+If you obtain the PDFs to regenerate sessions, note that all reported sessions
+extracted them with the **Mathpix OCR API**. Without `MATHPIX_APP_ID` and
+`MATHPIX_APP_KEY` the ingestion path falls back to pypdf without warning and
+retains roughly a quarter as much text per document. See
+[`../../RUNNING_EXPERIMENTS.md`](../../RUNNING_EXPERIMENTS.md) section 2.
+
 ## CRISPR Gene Therapy
 
 - `CRISPR ethics.pdf` — [10.1016/j.jmb.2018.05.044](https://doi.org/10.1016/j.jmb.2018.05.044)

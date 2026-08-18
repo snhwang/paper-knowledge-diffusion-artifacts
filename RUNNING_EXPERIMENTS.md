@@ -14,21 +14,25 @@ about what is and is not reproducible, because the distinction is easy to blur.
 
 | | Reproducible? | Why |
 |---|---|---|
-| Analysis of recorded sessions (`evals/`) | **Yes, exactly** | Deterministic. Reads fixed text; embeddings are pinned to `BAAI/bge-base-en-v1.5`. |
+| Analysis of recorded sessions (`evals/`) | **Yes, exactly** | Deterministic. Reads fixed text; embeddings are pinned to `BAAI/bge-base-en-v1.5`. No Mathpix account or LLM API needed. |
 | Benchmark harnesses (`benchmarks/`) | Approximately | Require live LLM APIs. Sampling is stochastic, and providers update models behind stable names. |
-| Regenerating panel sessions | **No** | See below. |
+| Regenerating panel sessions | **No** | Needs the non-redistributable source PDFs and a Mathpix account, and is stochastic besides. See below. |
 
 ### Why panel sessions cannot be regenerated exactly
 
 1. **The source PDFs are not redistributable.** Each session was seeded with
    three copyrighted manuscripts. `bear_parlor/topics/README.md` lists them with
    DOIs so they can be obtained independently, but they are not in this repo.
-2. **Sampling is stochastic**, and several hats ran at non-zero temperature.
-3. **Local-model builds were not recorded.** The constant-model control used a
+2. **PDF extraction used Mathpix, a paid third-party API.** Without Mathpix
+   credentials the ingestion path silently falls back to pypdf, which extracts
+   roughly a quarter as much text per document. See section 2 — this is the
+   reason most likely to be overlooked, because nothing fails loudly.
+3. **Sampling is stochastic**, and several hats ran at non-zero temperature.
+4. **Local-model builds were not recorded.** The constant-model control used a
    local Mistral NeMo Instruct 2407 whose quantization was never written down;
    LM Studio and ollama ship different quantizations of that model
    (Q4_K_M vs Q4_0) which do not produce identical output.
-4. **Cloud models drift.** `claude-sonnet-4-6` today is not guaranteed to be
+5. **Cloud models drift.** `claude-sonnet-4-6` today is not guaranteed to be
    byte-identical to the endpoint that served these sessions.
 
 Re-running therefore produces a **new experiment**, not a reproduction. That is
@@ -37,7 +41,77 @@ recorded logs as the primary evidence.
 
 ---
 
-## 2. Endpoints for local models — READ THIS FIRST
+## 2. PDF extraction — Mathpix is needed to come close
+
+**Every session reported in the paper ingested its PDFs through the Mathpix
+OCR API.** Reproducing the sessions without it will not reproduce the reported
+numbers, and the failure is silent.
+
+This does **not** affect anything in `evals/`. Those scripts read the recorded
+logs and store snapshots, so every number in the paper reproduces from this
+repository with no Mathpix account. Mathpix matters only if you regenerate
+sessions from the source PDFs.
+
+`KnowledgeStore.ingest_pdf` in `examples/bear_parlor/knowledge_rag.py` checks
+for credentials and chooses the extractor itself:
+
+```python
+if os.environ.get("MATHPIX_APP_ID") and os.environ.get("MATHPIX_APP_KEY"):
+    text = extract_pdf_text_mathpix(pdf_path)   # markdown: headings, tables, LaTeX
+else:
+    text = extract_pdf_text(pdf_path)           # pypdf: plain text
+```
+
+There is no warning and no error. A run without credentials completes normally
+on a much thinner knowledge base.
+
+### How much it matters
+
+The archive spans both extractors, because the project switched to Mathpix
+partway through. The same PDF, ingested before and after the switch:
+
+| Source PDF | pypdf (to 2026-04-06) | Mathpix (from 2026-04-11) |
+|---|---|---|
+| `CRISPR ethics.pdf` | 17 chunks | 59 chunks |
+| `Liu et al adaptive immunotherapeutic paradigms in DMG.pdf` | 12 | 54 |
+| `remyelination.pdf` | 12 | 60 |
+| `laurent CRISPR-based gene therapies.pdf` | 15 | 66 |
+| `Alzheimer's disease etiology hypotheses...pdf` | 17 | 91 |
+
+Roughly a 4x difference in retained text at a 1,200-character chunk size.
+pypdf drops tables, figure captions and equation-heavy passages, which in this
+corpus is where much of the quantitative content lives. Different knowledge
+bases produce different diffusion events, different stores, and therefore
+different values in every store-level table.
+
+**All 16 sessions the paper reports are from 2026-04-11**, so extraction is
+uniform within the evaluated corpus. The older sessions still in
+`bear_parlor/session_logs/` are pypdf-era and are not what any table reports.
+You can tell them apart directly: Mathpix-era chunks in the `.knowledge.json`
+snapshots contain `cdn.mathpix.com` image links and LaTeX math, which pypdf
+cannot produce.
+
+```bash
+export MATHPIX_APP_ID="..."      # https://mathpix.com — paid, free tier available
+export MATHPIX_APP_KEY="..."
+```
+
+```powershell
+$env:MATHPIX_APP_ID  = "..."
+$env:MATHPIX_APP_KEY = "..."
+```
+
+`ingest.py` used standalone takes an explicit `--mathpix` flag instead; the
+session path above reads the environment and needs no flag.
+
+Even with credentials, Mathpix is a hosted service whose OCR models change, so
+identical output is not guaranteed either. Treat Mathpix as the difference
+between a comparable run and a clearly different one, not as a route to exact
+reproduction.
+
+---
+
+## 3. Endpoints for local models — READ THIS FIRST
 
 Local-model endpoints are the most common reason a run fails on different
 hardware. **The defaults below are what the original runs used and are not
@@ -81,7 +155,7 @@ curl "$OLLAMA_HOST/api/tags"        # should list ollama models
 
 ---
 
-## 3. Generating panel sessions
+## 4. Generating panel sessions
 
 The generation machinery is **not** in this repository. It lives in the BEAR
 repository under `examples/bear_parlor/`: the panel server (`parlor.py`), the
@@ -94,16 +168,19 @@ cd bear && git checkout v0.1.0        # the version that produced these sessions
 ```
 
 Place the topic PDFs in `examples/bear_parlor/<TOPIC>/` using the filenames in
-`bear_parlor/topics/README.md`, then:
+`bear_parlor/topics/README.md`. **Set `MATHPIX_APP_ID` and `MATHPIX_APP_KEY`
+first** (section 2). `ingest_pdf` reuses any chunks already stored for the same
+paper rather than re-extracting, so without `--clean` a store seeded by a
+pypdf run keeps serving pypdf chunks even after credentials are set. Then:
 
 ```bash
 cd examples/bear_parlor
 
 # Heterogeneous panel, BEAR-guided (per-hat models from characters.yaml)
-python run_demo_session.py --topic dmg
+python run_demo_session.py --topic dmg --clean
 
 # Naive diffusion ablation
-python run_demo_session.py --topic dmg --naive-diffusion
+python run_demo_session.py --topic dmg --naive-diffusion --clean
 ```
 
 ### Constant-model controls
@@ -118,7 +195,7 @@ python parlor.py --backend anthropic --model claude-sonnet-4-6 --override-model
 
 # Uniform local model via LM Studio
 # There is no --base-url flag: the lmstudio backend reads LM_STUDIO_URL from
-# the environment, so set it first (section 2).
+# the environment, so set it first (section 3).
 python parlor.py --backend lmstudio --model mistral-nemo-instruct-2407 --override-model
 
 # Uniform local model via ollama (reads OLLAMA_HOST from the environment)
@@ -139,7 +216,7 @@ are indistinguishable.
 
 ---
 
-## 4. Coverage: which results have a script here
+## 5. Coverage: which results have a script here
 
 | Manuscript item | Script | Status |
 |---|---|---|

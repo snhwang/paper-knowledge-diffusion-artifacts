@@ -17,6 +17,13 @@
 # themselves depend on this pin.
 bear @ git+https://github.com/snhwang/bear.git@v0.1.0
 
+# --- NOT a pip dependency: Mathpix -----------------------------------------
+# Regenerating panel sessions from the source PDFs also needs a Mathpix OCR
+# account (MATHPIX_APP_ID / MATHPIX_APP_KEY). Every reported session used it.
+# Without those variables, ingestion falls back to pypdf silently and retains
+# roughly a quarter as much text per document. Nothing in evals/ needs it.
+# See RUNNING_EXPERIMENTS.md section 2.
+
 # --- embeddings ------------------------------------------------------------
 # Required by every eval that embeds text. All results use
 # BAAI/bge-base-en-v1.5 (768-dim), downloaded automatically on first run.

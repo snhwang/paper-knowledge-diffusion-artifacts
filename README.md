@@ -81,6 +81,13 @@ here** (third-party copyright). See `bear_parlor/topics/README.md` for the
 per-topic list and DOIs so the inputs can be retrieved independently. The
 eval scripts do not need the PDFs — they read session logs only.
 
+Every reported session ingested those PDFs through the **Mathpix OCR API**, not
+pypdf. Regenerating sessions without a Mathpix account silently falls back to
+pypdf and extracts roughly a quarter as much text per document, which changes
+every store-level result. This affects session regeneration only, never the
+`evals/` scripts. See
+[RUNNING_EXPERIMENTS.md](RUNNING_EXPERIMENTS.md#2-pdf-extraction--mathpix-is-needed-to-come-close).
+
 ## Reproduce
 
 ```bash
