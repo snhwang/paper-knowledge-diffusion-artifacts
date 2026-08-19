@@ -464,11 +464,11 @@
       "bear_mean_entropy": 0.8785896518419073,
       "bear_total_retained": 47.0,
       "bear_cramers_v": 0.3623049295902669,
-      "bear_chi2_p": 0.19412694942333905,
+      "bear_chi2_p": 0.19412694942333908,
       "naive_mean_entropy": 0.9897882118191567,
       "naive_total_retained": 120.0,
       "naive_cramers_v": 0.21637911953709282,
-      "naive_chi2_p": 0.30363750394436667
+      "naive_chi2_p": 0.3036375039443668
     },
     {
       "topic": "stroke",
@@ -486,18 +486,18 @@
       "bear_mean_entropy": 0.8656760132689546,
       "bear_total_retained": 43.0,
       "bear_cramers_v": 0.3764045366097162,
-      "bear_chi2_p": 0.20748094800318018,
+      "bear_chi2_p": 0.2074809480031802,
       "naive_mean_entropy": 0.9849675915572242,
       "naive_total_retained": 126.0,
       "naive_cramers_v": 0.20305517068647488,
-      "naive_chi2_p": 0.4088919371215917
+      "naive_chi2_p": 0.40889193712159183
     },
     {
       "topic": "alzheimers",
       "bear_mean_entropy": 0.8907180039276601,
       "bear_total_retained": 51.0,
       "bear_cramers_v": 0.3348905969483753,
-      "bear_chi2_p": 0.29477742485410785,
+      "bear_chi2_p": 0.29477742485410774,
       "naive_mean_entropy": 0.9807353096036384,
       "naive_total_retained": 120.0,
       "naive_cramers_v": 0.2167152907419763,
@@ -508,22 +508,22 @@
       "bear_mean_entropy": 0.9213286765671334,
       "bear_total_retained": 49.0,
       "bear_cramers_v": 0.3557352024411804,
-      "bear_chi2_p": 0.20905954564947188,
+      "bear_chi2_p": 0.20905954564947196,
       "naive_mean_entropy": 0.9814395425036432,
       "naive_total_retained": 126.0,
       "naive_cramers_v": 0.21091736654359744,
-      "naive_chi2_p": 0.30664553694392926
+      "naive_chi2_p": 0.3066455369439293
     },
     {
       "topic": "glp1",
       "bear_mean_entropy": 0.7929563117688699,
       "bear_total_retained": 31.0,
       "bear_cramers_v": 0.38379052628644555,
-      "bear_chi2_p": 0.5699825251508147,
+      "bear_chi2_p": 0.5699825251508149,
       "naive_mean_entropy": 0.9885465042735366,
       "naive_total_retained": 114.0,
       "naive_cramers_v": 0.22487370192661885,
-      "naive_chi2_p": 0.2859023723064245
+      "naive_chi2_p": 0.2859023723064244
     },
     {
       "topic": "crispr",
@@ -541,11 +541,11 @@
       "bear_mean_entropy": 0.878803538404811,
       "bear_total_retained": 49.0,
       "bear_cramers_v": 0.3492595027329188,
-      "bear_chi2_p": 0.246411441778075,
+      "bear_chi2_p": 0.24641144177807506,
       "naive_mean_entropy": 0.9773778047551485,
       "naive_total_retained": 126.0,
       "naive_cramers_v": 0.2264628527623394,
-      "naive_chi2_p": 0.17089582287757743
+      "naive_chi2_p": 0.17089582287757746
     }
   ]
 }
