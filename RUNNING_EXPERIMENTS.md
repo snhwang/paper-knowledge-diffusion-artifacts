@@ -14,7 +14,7 @@ about what is and is not reproducible, because the distinction is easy to blur.
 
 | | Reproducible? | Why |
 |---|---|---|
-| Analysis of recorded sessions (`evals/`) | **Yes, exactly** | Deterministic. Reads fixed text; embeddings are pinned to `BAAI/bge-base-en-v1.5`. No Mathpix account or LLM API needed. |
+| Analysis of recorded sessions (`evals/`) | **Yes** | Reads fixed text; embeddings are pinned to `BAAI/bge-base-en-v1.5`. No Mathpix account or LLM API needed. Agreement is to ~7 significant figures, not bit-for-bit — see below. |
 | Benchmark harnesses (`benchmarks/`) | Approximately | Require live LLM APIs. Sampling is stochastic, and providers update models behind stable names. |
 | Regenerating panel sessions | **No** | Needs the non-redistributable source PDFs and a Mathpix account, and is stochastic besides. See below. |
 
@@ -38,6 +38,18 @@ about what is and is not reproducible, because the distinction is easy to blur.
 Re-running therefore produces a **new experiment**, not a reproduction. That is
 normal for LLM work, but it should be stated rather than implied, so treat the
 recorded logs as the primary evidence.
+
+### Precision of the analysis scripts
+
+The `evals/` scripts are deterministic in the sense that matters, but not
+bit-for-bit. Re-running them on the same inputs reproduces every value to about
+seven significant figures, with the last digits moving from floating-point
+nondeterminism in the embedding backend. A regeneration of the temporal
+evolution results, for instance, moved the BEAR final centroid from
+`0.09751095` to `0.09751097`. Every value the manuscript reports is given to
+three or four significant figures, so nothing published is affected, and
+`verify_paper_values.py` uses tolerances set to the manuscript's own rounding.
+Do not expect `git diff` on the JSON files to come back empty after a re-run.
 
 ---
 
