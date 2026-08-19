@@ -271,7 +271,18 @@ def make_figure(mean_rate: dict[str, np.ndarray], out_path: Path):
         print("  NOTE: matplotlib unavailable, skipping figure.")
         return None
 
-    fig, axes = plt.subplots(1, 2, figsize=(11, 4.6))
+    # Cell annotations are set to the tick-label size so the numbers in the
+    # heatmap read at the same weight as the axis and colorbar numbers.
+    CELL_FS = 11
+    plt.rcParams.update({
+        "font.size": 12,
+        "axes.labelsize": 12,
+        "axes.titlesize": 13,
+        "xtick.labelsize": CELL_FS,
+        "ytick.labelsize": CELL_FS,
+    })
+
+    fig, axes = plt.subplots(1, 2, figsize=(12, 5.0))
     vmax = np.nanmax([np.nanmax(m) for m in mean_rate.values()])
     for ax, cond, title in [
         (axes[0], "bear", "BEAR-guided diffusion"),
@@ -284,20 +295,21 @@ def make_figure(mean_rate: dict[str, np.ndarray], out_path: Path):
         ax.set_xlabel("Source (speaker)")
         if ax is axes[0]:
             ax.set_ylabel("Receiver (absorber)")
-        ax.set_title(title, fontsize=11, fontweight="bold")
+        ax.set_title(title, fontweight="bold")
         for i in range(len(HATS)):
             for j in range(len(HATS)):
                 if i == j:
                     ax.text(j, i, "--", ha="center", va="center",
-                            color="0.6", fontsize=8)
+                            color="0.6", fontsize=CELL_FS)
                 elif not np.isnan(m[i, j]):
                     ax.text(j, i, f"{m[i, j]:.2f}", ha="center", va="center",
                             color="white" if m[i, j] < vmax * 0.6 else "black",
-                            fontsize=7.5)
-    fig.colorbar(im, ax=axes, shrink=0.85,
-                 label="Retention rate (items kept per utterance heard)")
+                            fontsize=CELL_FS)
+    cbar = fig.colorbar(im, ax=axes, shrink=0.85,
+                        label="Retention rate (items kept per utterance heard)")
+    cbar.ax.tick_params(labelsize=CELL_FS)
     fig.suptitle("Role-differentiated knowledge flow: who absorbs from whom "
-                 f"(mean over topics)", fontsize=11, y=1.02)
+                 f"(mean over topics)", fontsize=12, y=1.02)
     fig.savefig(out_path, bbox_inches="tight")
     fig.savefig(out_path.with_suffix(".png"), bbox_inches="tight", dpi=150)
     print(f"  Figure saved to: {out_path}")
