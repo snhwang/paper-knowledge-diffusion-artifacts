@@ -247,6 +247,18 @@ def main():
     import matplotlib.pyplot as plt
     import matplotlib.ticker as ticker
 
+    # Type sizes are set for a figure printed at column width, where the
+    # matplotlib defaults reduce to roughly 7 pt. Per-topic traces are drawn
+    # faint but must stay legible in print, hence alpha 0.30 rather than 0.12.
+    plt.rcParams.update({
+        "font.size": 12,
+        "axes.labelsize": 12,
+        "axes.titlesize": 13,
+        "xtick.labelsize": 11,
+        "ytick.labelsize": 11,
+        "legend.fontsize": 11,
+    })
+
     fig, axes = plt.subplots(1, 2, figsize=(11, 4.2))
     for ax, data, ylabel, title in (
         (axes[0], size_curves, "Cumulative items per hat", "Knowledge store growth"),
@@ -260,22 +272,22 @@ def main():
                 continue
             x, mean, sd = pad_stats(cl)
             for c in cl:
-                ax.plot(range(1, len(c) + 1), c, color=color, alpha=0.12, lw=0.8)
+                ax.plot(range(1, len(c) + 1), c, color=color, alpha=0.30, lw=1.0)
             ax.fill_between(x, np.clip(mean - sd, 0, None), mean + sd,
-                            color=color, alpha=0.18)
-            ax.plot(x, mean, color=color, lw=2.2,
+                            color=color, alpha=0.22)
+            ax.plot(x, mean, color=color, lw=2.6,
                     label=f"{label} (final {mean[-1]:.3g})")
         ax.set_xlabel("Turn")
         ax.set_ylabel(ylabel)
-        ax.set_title(title, fontsize=11, fontweight="bold")
-        ax.legend(fontsize=9)
+        ax.set_title(title, fontweight="bold")
+        ax.legend()
         ax.xaxis.set_major_locator(ticker.MultipleLocator(5))
         ax.grid(axis="y", linestyle="--", alpha=0.35)
         for s in ("top", "right"):
             ax.spines[s].set_visible(False)
 
     fig.suptitle(f"Mean $\\pm$ 1 SD across {len(topics_used)} topics "
-                 "(diffusion-sourced items)", fontsize=10, y=1.02)
+                 "(diffusion-sourced items)", fontsize=12, y=1.02)
     fig.tight_layout()
     OUT_DIR.mkdir(exist_ok=True)
     out = OUT_DIR / "temporal_reconciled.pdf"
