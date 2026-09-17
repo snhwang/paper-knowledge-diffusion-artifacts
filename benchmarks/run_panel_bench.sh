@@ -12,6 +12,11 @@
 #   brainteaser-qwen    BRAINTEASER, sentence + word puzzles, on qwen3.8-flash-next
 #   sct-qwen27b         SCT-Bench on Qwen3.8-27B (local server, port 8355)
 #   brainteaser-qwen27b BRAINTEASER, sentence + word puzzles, on Qwen3.8-27B
+#   sct-gptoss20b         SCT-Bench on gpt-oss:20b (Ollama)
+#   brainteaser-gptoss20b BRAINTEASER on gpt-oss:20b -- the April paper's
+#   sct-gptoss120b        improving model (single SP 0.574, panel 0.787)
+#   brainteaser-gptoss120b  same for gpt-oss:120b (single SP 0.710, panel 0.846)
+#     Both need the model pulled first: ollama pull gpt-oss:20b
 #
 # Examples:
 #   benchmarks/run_panel_bench.sh sct-haiku --n 10        # quick check, 10 items
@@ -41,6 +46,10 @@ QWEN27B_MODEL="${QWEN27B_MODEL:-Qwen3.8-27B}"
 QWEN27B_URL="${QWEN27B_URL:-http://localhost:8355/v1}"
 QWEN27B_KEY_ENV="${QWEN27B_KEY_ENV:-}"
 QWEN27B_CONCURRENCY="${QWEN27B_CONCURRENCY:-4}"
+# GPT-OSS through Ollama, as in the April runs (gpt-oss:120b / gpt-oss:20b at
+# localhost:11434). These are the models that improved on BRAINTEASER.
+OLLAMA_URL="${OLLAMA_URL:-http://localhost:11434/v1}"
+OLLAMA_CONCURRENCY="${OLLAMA_CONCURRENCY:-2}"
 # ------------------------------------------------------------------------------
 
 cd "$(dirname "$0")/.."
@@ -49,7 +58,7 @@ if [[ -f .venv/bin/activate ]]; then
     source .venv/bin/activate
 fi
 
-usage() { sed -n '2,26p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
+usage() { sed -n '2,30p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
 
 status() {
     echo "Running panel_bench processes:"
@@ -83,6 +92,12 @@ case "$target" in
         bench="${target%-qwen27b}"
         model_args=(--model "$QWEN27B_MODEL" --base-url "$QWEN27B_URL" --concurrency "$QWEN27B_CONCURRENCY")
         if [[ -n "$QWEN27B_KEY_ENV" ]]; then model_args+=(--api-key-env "$QWEN27B_KEY_ENV"); fi
+        if [[ "$bench" == brainteaser ]]; then model_args+=(--puzzle-type both); fi
+        ;;
+    sct-gptoss20b|brainteaser-gptoss20b|sct-gptoss120b|brainteaser-gptoss120b)
+        bench="${target%%-*}"
+        size="${target##*-gptoss}"
+        model_args=(--model "gpt-oss:${size}" --base-url "$OLLAMA_URL" --concurrency "$OLLAMA_CONCURRENCY")
         if [[ "$bench" == brainteaser ]]; then model_args+=(--puzzle-type both); fi
         ;;
     *) echo "unknown target: $target"; usage 1 ;;
