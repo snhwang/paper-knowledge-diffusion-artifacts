@@ -176,6 +176,18 @@ on `qwen3.8-flash-next`, served by an OpenAI-compatible server
 recorded in `run_info`). Session environment: WSL Ubuntu 24.04, Python
 3.12.13, `bear_parlor/requirements-sessions.lock.txt`.
 
+**Sampling in the panel benchmarks (2026-09-17).** BEAR's OpenAI-compatible
+backend disables thinking for local servers (`enable_thinking: false`), so
+qwen runs in instruct mode. The benchmarks use the harness's own settings,
+identical for Haiku 4.5 and qwen: temperature 0 for `single`, 0.5 for the
+sampled conditions; top_p, top_k and presence_penalty are not sent (server
+defaults). The model card's instruct preset (temperature 0.7, top_p 0.80,
+top_k 20, presence_penalty 1.5; greedy decoding discouraged) was deliberately
+not used: every comparison is within one model at one temperature, and one
+setting for both models keeps the method simple. Greedy decoding caused no
+visible problems: in BRAINTEASER `single`, all 301 items gave a parseable
+answer on the first attempt.
+
 ### Uniform local 12B
 
 All hats use: `mistral-nemo-instruct-2407`.
