@@ -191,10 +191,20 @@ answer on the first attempt.
 ### Qwen3.8-27B (panel benchmarks)
 
 Model id `Qwen3.8-27B`, served by vLLM at `http://localhost:8355/v1` (reached
-from WSL); the server reports its weights as `nvidia/Qwen3.8-27B-NVFP4` (NVFP4
-4-bit quantization), max_model_len 262144, no API key. Thinking is disabled
+from WSL), max_model_len 262144, no API key. Thinking is disabled
 (localhost), and sampling is the same as for the other benchmark models (see
 above). Targets: `run_panel_bench.sh sct-qwen27b` / `brainteaser-qwen27b`.
+
+**Weights (2026-09-17).** The same model id was served by two different NVFP4
+builds on the same day. The first deployment served
+`nvidia/Qwen3.8-27B-NVFP4`; it produced the BRAINTEASER smoke test (10 items,
+all conditions) and a partial SCT run (single 174/174, consistency 94/174)
+before the server stalled and was restarted with
+`unsloth/Qwen3.8-27B-NVFP4`. The nvidia-build SCT results are kept, unused, in
+`results/panel_bench/sct/Qwen3.8-27B_nvidia-build-partial/`; the reported 27B
+runs use the unsloth build. `panel_bench.py` now records the server's reported
+weights in `config.json` and refuses to append results produced under a
+different build.
 
 ### Uniform local 12B
 

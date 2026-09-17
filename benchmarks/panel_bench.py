@@ -274,6 +274,31 @@ async def run_item(condition, bench, item, call, prompter, args):
 # Running, resuming, analysing
 # ---------------------------------------------------------------------------
 
+def server_model_info(args) -> dict | None:
+    """What the server says it is serving, from its /v1/models listing.
+
+    A self-hosted server can be restarted with different weights under the same
+    model id -- the 27B server went from nvidia/Qwen3.8-27B-NVFP4 to
+    unsloth/Qwen3.8-27B-NVFP4 -- which would silently mix two models in one
+    results directory. Recorded in config.json and compared when resuming.
+    """
+    if not args.base_url:
+        return None
+    try:
+        import urllib.request
+        req = urllib.request.Request(args.base_url.rstrip("/") + "/models")
+        if getattr(args, "_api_key", None):
+            req.add_header("Authorization", f"Bearer {args._api_key}")
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read().decode("utf-8")).get("data") or []
+    except Exception as e:  # noqa: BLE001
+        return {"error": str(e)}
+    entry = next((m for m in data if m.get("id") == args.model), None)
+    if entry is None:
+        return {"error": f"model {args.model!r} not listed by the server"}
+    return {k: entry[k] for k in ("id", "root", "owned_by", "max_model_len") if k in entry}
+
+
 def prompt_fingerprint(bench, prompter, n_items: int = 3) -> str:
     """Hash of the BEAR hat system prompts for the first items.
 
@@ -299,6 +324,7 @@ def run_config(bench, args, prompter, bear_dev):
         "parse_retries": 2, "puzzle_type": getattr(args, "puzzle_type", None),
         "call_timeout_seconds": args.call_timeout,  # infrastructure, not compared between runs
         "role_prompts": prompter.describe(),
+        "server_model": server_model_info(args),
         "prompt_fingerprint": prompt_fingerprint(bench, prompter),
         "artifacts": git_commit(ROOT), "bear_dev": git_commit(bear_dev),
     }
@@ -340,6 +366,10 @@ def comparable(a: dict, b: dict) -> list[str]:
     for k in ("instruction_dirs", "n_instructions", "top_k", "room_context"):
         if a["role_prompts"].get(k) != b["role_prompts"].get(k):
             diffs.append(f"role_prompts.{k}")
+    # weights the server reports, when both runs recorded them without error
+    sa, sb = a.get("server_model") or {}, b.get("server_model") or {}
+    if sa.get("root") and sb.get("root") and sa["root"] != sb["root"]:
+        diffs.append(f"server_model.root ({sa['root']} -> {sb['root']})")
     if a.get("prompt_fingerprint") and b.get("prompt_fingerprint"):
         if a["prompt_fingerprint"] != b["prompt_fingerprint"]:
             diffs.append("prompt_fingerprint")
@@ -357,6 +387,8 @@ async def run(args):
     acquire_lock(out_dir)
 
     prompter = BearHatPrompter(bear_dev)
+    if args.api_key_env:  # for server_model_info's own request; never logged
+        args._api_key = read_env_var(args.api_key_env, bear_dev)
     cfg = run_config(bench, args, prompter, bear_dev)
     cfg_path = out_dir / "config.json"
     if cfg_path.exists():
