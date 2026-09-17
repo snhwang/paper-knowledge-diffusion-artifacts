@@ -196,7 +196,11 @@ def make_backend(args, bear_dev: Path):
 
 class Caller:
     """One model call with the shared retry policy: up to 2 retries on errors
-    and on answers that cannot be parsed, identical for every condition."""
+    and on answers that cannot be parsed, identical for every condition.
+
+    Each attempt is capped by --call-timeout. Without it, a server that accepts
+    a request and never answers stalls the run for hours: the SDK's own timeout
+    is 10 minutes, the backend retries 5 times, and this retries 3 times."""
 
     def __init__(self, backend, bench, args):
         from bear.backends.llm.base import GenerateRequest
@@ -208,9 +212,10 @@ class Caller:
         async with self.sem:
             for attempt in range(3):
                 try:
-                    resp = await self.backend.generate(self.GenerateRequest(
+                    resp = await asyncio.wait_for(self.backend.generate(self.GenerateRequest(
                         system=system, user=user, temperature=temperature, top_p=self.args.top_p,
-                        max_tokens=self.bench.max_tokens, thinking=self.args.thinking))
+                        max_tokens=self.bench.max_tokens, thinking=self.args.thinking)),
+                        timeout=self.args.call_timeout)
                     last = resp.content or ""
                     usage = getattr(resp, "usage", None) or {}
                     out_tokens = usage.get("completion_tokens", usage.get("output_tokens"))
@@ -219,6 +224,9 @@ class Caller:
                         return {"answer": answer, "response": last, "attempts": attempt + 1,
                                 "output_tokens": out_tokens}
                 except Exception as e:  # noqa: BLE001
+                    if isinstance(e, asyncio.TimeoutError):
+                        e = f"no response within {self.args.call_timeout}s"
+                        print(f"  call timed out after {self.args.call_timeout}s (attempt {attempt + 1}/3)")
                     last, out_tokens = f"[error: {e}]", None
                     await asyncio.sleep(3 * (attempt + 1))
         return {"answer": None, "response": last, "attempts": 3, "output_tokens": out_tokens}
@@ -289,6 +297,7 @@ def run_config(bench, args, prompter, bear_dev):
         "consistency_samples": args.samples, "top_p": args.top_p, "thinking": args.thinking,
         "hat_order": bench.hat_order, "aggregation": "majority vote, ties to first seen",
         "parse_retries": 2, "puzzle_type": getattr(args, "puzzle_type", None),
+        "call_timeout_seconds": args.call_timeout,  # infrastructure, not compared between runs
         "role_prompts": prompter.describe(),
         "prompt_fingerprint": prompt_fingerprint(bench, prompter),
         "artifacts": git_commit(ROOT), "bear_dev": git_commit(bear_dev),
@@ -467,6 +476,8 @@ def main():
     ap.add_argument("--top-p", type=float, default=None)
     ap.add_argument("--thinking", action="store_true")
     ap.add_argument("--concurrency", type=int, default=4, help="simultaneous model calls")
+    ap.add_argument("--call-timeout", type=float, default=300.0,
+                    help="seconds to wait for one model call before treating it as an error")
     ap.add_argument("--puzzle-type", choices=["sp", "wp", "both"], default="both", help="brainteaser only")
     ap.add_argument("--data", default=None, help="SCT CSV (default: the bundled dataset)")
     ap.add_argument("--results-dir", default=str(ROOT / "results" / "panel_bench"))
