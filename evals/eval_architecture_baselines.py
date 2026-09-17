@@ -390,10 +390,11 @@ def paired_test(a: list[float], b: list[float]) -> dict:
 # Main
 # ---------------------------------------------------------------------------
 
-def run(top_k: int, d_min: float, include_pdf: bool):
+def run(top_k: int, d_min: float, include_pdf: bool, log_dir: str | None = None, tag: str = ""):
     from sentence_transformers import SentenceTransformer
 
-    log_dir = resolve_dir(DEFAULT_LOG_DIRS, "session_logs", has_labelled_sessions)
+    log_dir = (Path(log_dir) if log_dir else
+               resolve_dir(DEFAULT_LOG_DIRS, "session_logs", has_labelled_sessions))
     hat_dir = resolve_dir(DEFAULT_HAT_DIRS, "hat instruction corpora",
                           has_hat_corpora)
 
@@ -626,7 +627,7 @@ Architecture & Centroid dist. & NN overlap & $p$ vs BEAR \\
         "results": results,
         "per_topic": per_topic_rows,
     }
-    suffix = "_withpdf" if include_pdf else ""
+    suffix = ("_withpdf" if include_pdf else "") + (f"_{tag}" if tag else "")
     jpath = OUT_DIR / f"architecture_baselines{suffix}.json"
     jpath.write_text(json.dumps(payload, indent=2, default=float),
                      encoding="utf-8")
@@ -662,8 +663,16 @@ def main():
                          "diffusion-sourced documents only, which isolates "
                          "the mechanism under test. Use this flag to "
                          "reproduce the published interhat_v2 numbers.")
+    ap.add_argument("--log-dir", default=None,
+                    help="Analyse sessions in this directory instead of the April "
+                         "logs, e.g. bear_parlor/session_logs/v6.")
+    ap.add_argument("--tag", default=None,
+                    help="Suffix for output files; defaults to the --log-dir folder "
+                         "name, so a v6 run never overwrites the April results.")
     args = ap.parse_args()
-    run(top_k=args.top_k, d_min=args.d_min, include_pdf=args.include_pdf)
+    tag = args.tag if args.tag is not None else (Path(args.log_dir).name if args.log_dir else "")
+    run(top_k=args.top_k, d_min=args.d_min, include_pdf=args.include_pdf,
+        log_dir=args.log_dir, tag=tag)
 
 
 if __name__ == "__main__":

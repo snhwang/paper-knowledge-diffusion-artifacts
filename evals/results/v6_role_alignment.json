@@ -1,0 +1,566 @@
+{
+  "log_dir": "C:\\Users\\Scott\\Documents\\Work\\paper-knowledge-diffusion-artifacts\\bear_parlor\\session_logs\\v6",
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "chance": 0.16666666666666666,
+  "reference": "persona + method instructions per hat",
+  "reference_mean_similarity": {
+    "white-hat": 0.5331844687461853,
+    "red-hat": 0.5700131058692932,
+    "black-hat": 0.5256150364875793,
+    "yellow-hat": 0.5105718970298767,
+    "green-hat": 0.5303592085838318,
+    "blue-hat": 0.5176135301589966
+  },
+  "wrong_lens_map": {
+    "white-hat": "red-hat",
+    "red-hat": "black-hat",
+    "black-hat": "blue-hat",
+    "blue-hat": "green-hat",
+    "green-hat": "yellow-hat",
+    "yellow-hat": "white-hat"
+  },
+  "scorings": {
+    "raw": {
+      "per_topic": {
+        "naive": {
+          "storing_hat": {
+            "dmg": 0.18421052631578946,
+            "stroke": 0.14035087719298245,
+            "ms": 0.12962962962962962,
+            "alzheimers": 0.13157894736842105,
+            "epilepsy": 0.14035087719298245,
+            "glp1": 0.14912280701754385,
+            "crispr": 0.14912280701754385,
+            "llm-cds": 0.16666666666666666
+          },
+          "lens_hat": {
+            "dmg": 0.18421052631578946,
+            "stroke": 0.14035087719298245,
+            "ms": 0.12962962962962962,
+            "alzheimers": 0.13157894736842105,
+            "epilepsy": 0.14035087719298245,
+            "glp1": 0.14912280701754385,
+            "crispr": 0.14912280701754385,
+            "llm-cds": 0.16666666666666666
+          }
+        },
+        "bear": {
+          "storing_hat": {
+            "dmg": 0.2127659574468085,
+            "stroke": 0.34328358208955223,
+            "ms": 0.21052631578947367,
+            "alzheimers": 0.24561403508771928,
+            "epilepsy": 0.20833333333333334,
+            "glp1": 0.2037037037037037,
+            "crispr": 0.3050847457627119,
+            "llm-cds": 0.3787878787878788
+          },
+          "lens_hat": {
+            "dmg": 0.2127659574468085,
+            "stroke": 0.34328358208955223,
+            "ms": 0.21052631578947367,
+            "alzheimers": 0.24561403508771928,
+            "epilepsy": 0.20833333333333334,
+            "glp1": 0.2037037037037037,
+            "crispr": 0.3050847457627119,
+            "llm-cds": 0.3787878787878788
+          }
+        },
+        "wrong-lens": {
+          "storing_hat": {
+            "dmg": 0.11764705882352941,
+            "stroke": 0.17857142857142858,
+            "ms": 0.09433962264150944,
+            "alzheimers": 0.13846153846153847,
+            "epilepsy": 0.15873015873015872,
+            "glp1": 0.15555555555555556,
+            "crispr": 0.05,
+            "llm-cds": 0.11267605633802817
+          },
+          "lens_hat": {
+            "dmg": 0.29411764705882354,
+            "stroke": 0.39285714285714285,
+            "ms": 0.32075471698113206,
+            "alzheimers": 0.23076923076923078,
+            "epilepsy": 0.2857142857142857,
+            "glp1": 0.2,
+            "crispr": 0.23333333333333334,
+            "llm-cds": 0.30985915492957744
+          }
+        }
+      },
+      "mean": {
+        "naive": {
+          "storing_hat": 0.14887914230019494,
+          "lens_hat": 0.14887914230019494
+        },
+        "bear": {
+          "storing_hat": 0.26351244400014767,
+          "lens_hat": 0.26351244400014767
+        },
+        "wrong-lens": {
+          "storing_hat": 0.12574767739021853,
+          "lens_hat": 0.28342568895544074
+        }
+      },
+      "paired_tests": [
+        {
+          "comparison": "match to storing hat: bear vs naive",
+          "mean_a": 0.26351244400014767,
+          "mean_b": 0.14887914230019494,
+          "a_greater_in": 8,
+          "n": 8.0,
+          "mean_diff": 0.11463330169995276,
+          "cohens_d": 1.6610471218024572,
+          "t_p": 0.0022133005475673223,
+          "wilcoxon_p": 0.0078125
+        },
+        {
+          "comparison": "match to storing hat: bear vs wrong lens",
+          "mean_a": 0.26351244400014767,
+          "mean_b": 0.12574767739021853,
+          "a_greater_in": 8,
+          "n": 8.0,
+          "mean_diff": 0.13776476660992915,
+          "cohens_d": 1.6302486322664231,
+          "t_p": 0.0024519583789921044,
+          "wilcoxon_p": 0.0078125
+        },
+        {
+          "comparison": "wrong lens: match to lens hat vs storing hat",
+          "mean_a": 0.28342568895544074,
+          "mean_b": 0.12574767739021853,
+          "a_greater_in": 8,
+          "n": 8.0,
+          "mean_diff": 0.15767801156522218,
+          "cohens_d": 2.4694764061282832,
+          "t_p": 0.00021444663648445854,
+          "wilcoxon_p": 0.0078125
+        }
+      ],
+      "confusion": {
+        "naive": {
+          "white-hat": {
+            "white-hat": 15,
+            "red-hat": 82,
+            "black-hat": 5,
+            "yellow-hat": 2,
+            "green-hat": 20,
+            "blue-hat": 8
+          },
+          "red-hat": {
+            "white-hat": 19,
+            "red-hat": 97,
+            "black-hat": 6,
+            "yellow-hat": 1,
+            "green-hat": 26,
+            "blue-hat": 19
+          },
+          "black-hat": {
+            "white-hat": 14,
+            "red-hat": 99,
+            "black-hat": 4,
+            "yellow-hat": 2,
+            "green-hat": 24,
+            "blue-hat": 13
+          },
+          "yellow-hat": {
+            "white-hat": 15,
+            "red-hat": 99,
+            "black-hat": 4,
+            "yellow-hat": 1,
+            "green-hat": 18,
+            "blue-hat": 13
+          },
+          "green-hat": {
+            "white-hat": 18,
+            "red-hat": 106,
+            "black-hat": 6,
+            "yellow-hat": 1,
+            "green-hat": 13,
+            "blue-hat": 18
+          },
+          "blue-hat": {
+            "white-hat": 7,
+            "red-hat": 101,
+            "black-hat": 5,
+            "yellow-hat": 0,
+            "green-hat": 20,
+            "blue-hat": 5
+          }
+        },
+        "bear": {
+          "white-hat": {
+            "white-hat": 16,
+            "red-hat": 28,
+            "black-hat": 5,
+            "yellow-hat": 0,
+            "green-hat": 4,
+            "blue-hat": 2
+          },
+          "red-hat": {
+            "white-hat": 1,
+            "red-hat": 78,
+            "black-hat": 1,
+            "yellow-hat": 1,
+            "green-hat": 3,
+            "blue-hat": 1
+          },
+          "black-hat": {
+            "white-hat": 10,
+            "red-hat": 54,
+            "black-hat": 16,
+            "yellow-hat": 2,
+            "green-hat": 5,
+            "blue-hat": 0
+          },
+          "yellow-hat": {
+            "white-hat": 7,
+            "red-hat": 52,
+            "black-hat": 6,
+            "yellow-hat": 2,
+            "green-hat": 5,
+            "blue-hat": 11
+          },
+          "green-hat": {
+            "white-hat": 6,
+            "red-hat": 53,
+            "black-hat": 6,
+            "yellow-hat": 3,
+            "green-hat": 13,
+            "blue-hat": 3
+          },
+          "blue-hat": {
+            "white-hat": 19,
+            "red-hat": 34,
+            "black-hat": 5,
+            "yellow-hat": 5,
+            "green-hat": 19,
+            "blue-hat": 3
+          }
+        },
+        "wrong-lens": {
+          "white-hat": {
+            "white-hat": 2,
+            "red-hat": 52,
+            "black-hat": 4,
+            "yellow-hat": 5,
+            "green-hat": 1,
+            "blue-hat": 0
+          },
+          "red-hat": {
+            "white-hat": 13,
+            "red-hat": 43,
+            "black-hat": 23,
+            "yellow-hat": 2,
+            "green-hat": 5,
+            "blue-hat": 2
+          },
+          "black-hat": {
+            "white-hat": 18,
+            "red-hat": 30,
+            "black-hat": 4,
+            "yellow-hat": 4,
+            "green-hat": 15,
+            "blue-hat": 21
+          },
+          "yellow-hat": {
+            "white-hat": 25,
+            "red-hat": 49,
+            "black-hat": 2,
+            "yellow-hat": 0,
+            "green-hat": 6,
+            "blue-hat": 2
+          },
+          "green-hat": {
+            "white-hat": 8,
+            "red-hat": 28,
+            "black-hat": 13,
+            "yellow-hat": 0,
+            "green-hat": 3,
+            "blue-hat": 5
+          },
+          "blue-hat": {
+            "white-hat": 5,
+            "red-hat": 51,
+            "black-hat": 5,
+            "yellow-hat": 1,
+            "green-hat": 11,
+            "blue-hat": 6
+          }
+        }
+      }
+    },
+    "corrected": {
+      "per_topic": {
+        "naive": {
+          "storing_hat": {
+            "dmg": 0.09649122807017543,
+            "stroke": 0.07894736842105263,
+            "ms": 0.10185185185185185,
+            "alzheimers": 0.07894736842105263,
+            "epilepsy": 0.14912280701754385,
+            "glp1": 0.12280701754385964,
+            "crispr": 0.11403508771929824,
+            "llm-cds": 0.12280701754385964
+          },
+          "lens_hat": {
+            "dmg": 0.09649122807017543,
+            "stroke": 0.07894736842105263,
+            "ms": 0.10185185185185185,
+            "alzheimers": 0.07894736842105263,
+            "epilepsy": 0.14912280701754385,
+            "glp1": 0.12280701754385964,
+            "crispr": 0.11403508771929824,
+            "llm-cds": 0.12280701754385964
+          }
+        },
+        "bear": {
+          "storing_hat": {
+            "dmg": 0.2978723404255319,
+            "stroke": 0.40298507462686567,
+            "ms": 0.3508771929824561,
+            "alzheimers": 0.43859649122807015,
+            "epilepsy": 0.2777777777777778,
+            "glp1": 0.2222222222222222,
+            "crispr": 0.3389830508474576,
+            "llm-cds": 0.3787878787878788
+          },
+          "lens_hat": {
+            "dmg": 0.2978723404255319,
+            "stroke": 0.40298507462686567,
+            "ms": 0.3508771929824561,
+            "alzheimers": 0.43859649122807015,
+            "epilepsy": 0.2777777777777778,
+            "glp1": 0.2222222222222222,
+            "crispr": 0.3389830508474576,
+            "llm-cds": 0.3787878787878788
+          }
+        },
+        "wrong-lens": {
+          "storing_hat": {
+            "dmg": 0.058823529411764705,
+            "stroke": 0.07142857142857142,
+            "ms": 0.03773584905660377,
+            "alzheimers": 0.046153846153846156,
+            "epilepsy": 0.09523809523809523,
+            "glp1": 0.2222222222222222,
+            "crispr": 0.08333333333333333,
+            "llm-cds": 0.11267605633802817
+          },
+          "lens_hat": {
+            "dmg": 0.39215686274509803,
+            "stroke": 0.39285714285714285,
+            "ms": 0.4339622641509434,
+            "alzheimers": 0.27692307692307694,
+            "epilepsy": 0.36507936507936506,
+            "glp1": 0.28888888888888886,
+            "crispr": 0.36666666666666664,
+            "llm-cds": 0.4647887323943662
+          }
+        }
+      },
+      "mean": {
+        "naive": {
+          "storing_hat": 0.10812621832358674,
+          "lens_hat": 0.10812621832358674
+        },
+        "bear": {
+          "storing_hat": 0.33851275361228256,
+          "lens_hat": 0.33851275361228256
+        },
+        "wrong-lens": {
+          "storing_hat": 0.09095143789780813,
+          "lens_hat": 0.37266537496319346
+        }
+      },
+      "paired_tests": [
+        {
+          "comparison": "match to storing hat: bear vs naive",
+          "mean_a": 0.33851275361228256,
+          "mean_b": 0.10812621832358674,
+          "a_greater_in": 8,
+          "n": 8.0,
+          "mean_diff": 0.23038653528869582,
+          "cohens_d": 2.602531056587833,
+          "t_p": 0.00015446332303560323,
+          "wilcoxon_p": 0.0078125
+        },
+        {
+          "comparison": "match to storing hat: bear vs wrong lens",
+          "mean_a": 0.33851275361228256,
+          "mean_b": 0.09095143789780813,
+          "a_greater_in": 7,
+          "n": 8.0,
+          "mean_diff": 0.24756131571447437,
+          "cohens_d": 2.088623569520451,
+          "t_p": 0.0005949496627112795,
+          "wilcoxon_p": 0.015625
+        },
+        {
+          "comparison": "wrong lens: match to lens hat vs storing hat",
+          "mean_a": 0.37266537496319346,
+          "mean_b": 0.09095143789780813,
+          "a_greater_in": 8,
+          "n": 8.0,
+          "mean_diff": 0.2817139370653854,
+          "cohens_d": 2.791433411864884,
+          "t_p": 9.913335516291411e-05,
+          "wilcoxon_p": 0.0078125
+        }
+      ],
+      "confusion": {
+        "naive": {
+          "white-hat": {
+            "white-hat": 22,
+            "red-hat": 21,
+            "black-hat": 18,
+            "yellow-hat": 24,
+            "green-hat": 26,
+            "blue-hat": 21
+          },
+          "red-hat": {
+            "white-hat": 30,
+            "red-hat": 13,
+            "black-hat": 22,
+            "yellow-hat": 24,
+            "green-hat": 29,
+            "blue-hat": 50
+          },
+          "black-hat": {
+            "white-hat": 26,
+            "red-hat": 26,
+            "black-hat": 14,
+            "yellow-hat": 25,
+            "green-hat": 23,
+            "blue-hat": 42
+          },
+          "yellow-hat": {
+            "white-hat": 28,
+            "red-hat": 27,
+            "black-hat": 16,
+            "yellow-hat": 15,
+            "green-hat": 23,
+            "blue-hat": 41
+          },
+          "green-hat": {
+            "white-hat": 30,
+            "red-hat": 28,
+            "black-hat": 23,
+            "yellow-hat": 25,
+            "green-hat": 11,
+            "blue-hat": 45
+          },
+          "blue-hat": {
+            "white-hat": 23,
+            "red-hat": 27,
+            "black-hat": 19,
+            "yellow-hat": 22,
+            "green-hat": 24,
+            "blue-hat": 23
+          }
+        },
+        "bear": {
+          "white-hat": {
+            "white-hat": 26,
+            "red-hat": 7,
+            "black-hat": 5,
+            "yellow-hat": 3,
+            "green-hat": 12,
+            "blue-hat": 2
+          },
+          "red-hat": {
+            "white-hat": 6,
+            "red-hat": 51,
+            "black-hat": 6,
+            "yellow-hat": 10,
+            "green-hat": 8,
+            "blue-hat": 4
+          },
+          "black-hat": {
+            "white-hat": 17,
+            "red-hat": 8,
+            "black-hat": 30,
+            "yellow-hat": 11,
+            "green-hat": 18,
+            "blue-hat": 3
+          },
+          "yellow-hat": {
+            "white-hat": 12,
+            "red-hat": 13,
+            "black-hat": 3,
+            "yellow-hat": 27,
+            "green-hat": 9,
+            "blue-hat": 19
+          },
+          "green-hat": {
+            "white-hat": 10,
+            "red-hat": 16,
+            "black-hat": 12,
+            "yellow-hat": 13,
+            "green-hat": 23,
+            "blue-hat": 10
+          },
+          "blue-hat": {
+            "white-hat": 24,
+            "red-hat": 14,
+            "black-hat": 8,
+            "yellow-hat": 8,
+            "green-hat": 25,
+            "blue-hat": 6
+          }
+        },
+        "wrong-lens": {
+          "white-hat": {
+            "white-hat": 4,
+            "red-hat": 45,
+            "black-hat": 6,
+            "yellow-hat": 6,
+            "green-hat": 1,
+            "blue-hat": 2
+          },
+          "red-hat": {
+            "white-hat": 17,
+            "red-hat": 12,
+            "black-hat": 26,
+            "yellow-hat": 9,
+            "green-hat": 11,
+            "blue-hat": 13
+          },
+          "black-hat": {
+            "white-hat": 22,
+            "red-hat": 9,
+            "black-hat": 9,
+            "yellow-hat": 7,
+            "green-hat": 14,
+            "blue-hat": 31
+          },
+          "yellow-hat": {
+            "white-hat": 37,
+            "red-hat": 13,
+            "black-hat": 6,
+            "yellow-hat": 4,
+            "green-hat": 12,
+            "blue-hat": 12
+          },
+          "green-hat": {
+            "white-hat": 7,
+            "red-hat": 2,
+            "black-hat": 16,
+            "yellow-hat": 16,
+            "green-hat": 2,
+            "blue-hat": 14
+          },
+          "blue-hat": {
+            "white-hat": 9,
+            "red-hat": 14,
+            "black-hat": 9,
+            "yellow-hat": 18,
+            "green-hat": 19,
+            "blue-hat": 10
+          }
+        }
+      }
+    }
+  }
+}

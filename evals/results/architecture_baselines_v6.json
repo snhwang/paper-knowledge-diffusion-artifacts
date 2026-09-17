@@ -1,0 +1,788 @@
+{
+  "metadata": {
+    "eval": "architecture_baselines",
+    "purpose": "Expert Systems R1 comment 3 \u2014 direct comparison with existing multi-agent knowledge management methods",
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "top_k": 4,
+    "d_min": 0.35,
+    "include_pdf": false,
+    "nn_sim_threshold": 0.85,
+    "topics": [
+      "dmg",
+      "stroke",
+      "ms",
+      "alzheimers",
+      "epilepsy",
+      "glp1",
+      "crispr",
+      "llm-cds"
+    ],
+    "n_topics": 8,
+    "conditions": {
+      "bear": "BEAR-guided (this paper)",
+      "naive": "Unfiltered broadcast",
+      "shared-store": "Shared store, consolidated",
+      "shared-full": "Shared store, full pool",
+      "shared-context": "Shared conversation context"
+    },
+    "sessions": {
+      "dmg_bear": "20260916_133551",
+      "dmg_naive": "20260916_134310",
+      "dmg_wrong-lens": "20260916_135029",
+      "stroke_bear": "20260916_135757",
+      "stroke_naive": "20260916_140545",
+      "stroke_wrong-lens": "20260916_141316",
+      "ms_bear": "20260916_142035",
+      "ms_naive": "20260916_142829",
+      "ms_wrong-lens": "20260916_143548",
+      "alzheimers_bear": "20260916_144308",
+      "alzheimers_naive": "20260916_145054",
+      "alzheimers_wrong-lens": "20260916_145815",
+      "epilepsy_bear": "20260916_150534",
+      "epilepsy_naive": "20260916_151325",
+      "epilepsy_wrong-lens": "20260916_152043",
+      "glp1_bear": "20260916_152801",
+      "glp1_naive": "20260916_153548",
+      "glp1_wrong-lens": "20260916_154303",
+      "crispr_bear": "20260916_155021",
+      "crispr_naive": "20260916_155800",
+      "crispr_wrong-lens": "20260916_160514",
+      "llm-cds_bear": "20260916_161226",
+      "llm-cds_naive": "20260916_162005",
+      "llm-cds_wrong-lens": "20260916_162721"
+    }
+  },
+  "results": {
+    "store_centroid": {
+      "bear": {
+        "mean": 0.09468450546264648,
+        "ci_low": 0.08596096138159434,
+        "ci_high": 0.10416408228377502,
+        "per_topic": [
+          0.12043718496958415,
+          0.09364221890767416,
+          0.07555179595947266,
+          0.0937220573425293,
+          0.07907327810923258,
+          0.10275233586629232,
+          0.08940730094909669,
+          0.10288987159729004
+        ]
+      },
+      "naive": {
+        "mean": 0.00942879964907964,
+        "ci_low": 0.008130703369776409,
+        "ci_high": 0.010914085308710735,
+        "per_topic": [
+          0.008861800034840902,
+          0.010220189889272055,
+          0.007022436459859212,
+          0.0133606751759847,
+          0.008288220564524332,
+          0.00721663236618042,
+          0.009029539426167806,
+          0.011430903275807699
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.078261287228171,
+          "mean_diff": 0.08525570581356684
+        }
+      },
+      "shared-store": {
+        "mean": 7.450580596923828e-09,
+        "ci_low": 0.0,
+        "ci_high": 2.2351741790771484e-08,
+        "per_topic": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          0.0,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.612476201217049,
+          "mean_diff": 0.09468449801206588
+        }
+      },
+      "shared-full": {
+        "mean": 3.725290298461914e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 6.705522537231445e-08,
+        "per_topic": [
+          1.1920928955078125e-07,
+          5.960464477539063e-08,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.6124800258848575,
+          "mean_diff": 0.0946844682097435
+        }
+      },
+      "shared-context": {
+        "mean": 3.725290298461914e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 6.705522537231445e-08,
+        "per_topic": [
+          1.1920928955078125e-07,
+          5.960464477539063e-08,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 6.6124800258848575,
+          "mean_diff": 0.0946844682097435
+        }
+      }
+    },
+    "store_overlap": {
+      "bear": {
+        "mean": 0.06303954181711535,
+        "ci_low": 0.04074693410653889,
+        "ci_high": 0.09113972322612027,
+        "per_topic": [
+          0.04027777777777777,
+          0.04714743589743589,
+          0.14977855477855476,
+          0.04692159692159692,
+          0.08381096028154851,
+          0.04892857142857143,
+          0.06936026936026936,
+          0.018091168091168088
+        ]
+      },
+      "naive": {
+        "mean": 0.791630291005291,
+        "ci_low": 0.7674189814814816,
+        "ci_high": 0.8215152943121693,
+        "per_topic": [
+          0.7881216931216931,
+          0.7876455026455026,
+          0.878042328042328,
+          0.7375000000000002,
+          0.7874074074074074,
+          0.8207010582010582,
+          0.7595502645502648,
+          0.774074074074074
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.599884073141535,
+          "mean_diff": -0.7285907491881758
+        }
+      },
+      "shared-store": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.37711572274402,
+          "mean_diff": -0.9369604581828848
+        }
+      },
+      "shared-full": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.37711572274402,
+          "mean_diff": -0.9369604581828848
+        }
+      },
+      "shared-context": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -23.37711572274402,
+          "mean_diff": -0.9369604581828848
+        }
+      }
+    },
+    "retrieved_centroid": {
+      "bear": {
+        "mean": 0.16079801420370737,
+        "ci_low": 0.15266202474633855,
+        "ci_high": 0.17069501827160516,
+        "per_topic": [
+          0.16198432445526123,
+          0.18987464904785156,
+          0.14291327397028605,
+          0.16082249085108438,
+          0.14950947761535643,
+          0.1531835953394572,
+          0.1606424371401469,
+          0.16745386521021524
+        ]
+      },
+      "naive": {
+        "mean": 0.052979446947574615,
+        "ci_low": 0.04321767160048087,
+        "ci_high": 0.06357861119012038,
+        "per_topic": [
+          0.03161098559697469,
+          0.0421372652053833,
+          0.06256823539733887,
+          0.08224194049835205,
+          0.04754920403162639,
+          0.06249096393585205,
+          0.05279990832010905,
+          0.04243707259496053
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 4.332452968590829,
+          "mean_diff": 0.10781856725613276
+        }
+      },
+      "shared-store": {
+        "mean": 0.008323900401592255,
+        "ci_low": 0.0016777157783508302,
+        "ci_high": 0.018061022957166037,
+        "per_topic": [
+          0.0,
+          0.038149547576904294,
+          0.0,
+          -7.947285970052083e-08,
+          0.013421905040740967,
+          5.960464477539063e-08,
+          0.015019770463307698,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 14.330259354887282,
+          "mean_diff": 0.15247411380211512
+        }
+      },
+      "shared-full": {
+        "mean": 0.050946024556954704,
+        "ci_low": 0.03728945742050807,
+        "ci_high": 0.0654451784491539,
+        "per_topic": [
+          0.022554985682169595,
+          0.06072556575139364,
+          0.04709240198135376,
+          0.08013884623845419,
+          0.04095277786254883,
+          0.08352772394816081,
+          0.03954734802246094,
+          0.033028546969095865
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 4.265597692096284,
+          "mean_diff": 0.10985198964675266
+        }
+      },
+      "shared-context": {
+        "mean": 3.725290298461914e-08,
+        "ci_low": 7.450580596923828e-09,
+        "ci_high": 6.705522537231445e-08,
+        "per_topic": [
+          1.1920928955078125e-07,
+          5.960464477539063e-08,
+          0.0,
+          0.0,
+          5.960464477539063e-08,
+          0.0,
+          5.960464477539063e-08,
+          0.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 11.384556123062632,
+          "mean_diff": 0.1607979769508044
+        }
+      }
+    },
+    "retrieved_overlap": {
+      "bear": {
+        "mean": 0.04375,
+        "ci_low": 0.020833333333333336,
+        "ci_high": 0.06666666666666668,
+        "per_topic": [
+          0.0,
+          0.0,
+          0.1,
+          0.016666666666666666,
+          0.08333333333333333,
+          0.05,
+          0.05,
+          0.05
+        ]
+      },
+      "naive": {
+        "mean": 0.5354166666666667,
+        "ci_low": 0.46249999999999997,
+        "ci_high": 0.5895833333333333,
+        "per_topic": [
+          0.5666666666666667,
+          0.6,
+          0.5833333333333334,
+          0.3,
+          0.6,
+          0.4666666666666667,
+          0.5666666666666667,
+          0.6
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -4.8781039797753385,
+          "mean_diff": -0.4916666666666666
+        }
+      },
+      "shared-store": {
+        "mean": 0.9541666666666666,
+        "ci_low": 0.9041666666666667,
+        "ci_high": 0.9895833333333333,
+        "per_topic": [
+          1.0,
+          0.8,
+          1.0,
+          1.0,
+          0.9166666666666666,
+          1.0,
+          0.9166666666666666,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -12.585174268734129,
+          "mean_diff": -0.9104166666666667
+        }
+      },
+      "shared-full": {
+        "mean": 0.596875,
+        "ci_low": 0.515625,
+        "ci_high": 0.671875,
+        "per_topic": [
+          0.7166666666666667,
+          0.5666666666666667,
+          0.5833333333333334,
+          0.43333333333333335,
+          0.725,
+          0.4083333333333333,
+          0.675,
+          0.6666666666666666
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -4.507498076683665,
+          "mean_diff": -0.5531250000000001
+        }
+      },
+      "shared-context": {
+        "mean": 1.0,
+        "ci_low": 1.0,
+        "ci_high": 1.0,
+        "per_topic": [
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -26.08147007323038,
+          "mean_diff": -0.95625
+        }
+      }
+    },
+    "store_size": {
+      "bear": {
+        "mean": 10.979166666666668,
+        "ci_low": 10.020833333333334,
+        "ci_high": 11.875,
+        "per_topic": [
+          8.333333333333334,
+          12.166666666666666,
+          10.833333333333334,
+          10.5,
+          13.0,
+          9.833333333333334,
+          11.333333333333334,
+          11.833333333333334
+        ]
+      },
+      "naive": {
+        "mean": 19.645833333333332,
+        "ci_low": 19.395833333333332,
+        "ci_high": 19.875,
+        "per_topic": [
+          20.0,
+          20.0,
+          19.0,
+          19.333333333333332,
+          19.333333333333332,
+          19.833333333333332,
+          19.833333333333332,
+          19.833333333333332
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -5.455364908904644,
+          "mean_diff": -8.666666666666666
+        }
+      },
+      "shared-store": {
+        "mean": 4.375,
+        "ci_low": 3.25,
+        "ci_high": 5.5,
+        "per_topic": [
+          2.0,
+          7.0,
+          5.0,
+          5.0,
+          5.0,
+          4.0,
+          5.0,
+          2.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": 4.238253610510719,
+          "mean_diff": 6.604166666666667
+        }
+      },
+      "shared-full": {
+        "mean": 30.25,
+        "ci_low": 29.25,
+        "ci_high": 31.25,
+        "per_topic": [
+          32.0,
+          32.0,
+          30.0,
+          28.0,
+          28.0,
+          30.0,
+          31.0,
+          31.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -7.867609986229067,
+          "mean_diff": -19.270833333333332
+        }
+      },
+      "shared-context": {
+        "mean": 30.25,
+        "ci_low": 29.25,
+        "ci_high": 31.25,
+        "per_topic": [
+          32.0,
+          32.0,
+          30.0,
+          28.0,
+          28.0,
+          30.0,
+          31.0,
+          31.0
+        ],
+        "vs_bear": {
+          "n": 8,
+          "p": 0.0078125,
+          "cohens_d": -7.867609986229067,
+          "mean_diff": -19.270833333333332
+        }
+      }
+    }
+  },
+  "per_topic": [
+    {
+      "topic": "dmg",
+      "bear_store_centroid": 0.12043718496958415,
+      "bear_store_overlap": 0.04027777777777777,
+      "bear_retr_centroid": 0.16198432445526123,
+      "bear_retr_overlap": 0.0,
+      "bear_store_size": 8.333333333333334,
+      "naive_store_centroid": 0.008861800034840902,
+      "naive_store_overlap": 0.7881216931216931,
+      "naive_retr_centroid": 0.03161098559697469,
+      "naive_retr_overlap": 0.5666666666666667,
+      "naive_store_size": 20.0,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 2.0,
+      "shared-full_store_centroid": 1.1920928955078125e-07,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.022554985682169595,
+      "shared-full_retr_overlap": 0.7166666666666667,
+      "shared-full_store_size": 32.0,
+      "shared-context_store_centroid": 1.1920928955078125e-07,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 1.1920928955078125e-07,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 32.0
+    },
+    {
+      "topic": "stroke",
+      "bear_store_centroid": 0.09364221890767416,
+      "bear_store_overlap": 0.04714743589743589,
+      "bear_retr_centroid": 0.18987464904785156,
+      "bear_retr_overlap": 0.0,
+      "bear_store_size": 12.166666666666666,
+      "naive_store_centroid": 0.010220189889272055,
+      "naive_store_overlap": 0.7876455026455026,
+      "naive_retr_centroid": 0.0421372652053833,
+      "naive_retr_overlap": 0.6,
+      "naive_store_size": 20.0,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.038149547576904294,
+      "shared-store_retr_overlap": 0.8,
+      "shared-store_store_size": 7.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.06072556575139364,
+      "shared-full_retr_overlap": 0.5666666666666667,
+      "shared-full_store_size": 32.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 32.0
+    },
+    {
+      "topic": "ms",
+      "bear_store_centroid": 0.07555179595947266,
+      "bear_store_overlap": 0.14977855477855476,
+      "bear_retr_centroid": 0.14291327397028605,
+      "bear_retr_overlap": 0.1,
+      "bear_store_size": 10.833333333333334,
+      "naive_store_centroid": 0.007022436459859212,
+      "naive_store_overlap": 0.878042328042328,
+      "naive_retr_centroid": 0.06256823539733887,
+      "naive_retr_overlap": 0.5833333333333334,
+      "naive_store_size": 19.0,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04709240198135376,
+      "shared-full_retr_overlap": 0.5833333333333334,
+      "shared-full_store_size": 30.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 30.0
+    },
+    {
+      "topic": "alzheimers",
+      "bear_store_centroid": 0.0937220573425293,
+      "bear_store_overlap": 0.04692159692159692,
+      "bear_retr_centroid": 0.16082249085108438,
+      "bear_retr_overlap": 0.016666666666666666,
+      "bear_store_size": 10.5,
+      "naive_store_centroid": 0.0133606751759847,
+      "naive_store_overlap": 0.7375000000000002,
+      "naive_retr_centroid": 0.08224194049835205,
+      "naive_retr_overlap": 0.3,
+      "naive_store_size": 19.333333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": -7.947285970052083e-08,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.08013884623845419,
+      "shared-full_retr_overlap": 0.43333333333333335,
+      "shared-full_store_size": 28.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 28.0
+    },
+    {
+      "topic": "epilepsy",
+      "bear_store_centroid": 0.07907327810923258,
+      "bear_store_overlap": 0.08381096028154851,
+      "bear_retr_centroid": 0.14950947761535643,
+      "bear_retr_overlap": 0.08333333333333333,
+      "bear_store_size": 13.0,
+      "naive_store_centroid": 0.008288220564524332,
+      "naive_store_overlap": 0.7874074074074074,
+      "naive_retr_centroid": 0.04754920403162639,
+      "naive_retr_overlap": 0.6,
+      "naive_store_size": 19.333333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.013421905040740967,
+      "shared-store_retr_overlap": 0.9166666666666666,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.04095277786254883,
+      "shared-full_retr_overlap": 0.725,
+      "shared-full_store_size": 28.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 28.0
+    },
+    {
+      "topic": "glp1",
+      "bear_store_centroid": 0.10275233586629232,
+      "bear_store_overlap": 0.04892857142857143,
+      "bear_retr_centroid": 0.1531835953394572,
+      "bear_retr_overlap": 0.05,
+      "bear_store_size": 9.833333333333334,
+      "naive_store_centroid": 0.00721663236618042,
+      "naive_store_overlap": 0.8207010582010582,
+      "naive_retr_centroid": 0.06249096393585205,
+      "naive_retr_overlap": 0.4666666666666667,
+      "naive_store_size": 19.833333333333332,
+      "shared-store_store_centroid": 5.960464477539063e-08,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 5.960464477539063e-08,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 4.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.08352772394816081,
+      "shared-full_retr_overlap": 0.4083333333333333,
+      "shared-full_store_size": 30.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 30.0
+    },
+    {
+      "topic": "crispr",
+      "bear_store_centroid": 0.08940730094909669,
+      "bear_store_overlap": 0.06936026936026936,
+      "bear_retr_centroid": 0.1606424371401469,
+      "bear_retr_overlap": 0.05,
+      "bear_store_size": 11.333333333333334,
+      "naive_store_centroid": 0.009029539426167806,
+      "naive_store_overlap": 0.7595502645502648,
+      "naive_retr_centroid": 0.05279990832010905,
+      "naive_retr_overlap": 0.5666666666666667,
+      "naive_store_size": 19.833333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.015019770463307698,
+      "shared-store_retr_overlap": 0.9166666666666666,
+      "shared-store_store_size": 5.0,
+      "shared-full_store_centroid": 5.960464477539063e-08,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.03954734802246094,
+      "shared-full_retr_overlap": 0.675,
+      "shared-full_store_size": 31.0,
+      "shared-context_store_centroid": 5.960464477539063e-08,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 5.960464477539063e-08,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 31.0
+    },
+    {
+      "topic": "llm-cds",
+      "bear_store_centroid": 0.10288987159729004,
+      "bear_store_overlap": 0.018091168091168088,
+      "bear_retr_centroid": 0.16745386521021524,
+      "bear_retr_overlap": 0.05,
+      "bear_store_size": 11.833333333333334,
+      "naive_store_centroid": 0.011430903275807699,
+      "naive_store_overlap": 0.774074074074074,
+      "naive_retr_centroid": 0.04243707259496053,
+      "naive_retr_overlap": 0.6,
+      "naive_store_size": 19.833333333333332,
+      "shared-store_store_centroid": 0.0,
+      "shared-store_store_overlap": 1.0,
+      "shared-store_retr_centroid": 0.0,
+      "shared-store_retr_overlap": 1.0,
+      "shared-store_store_size": 2.0,
+      "shared-full_store_centroid": 0.0,
+      "shared-full_store_overlap": 1.0,
+      "shared-full_retr_centroid": 0.033028546969095865,
+      "shared-full_retr_overlap": 0.6666666666666666,
+      "shared-full_store_size": 31.0,
+      "shared-context_store_centroid": 0.0,
+      "shared-context_store_overlap": 1.0,
+      "shared-context_retr_centroid": 0.0,
+      "shared-context_retr_overlap": 1.0,
+      "shared-context_store_size": 31.0
+    }
+  ]
+}
