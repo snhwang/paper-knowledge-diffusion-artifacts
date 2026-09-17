@@ -263,6 +263,21 @@ async def run_item(condition, bench, item, call, prompter, args):
 # Running, resuming, analysing
 # ---------------------------------------------------------------------------
 
+def prompt_fingerprint(bench, prompter, n_items: int = 3) -> str:
+    """Hash of the BEAR hat system prompts for the first items.
+
+    Identifies the prompts themselves rather than the code version, so a
+    bear-dev commit that changes nothing about retrieval (e.g. a backend fix)
+    does not block resuming, while any change to the prompts does.
+    """
+    import hashlib
+    h = hashlib.sha256()
+    for item in bench.items[:n_items]:
+        for hat in bench.hat_order:
+            h.update(prompter.system_prompt(hat, bench.item_text(item))[0].encode("utf-8"))
+    return h.hexdigest()
+
+
 def run_config(bench, args, prompter, bear_dev):
     return {
         "version": VERSION, "benchmark": bench.name, "model": args.model, "base_url": args.base_url,
@@ -272,6 +287,7 @@ def run_config(bench, args, prompter, bear_dev):
         "hat_order": bench.hat_order, "aggregation": "majority vote, ties to first seen",
         "parse_retries": 2, "puzzle_type": getattr(args, "puzzle_type", None),
         "role_prompts": prompter.describe(),
+        "prompt_fingerprint": prompt_fingerprint(bench, prompter),
         "artifacts": git_commit(ROOT), "bear_dev": git_commit(bear_dev),
     }
 
@@ -290,13 +306,13 @@ def acquire_lock(out_dir: Path) -> None:
         except (ValueError, KeyError, OSError):
             pid, lock_host = None, None
         alive = False
-        if pid is not None and lock_host == host:
+        if pid is not None and lock_host == host and pid != os.getpid():
             try:
                 os.kill(pid, 0)
                 alive = True
             except (OSError, SystemError):
                 alive = False
-        if alive or (pid is not None and lock_host != host):
+        if alive or (pid is not None and lock_host != host):  # our own pid: a rerun in this process
             sys.exit(f"{out_dir} is locked by pid {pid} on {lock_host}. If that run is really gone, "
                      f"delete {lock}.")
     lock.write_text(json.dumps({"pid": os.getpid(), "host": host,
@@ -309,9 +325,14 @@ def comparable(a: dict, b: dict) -> list[str]:
     keys = ["version", "benchmark", "model", "base_url", "task_instruction", "max_tokens",
             "temperature_sampled", "consistency_samples", "top_p", "thinking", "hat_order", "puzzle_type"]
     diffs = [k for k in keys if a.get(k) != b.get(k)]
-    for k in ("instruction_dirs", "n_instructions", "top_k", "room_context", "commit"):
+    for k in ("instruction_dirs", "n_instructions", "top_k", "room_context"):
         if a["role_prompts"].get(k) != b["role_prompts"].get(k):
             diffs.append(f"role_prompts.{k}")
+    if a.get("prompt_fingerprint") and b.get("prompt_fingerprint"):
+        if a["prompt_fingerprint"] != b["prompt_fingerprint"]:
+            diffs.append("prompt_fingerprint")
+    elif a["role_prompts"].get("commit") != b["role_prompts"].get("commit"):
+        diffs.append("role_prompts.commit")
     return diffs
 
 
@@ -341,7 +362,14 @@ async def run(args):
         path = out_dir / f"{condition}.jsonl"
         done = set()
         if path.exists():
-            done = {json.loads(l)["item_id"] for l in path.read_text(encoding="utf-8").splitlines() if l.strip()}
+            # An item counts as finished only if none of its calls ended in an
+            # API error; failed items are rerun and their new record, appended
+            # later, is the one analyze() uses.
+            for line in path.read_text(encoding="utf-8").splitlines():
+                if line.strip():
+                    rec = json.loads(line)
+                    if not has_api_error(rec):
+                        done.add(rec["item_id"])
         todo = [it for it in items if bench.item_id(it) not in done]
         print(f"{bench.name} / {args.model} / {condition}: {len(done)} done, {len(todo)} to run")
         lock = asyncio.Lock()
@@ -358,6 +386,10 @@ async def run(args):
 
         await asyncio.gather(*[one(it) for it in todo])
     analyze(args)
+
+
+def has_api_error(rec: dict) -> bool:
+    return any(str(c.get("response", "")).startswith("[error") for c in rec["calls"])
 
 
 def paired_test(x, y, n_perm=20000, seed=20261025):
@@ -388,9 +420,11 @@ def analyze(args):
     for c, r in recs.items():
         scores = [v["score"] for v in r.values()]
         unparsed = sum(v["answer"] is None for v in r.values())
+        errored = sum(has_api_error(v) for v in r.values())
         summary["conditions"][c] = {"n_items": len(scores), "mean_score": sum(scores) / len(scores),
-                                    "no_answer": unparsed}
-        print(f"  {c:<14} n={len(scores):<4} mean={sum(scores)/len(scores):.3f}  no answer={unparsed}")
+                                    "no_answer": unparsed, "items_with_api_errors": errored}
+        print(f"  {c:<14} n={len(scores):<4} mean={sum(scores)/len(scores):.3f}  no answer={unparsed}"
+              + (f"  API errors in {errored} items (rerun to retry them)" if errored else ""))
         if args.benchmark == "brainteaser":
             for t in sorted({v["type"] for v in r.values()}):
                 s = [v["score"] for v in r.values() if v["type"] == t]
