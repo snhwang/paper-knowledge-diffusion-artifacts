@@ -72,7 +72,7 @@ HAT_COUNT = 6
 class SCT:
     name = "sct"
     hat_order = ["white", "red", "black", "yellow", "green", "blue"]
-    max_tokens = 2048
+    max_tokens = 4096  # 2048 cut off Qwen3.8-27B's reasoning in ~2% of calls
 
     def __init__(self, args):
         import sct_eval_v2 as sct
@@ -204,7 +204,7 @@ class Caller:
         self.sem = asyncio.Semaphore(args.concurrency)
 
     async def __call__(self, system: str, user: str, temperature: float) -> dict:
-        last = ""
+        last, out_tokens = "", None
         async with self.sem:
             for attempt in range(3):
                 try:
@@ -212,13 +212,16 @@ class Caller:
                         system=system, user=user, temperature=temperature, top_p=self.args.top_p,
                         max_tokens=self.bench.max_tokens, thinking=self.args.thinking))
                     last = resp.content or ""
+                    usage = getattr(resp, "usage", None) or {}
+                    out_tokens = usage.get("completion_tokens", usage.get("output_tokens"))
                     answer = self.bench.extract(last)
                     if answer is not None:
-                        return {"answer": answer, "response": last, "attempts": attempt + 1}
+                        return {"answer": answer, "response": last, "attempts": attempt + 1,
+                                "output_tokens": out_tokens}
                 except Exception as e:  # noqa: BLE001
-                    last = f"[error: {e}]"
+                    last, out_tokens = f"[error: {e}]", None
                     await asyncio.sleep(3 * (attempt + 1))
-        return {"answer": None, "response": last, "attempts": 3}
+        return {"answer": None, "response": last, "attempts": 3, "output_tokens": out_tokens}
 
 
 # ---------------------------------------------------------------------------
@@ -421,9 +424,18 @@ def analyze(args):
         scores = [v["score"] for v in r.values()]
         unparsed = sum(v["answer"] is None for v in r.values())
         errored = sum(has_api_error(v) for v in r.values())
+        # calls that used the whole output limit were probably cut off; older
+        # records have no token count and are not counted
+        max_tokens = BENCHMARKS[args.benchmark].max_tokens
+        calls = [k for v in r.values() for k in v["calls"]]
+        truncated = sum((k.get("output_tokens") or 0) >= max_tokens for k in calls)
+        counted = sum(k.get("output_tokens") is not None for k in calls)
         summary["conditions"][c] = {"n_items": len(scores), "mean_score": sum(scores) / len(scores),
-                                    "no_answer": unparsed, "items_with_api_errors": errored}
+                                    "no_answer": unparsed, "items_with_api_errors": errored,
+                                    "calls": len(calls), "calls_with_token_counts": counted,
+                                    "calls_at_output_limit": truncated}
         print(f"  {c:<14} n={len(scores):<4} mean={sum(scores)/len(scores):.3f}  no answer={unparsed}"
+              + (f"  at output limit={truncated}/{counted} calls" if counted else "")
               + (f"  API errors in {errored} items (rerun to retry them)" if errored else ""))
         if args.benchmark == "brainteaser":
             for t in sorted({v["type"] for v in r.values()}):
