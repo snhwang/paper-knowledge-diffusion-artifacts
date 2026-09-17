@@ -276,6 +276,34 @@ def run_config(bench, args, prompter, bear_dev):
     }
 
 
+def acquire_lock(out_dir: Path) -> None:
+    """One run per results directory. Two runs appending to the same files would
+    both work through the same unfinished items and duplicate them."""
+    import atexit
+    import socket
+    lock = out_dir / ".lock"
+    host = socket.gethostname()
+    if lock.exists():
+        try:
+            info = json.loads(lock.read_text(encoding="utf-8"))
+            pid, lock_host = int(info["pid"]), info.get("host")
+        except (ValueError, KeyError, OSError):
+            pid, lock_host = None, None
+        alive = False
+        if pid is not None and lock_host == host:
+            try:
+                os.kill(pid, 0)
+                alive = True
+            except (OSError, SystemError):
+                alive = False
+        if alive or (pid is not None and lock_host != host):
+            sys.exit(f"{out_dir} is locked by pid {pid} on {lock_host}. If that run is really gone, "
+                     f"delete {lock}.")
+    lock.write_text(json.dumps({"pid": os.getpid(), "host": host,
+                                "started": datetime.now(timezone.utc).isoformat()}), encoding="utf-8")
+    atexit.register(lambda: lock.unlink(missing_ok=True))
+
+
 def comparable(a: dict, b: dict) -> list[str]:
     """Config fields that must match for results to be appended."""
     keys = ["version", "benchmark", "model", "base_url", "task_instruction", "max_tokens",
@@ -293,6 +321,7 @@ async def run(args):
     items = bench.items[: args.n] if args.n else bench.items
     out_dir = Path(args.results_dir) / bench.name / args.model.replace("/", "_").replace(":", "_")
     out_dir.mkdir(parents=True, exist_ok=True)
+    acquire_lock(out_dir)
 
     prompter = BearHatPrompter(bear_dev)
     cfg = run_config(bench, args, prompter, bear_dev)
