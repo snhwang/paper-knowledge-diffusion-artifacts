@@ -210,7 +210,7 @@ class Caller:
         self.sem = asyncio.Semaphore(args.concurrency)
 
     async def __call__(self, system: str, user: str, temperature: float) -> dict:
-        last, out_tokens = "", None
+        last, out_tokens, in_tokens = "", None, None
         async with self.sem:
             for attempt in range(3):
                 try:
@@ -221,17 +221,19 @@ class Caller:
                     last = resp.content or ""
                     usage = getattr(resp, "usage", None) or {}
                     out_tokens = usage.get("completion_tokens", usage.get("output_tokens"))
+                    in_tokens = usage.get("prompt_tokens", usage.get("input_tokens"))
                     answer = self.bench.extract(last)
                     if answer is not None:
                         return {"answer": answer, "response": last, "attempts": attempt + 1,
-                                "output_tokens": out_tokens}
+                                "output_tokens": out_tokens, "prompt_tokens": in_tokens}
                 except Exception as e:  # noqa: BLE001
                     if isinstance(e, asyncio.TimeoutError):
                         e = f"no response within {self.args.call_timeout}s"
                         print(f"  call timed out after {self.args.call_timeout}s (attempt {attempt + 1}/3)")
-                    last, out_tokens = f"[error: {e}]", None
+                    last, out_tokens, in_tokens = f"[error: {e}]", None, None
                     await asyncio.sleep(3 * (attempt + 1))
-        return {"answer": None, "response": last, "attempts": 3, "output_tokens": out_tokens}
+        return {"answer": None, "response": last, "attempts": 3,
+                "output_tokens": out_tokens, "prompt_tokens": in_tokens}
 
 
 # ---------------------------------------------------------------------------
@@ -473,12 +475,19 @@ def analyze(args):
         calls = [k for v in r.values() for k in v["calls"]]
         truncated = sum((k.get("output_tokens") or 0) >= max_tokens for k in calls)
         counted = sum(k.get("output_tokens") is not None for k in calls)
+        # BEAR asks Ollama-style servers for num_ctx 8192, which covers prompt
+        # plus output; calls close to it risk a silently truncated prompt
+        totals = [(k.get("prompt_tokens") or 0) + (k.get("output_tokens") or 0) for k in calls]
+        near_ctx = sum(t >= 8000 for t in totals)
         summary["conditions"][c] = {"n_items": len(scores), "mean_score": sum(scores) / len(scores),
                                     "no_answer": unparsed, "items_with_api_errors": errored,
                                     "calls": len(calls), "calls_with_token_counts": counted,
-                                    "calls_at_output_limit": truncated}
+                                    "calls_at_output_limit": truncated,
+                                    "max_prompt_plus_output_tokens": max(totals) if totals else 0,
+                                    "calls_near_8k_context": near_ctx}
         print(f"  {c:<14} n={len(scores):<4} mean={sum(scores)/len(scores):.3f}  no answer={unparsed}"
               + (f"  at output limit={truncated}/{counted} calls" if counted else "")
+              + (f"  NEAR 8k CONTEXT: {near_ctx} calls" if near_ctx else "")
               + (f"  API errors in {errored} items (rerun to retry them)" if errored else ""))
         if args.benchmark == "brainteaser":
             for t in sorted({v["type"] for v in r.values()}):
