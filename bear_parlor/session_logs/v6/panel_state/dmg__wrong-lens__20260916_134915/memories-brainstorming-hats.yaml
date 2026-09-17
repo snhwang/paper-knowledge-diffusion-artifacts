@@ -1,0 +1,62 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-white-hat-1789581378-1
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: ONC201 currently holds the strongest
+    efficacy evidence among immunotherapy approaches for DMG, with Phase 2 trials
+    reporting approximately 13-15% objective response rates and median overall survival
+    exceeding 14 months.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - oncology
+    - clinical-trials
+    - dmG
+    - onc201
+    - efficacy
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - oncology
+  - clinical-trials
+  - dmG
+  - onc201
+  - efficacy
+  metadata:
+    source: memory_extractor
+    created: 1789581378.1732204
+- id: memory-white-hat-1789581378-2
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: Current cerebrospinal fluid assays have
+    not been established as reliable surrogates for tumor response, creating a significant
+    data gap for validating liquid biopsy sensitivity in CNS trials.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - diagnostics
+    - clinical-trials
+    - liquid-biopsy
+    - cns
+    - data-gaps
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - diagnostics
+  - clinical-trials
+  - liquid-biopsy
+  - cns
+  - data-gaps
+  metadata:
+    source: memory_extractor
+    created: 1789581378.1732204

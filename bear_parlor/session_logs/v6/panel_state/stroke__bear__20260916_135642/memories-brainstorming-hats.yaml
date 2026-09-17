@@ -1,0 +1,57 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-white-hat-1789581796-1
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: No neuroprotective agents have successfully
+    translated from preclinical models to approved clinical practice, leaving all
+    current options investigational.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - neuroprotection
+    - clinical-trials
+    - stroke
+    - medicine
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - neuroprotection
+  - clinical-trials
+  - stroke
+  - medicine
+  metadata:
+    source: memory_extractor
+    created: 1789581796.472524
+- id: memory-white-hat-1789581796-2
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: There are no validated non-invasive
+    biometric markers for coagulation status, as current trials rely exclusively on
+    blood-based assays.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - wearables
+    - anticoagulation
+    - biometrics
+    - medical-technology
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - wearables
+  - anticoagulation
+  - biometrics
+  - medical-technology
+  metadata:
+    source: memory_extractor
+    created: 1789581796.472524

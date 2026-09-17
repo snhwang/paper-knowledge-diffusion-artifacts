@@ -1,0 +1,57 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789582731-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue emphasized that DOACs offer superior
+    safety profiles but leave significant gaps in managing breakthrough events and
+    residual risk factors.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - stroke
+    - anticoagulation
+    - doacs
+    - secondary prevention
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - stroke
+  - anticoagulation
+  - doacs
+  - secondary prevention
+  metadata:
+    source: memory_extractor
+    created: 1789582731.2465212
+- id: memory-blue-hat-1789582731-2
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue highlighted the importance of integrating
+    the human element of adherence friction and psychological burden into clinical
+    protocols for AF-related stroke.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - patient care
+    - adherence
+    - psychology
+    - clinical strategy
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - patient care
+  - adherence
+  - psychology
+  - clinical strategy
+  metadata:
+    source: memory_extractor
+    created: 1789582731.2465212

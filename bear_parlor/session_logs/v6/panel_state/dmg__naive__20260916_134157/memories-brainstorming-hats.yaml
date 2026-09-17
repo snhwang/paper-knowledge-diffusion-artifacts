@@ -1,0 +1,55 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-white-hat-1789580886-1
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: H3K27M causes global hypomethylation
+    that silences tumor suppressor genes and prevents MHC class I upregulation, making
+    checkpoint inhibitors mismatched due to lack of antigen presentation machinery.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - oncology
+    - immunology
+    - genetics
+    - therapeutics
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - oncology
+  - immunology
+  - genetics
+  - therapeutics
+  metadata:
+    source: memory_extractor
+    created: 1789580886.8454337
+- id: memory-white-hat-1789580886-2
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: Intraventricular GD2-targeted CAR-T
+    therapy holds the strongest efficacy signal among current approaches, though it
+    carries risks of procedure-related toxicity and systemic cytokine release syndrome.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - car-t
+    - immunotherapy
+    - clinical-trials
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - car-t
+  - immunotherapy
+  - clinical-trials
+  metadata:
+    source: memory_extractor
+    created: 1789580886.8454337

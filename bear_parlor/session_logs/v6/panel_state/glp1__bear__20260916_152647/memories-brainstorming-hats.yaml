@@ -1,0 +1,30 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789587253-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue emphasized that the SELECT trial
+    results cannot be broadly applied to all patients because the study excluded diabetics
+    and required existing cardiovascular disease.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - select-trial
+    - clinical-evidence
+    - prescribing-guidelines
+    - cardiovascular
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - select-trial
+  - clinical-evidence
+  - prescribing-guidelines
+  - cardiovascular
+  metadata:
+    source: memory_extractor
+    created: 1789587253.6264222

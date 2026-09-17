@@ -1,0 +1,57 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789584089-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue emphasized that no validated biomarkers
+    currently exist to distinguish true repair from neuroprotection, which invalidates
+    current clinical endpoints.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - biomarkers
+    - clinical-trials
+    - ms
+    - repair
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - biomarkers
+  - clinical-trials
+  - ms
+  - repair
+  metadata:
+    source: memory_extractor
+    created: 1789584089.4526274
+- id: memory-blue-hat-1789584089-2
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue argued that identifying biological
+    targets is the necessary first step that allows for engineering delivery vehicles,
+    thereby accelerating the timeline for neuroprotective trials.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - research
+    - drug-development
+    - ms
+    - progression
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - research
+  - drug-development
+  - ms
+  - progression
+  metadata:
+    source: memory_extractor
+    created: 1789584089.4526274

@@ -1,0 +1,30 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789589413-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue asserted that the current blockage
+    in CRISPR development stems from inconsistent data standards and reliance on animal
+    models rather than a lack of biological understanding.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - crispr
+    - research
+    - data
+    - barriers
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - crispr
+  - research
+  - data
+  - barriers
+  metadata:
+    source: memory_extractor
+    created: 1789589413.628878

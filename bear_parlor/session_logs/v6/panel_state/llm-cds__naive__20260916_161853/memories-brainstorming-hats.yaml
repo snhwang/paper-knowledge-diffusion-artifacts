@@ -1,0 +1,56 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789590338-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue emphasized the necessity of moving
+    systematically from evidence to risk assessment before discussing deployment pathways.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - methodology
+    - clinical-ai
+    - process
+    - risk-management
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - methodology
+  - clinical-ai
+  - process
+  - risk-management
+  metadata:
+    source: memory_extractor
+    created: 1789590338.130379
+- id: memory-blue-hat-1789590338-2
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue cautioned against speculating on
+    future trends without first addressing the gap between current reality and long-term
+    vision.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - future-projection
+    - clinical-ai
+    - evidence-based
+    - governance
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - future-projection
+  - clinical-ai
+  - evidence-based
+  - governance
+  metadata:
+    source: memory_extractor
+    created: 1789590338.130379

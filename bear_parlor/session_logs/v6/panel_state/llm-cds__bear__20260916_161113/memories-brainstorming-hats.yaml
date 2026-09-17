@@ -1,0 +1,54 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789589867-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue emphasized that the discussion must
+    remain strictly evidence-based and avoid drifting into abstract philosophy.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - methodology
+    - clinical-ai
+    - discussion-rules
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - methodology
+  - clinical-ai
+  - discussion-rules
+  metadata:
+    source: memory_extractor
+    created: 1789589867.3638406
+- id: memory-blue-hat-1789589867-2
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue argued that the safety profile of
+    administrative tasks must be re-evaluated due to the risk of long-term data corruption
+    from subtle errors.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - clinical-ai
+    - risk
+    - data-integrity
+    - deployment
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - clinical-ai
+  - risk
+  - data-integrity
+  - deployment
+  metadata:
+    source: memory_extractor
+    created: 1789589867.3638406

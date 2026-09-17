@@ -1,0 +1,57 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-white-hat-1789582249-1
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: Direct Oral Anticoagulants reduce ischemic
+    stroke risk by approximately 39% compared to warfarin, with a significant reduction
+    in intracranial hemorrhage.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - stroke
+    - anticoagulation
+    - prevention
+    - medication
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - stroke
+  - anticoagulation
+  - prevention
+  - medication
+  metadata:
+    source: memory_extractor
+    created: 1789582249.7356715
+- id: memory-white-hat-1789582249-2
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: The World Stroke Organization identifies
+    poor risk factor management, drug-drug interactions, and inappropriate interruption
+    around surgical procedures as primary causes of stroke recurrence.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - stroke
+    - recurrence
+    - risk-factors
+    - guidelines
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - stroke
+  - recurrence
+  - risk-factors
+  - guidelines
+  metadata:
+    source: memory_extractor
+    created: 1789582249.7356715

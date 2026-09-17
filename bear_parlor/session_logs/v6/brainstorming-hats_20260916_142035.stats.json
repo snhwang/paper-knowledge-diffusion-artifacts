@@ -1,0 +1,68 @@
+{
+  "topic": "ms",
+  "condition": "bear",
+  "started": "2026-09-16 14:20:35",
+  "last_updated": "2026-09-16 14:27:08",
+  "elapsed_seconds": 392.6,
+  "n_turns": 39,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 57,
+  "n_diffusion_skipped": 20,
+  "ingestions": [
+    {
+      "time": "14:21:56",
+      "turn": 8,
+      "hat": "White",
+      "title": "DMT",
+      "chunks": 51,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "14:24:07",
+      "turn": 21,
+      "hat": "White",
+      "title": "remyelination",
+      "chunks": 63,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "14:25:19",
+      "turn": 28,
+      "hat": "White",
+      "title": "anderhalten%20emerging%20MRI%20and%20biofluid%20biomarkers",
+      "chunks": 15,
+      "extractor": "mathpix"
+    }
+  ],
+  "diffusion_errors": {},
+  "run_info": {
+    "session_default_llm": "openai/qwen3.8-flash-next",
+    "llm_base_url": "http://192.168.1.176:9010/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "lens_map": {},
+    "mathpix_credentials": true,
+    "bear_dev_commit": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/v6/brainstorming-hats_20260916_142035.md",
+  "completed": true,
+  "ended": "2026-09-16 14:27:14",
+  "duration_seconds": 399.0
+}

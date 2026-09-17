@@ -1,0 +1,56 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-white-hat-1789588512-1
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: The first FDA-approved CRISPR therapy,
+    Casgevy, was authorized in December 2023 for sickle cell disease and beta-thalassemia.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - crispr
+    - fda
+    - casgevy
+    - medicine
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - crispr
+  - fda
+  - casgevy
+  - medicine
+  metadata:
+    source: memory_extractor
+    created: 1789588512.8392358
+- id: memory-white-hat-1789588512-2
+  type: directive
+  priority: 45
+  content: 'Memory — White previously shared: Casgevy reports showed 97% of sickle
+    cell patients remained free of severe vaso-occlusive crises for at least twelve
+    months post-treatment.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - white-hat
+    - casgevy
+    - efficacy
+    - clinical-trials
+    - sickle-cell
+    required_tags:
+    - white-hat
+  tags:
+  - memory
+  - white-hat
+  - casgevy
+  - efficacy
+  - clinical-trials
+  - sickle-cell
+  metadata:
+    source: memory_extractor
+    created: 1789588512.8392358

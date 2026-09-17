@@ -1,0 +1,75 @@
+{
+  "topic": "epilepsy",
+  "condition": "wrong-lens",
+  "started": "2026-09-16 15:20:43",
+  "last_updated": "2026-09-16 15:26:42",
+  "elapsed_seconds": 359.0,
+  "n_turns": 36,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 63,
+  "n_diffusion_skipped": 14,
+  "ingestions": [
+    {
+      "time": "15:21:50",
+      "turn": 6,
+      "hat": "White",
+      "title": "Epilepsy%20as%20a%20dynamic%20disease",
+      "chunks": 36,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "15:23:45",
+      "turn": 19,
+      "hat": "White",
+      "title": "State-of-the-art%20gene%20therapy%20in%20epilepsy",
+      "chunks": 36,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "15:24:50",
+      "turn": 25,
+      "hat": "White",
+      "title": "mishra%20drug%20resistant%20epilepsy%20and%20ketogenic%20diet",
+      "chunks": 36,
+      "extractor": "mathpix"
+    }
+  ],
+  "diffusion_errors": {},
+  "run_info": {
+    "session_default_llm": "openai/qwen3.8-flash-next",
+    "llm_base_url": "http://192.168.1.176:9010/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "lens_map": {
+      "white-hat": "red-hat",
+      "red-hat": "black-hat",
+      "black-hat": "blue-hat",
+      "blue-hat": "green-hat",
+      "green-hat": "yellow-hat",
+      "yellow-hat": "white-hat"
+    },
+    "mathpix_credentials": true,
+    "bear_dev_commit": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/v6/brainstorming-hats_20260916_152043.md",
+  "completed": true,
+  "ended": "2026-09-16 15:26:45",
+  "duration_seconds": 362.2
+}

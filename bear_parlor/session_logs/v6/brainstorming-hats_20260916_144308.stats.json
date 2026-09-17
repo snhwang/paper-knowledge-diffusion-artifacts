@@ -1,0 +1,68 @@
+{
+  "topic": "alzheimers",
+  "condition": "bear",
+  "started": "2026-09-16 14:43:08",
+  "last_updated": "2026-09-16 14:49:35",
+  "elapsed_seconds": 387.3,
+  "n_turns": 37,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 57,
+  "n_diffusion_skipped": 13,
+  "ingestions": [
+    {
+      "time": "14:44:26",
+      "turn": 8,
+      "hat": "White",
+      "title": "Alzheimer%27s%20disease%20etiology%20hypotheses%20and%20therapeutic%20strategies",
+      "chunks": 109,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "14:46:31",
+      "turn": 20,
+      "hat": "White",
+      "title": "Alzheimer%27s%20disease%20treatment%20challenges%20for%20the%20future",
+      "chunks": 20,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "14:47:43",
+      "turn": 26,
+      "hat": "White",
+      "title": "espay%20lecanemab%20and%20donanemab",
+      "chunks": 23,
+      "extractor": "mathpix"
+    }
+  ],
+  "diffusion_errors": {},
+  "run_info": {
+    "session_default_llm": "openai/qwen3.8-flash-next",
+    "llm_base_url": "http://192.168.1.176:9010/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "lens_map": {},
+    "mathpix_credentials": true,
+    "bear_dev_commit": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/v6/brainstorming-hats_20260916_144308.md",
+  "completed": true,
+  "ended": "2026-09-16 14:49:38",
+  "duration_seconds": 390.4
+}

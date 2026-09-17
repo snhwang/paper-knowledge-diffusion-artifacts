@@ -1,0 +1,75 @@
+{
+  "topic": "glp1",
+  "condition": "wrong-lens",
+  "started": "2026-09-16 15:43:03",
+  "last_updated": "2026-09-16 15:49:00",
+  "elapsed_seconds": 356.6,
+  "n_turns": 36,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 45,
+  "n_diffusion_skipped": 17,
+  "ingestions": [
+    {
+      "time": "15:44:10",
+      "turn": 6,
+      "hat": "White",
+      "title": "Uriti%20systemic%20effect%20of%20GLP-1",
+      "chunks": 31,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "15:46:06",
+      "turn": 19,
+      "hat": "White",
+      "title": "deanfield%20semaglutide",
+      "chunks": 37,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "15:47:11",
+      "turn": 25,
+      "hat": "White",
+      "title": "tzang%20metabolic%20rebound%20after%20GLP-1%20receptor%20agaonist%20discontinuation",
+      "chunks": 55,
+      "extractor": "mathpix"
+    }
+  ],
+  "diffusion_errors": {},
+  "run_info": {
+    "session_default_llm": "openai/qwen3.8-flash-next",
+    "llm_base_url": "http://192.168.1.176:9010/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "lens_map": {
+      "white-hat": "red-hat",
+      "red-hat": "black-hat",
+      "black-hat": "blue-hat",
+      "blue-hat": "green-hat",
+      "green-hat": "yellow-hat",
+      "yellow-hat": "white-hat"
+    },
+    "mathpix_credentials": true,
+    "bear_dev_commit": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/v6/brainstorming-hats_20260916_154303.md",
+  "completed": true,
+  "ended": "2026-09-16 15:49:06",
+  "duration_seconds": 362.6
+}

@@ -1,0 +1,75 @@
+{
+  "topic": "dmg",
+  "condition": "wrong-lens",
+  "started": "2026-09-16 13:50:29",
+  "last_updated": "2026-09-16 13:56:28",
+  "elapsed_seconds": 359.2,
+  "n_turns": 35,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 51,
+  "n_diffusion_skipped": 15,
+  "ingestions": [
+    {
+      "time": "13:51:36",
+      "turn": 6,
+      "hat": "White",
+      "title": "Liu%20et%20al%20adaptive%20immunotherapeutic%20paradigms%20in%20DMG",
+      "chunks": 55,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "13:53:32",
+      "turn": 19,
+      "hat": "White",
+      "title": "Nonnenbroich%20DMG%20from%20molecular%20mechanisms%20to%20targeted%20interventions",
+      "chunks": 43,
+      "extractor": "mathpix"
+    },
+    {
+      "time": "13:54:37",
+      "turn": 24,
+      "hat": "White",
+      "title": "arrillaga-romany%20ONC201%20%28Dordaviprone%29",
+      "chunks": 77,
+      "extractor": "mathpix"
+    }
+  ],
+  "diffusion_errors": {},
+  "run_info": {
+    "session_default_llm": "openai/qwen3.8-flash-next",
+    "llm_base_url": "http://192.168.1.176:9010/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "white-hat": "openai/qwen3.8-flash-next",
+      "red-hat": "openai/qwen3.8-flash-next",
+      "black-hat": "openai/qwen3.8-flash-next",
+      "yellow-hat": "openai/qwen3.8-flash-next",
+      "green-hat": "openai/qwen3.8-flash-next",
+      "blue-hat": "openai/qwen3.8-flash-next"
+    },
+    "lens_map": {
+      "white-hat": "red-hat",
+      "red-hat": "black-hat",
+      "black-hat": "blue-hat",
+      "blue-hat": "green-hat",
+      "green-hat": "yellow-hat",
+      "yellow-hat": "white-hat"
+    },
+    "mathpix_credentials": true,
+    "bear_dev_commit": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/v6/brainstorming-hats_20260916_135029.md",
+  "completed": true,
+  "ended": "2026-09-16 13:56:33",
+  "duration_seconds": 363.6
+}

@@ -1,0 +1,30 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-blue-hat-1789585438-1
+  type: directive
+  priority: 45
+  content: 'Memory — Blue previously shared: Blue proposed using a matrix approach
+    to determine whether to pursue high-risk singular targets or multi-modal cocktails
+    for Alzheimer''s research prioritization.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - blue-hat
+    - strategy
+    - research
+    - prioritization
+    - decision-making
+    required_tags:
+    - blue-hat
+  tags:
+  - memory
+  - blue-hat
+  - strategy
+  - research
+  - prioritization
+  - decision-making
+  metadata:
+    source: memory_extractor
+    created: 1789585438.7096357
