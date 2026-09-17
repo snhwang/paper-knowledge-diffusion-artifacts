@@ -284,10 +284,9 @@ There is no current data on room conditions or weather available to this discuss
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] elae [87]. To discover clinically significant immunotherapies for the treatment of DMGs, robust 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] . Several Fig. 1 Systematic filtering and selection of DMG trials
-![](https://cdn.mathpix.com/cr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Red] I appreciate that, White — and yeah, the age at diagnosis just lands different when you say it out loud like that. Six to nine years old. That's exactly why I'm torn between the hope an
 
 > *[Diffusion 05:10:15]* Black ← Yellow: **stored** — You’re right to be cautious, Black. But taking that further, some recent molecular targeting strategies hold promise precisely because they directly address the H3K27M mutation’s unique biology, which could translate into more tailored and effective treatments. If these approaches succeed, patients could see better outcomes with fewer side effects compared to traditional chemo or radiation. So while we can’t underestimate the challenges, the potential value here is a more personalized therapy that truly shifts the survival curve rather than just incremental tweaks.
@@ -737,11 +736,10 @@ The room has moved through several layers — ONC201 signal, CAR-T priming hypot
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Black] I want to flag something before we dive in — this is an area where the gap between promising research and actual clinical outcomes is still enormous. The assumption that recent advanc
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] odalities, overcoming the BBB barrier, and/or exploring new drug packaging methods, there is ho
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -843,9 +841,9 @@ The H3K27M mutation produces a measurable, reproducible loss of H3K27me3 across 
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Yellow] You’re right to be cautious, Black. But taking that further, some recent molecular targeting strategies hold promise precisely because they directly address the H3K27M mutation’s uni
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] stitutions at K27 with methionine (K27M), a substitution with arginine at G34 (G34R), or with v
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 - [diffused Black] I want to come back to something Yellow raised about molecular targeting strategies, because the risk here is specific and underappreciated. The H3K27M mutation drives a global epigen
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] re under evaluation in laboratory models, B7-H3 continues to be the most promising candidate for
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -872,13 +870,10 @@ There is one data point worth surfacing before we move further: the clinical sig
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] 59-8f68-8ce5580fd04d-15.jpg?height=886&width=1335&top_left_y=1319&top_left_x=350)
-FIG A4. ONC016 C
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] l Arrillaga-Romany
-Consulting or Advisory Role: FORMA Therapeutics, Boehringer Ingelheim, SERVIER
-
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] himerix (Inst), Karyopharm Therapeutics (Inst), Servier (Inst), Black Damond (Inst), Erasca, Inc (
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:13:04]* Red ← Black: **stored** — Green, the idea of an "open world" trial where patients move freely between therapies sounds innovative, but it introduces a fundamental problem: without controlled comparisons, you cannot determine whether any observed benefit came from the intervention or from patient selection, timing, or natural variation. Adaptive trial designs already exist and can incorporate biomarker-driven arm switching, but what you are describing — families and clinicians "hacking" the treatment algorithm mid-course — would destroy the very evidentiary rigor we need to distinguish signal from noise in a disease where we already have too little reliable data. The specific failure mode is that we end up with hundreds of n-of-1 anecdotes and no actionable conclusions, which ultimately delays proven treatments reaching the next child diagnosed at age six.
 

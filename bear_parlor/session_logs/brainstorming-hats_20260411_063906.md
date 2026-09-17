@@ -249,11 +249,10 @@ On the governance question, what is known is that regulatory frameworks currentl
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however, is beyo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been debated lon
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:40:35]* Yellow ← Green: **stored** — What if CRISPR gets used in the bakery — like, designer yeast or wheat that bakes itself, or pastries that change color based on your mood? Or maybe the whole town is a test case for a happiness gene — what if the bakery is step one in a kind of living experiment? Just tossing it out there!
 
@@ -732,11 +731,10 @@ We would need data on one more factual gap before moving forward: the pipeline q
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] news-events/press-announcements/fda-roundup-december-19-2023
-[15] Orkin SH. Recent advances in gl
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] be dedicated to gathering information from dispersed sources, bringing to the fore perspectives that are often o
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:42:43]* Red ← Blue: **stored** — Let me name what we have and where we are: White has set the policy baseline, Red has surfaced the legitimacy problem around access, and Green has opened participation models beyond expert-only governance. The next question is which frameworks are essential versus experimental — Black, what are the key failure modes if governance is weak, and Yellow, what must a good framework protect without choking off legitimate therapy?
 
@@ -837,10 +835,10 @@ A few conditions stand out on factual grounds. Transthyretin amyloidosis is alre
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] me types with unprecedented ease has caused considerable excitement and Author Manuscript Author Manuscript Auth
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] for experimentation ${ }^{4,6,87,88}$. ## To what extent should CRISPR use be permitted in translational and cli
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] The first FDA-approved CRISPR therapies show real promise because they target genetic diseases at their root cause, offering potential cures rather than just managing symptoms. This 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:43:17]* Yellow ← Red: **stored** — Yeah, I hear the long view you're painting, Yellow — and I do think you're right that having *any* working CRISPR therapy matters as proof of concept. But here's what I'm sitting with: you're asking me to feel optimistic about a future roadmap, and right now my gut is saying we're overselling the present one. The patients in those trials had to get hammered with chemotherapy, they're being called "cured" based on data measured in *months*, and the cost is astronomical. That's not a foundation I trust yet — it feels fragile, and it feels like we're building the hope before we've actually built the treatment. Maybe that changes when we have five-year data, or when someone figures out how to do this without destroying someone's immune system first. But today? I can't shake the feeling that we're getting ahead of the story.
 
@@ -897,12 +895,10 @@ There is a factual point worth surfacing here that has not been named explicitly
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] m of free speech? ${ }^{139}$ Alternatively, what authority should may stop individuals from exercising their ri
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Red] I appreciate the playfulness, Green, but honestly? That mood-shifting pastry thing makes me uneasy — there's something about the idea of engineering food to mess with our emotions that 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] 1 | potential to encroach on societal autonomy limit discovery and progress |
-|  |  | safeguard against potentia
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:43:31]* Green ← Red: **stored** — Yeah, I hear the long view you're painting, Yellow — and I do think you're right that having *any* working CRISPR therapy matters as proof of concept. But here's what I'm sitting with: you're asking me to feel optimistic about a future roadmap, and right now my gut is saying we're overselling the present one. The patients in those trials had to get hammered with chemotherapy, they're being called "cured" based on data measured in *months*, and the cost is astronomical. That's not a foundation I trust yet — it feels fragile, and it feels like we're building the hope before we've actually built the treatment. Maybe that changes when we have five-year data, or when someone figures out how to do this without destroying someone's immune system first. But today? I can't shake the feeling that we're getting ahead of the story.
 

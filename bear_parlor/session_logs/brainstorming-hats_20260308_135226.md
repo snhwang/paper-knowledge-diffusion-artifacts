@@ -207,12 +207,10 @@ That's an interesting discussion, but I want to flag some important data gaps be
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] r contrast-enhancing lesions and a lower proportion with relapses, throughout the study period. However, m
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ctive disease found a delay in time to confirmed disease
-progression. Also in this study, more patients in
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:53:55]* Yellow ← Blue: **stored** — To approach this, I suggest we begin with a clear overview of the current landscape of MS treatments so we have a common baseline. From there, we can explore the newer strategies, maybe hearing some initial creative ideas or identifying key data points that have emerged recently. We should make sure we're considering both pharmacological advancements and alternative approaches, like potential lifestyle interventions, as we move through this discussion. Let's see what we can uncover together.
 
@@ -273,11 +271,10 @@ What I have been thinking about is a gap in the data that I believe
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ic increase in use since the initial reports from the clinical trials programme that showed it to
-be effec
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:54:10]* Blue ← Green: **stored** — I love this — so much possibility space here. What if we didn't just think about treatments as things you *take*, but what if the real innovation is in how patients interact with their own biology? Like, have we considered approaches where the patient becomes part of the treatment delivery system itself — biofeedback, or even gamified immune monitoring?
 
@@ -768,10 +765,10 @@ I should note that the current discussion has drifted slightly, so let me stay u
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] tological quantification of myelin [23], Transmission Electron Microscopy (TEM) of the sections of remy
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] cyte lineage cells in cell cultures or histological analysis in vivo, could only be found in studies in
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:56:32]* Blue ← Red: **stored** — My gut feeling on this is actually a bit anxious. While those higher efficacy numbers from the newer drugs sound incredible, the trade-off with serious side effects like PML or secondary autoimmune issues leaves me feeling really uneasy. It's that classic push-pull—the excitement of stopping relapses versus the dread of trading one life-altering condition for another.
 
@@ -1060,11 +1057,10 @@ However, a critical data gap needs flagging. We do not yet know whether the immu
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Red] I hear you, Black, and I recognize that fear of irreversible damage is real, but that doesn't silence the dread I feel about the potential for severe, life-altering complications from t
 - [diffused Green] I love this — so much possibility space here. What if we didn't just think about treatments as things you *take*, but what if the real innovation is in how patients interact with thei
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 

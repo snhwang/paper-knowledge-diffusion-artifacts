@@ -186,10 +186,10 @@ We know that the blood-brain barrier remains intact in DMG, which is actually on
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] fication reflects shared molecular drivers and biological behavior, regardless of exact anatomic
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] rs. Pediatric brain tumors, however, present unique challenges due to their low mutational burde
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -253,10 +253,10 @@ The room's emotional temperature is noted, but here is what the data adds to thi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 03:47:52]* Blue ← White: **stored** — The discussion has moved from abstract urgency to concrete mechanistic constraints: the blood-brain barrier remaining intact in diffuse midline glioma is the central bottleneck limiting all systemic delivery approaches. The group is now distinguishing between therapies with preliminary human signal (CAR-T targeting GD2) versus those with null results in DMG trials (checkpoint inhibitors), revealing that the conversation needs to separate 'immunotherapy in general' into specific agent categories with distinct evidence profiles.
 
@@ -567,8 +567,8 @@ Red, the concern is well-placed, and here is what the data actually supports. Th
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Green] Viral vector-mediated tissue homing beacon delivery has been conceptualized in preclinical work but lacks published efficacy or safety data in living organisms; the immunogenicity of 
 - [diffused Blue] Checkpoint inhibitor trials in DMG populations have shown minimal measurable benefit in published datasets; the mechanistic basis for checkpoint inhibitor failure in DMG (blood-brain b
 
@@ -626,8 +626,8 @@ The H3K27M mutation is present in approximately 80% of DMG cases and directly di
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Green] Viral vector-mediated tissue homing beacon delivery has been conceptualized in preclinical work but lacks published efficacy or safety data in living organisms; the immunogenicity of 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] GD2-targeted CAR-T cell therapy demonstrates early signal in DMG treatment (specific response rates and patient cohort size require specification), whereas checkpoint inhibitor monothe
 
 ---
@@ -763,8 +763,8 @@ The room is generating a lot of forward momentum, which is understandable, but a
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Green] Viral vector-mediated tissue homing beacon delivery has been conceptualized in preclinical work but lacks published efficacy or safety data in living organisms; the immunogenicity of 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Red] Diffuse midline glioma (DMG) exhibits median overall survival of approximately 9-14 months post-radiation therapy, with progression typically occurring within 3 months of treatment comp
 
 ---

@@ -178,10 +178,10 @@ There is something specific worth flagging before we move further. The 2025 Liu 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:21:44]* Green ← Blue: **stored** — The problem on the table is clear: what new treatments might work for diffuse midline glioma, a disease with very few effective options right now. Let's work through this systematically — I'd suggest we start with what we actually know about current approaches and recent data, then move into possibilities and risks. White Hat, what do we have in terms of established facts about where treatment stands today?
 
@@ -321,10 +321,10 @@ On checkpoint inhibitors specifically: trials in glioblastoma showed limited ben
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good shift — immunotherapy is a distinct enough avenue that it deserves its own pass. We have White Hat already grounding us on CAR-T data, so let's build on that. Black Hat, what are 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] rs. Pediatric brain tumors, however, present unique challenges due to their low mutational burde
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:22:21]* Blue ← Black: **stored** — Before we get too excited about any particular avenue, the central risk with diffuse midline glioma is the blood-brain barrier — most promising compounds fail not because they don't kill tumor cells in a dish, but because they never reach adequate concentrations in the tumor. That's a failure mode that has killed more than a few seemingly promising trials. What's the delivery strategy for any treatment we're seriously considering here?
 
@@ -595,7 +595,7 @@ The H3K27M mutation is present in approximately 80% of diffuse midline glioma ca
 
 - [diffused Red] The emotional reality is devastating and urgent in a way that data alone doesn't capture — families are being handed a death sentence with a side of "maybe try this trial," and the gap 
 - [diffused Blue] Good. So we have the delivery challenge flagged, early signals on H3K27M targeting, and a clear gap around survival data. The core open question is whether any of these approaches actu
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good shift — immunotherapy is a distinct enough avenue that it deserves its own pass. We have White Hat already grounding us on CAR-T data, so let's build on that. Black Hat, what are 
 
 > *[Diffusion 07:23:59]* Yellow ← White: **stored** — On checkpoint inhibitors specifically: trials in glioblastoma showed limited benefit, but glioblastoma and H3K27M-mutant diffuse midline glioma have distinct immune microenvironment profiles — that distinction matters when interpreting the failure history. What is known from the 2025 Liu et al. review is that DMG presents a suppressive tumor microenvironment and low mutational burden, both of which are documented obstacles for checkpoint inhibitor efficacy. We do not yet have published Phase 2 or 3 survival data for checkpoint inhibitors in DMG specifically. The data gap there is significant.
@@ -789,7 +789,7 @@ That hypothesis is mechanistically plausible, but it is currently an assumption 
 
 - [diffused Yellow] The immunotherapy angle is genuinely exciting here, and here's why it's more than just hype — CAR-T cells can be engineered to target antigens that are highly expressed on DMG cells,
 - [diffused Green] Okay but here's a wild thought — what if the question isn't which single approach has the strongest evidence, but which combination creates a kind of one-two punch that neither could 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] fication reflects shared molecular drivers and biological behavior, regardless of exact anatomic
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] White Hat just gave us the clearest ranking we've had — and ONC201 standing out from the pack is genuinely meaningful, because it's not just "promising preclinical data," it's actual
 
 > *[Diffusion 07:25:19]* Black ← Yellow: **stored** — White Hat just gave us the clearest ranking we've had — and ONC201 standing out from the pack is genuinely meaningful, because it's not just "promising preclinical data," it's actual objective responses in real patients with recurrent disease. That's the difference between a hypothesis and a foothold. The value of that signal is that it gives us a concrete anchor point — a place where the biology is clearly responding — and that's exactly the kind of evidence you build a combination strategy around.

@@ -219,11 +219,10 @@ The cardiovascular data for semaglutide is fairly solid — SUSTAIN-6 demonstrat
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ptors in the hindbrain (area postrema) and the hypothalamus simultaneously, Tirzepatide appea
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] fundamentally altered this landscape, establishing a new efficacy threshold that bridges the 
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:15:42]* Yellow ← Black: **stored** — *straightens up and shifts focus immediately*
 
@@ -659,8 +658,7 @@ To ground this: the most consistently documented serious risks are gastrointesti
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 - [diffused Black] *straightens up and shifts focus immediately*
 
 Alright, let's dig into this properly. First risk that jumps out — cardiovascular history. A 52-year-old obese patient with type 2 diabe
@@ -1007,7 +1005,7 @@ There is a data point worth surfacing now that the lifelong treatment question i
 - [diffused Red] *nods and sits back slightly*
 
 Yeah, fair point — I wasn't trying to bring the grocery store stuff into this, that was just me warming up. But White's right that the expectation piece i
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] ging the transition off therapy and to clarify the downstream effects of discontinuation in the contex
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Red, you’re onto something important — the real-world experience of the patient is where the value of semaglutide either shines or fades. This works because addressing gastrointestin
 - [diffused Blue] Let’s narrow to systemic effects and keep separate what’s well established versus still being generalized too broadly. We’ve already got concern about expectation-setting; now the miss
 
@@ -1332,8 +1330,7 @@ The STEP TEENS trial is the primary evidence anchor here: adolescents aged 12 an
 
 - [diffused Blue] Let me frame the new question cleanly: we are now assessing arguments for and against prescribing semaglutide to teenagers with obesity, not adult maintenance or cardiovascular general
 - [diffused Yellow] Red, you’re onto something important — the real-world experience of the patient is where the value of semaglutide either shines or fades. This works because addressing gastrointestin
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 - [diffused Black] The cardiovascular evidence for semaglutide specifically is strong but narrow. SUSTAIN-6 gives us a 26% relative risk reduction in major adverse cardiovascular events, but as White ju
 
 > *[Diffusion 07:20:10]* Green ← Blue: **stored** — Right, we’re on the lifelong-treatment question now. So far we have one firm anchor: rebound after stopping is common enough that maintenance assumptions need to be explicit, but the durability, who regains fastest, and long-term stopping patterns are still not well mapped; it might help to hear White separate what is established about regain from what remains unknown, then Black can test the ethical and sustainability risks without us sliding into recommendation too early.

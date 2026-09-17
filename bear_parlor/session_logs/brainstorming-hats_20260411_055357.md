@@ -196,11 +196,10 @@ The core mechanism map, briefly: amyloid-beta is cleaved from amyloid precursor 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] rs and dual $\mathrm{AChE} / \mathrm{PDE} 4 \mathrm{D}$ [62]. On the other hand, the design of alloster
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] beta$ levels, reduce neuroinflammation, and abolish AD-related tau
-hyperphosphorylation. Prevention of 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] OE$\varepsilon 4$ modulators to prevent AD and/or diminish symptoms could be attempted, relying on stru
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] tide. Furthermore, polymorphisms of ApoE- $\varepsilon 4$ result in less efficient proteins in the degr
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:55:21]* Black ← Yellow: **stored** — That bakery buzz is actually a great sign — it shows how small changes can bring a lot of joy and energy to a community. In the same way, even incremental advancements in Alzheimer’s therapies could brighten the outlook for many families, making daily life a bit more hopeful and manageable. It reminds me that progress, even if slow, creates real value by improving quality of life step by step.
 
@@ -311,10 +310,10 @@ The gut-brain axis point Green raised is worth grounding — there is published 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:55:40]* Yellow ← White: **stored** — I want to ground us before we go further — Alzheimer's affects approximately 55 million people worldwide, and is the most common cause of dementia, accounting for 60–70% of cases according to WHO data. Pathologically, the two hallmarks we have strong evidence for are amyloid-beta plaques and tau neurofibrillary tangles, though the causal relationship between these and neurodegeneration is still an active area of scientific debate. I should flag that the amyloid hypothesis, while dominant, has faced some scrutiny — the 2022 concerns around certain foundational studies are worth noting as a known data quality issue in the field. What specific aspect are we focusing on first — mechanisms, current approved therapies, or the clinical trial landscape?
 
@@ -721,9 +720,9 @@ The room's concern is well-founded, and the data supports it. Lecanemab's list p
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] This is exciting because both lecanemab and donanemab show meaningful slowing of cognitive decline in early-stage Alzheimer's, which is a big step forward compared to previous treatm
 
 ---
@@ -999,11 +998,10 @@ Black's point about the translational bottleneck being inherited rather than sol
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ly do. To provide more complete context, we created visual summaries of the data from the Phase 3
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] week trial period. While one may hypothesize that continued divergence will
-continue between the 
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Let’s tighten to the facilitator’s question: we need the evidence on actual patient benefit from lecanemab and donanemab, clearly separated from biomarker effects and from symptom-only
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] 36 months (double the length of the lecanemab trial), $[X-Y]$ would need to increase to 0.9 to ma
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:58:55]* Blue ← White: **stored** — The room's concern is well-founded, and the data supports it. Lecanemab's list price is approximately $26,500 per year in the U.S., and each treatment cycle requires regular MRI monitoring — infrastructure that is not uniformly available outside major academic centers. Trial populations for both drugs skewed heavily toward early-stage, biomarker-confirmed patients, which excludes the majority of people currently diagnosed in routine clinical settings. We do not yet have real-world data on how ARIA rates behave outside controlled trial conditions with intensive monitoring protocols.
 

@@ -283,9 +283,9 @@ I need to flag something — we are now several exchanges into this session and 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] That’s a great call, Blue. Let’s definitely start with the facts – I’m already seeing some potential here with targeted therapies, and it’ll be good to really understand what’s out t
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Right, the facilitator's directive is clear. We are now discussing possible new treatments for diffuse midline glioma. To structure this effectively, let's begin by gathering our facts
 
 > *[Diffusion 13:41:23]* Red ← Blue: **stored** — Right, the facilitator's directive is clear. We are now discussing possible new treatments for diffuse midline glioma. To structure this effectively, let's begin by gathering our facts and figures on this critical issue. White Hat, can you provide an overview of the current landscape of research and treatment?
@@ -379,10 +379,10 @@ The available evidence on immunotherapy for DMG breaks into a few categories. Ch
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] rs. Pediatric brain tumors, however, present unique challenges due to their low mutational burde
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -775,10 +775,10 @@ The central molecular driver in most diffuse midline gliomas is the H3K27M mutat
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Acknowledged. We are now pivoting specifically to examine immunotherapy approaches, including CAR-T and checkpoint inhibitors, for DMG. That is our clear focus. To begin this targeted 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] of DMG tumors, are associated with DMG tumorigenesis [6,25,26]. Specific molecular alterations 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] stinct subgroups of DMG, among other milestones. This review summarizes the molecular alteratio
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:43:58]* Black ← Red: **stored** — That initial success with the GD2 CAR-T cells feels like a spark in the dark, and my gut is telling me to lean hard into that momentum. It’s physically exhausting to hear about the negative data on checkpoint inhibitors, but the promise of the GD2 trials feels so visceral and tangible that I can’t help but want to bet everything on it. We finally have something that isn't just another failure, and I feel like we should be shouting that from the rooftops instead of just calling it "early-phase."
 
@@ -869,10 +869,10 @@ Green, those are creative directions, but I need to ground them in what is estab
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] pattern [16]. H3K27M DMG tumors may exhibit high-grade malignant features but are designated WH
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] stinct subgroups of DMG, among other milestones. This review summarizes the molecular alteratio
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] d. This article is an open access article distributed under the terms and conditions of the Cre
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] ic to this disease, culminating in a critical appraisal of contemporary immunotherapeutic strate
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 

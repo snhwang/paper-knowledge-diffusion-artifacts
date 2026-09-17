@@ -176,10 +176,10 @@ That characterization is accurate. The absence of prospective outcome data is no
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] M-based systems meet real-world requirements and ultimately lead to the best possible outcome for 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] , and users can adjust model outputs directly on their own systems. However, state-of-the-art mode
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] | Different clinical tasks to use LLMs. Schematic illustration of various clinical tasks where LLM
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -235,10 +235,10 @@ That request is outside what the White Hat role covers. What is known is that LL
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] # Implementing large language models in healthcare while balancing control, collaboration, costs a
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] e inherent model biases, misinformation and hallucinations cannot directly be avoided, they can at
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hese approaches, with collaboration among clinicians, researchers, and companies is crucial to ens
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:25:11]* Green ← White: **stored** — The documented 90%+ alert override rate in rule-based clinical decision support reveals an opportunity: what if LLM-based systems reframe alerts not as directives but as collaborative hypotheses that invite clinician reasoning? This could spawn entirely new interaction models—alerts that ask 'have you considered X because of Y in the notes?' rather than 'do this'—opening pathways to decision support that enhances rather than interrupts clinical cognition.
 
@@ -360,9 +360,9 @@ The three documented clinical deployment areas are ambient documentation generat
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue, Yellow] Current clinical LLM implementations with documented evidence include: ambient documentation generation, radiology report summarization, and triage support tools. Prospective r
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Black] The claim that 'iterative learning from real-world use refines LLM recommendations quickly' lacks supporting evidence. No published studies measure the rate at which real-world clinic
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] e inherent model biases, misinformation and hallucinations cannot directly be avoided, they can at
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -602,13 +602,10 @@ That request falls outside what this role covers. What is documented is that LLM
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] //cdn.mathpix.com/cropped/caf615ff-4576-4872-be2b-143e1c135b21-03.jpg?height=1278&width=1374&top_left_y=191&top_left_x=349)
-Figure 1: Al safety c
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ${ }^{1}$ National University of Singapore, Singapore, Singapore 5
-${ }^{2}$ University of Cambridge, Cambridge, UK 6
-${ }^{3}$ Mila-Quebec AI In
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -905,9 +902,9 @@ That question sits outside what this role covers. What is documented is that det
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] cess to the model but need to access the model by providing queries and contextual data to an online portal. In healthcare, most data belongs to 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] lopers poses a significant limitation. Therefore, hospital users often need to tune their own version of LLMs either using service from large mod
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Blue, Yellow] Current clinical LLM implementations with documented evidence include: ambient documentation generation, radiology report summarization, and triage support tools. Prospective r
 
 > *[Diffusion 05:28:31]* Red ← Yellow: **skipped** (dist=0.32)
@@ -1022,7 +1019,7 @@ What is documented: deterministic guardrails applied to clinical decision suppor
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] Deterministic guardrails applied to clinical decision support systems have shown mixed results across studies, with tradeoffs between reducing error rates and reducing clinical utili
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Black] Clinical contexts where LLM output directly triggers irreversible action (medication orders, dosing calculations, critical diagnoses) are defined as high-consequence decision points; 
 - [diffused Yellow] The value proposition of identifying specific LLM failure modes is that targeted safeguards can be designed to intercept those modes before patient harm occurs, rather than applying 
 
@@ -1146,7 +1143,7 @@ What is documented: no current regulatory framework in the United States or Euro
 - [diffused Red] Clinician cognitive load and alert fatigue are established risk factors in medical error literature, with documented associations between high workload, reduced verification behavior, a
 - [diffused Yellow] Feedback loops for LLM accuracy improvement require documented clinician verification of ground truth at each iteration; the data quality and completeness of such loops under real be
 - [diffused Black] Large language models demonstrate documented failure modes including hallucination of plausible-sounding but factually incorrect clinical reasoning. No published data quantifies the f
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ng the safety of LLMs from various angles. In this section, we aim to discuss different problems of LLMs that may lead to potential medical risks
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1211,9 +1208,9 @@ What is documented: no current regulatory framework in the U.S. or E.U. permits 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] e a way to estimate LLMs' limit, and when they can be trusted, it will be very difficult to develop robust LLM based tools to handle important me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] like "Which of the three ventilators in the next room should I use for the patient seen by Jone yesterday morning in his clinic?", which limits t
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Blue, Yellow] Current clinical LLM implementations with documented evidence include: ambient documentation generation, radiology report summarization, and triage support tools. Prospective r
 
 > *[Diffusion 05:30:06]* Red ← Blue/Black synthesis: **skipped** (dist=0.32)

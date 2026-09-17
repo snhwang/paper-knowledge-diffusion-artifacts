@@ -339,10 +339,9 @@ That is outside my role here. What is known is that ONC201 has shown measurable 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] elae [87]. To discover clinically significant immunotherapies for the treatment of DMGs, robust 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] . Several Fig. 1 Systematic filtering and selection of DMG trials
-![](https://cdn.mathpix.com/cr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Red] I hear you on that, Yellow — and I appreciate you meeting me halfway on the seriousness piece. But honestly, what's sitting with me right now is something Green just said that actually 
 
 ---
@@ -448,11 +447,10 @@ ONC201 currently has the strongest efficacy signal: in H3K27M-mutant DMG, partic
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] ic interventions, patient demographics, endpoints, and projected timelines, offering a comprehen
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] t DMG patients (often with PD-1
-checkpoint blockade), was safe and induced mutation-specific T c
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] ls such as PNOC022 (NCT05009992) and NCT04049669are investigating the efficacy of ICIs or small 
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -522,8 +520,7 @@ On safety: ONC201's reported adverse event profile in early-phase DMG trials has
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Red, I think you've actually landed on the core risk that needs to be said plainly. The clinical reality is that combining experimental agents in pediatric populations isn't just ethi
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Green] Okay, so—what if we reimagined the whole approach and combined multiple experimental therapies at once? Like, can we layer CAR-T with real-time intracranial delivery plus a wearable d
 - [diffused Red] I hear you on that, Yellow — and I appreciate you meeting me halfway on the seriousness piece. But honestly, what's sitting with me right now is something Green just said that actually 
 
@@ -647,7 +644,7 @@ That concern is factually grounded. The ONC201 response data in H3K27M-mutant DM
 - [diffused Black] Red, I think you've actually landed on the core risk that needs to be said plainly. The clinical reality is that combining experimental agents in pediatric populations isn't just ethi
 - [diffused Blue] I’m going to stop us there — we were drifting. The question on the table is recent treatment advances in H3K27M-mutant diffuse midline glioma, so let’s keep this tight: standard radiot
 - [diffused Green] Okay, so—what if we reimagined the whole approach and combined multiple experimental therapies at once? Like, can we layer CAR-T with real-time intracranial delivery plus a wearable d
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] fication reflects shared molecular drivers and biological behavior, regardless of exact anatomic
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:19:28]* Blue ← White: **stored** — That is outside my role here. What is known is that ONC201 has shown measurable response rates in H3K27M-mutant DMG — particularly in thalamic tumors — and that is where the data actually warrant our attention right now.
 
@@ -716,11 +713,10 @@ That is outside my role here. What is known is that H3K27M mutations drive epige
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Red] I hear you on that, Yellow — and I appreciate you meeting me halfway on the seriousness piece. But honestly, what's sitting with me right now is something Green just said that actually 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] odalities, overcoming the BBB barrier, and/or exploring new drug packaging methods, there is ho
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:19:49]* Red ← Green: **stored** — What if we reframe the question and look for ways to make these therapies "talk" to each other, even if the data buckets are separate? Like, could we design a trial where ONC201 acts as a primer for CAR-T, or maybe checkpoint inhibitors are used in a micro-dosed, time-tuned window just to unlock a more robust immune response? Or—totally sideways—what if we borrowed ideas from vaccine adjuvants and paired something unexpected with CAR-T to amplify its effect in the tumor microenvironment? Just tossing connections out there!
 
@@ -846,9 +842,9 @@ H3K27M mutations cause global loss of H3K27 trimethylation, and ONC201 targets t
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Let’s organize this around mechanism-to-therapy fit: H3K27M and the resulting epigenetic reprogramming make biology-matched approaches the priority, while the tumor microenvironment he
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] stitutions at K27 with methionine (K27M), a substitution with arginine at G34 (G34R), or with v
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] re under evaluation in laboratory models, B7-H3 continues to be the most promising candidate for
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] pattern [16]. H3K27M DMG tumors may exhibit high-grade malignant features but are designated WH
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:20:31]* Black ← Red: **stored** — I have to say, hearing White lay that out — ONC201 showing actual durable responses in real kids, while CAR-T is still mostly proof-of-concept and checkpoint inhibitors are just... not working in this disease — that shifts something for me. There's less desperation in that picture than I feared earlier. ONC201 feels different to me now: it's not throwing everything at the wall, it's actually showing up and doing something. But I also feel the weight of "long-term safety data remain limited" — that phrase sits uneasy with me, because these are children we're talking about, and "limited" data on durability in kids is a real concern.
 
@@ -905,13 +901,10 @@ There is a data point that has not been named explicitly yet and it is directly 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] 73-a9dd-fdf0d29771a3-15.jpg?height=886&width=1335&top_left_y=1319&top_left_x=350)
-FIG A4. ONC016 C
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] l Arrillaga-Romany
-Consulting or Advisory Role: FORMA Therapeutics, Boehringer Ingelheim, SERVIER
-
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 - [session insight] Wait, let me reconsider — there is one notable factual insight worth preserving:
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] himerix (Inst), Karyopharm Therapeutics (Inst), Servier (Inst), Black Damond (Inst), Erasca, Inc (
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 
 ---
 

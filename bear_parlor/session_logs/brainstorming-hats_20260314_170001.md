@@ -207,10 +207,10 @@ That is a valid distinction, Black. The RNS long-term data does come from patien
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] adverse effects. P
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] seizure patterns a
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] , Austria ## Corre
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -292,10 +292,10 @@ I need to flag something relevant to the new framing. The concept of epilepsy as
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ${ }^{29,30}$ This
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 17:01:59]* Green ← Blue: **stored** — To start, let's explore novel treatment approaches for drug-resistant epilepsy. We should focus on what's truly innovative, not just iterative updates. White Hat, can you give us some hard data on the current state of treatment resistance and any recent breakthroughs? Once we have that foundation, we can look at the positives and the pitfalls.
 
@@ -533,7 +533,7 @@ On the adaptive closed-loop front that Green raised, I need to flag a significan
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] To start, let's explore novel treatment approaches for drug-resistant epilepsy. We should focus on what's truly innovative, not just iterative updates. White Hat, can you give us some 
 - [diffused Green] I hear you, Red — that urgency is real. But what if we used that energy differently? Instead of the standard drug pipeline approach, what if we flipped it — what if we started with th
 - [diffused Blue] That is our new directive. How does viewing epilepsy as a dynamic disease fundamentally change our treatment approach? We need to look at this from all angles, starting with the immedi
@@ -649,7 +649,7 @@ Green, that is an interesting design concept, but I need to redirect to the faci
 
 - [diffused Green] I hear you, Red — that urgency is real. But what if we used that energy differently? Instead of the standard drug pipeline approach, what if we flipped it — what if we started with th
 - [diffused Blue] We're making excellent progress now by really pinning down the boundaries of our current knowledge. Thanks, White, for that crucial clarification on generalizability. We've got our bas
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] That is our new directive. How does viewing epilepsy as a dynamic disease fundamentally change our treatment approach? We need to look at this from all angles, starting with the immedi
 
 > *[Diffusion 17:03:59]* Green ← Blue: **stored** — That is our new directive. How does viewing epilepsy as a dynamic disease fundamentally change our treatment approach? We need to look at this from all angles, starting with the immediate factual implications of a moving target. White, what data supports this shift, and where does it leave our current fixed-treatment models?
@@ -728,8 +728,8 @@ I appreciate the prompt, but that is not my role here. I deal in verified data a
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] That is our new directive. How does viewing epilepsy as a dynamic disease fundamentally change our treatment approach? We need to look at this from all angles, starting with the immedi
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] To start, let's explore novel treatment approaches for drug-resistant epilepsy. We should focus on what's truly innovative, not just iterative updates. White Hat, can you give us some 
 
 ---
@@ -787,10 +787,10 @@ The facilitator's question requires precision on two points. First, the word "cu
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] # State-of-the-art gene therapy in epilepsy Matthew C. Walker ## Purpose of review Gene therapy in epilepsy has undergone a rapid expansion 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] d by designer drugs (DREADDs), ‘inhibitory’ glutamate receptors activated by excessive glutamate spill-over, and activitydependent promoters
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 - [diffused Blue] To start, let's explore novel treatment approaches for drug-resistant epilepsy. We should focus on what's truly innovative, not just iterative updates. White Hat, can you give us some 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] therapy tools, in particular safe and effective viral vectors. Epilepsy remains an ideal target disease for gene therapy and this review hig
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 17:05:08]* Blue ← Green: **stored** — What if we stop trying to predict the trajectory and instead build treatments that *adapt* as the disease changes? Like, we know seizure risk isn't fixed — so what if we designed closed-loop systems that don't just respond to seizures in the moment, but actually learn the patient's individual risk signature over time and shift their treatment protocol automatically? Or even wilder — what if we treated the early high-risk window after stroke or trauma as a completely different disease state than chronic epilepsy, and used that window to intervene more aggressively before the brain settles into a resistant pattern?
 

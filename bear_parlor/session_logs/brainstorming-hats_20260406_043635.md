@@ -153,10 +153,10 @@ The established standard of care for acute ischemic stroke involving large arter
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] cumulative evidence from these studies shows an overwhelming benefit from the endovascular trea
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] the MR CLEAN results at the 2014 World Stroke Congress (Istanbul, Turkey), multiple ongoing end
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -189,10 +189,10 @@ There is one figure worth flagging before we go further. The early negative tria
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] interventional arm either did not have a LAO or had an inaccessible, distally located thrombus.
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 04:37:59]* Green ← White: **stored** — The documented failure of early negative trials (IMS III, MR RESCUE, and SYNTHESIS Expansion) to show benefit from endovascular intervention opens a lateral opportunity: what if the real innovation isn't in device engineering but in matching patient phenotypes to intervention timing windows? The mismatch between older technology and newer stentrievers suggests that personalized stroke subtyping (by occlusion location, collateral status, penumbral volume) could unlock entirely new treatment sequencing strategies that neither pure IV-tPA nor one-size-fits-all thrombectomy currently addresses.
 
@@ -478,10 +478,10 @@ We know that the DAWN and DEFUSE 3 trials established evidence for thrombectomy 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] nts in the interventional arm of SYNTHESIS Expansion were not administered IV-tPA, the use of w
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] zation Conference (Glasgow, UK), with the concurrent publication of SWIFT PRIME and REVASCAT. T
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Ingestion 04:39:28]* White: indexed 14 chunks from *neuroprotection*
 
@@ -609,9 +609,9 @@ The clinical trial record on neuroprotective agents is notably consistent: over 
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Randomized controlled trials supporting thrombectomy extend to 24 hours post-symptom onset in patients selected by imaging criteria (perfusion mismatch, salvageable tissue on advanced 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Black] Head-to-head randomized comparisons between newer-generation thrombectomy devices and earlier-generation devices in the same patient populations meeting landmark trial inclusion crite
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] zation Conference (Glasgow, UK), with the concurrent publication of SWIFT PRIME and REVASCAT. T
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 04:40:02]* Blue ← Black: **skipped** (dist=0.30)
 
@@ -646,10 +646,10 @@ That request is outside what the available information covers — there is no da
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] Istanbul, Turkey<br>* Correspondence: matteo.haupt@stud.uni-goettingen.de (M.H.); thorsten.doeppner@neuro.med
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -862,10 +862,10 @@ That is a fair and important precision. What is known is that several agents —
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] d. This article is an open access article distributed under the terms and conditions of the Creative Commons 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] therapeutics based on stem cells and extracellular vesicles will be discussed, and finally, the brain-gut axi
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 

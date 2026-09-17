@@ -245,10 +245,10 @@ The room is generating a lot of strong framing, and some of it is running ahead 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] is the main author or co-author of several of the studies reported on in this review. ## CONFLICT OF INTER
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -318,10 +318,10 @@ The mechanism of action between rituximab and ocrelizumab is essentially identic
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] if these newer therapies provide any benefits over rituximab as the mechanism of action is identical. Stud
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] e effects of rituximab appear to be mostly limited to preventing clinical relapses and the inflammatory le
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ab and the new B-cell-depleting therapies. It is also important to study the effects of using biosimilars 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ima. There are few studies comparing these new biosimilars to MabThera in MS, but one study of Truxima rep
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:33:25]* Red ← White: **stored** — The absence of head-to-head randomized trial data between rituximab and ocrelizumab despite mechanistically identical CD20 B-cell depletion triggers profound uncertainty and anxiety in clinicians and patients—the fear is not that one drug fails, but that choosing between them requires a leap of faith rather than evidence, creating a nagging sense of potential harm from an invisible wrong choice.
 
@@ -608,10 +608,10 @@ There is a data point worth surfacing now. The knowledge base references a syste
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ed controlled and uncontrolled trials, respectively. For preclinical trials, the SYRCLE RoB tool [96] (
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -681,10 +681,10 @@ Available evidence for DMT-driven remyelination is limited and mostly indirect. 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] rkers [242], liquid biopsies [243] including extracellular vesicles, and exploring advanced imaging tec
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] nd endogenous remyelination should be considered. Combining different modalities such as electrophysiol
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] entially due to intra-class differences of BTK-i [4-9]. To date, no EMA or FDA-approved DMT targets dis
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] uggesting sustained metabolic integrity of the neuronal tissue [233]. In the same study, MWF analysis d
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:35:14]* Blue ← Black + White: **stored** (dist=0.45) — The discussion has surfaced a critical process gap: claims about remyelination, compartmentalized inflammation, and neurodegeneration are being treated as distinct mechanistic buckets requiring separate trial designs, yet the group has not established whether the biomarker infrastructure exists to operationalize this separation in real patients. The conversation is advancing treatment strategy proposals (data sharing, subscription models, patient stratification) without first mapping what measurement capability would be required to validate the underlying biological assumptions.
 
@@ -867,12 +867,10 @@ The room has shifted from mechanism debate to biomarker potential, which is a pr
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] iority of rituximab compared with ocrelizumab,
-![](https://cdn.mathpix.com/cropped/d006e859-3f91-4957-999f
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ls.gov |
-| rTMS | Randomized, shamcontrolled phase I clinical trial |  |  | RMS, SPMS | DTI, MTR | Safe
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] # Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple sclerosis Lina 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -929,10 +927,10 @@ What is established: serum NfL shows the strongest evidence base, with correlati
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] o et al. ${ }^{2}$ biofluid biomarkers for MS also hold the potential to serve as predictors for 
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] occa and colleagues on MRI biomarkers in MS ${ }^{1}$ and by Massimiliano Di Filippo and colleagu
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] in, Berlin, Germany<br>${ }^{\mathrm{d}}$ Department of Neurology, Charité - Universitätsmedizin 
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:36:36]* Red ← White: **skipped** (dist=0.34)
 
@@ -1075,10 +1073,10 @@ Two things need flagging before this moves forward. First, Green's adaptive algo
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] nd endogenous remyelination should be considered. Combining different modalities such as electrophysiol
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ot specific to myelin and remain challenging due to spatial resolution, high costs, and low availabilit
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] fe, OCT, relapse rate, MSFC | NCT05532943 | [87] | [^1]success [41]. Tables 1 and 2 show completed and 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] 38]. Few studies explored combination treatments. However, the complex processes underlying MS patholog
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:37:21]* Green ← White: **stored** (dist=0.67) — Serum NfL's platform-dependent variability and age-related reference range shifts could spark innovation in standardized assay harmonization—what if this fragmentation becomes the catalyst for developing portable, point-of-care NfL devices that enable decentralized monitoring and real-time clinical decision-making in primary care settings rather than tertiary centers?
 

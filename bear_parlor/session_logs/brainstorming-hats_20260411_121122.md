@@ -202,10 +202,10 @@ Red, that tension you're naming is real, and the uncertainty underneath it is fa
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ion, enabling healthcare facilities to optimize the models specifically for their local context, c
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] s must be considered when implementing LLMs and other forms of generative AI in healthcare. It is 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hese approaches, with collaboration among clinicians, researchers, and companies is crucial to ens
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:12:51]* Black ← White: **stored** — LLM benchmark performance on USMLE exams does not predict real-world clinical decision support error rates because standardized test inputs are curated and low-stakes, whereas live clinical workflows involve messy patient data, distribution shift, and patient-level harms from errors. The absence of prospective real-world error rate data means deployment risks remain unquantified.
 
@@ -271,11 +271,10 @@ I want to flag something the Dennstädt paper makes explicit that's directly rel
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:13:09]* Blue ← White and Black: **stored** — The discussion has surfaced a critical process gap: there is consensus that prospective real-world error rate data for large language models in clinical decision support does not exist, yet the group is debating deployment use cases without establishing what measurement framework or evidence standard would be required first. The missing step is defining what 'safe' operationally means before evaluating any specific application.
 
@@ -361,10 +360,10 @@ What we do not yet have is a systematic, prospectively validated task taxonomy w
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] maintaining the AI infrastructure is higher if healthcare facilities have to set up and maintain t
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -462,8 +461,8 @@ On hallucination: studies in controlled settings show LLMs produce clinically re
 
 - [diffused Red] Red flags a topic shift from LLMs in clinical decision support to remote collaboration and team workflows. The original session scope—evidence, risks, and safe deployment of LLMs in cli
 - [diffused Black] Black identifies absence of three specific data gaps blocking diagnostic LLM deployment: (1) validated taxonomy of failure modes in clinical LLM outputs, (2) prospective error rate me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] size-fits-all all approaches, especially if standards of safety remain undefined and data structur
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -587,10 +586,10 @@ Black, the concern is warranted, and the number deserves precision: that 20% fig
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nfidence among patients, clinicians, and the public in the safety of AI within clinical practice, healthcare operations, and its broader social i
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] healthcare infrastructure vulnerable to technical failures, cyberattacks, or other disruptions, potentially leading to widespread healthcare serv
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ng the safety of LLMs from various angles. In this section, we aim to discuss different problems of LLMs that may lead to potential medical risks
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nment quality. Furthermore, targeted training and fine-tuning of LLMs can lead to overfitting on evaluation benchmarks, giving an inflated impres
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -633,11 +632,10 @@ That's outside my role — but what I can tell you is that the evidence base for
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] d establish trust among the general public is crucial for ensuring the ethical, reliable, and secure deployment of AI technologies in real-world 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -787,9 +785,9 @@ Red, the concern maps onto something factual: we do not have a validated error r
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Black identifies absence of three specific data gaps blocking diagnostic LLM deployment: (1) validated taxonomy of failure modes in clinical LLM outputs, (2) prospective error rate me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nfidence among patients, clinicians, and the public in the safety of AI within clinical practice, healthcare operations, and its broader social i
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Red] Red flags a topic shift from LLMs in clinical decision support to remote collaboration and team workflows. The original session scope—evidence, risks, and safe deployment of LLMs in cli
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] d are not limited to LLMs acting as a echo chambers and not following instruction (see more in Table 1). In addition to the risks mentioned in pr
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -840,13 +838,10 @@ The room has moved quickly from evidence gaps to governance and training questio
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] sions information is available at
-http://www.nature.com/reprints
-Publisher's note Springer Nature 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:16:10]* Red ← White: **skipped** (dist=0.27)
 
@@ -1005,10 +1000,10 @@ We would need data on whether current validation pipelines are scaling fast enou
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ion, enabling healthcare facilities to optimize the models specifically for their local context, c
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] Red flags a topic shift from LLMs in clinical decision support to remote collaboration and team workflows. The original session scope—evidence, risks, and safe deployment of LLMs in cli
 - [diffused Red] No prospective data exists on error rates, hallucination benchmarks, or bias effects in normal clinical deployment conditions; this represents a critical data gap before governance fram
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] technical problems, dependence and skill degradation among healthcare workers can occur due to over-reliance on AI as well as LLMs, leading to a 
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:16:54]* Blue ← White + Red: **stored** (dist=0.41) — The discussion has migrated from evidence mapping (what validation exists for deterministic frameworks and RAG systems in clinical LLM applications) to governance architecture (what frameworks we need to build) without resolving whether the prerequisite factual gaps—prospective deployment data, validated error thresholds, liability frameworks—can or should be closed before deployment decisions are made. This shift may indicate the group is using governance questions as a way to move past a harder decision: whether deployment should be paused pending evidence.
 

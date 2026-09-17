@@ -184,10 +184,10 @@ This is directly relevant to Green's cascade idea and Black's timing concern. Wh
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] interventional arm either did not have a LAO or had an inaccessible, distally located thrombus.
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:47:38]* Red ← Blue: **stored** — To start our discussion on new treatment approaches for acute ischemic stroke, let's first establish a baseline. White Hat, could you outline what treatments we currently use and where we see the biggest limitations or opportunities? That will ground the rest of our thinking.
 
@@ -532,8 +532,8 @@ However, there are case series and registry data — small in number — reporti
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Yellow] And yet, even with the established evidence of mechanical thrombectomy’s impact – like the numbers needed to treat from the DAWN and DEFUSE-3 trials – the upside is that it demonstra
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] nts in the interventional arm of SYNTHESIS Expansion were not administered IV-tPA, the use of w
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Green] What if we stopped thinking about stroke as a single event and treated it more like a cascade we could interrupt at multiple points? Like, we've got the clot itself, sure, but also th
 
 > *[Diffusion 13:49:06]* Red ← Blue: **stored** — That is our new directive. White Hat, can you provide us with the established evidence on mechanical thrombectomy's actual impact on outcomes and what the specific limitations are? This will provide the necessary foundation for the next phase of our analysis.
@@ -687,7 +687,7 @@ The critical gap I need to flag is this: most accuracy data for AI stroke tools 
 
 - [diffused Green] What if we stopped thinking about stroke as a single event and treated it more like a cascade we could interrupt at multiple points? Like, we've got the clot itself, sure, but also th
 - [diffused Black] The most significant risk with multi-stage cascade intervention approaches — like what Green Hat is describing — is the time constraint. Stroke outcomes degrade by roughly 1.9 million
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Blue] To start our discussion on new treatment approaches for acute ischemic stroke, let's first establish a baseline. White Hat, could you outline what treatments we currently use and where
 
 > *[Diffusion 13:49:47]* Green ← Yellow: **stored** — And yet, even with the established evidence of mechanical thrombectomy’s impact – like the numbers needed to treat from the DAWN and DEFUSE-3 trials – the upside is that it demonstrably improves functional outcomes for a subset of patients. That said, the value is clearly tied to rapid identification and intervention, which is precisely where Black Hat’s concerns about timing and the potential for delays really come into focus.
@@ -803,10 +803,10 @@ What is known is that the reasons for phase III failure have not been uniform. S
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ated extravasation of immune cells into the brain parenchyma and the formation of brain edema [7]. The latter
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 

@@ -178,10 +178,10 @@ Green raised the CSF delivery idea — that is not purely speculative. Intrathec
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:39:07]* Red ← Yellow: **stored** — That’s a great approach Blue, because it sets clear criteria upfront, so we focus our energy on ideas with real potential. Defining worth by factors like feasibility, impact on patients, and innovation means we can invest our time wisely and possibly accelerate finding effective treatments. It creates value by aligning everyone’s expectations and streamlining decision-making.
 
@@ -638,7 +638,7 @@ Black raises a valid concern about sample sizes — that needs to be on the reco
 - [diffused Red] *pauses, then nods*
 
 Yeah, okay—so White's laying out the evidence cleanly. CAR-T feels like it has real teeth behind it, you know? There are actual trials running, actual kids in them,
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] fication reflects shared molecular drivers and biological behavior, regardless of exact anatomic
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:40:55]* Blue ← Green: **stored** — What if we design CAR-T cells that can switch targets dynamically—like a “universal” CAR-T platform where we swap tumor antigens as new ones emerge? Or imagine “checkpoint amplifier” implants that locally boost immune activation only around the tumor for a set time, kind of like flipping an immune switch. Or—what if we train the patient’s microbiome to modulate brain immune responses, indirectly enhancing checkpoint inhibitor effect? Just tossing these out—maybe one sparks something!
 
@@ -736,7 +736,7 @@ The molecular mechanisms question is well-timed — what is known is that the H3
 - [diffused Green] What if we temporarily ignore feasibility and just brainstorm the wildest possible interventions—like using engineered viruses that only target tumor cells, or leveraging AI to design
 - [diffused Yellow] That’s a great approach Blue, because it sets clear criteria upfront, so we focus our energy on ideas with real potential. Defining worth by factors like feasibility, impact on patie
 - [diffused Blue] Good, let’s narrow to immunotherapy for DMG. White Hat has started the evidence base; next I want White on what is actually known for CAR-T versus checkpoint inhibitors, Red on likely 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:41:20]* Yellow ← Green: **stored** — What if we design CAR-T cells that can switch targets dynamically—like a “universal” CAR-T platform where we swap tumor antigens as new ones emerge? Or imagine “checkpoint amplifier” implants that locally boost immune activation only around the tumor for a set time, kind of like flipping an immune switch. Or—what if we train the patient’s microbiome to modulate brain immune responses, indirectly enhancing checkpoint inhibitor effect? Just tossing these out—maybe one sparks something!
 
@@ -825,10 +825,10 @@ The H3 K27M mutation is the clearest mechanism-to-target link available: it is p
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Let’s answer the facilitator’s question directly. So far, the strongest evidence within immunotherapy for DMG appears to sit with CAR-T approaches, because there are early clinical sig
 - [diffused Blue] Good, let’s narrow to immunotherapy for DMG. White Hat has started the evidence base; next I want White on what is actually known for CAR-T versus checkpoint inhibitors, Red on likely 
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] of DMG tumors, are associated with DMG tumorigenesis [6,25,26]. Specific molecular alterations 
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:41:45]* Red ← Yellow: **stored** — The strongest evidence so far really centers on CAR-T therapies because they have entered early clinical trials with measurable activity, which gives us a tangible starting point. This matters because it creates a foundation to build and refine targeted immune approaches, potentially improving survival where options are limited. The value here is that CAR-T offers a clear, actionable path forward, and even if challenges remain, it brings us closer to personalized treatment that can adapt as we learn more. Checkpoint inhibitors might still play a role, especially in combination strategies, but CAR-T is currently the lead in demonstrated promise.
 

@@ -303,11 +303,10 @@ To follow up on what Black just laid out — there is data available that can sh
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] elae [87]. To discover clinically significant immunotherapies for the treatment of DMGs, robust 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] . Several Fig. 1 Systematic filtering and selection of DMG trials
-![](https://cdn.mathpix.com/cr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] 12) Immunotherapy-related cognitive impairment after car T cell therapy in mice. Cell [Internet]
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:02:51]* Green ← Black: **stored** — GD2-targeted CAR-T therapy's transient responses in H3K27M-mutant tumors could inspire hybrid approaches: combining CAR-T with checkpoint modulators to sustain responses, or sequencing GD2-CAR-T with ONC201's DRD2 antagonism to address the immunologically cold microenvironment that has defeated checkpoint inhibitors alone.
 
@@ -652,11 +651,10 @@ There is one mechanistic point worth flagging proactively here. H3K27M mutation 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] odalities, overcoming the BBB barrier, and/or exploring new drug packaging methods, there is ho
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:04:45]* Blue ← White: **stored** (dist=0.38) — The discussion has established three distinct evidence tiers: GD2-targeted CAR-T (radiographic signals only, no survival data, small case series), ONC201 (Phase II median overall survival data in H3K27M-mutant midline glioma subgroup, no Phase III results), and checkpoint inhibitors (mechanistically contraindicated by immunologically cold tumor microenvironment). The critical missing layer is not efficacy ranking but rather agreement on what evidence threshold triggers a recommendation — the group has not yet defined whether Phase II survival signals without durability data or safety confirmation in small cohorts meets the bar for clinical use versus research enrollment.
 
@@ -917,12 +915,9 @@ There is no data on the weather outside or what the room looks like — that is 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] 9d-8ca7-b02f6c3a98d7-15.jpg?height=886&width=1335&top_left_y=1319&top_left_x=350)
-FIG A4. ONC016 C
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] l Arrillaga-Romany
-Consulting or Advisory Role: FORMA Therapeutics, Boehringer Ingelheim, SERVIER
-
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] himerix (Inst), Karyopharm Therapeutics (Inst), Servier (Inst), Black Damond (Inst), Erasca, Inc (
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 - [diffused Red] Red's statement that families are being asked to 'experiment on their children' and that all three modalities are 'still experimental' is an accurate characterization of the evidence st
 
 > *[Diffusion 05:06:04]* Yellow ← White: **skipped** (dist=0.35)
@@ -996,11 +991,10 @@ Across the published ONC201 trial data, H3K27M mutation status is the most consi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] mage, Nicole Shonka, Ashley Sumrall, Rohinton S. Tarapore, Yoshie Umemura Manuscript writing: All 
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 - [diffused Black] ONC201 has Phase II data demonstrating modest survival extensions, but the evidence gap is whether these extensions reflect genuine disease modification or represent a slower trajecto
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] ere were no treatment-related deaths or discontinuations. This safety profile suggests that ONC201
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] slow
-onset of response also suggests that evaluation in the frontline setting, where PFS is prolon
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 
 ---
 

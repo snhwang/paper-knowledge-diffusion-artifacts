@@ -184,11 +184,10 @@ Black raises a point worth grounding in specifics. The asymmetry is real. As of 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ic increase in use since the initial reports from the clinical trials programme that showed it to
-be effec
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -325,11 +324,10 @@ Black's point on PML risk is factually supported. The estimated incidence in JC 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] switch to more effective treatment alternatives. ${ }^{79}$ For patients where the disease is clearly aggr
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] cond-line therapy option for most MS patients with active, non-progressive disease. However, as an off-lab
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -475,11 +473,10 @@ What we do have are several retrospective analyses and propensity-matched studie
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] switch to more effective treatment alternatives. ${ }^{79}$ For patients where the disease is clearly aggr
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] adverse events were reported. The study also found a reduction in relapses and lesions found on (magnetic 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 13:30:25]* Yellow ← Yellow: **stored** (dist=0.50) — The discussion about the lived experience of drug treatment, particularly highlighting the difference between an infusion schedule and a daily pill, is a valuable point. It suggests we need to broaden our definition of 'safety' beyond just clinical metrics and consider the patient's overall well-being and tolerance.
 
@@ -556,11 +553,9 @@ On the facilitator's question about remyelination: the available data is early-s
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] r contrast-enhancing lesions and a lower proportion with relapses, throughout the study period. However, m
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] nger intervals between infusions are currently being investigated.
-![](https://cdn.mathpix.com/cropped/4ef
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Black] Black Hat raised that the risk of progressive multifocal leukoencephalopathy (PML) with natalizumab scales with JC virus antibody status and treatment duration, and that appropriate p
 
 > *[Diffusion 13:30:55]* Blue ← White: **skipped** (dist=0.34)
@@ -628,10 +623,10 @@ Currently, there is no validated biomarker — fluid or imaging — to reliably 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] cyte lineage cells in cell cultures or histological analysis in vivo, could only be found in studies in
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] tological quantification of myelin [23], Transmission Electron Microscopy (TEM) of the sections of remy
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 

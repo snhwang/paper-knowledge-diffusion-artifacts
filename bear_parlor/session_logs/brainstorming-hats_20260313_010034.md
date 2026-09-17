@@ -295,8 +295,8 @@ The weather update shows it's a clear day today, with temperatures around 25°C.
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Great, let's explore these new treatments! Our current ones are tough to deal with, so something that even slightly improves quality of life could be a game-changer.
 - [diffused Blue] Alright, let's start with the White Hat. What do we actually know about diffuse midline gliomas? Their characteristics, recent research findings, current treatments' effectiveness...le
 
@@ -612,7 +612,7 @@ To help understand CAR-T's potential for DMG, we know it's been FDA-approved for
 - [diffused Blue] Great, let's explore immunotherapy options like CAR-T or checkpoint inhibitors. Red Hat was right to raise the concern about resources, but perhaps we can find a balance between explor
 - [diffused Blue] Blue Hat here. The facilitator has asked which of these approaches, CAR-T or checkpoint inhibitors, has the strongest evidence so far. White Hat, could you provide a comparison based o
 - [diffused Red] *nods* That resonates with me. I feel a glimmer of hope when I think about focusing our efforts like that, Green. It feels less... scattered than our current approach. But *pauses* I st
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 01:04:14]* Blue ← White: **stored** — The weather update shows it's a clear day today, with temperatures around 25°C. Relevant to our discussion, climate hasn't been factored into the potential impact of new treatments on patients' comfort.
 

@@ -228,11 +228,10 @@ There is one data point worth flagging before we go further: the efficacy gains 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ic increase in use since the initial reports from the clinical trials programme that showed it to
-be effec
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 04:45:29]* Red ← White: **stored** — The relapse rate reductions of 50–70% from high-efficacy agents like natalizumab and ocrelizumab stir hope and urgency—patients and clinicians feel the weight of those numbers as potential liberation from unpredictable attacks. Yet that same efficacy comes shadowed by serious monitoring burdens and infection risks, creating anxiety about whether the trade-off is worth the peace of mind.
 
@@ -340,10 +339,9 @@ Newer high-efficacy agents — natalizumab, ocrelizumab, alemtuzumab — demonst
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Newer high-efficacy agents carry documented serious adverse event rates of 2–8% (progressive multifocal leukoencephalopathy, severe infections, malignancy signals) versus <1% for older
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Newer high-efficacy disease-modifying therapies (e.g., natalizumab, fingolimod, ocrelizumab) demonstrate 40–70% reduction in annualized relapse rates and MRI lesion activity compared t
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 04:45:58]* Blue ← White: **stored** — The discussion has surfaced a critical evidence asymmetry: relapsing-remitting MS dominates the trial literature for both established agents (natalizumab, ocrelizumab, alemtuzumab) and emerging candidates (Bruton's tyrosine kinase inhibitors, opicinumab), while progressive MS subtypes remain substantially under-represented in head-to-head comparative data. This gap means the group is currently unable to validate whether the 40–70% relapse-rate improvements claimed for newer high-efficacy agents apply to progressive disease, leaving treatment guidance for that population on weaker evidentiary ground.
 
@@ -548,10 +546,10 @@ There is a specific data point the group has not yet named directly: two randomi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] tological quantification of myelin [23], Transmission Electron Microscopy (TEM) of the sections of remy
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] cyte lineage cells in cell cultures or histological analysis in vivo, could only be found in studies in
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 04:47:08]* Red ← White: **skipped** (dist=0.29)
 
@@ -895,7 +893,7 @@ There is a relevant data point here that the group should have before going furt
 - [diffused Blue] Early high-efficacy treatment initiation versus escalation-based treatment strategies show different outcome profiles: early high-efficacy approaches reduce relapse frequency and new l
 - [diffused Blue] Newer high-efficacy agents carry documented serious adverse event rates of 2–8% (progressive multifocal leukoencephalopathy, severe infections, malignancy signals) versus <1% for older
 - [diffused Blue] Newer high-efficacy disease-modifying therapies (e.g., natalizumab, fingolimod, ocrelizumab) demonstrate 40–70% reduction in annualized relapse rates and MRI lesion activity compared t
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 

@@ -296,10 +296,10 @@ The current evidence on thrombectomy limitations is actually fairly specific. Ap
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Understood — we’re on stroke treatment and prevention end to end. Let’s keep it in two lanes: acute intervention first, then long-term secondary prevention, and make sure we separate w
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:25:23]* Green ← Yellow: **stored** — This is a great focus because stroke treatment and prevention offer real opportunities to save lives and improve quality of life. The value here is huge—effective acute intervention can drastically reduce disability, and strong secondary prevention can cut recurrence rates significantly. If we build on advances like faster clot retrieval and personalized risk management, the overall health system burden could be meaningfully lessened. This could mean patients regain independence more often and healthcare resources are better allocated.
 
@@ -361,10 +361,10 @@ To add precision to what has already been established: mechanical thrombectomy a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:25:42]* Blue ← Yellow: **stored** — This is a great focus because stroke treatment and prevention offer real opportunities to save lives and improve quality of life. The value here is huge—effective acute intervention can drastically reduce disability, and strong secondary prevention can cut recurrence rates significantly. If we build on advances like faster clot retrieval and personalized risk management, the overall health system burden could be meaningfully lessened. This could mean patients regain independence more often and healthcare resources are better allocated.
 
@@ -474,7 +474,7 @@ To ground the neuroprotection question in what is actually established: therapeu
 - [diffused Blue] Understood — we’re on stroke treatment and prevention end to end. Let’s keep it in two lanes: acute intervention first, then long-term secondary prevention, and make sure we separate w
 - [diffused Yellow] This is a great focus because stroke treatment and prevention offer real opportunities to save lives and improve quality of life. The value here is huge—effective acute intervention 
 - [diffused Green] I wonder what would happen if we re-imagined the "stroke response" as something like a fire drill — what if every community practiced stroke drills the way they do for fires, so bysta
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:26:13]* Black ← Blue: **stored** — So far we have a useful split: acute care is constrained by time and system access, while secondary prevention is constrained more by sustained adherence and patient capability. Green and Black have narrowed the adherence lane nicely toward low-burden supports rather than novelty for its own sake. White, can you ground us in what actually has evidence in secondary prevention adherence support, and Red, after that I want the patient-experience angle on what feels supportive versus patronizing?
 
@@ -615,9 +615,9 @@ To be precise about what is actually established here: mobile stroke units have 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] s recombinant tissue plasminogen activator, mRS=modified Rankin Scale, NIHSS=National Institute
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Understood — we’re on stroke treatment and prevention end to end. Let’s keep it in two lanes: acute intervention first, then long-term secondary prevention, and make sure we separate w
 
 > *[Ingestion 05:26:52]* White: indexed 46 chunks from *neuroprotection*
@@ -683,10 +683,10 @@ The mood in the room is tilting toward optimism about systems-based approaches, 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ol material could reduce T2D-associated stroke outcome deterioration [88]. Hence, specific targeting of the g
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -977,11 +977,10 @@ Red raised something worth examining factually. The claim that emotional burden 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 ---
 

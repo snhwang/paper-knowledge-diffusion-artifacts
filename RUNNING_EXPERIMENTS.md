@@ -18,6 +18,19 @@ about what is and is not reproducible, because the distinction is easy to blur.
 | Benchmark harnesses (`benchmarks/`) | Approximately | Require live LLM APIs. Sampling is stochastic, and providers update models behind stable names. |
 | Regenerating panel sessions | **No** | Needs the non-redistributable source PDFs and a Mathpix account, and is stochastic besides. See below. |
 
+**Source-paper text is not in this repository.** The source PDFs are copyrighted,
+so their text has been removed from every session log
+(`bear_parlor/strip_source_text.py`): White Hat's ingested PDF chunks are
+dropped from each `.knowledge.json` (counted in `omitted_pdf_chunks`), and
+Knowledge RAG excerpts quoting a paper are replaced by their citation. What the
+hats said, BEAR retrieval tables, diffusion notes and stats are unchanged, so
+every analysis of diffusion-sourced items and responses reproduces. Two outputs
+that also counted the PDF chunks can no longer be regenerated from this
+repository, though their committed results remain:
+`evals/results/interhat_reconciled.json` (run without `--diffusion-only`) and
+`evals/results/architecture_baselines_withpdf.json` (`--include-pdf`).
+Earlier commits still contain the April logs as originally recorded.
+
 ### Why panel sessions cannot be regenerated exactly
 
 1. **The source PDFs are not redistributable.** Each session was seeded with

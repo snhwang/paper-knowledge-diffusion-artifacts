@@ -316,10 +316,10 @@ Staying with the rituximab question the facilitator just raised — here is what
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] is the main author or co-author of several of the studies reported on in this review. ## CONFLICT OF INTER
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:40:50]* Black ← Green: **stored** — Jumping in—what if we reimagine the whole MS treatment landscape, not just in terms of drugs but as a multi-modal ecosystem? Could we explore therapies that combine digital, biological, and even social interventions—a sort of “MS toolkit” that adapts as the disease evolves? Or what if we crowdsource symptom-tracking globally, then use that real-world data to spot micro-trends in progression that clinical trials miss? Maybe there’s space for radical partnerships: what could happen if MS patients and researchers co-designed the next generation of trials or care platforms?
 
@@ -740,10 +740,10 @@ The evidence base here requires some precision. What is established is that vali
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ed controlled and uncontrolled trials, respectively. For preclinical trials, the SYRCLE RoB tool [96] (
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -862,11 +862,10 @@ I need to flag something for the group. The available trial data on remyelinatio
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] 6&width=33&top_left_y=125&top_left_x=1341)
-![](https://cdn.mathpix.com/cropped/a1e519d5-f2b2-403e-af6b-
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] is review additionally incorporated articles with indirect measurements of remyelination, including neu
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:43:23]* Red ← Black: **stored** — The risk I want to flag before we even get into the biology is this: the field has repeatedly conflated "mechanisms associated with progression" with "mechanisms that drive progression." We see smoldering plaques, chronic microglial activation, mitochondrial dysfunction, meningeal inflammation — but the causal hierarchy is unresolved. If we build therapeutic strategies targeting, say, microglial activation without knowing whether it's a driver or a downstream consequence of something else, we could invest billions in drugs that modify a biomarker without altering the disease course.
 
@@ -967,12 +966,10 @@ There is a data point worth surfacing before we move too far into biomarker terr
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] iority of rituximab compared with ocrelizumab,
-![](https://cdn.mathpix.com/cropped/1497c941-54db-4afe-9d19
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ls.gov |
-| rTMS | Randomized, shamcontrolled phase I clinical trial |  |  | RMS, SPMS | DTI, MTR | Safe
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] -NonCommercial-NoDerivs License, which permits use and distribution in any medium, provided the origina
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:43:47]* Yellow ← White: **stored** — The evidence base here requires some precision. What is established is that validated, clinically actionable remyelination evidence in humans remains limited — most mechanistic confirmation comes from preclinical models, not human trials. To Yellow's point about actionable targets: the systematic review data indicates that among approved DMTs, only a subset — specifically glatiramer acetate, teriflunomide, fingolimod, siponimod, ponesimod, and alemtuzumab — have demonstrated effects on oligodendrocyte lineage cells, and this was documented primarily through cell culture manipulation or animal histology, not human repair confirmation. The distinction Yellow is drawing between neuroprotection and repair is real, and currently the tools to separate them in clinical trials — validated imaging biomarkers for remyelination — are explicitly noted as lacking.
 

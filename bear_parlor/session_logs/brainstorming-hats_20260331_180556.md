@@ -154,7 +154,7 @@ Black raises a valid point that deserves factual grounding. What is known is tha
 
 - [diffused Blue] We're making excellent progress now by really pinning down the boundaries of our current knowledge. Thanks, White, for that crucial clarification on generalizability. We've got our bas
 - [session insight] Here are the notable insights from this session:
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Green] I hear you, Red — that urgency is real. But what if we used that energy differently? Instead of the standard drug pipeline approach, what if we flipped it — what if we started with th
 
 ---

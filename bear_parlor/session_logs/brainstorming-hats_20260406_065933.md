@@ -172,10 +172,10 @@ That is outside my role here. What is known is that Black raised a specific figu
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:00:46]* Green ← Blue: **stored** — The problem as I understand it is broad: promising therapeutic strategies for Alzheimer’s disease. To keep us moving, let’s open with idea generation before we test or rank anything — Green, what strategy directions should be on the table?
 
@@ -678,7 +678,7 @@ The room is treating Yellow's clinical staging as established fact — worth fla
 - [diffused Blue] The problem is promising new therapeutic strategies for Alzheimer’s disease, and we need breadth first, then testing. So far we have a reminder of the human stakes from Red and no evid
 - [diffused Yellow] Red, your honesty about feeling nervous around the "neglected" angle is important, and I think that tension is actually constructive. The value here is in balancing established clini
 - [diffused Blue] The problem as I understand it is broad: promising therapeutic strategies for Alzheimer’s disease. To keep us moving, let’s open with idea generation before we test or rank anything — 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:02:48]* Blue ← Black: **stored** — I want to come back to something before we move through this list too quickly. Green put five or six mechanisms on the table — tau, neuroinflammation, synaptic dysfunction, vascular factors, gut-brain axis — and Yellow is already building enthusiasm around multi-target approaches. The risk is that breadth gets mistaken for depth. Each of those targets is at a very different stage of clinical validation, and lumping them together as equally "promising" obscures the fact that some, like gut-brain axis therapeutics, have almost no Phase III data behind them, while tau-targeting approaches at least have several trials in progress. White, before we go further, we need to know which of these actually have clinical-stage programs and which are still largely preclinical hypotheses.
 

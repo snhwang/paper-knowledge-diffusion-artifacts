@@ -231,11 +231,10 @@ One thing that has been sitting with me: the Dennstädt framework distinguishes 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:48:06]* Black ← Yellow: **stored** — Large language models passing USMLE at 90% accuracy creates a false confidence anchor that obscures the critical gap: benchmark performance on curated questions does not predict error rates in messy real-world clinical workflows where patients have comorbidities, drug interactions, and incomplete records. The assumption that high standardized test scores transfer to clinical safety is unvalidated and historically dangerous in medicine.
 
@@ -402,10 +401,10 @@ One data point worth noting quietly: Red's gut reaction to sepsis management ver
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused White] Documented evidence: multiple peer-reviewed studies have identified fabricated drug interactions and dosing errors produced by large language models that clinicians rated as highly pl
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] maintaining the AI infrastructure is higher if healthcare facilities have to set up and maintain t
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -625,10 +624,10 @@ That is outside my role here. What is known is that the structural gap Black ide
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] cess to the model but need to access the model by providing queries and contextual data to an online portal. In healthcare, most data belongs to 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ey are trained on, which occasionally leads to nonsensical or inappropriate responses with erroneous domain knowledge ${ }^{2728}$. ## Safety cha
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -735,11 +734,10 @@ I need to flag something before we go there — we have a direct question on the
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] d establish trust among the general public is crucial for ensuring the ethical, reliable, and secure deployment of AI technologies in real-world 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:50:34]* Green ← Black: **stored** (dist=0.40) — The silent retrieval failure in RAG systems—where the retrieval layer misses critical evidence but the language model still generates confident, plausible output—could be reframed as an opportunity to design *transparent uncertainty signals* into clinical workflows. What if the constraint isn't eliminating hallucination, but making the *confidence boundary* visible to clinicians in real time? This opens lateral possibilities: confidence-weighted output formatting, mandatory evidence-chain visualization, or even adversarial retrieval testing that deliberately surfaces what the system *can't* find.
 
@@ -848,11 +846,10 @@ One published example is Arriola-Montenegro et al. 2025, which tested a determin
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] . The model produced free-text recommendations, which were then evaluated against in
-- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] nitude or timing were classified as protocol deviations rather than partially adhere
+- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] (excerpt omitted: copyrighted source text)
+- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] (excerpt omitted: copyrighted source text)
 - [diffused Red] The stated rationale for LLM deployment is to reduce burden on exhausted clinicians; the proposed safety mechanism is clinician verification of LLM output — this creates a logical tensi
-- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] a loosely defined natural language prompt.
-- Phase 2 : testing with a fully determin
+- [Arriola-Montenegro et al. 2025 — A deterministic large language model (LLM) framework for safe, protocol-adherent] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -885,13 +882,10 @@ The room has moved from evidence review into governance and training, which is a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] sions information is available at
-http://www.nature.com/reprints
-Publisher's note Springer Nature 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:51:19]* Yellow ← White: **stored** (dist=0.62) — Arriola-Montenegro et al. 2025's AnemiaCare HD framework demonstrates that deterministic rule sets, timing safeguards, and safety checks built directly into prompt architecture can achieve measurable protocol adherence gains in a real clinical deployment — this proves the basic mechanism works and creates a foundation for expanding similar approaches to other protocol-driven domains.
 
@@ -960,10 +954,10 @@ Several governance elements are already emerging. The EU AI Act classifies high-
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] tasks, the distrust towards medical AI models further intensify when people realize these machine intelligence can, in some cases, surpass human 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] quality of care. Advanced AI models, such as deep neural networks, often lack transparency, making it challenging to understand and anticipate th
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] f these risks highlights the critical need for rigorous testing, validation, and ethical considerations in the deployment of AI in medicine in or
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:51:41]* Green ← White: **skipped** (dist=0.31)
 
@@ -1078,10 +1072,10 @@ For responsible integration to be evidence-based in five years, several concrete
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [session insight] 1. LLMs used in clinical decision support show a documented performance gap between standardized benchmark accuracy (e.g., GPT-4 at ~90% on USMLE) and real-world clinical utility, wi
 - [diffused Red] The stated rationale for LLM deployment is to reduce burden on exhausted clinicians; the proposed safety mechanism is clinician verification of LLM output — this creates a logical tensi
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:52:23]* Black ← White: **stored** (dist=0.55) — The Arriola-Montenegro et al. 2025 AnemiaCare HD study evaluated protocol adherence in a single center with a deterministic GPT framework, but the study provides no data on clinician detection rates when AnemiaCare HD produces errors—meaning the system's actual safety depends on an unmeasured human factor that could fail silently or inconsistently across different clinical contexts.
 

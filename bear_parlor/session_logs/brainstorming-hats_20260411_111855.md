@@ -284,10 +284,10 @@ There is one limitation of mechanical thrombectomy that I want to flag before we
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:20:46]* Blue ← White/Black: **stored** — The discussion has moved from acute intervention efficacy (where protocols are clear) to secondary prevention adherence (where evidence is sparse and implementation is failing), but the group hasn't yet mapped what information would be needed to distinguish between a knowledge gap, a system design gap, or a patient-behavior gap in the 25% five-year recurrence rate. The process reveals that White has data on prevalence of the problem but the group lacks shared diagnostic clarity on its root cause.
 
@@ -507,8 +507,8 @@ The evidence base here is actually quite sparse — to Yellow's point, over a th
 
 - [diffused Black] Discharge protocols documented in current practice typically consist of a medication list and a follow-up appointment scheduled 6 weeks post-discharge; empirical evidence on intervent
 - [diffused Red, Black] The transition from acute stroke care to chronic secondary prevention represents a documented systemic failure point; the specific mechanisms driving this failure (patient non-ad
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -632,10 +632,10 @@ There is no data available on the current conditions outside or the state of the
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ol material could reduce T2D-associated stroke outcome deterioration [88]. Hence, specific targeting of the g
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:22:21]* Blue ← Red: **skipped** (dist=0.33)
 
@@ -796,11 +796,10 @@ Black has named the right framing. What is known: adherence and dosing failures 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ${ }^{59}$ If cancer-related coagulopathy is suspected, further targeted investigations should be under
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] perior prevention of stroke or SE with random assignment to apixaban 5 mg twice daily compared with asp
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] the earlier than the later group, but without reaching statistical significance. The CATALYST meta-anal
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] AF. ${ }^{87}$ The effect of Aspirin compared to no treatment or placebo in a
-population exclusively co
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -855,11 +854,10 @@ There is a data gap that has been sitting underneath this entire conversation: w
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:23:32]* Red ← Black: **stored** (dist=0.44) — The 25-30% discontinuation rate for DOACs within two years carries an undercurrent of patient abandonment and clinical helplessness — the frustration that even when we have a modestly superior drug, our inability to keep patients taking it transforms that advantage into failure. This gap between what the evidence promises and what actually happens in living rooms and pharmacies triggers a sense of systemic betrayal.
 

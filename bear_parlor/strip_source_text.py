@@ -16,6 +16,7 @@ byte-identical to the originals outside the RAG blocks.
 
 Usage:
     python bear_parlor/strip_source_text.py --src <full logs dir> --dst <repo logs dir>
+    python bear_parlor/strip_source_text.py --src <dir> --dst <same dir>   # in place
 """
 
 from __future__ import annotations
@@ -28,7 +29,7 @@ import sys
 from pathlib import Path
 
 HEADER = re.compile(r"\*\*Knowledge RAG\*\* for \w+ \(\d+ chunks?\):\n")
-BLOCK_END = re.compile(r"\n(?=> \*\[|---\n|### |<details>|\*\*Knowledge RAG\*\*)")
+BLOCK_END = re.compile(r"\n(?=> \*\[|---\n|#{1,6} |<details>|\*\*Knowledge RAG\*\*)")
 ITEM = re.compile(r"(?m)^- \[(.*?)\] ")
 OMITTED = "(excerpt omitted: copyrighted source text)"
 
@@ -92,6 +93,9 @@ def main():
     args = ap.parse_args()
     src, dst = Path(args.src), Path(args.dst)
     dst.mkdir(parents=True, exist_ok=True)
+    # --src and --dst may be the same directory: files are read in full before
+    # being rewritten, and stats / panel state are simply left where they are.
+    in_place = src.resolve() == dst.resolve()
 
     probes, n_md, n_kj, n_excerpts = set(), 0, 0, 0
     for md_path in sorted(src.glob("brainstorming-hats_*.md")):
@@ -121,10 +125,10 @@ def main():
             n_kj += 1
 
         stats = md_path.with_name(md_path.name[:-3] + ".stats.json")
-        if stats.exists():
+        if stats.exists() and not in_place:
             shutil.copyfile(stats, dst / stats.name)
 
-    if (src / "panel_state").is_dir():
+    if (src / "panel_state").is_dir() and not in_place:
         shutil.copytree(src / "panel_state", dst / "panel_state", dirs_exist_ok=True)
 
     # verification ---------------------------------------------------------

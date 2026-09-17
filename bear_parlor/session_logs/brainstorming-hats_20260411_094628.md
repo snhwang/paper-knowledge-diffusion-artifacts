@@ -179,11 +179,10 @@ The group is operating on a mix of verified fact and unverified assumption right
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however, is beyo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been debated lon
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:47:49]* Black ← Green: **stored** — What if the unease itself is telling us something important? Maybe we should design a "gut check" step into the CRISPR therapy decision process — like a built-in pause for ethical discomfort. Or, what if we invited ethicists or even artists to brainstorm scenarios before therapies are approved? Just riffing, but sometimes the weirdest voices see the cracks first.
 
@@ -271,11 +270,10 @@ What is known on the enforcement gap is fairly concrete. The He Jiankui case in 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Regulations for clinicalresearch involvinghuman subjects | 1 | established framework in some countries to manage
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] se that might be obliterated optimally early in embryonic development, and the exercise of free speech. ${ }^{13
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (U.S.). 2015. Available from: http:// nationalacademies.org/cs/groups/pgasite/documents/webpage/pga_170455.pdf
-9
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] t to these populations might be desirable and/or lucrative? Will such foods be able to safely and successfully s
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:48:10]* Red ← Green: **stored** — What if the unease itself is telling us something important? Maybe we should design a "gut check" step into the CRISPR therapy decision process — like a built-in pause for ethical discomfort. Or, what if we invited ethicists or even artists to brainstorm scenarios before therapies are approved? Just riffing, but sometimes the weirdest voices see the cracks first.
 
@@ -685,8 +683,7 @@ What we do not yet know is whether efficacy in small early-phase trials translat
 - [diffused Blue] Let’s structure this under three governance buckets the Visitor named: somatic vs. germline rules, equity of access, and consent. For somatic use, the priority is strong clinical overs
 - [diffused Blue] Good reset: the problem is broad, so let’s keep it in three lanes — mechanism, current clinical reality, and ethics/governance ahead. So far we have the basic Cas9 targeting mechanism 
 - [diffused Black] Blue, you've been asking for failure modes, so let me lay out what I see. The He Jiankui case is exactly the cautionary tale here — prohibitions existed and someone blew right through
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (U.S.). 2015. Available from: http:// nationalacademies.org/cs/groups/pgasite/documents/webpage/pga_170455.pdf
-9
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:49:52]* Red ← Black: **stored** — Blue, you've been asking for failure modes, so let me lay out what I see. The He Jiankui case is exactly the cautionary tale here — prohibitions existed and someone blew right through them, which tells us that any governance framework built primarily on voluntary compliance or soft guidance is structurally inadequate for germline work. That's not pessimism, that's an engineering assessment of a system that already failed under load.
 
@@ -823,10 +820,9 @@ The room is generating a lot of heat around what patients experience versus what
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] news-events/press-announcements/fda-roundup-december-19-2023
-[15] Orkin SH. Recent advances in gl
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good reset: the problem is broad, so let’s keep it in three lanes — mechanism, current clinical reality, and ethics/governance ahead. So far we have the basic Cas9 targeting mechanism 
 
 ---
@@ -1034,11 +1030,10 @@ On the Visitor's actual question: the three barriers named — delivery, off-tar
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] m of free speech? ${ }^{139}$ Alternatively, what authority should may stop individuals from exercising their ri
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] 1 | potential to encroach on societal autonomy limit discovery and progress |
-|  |  | safeguard against potentia
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Given the facilitator’s shift, let’s keep this tightly on near-term tractability: conditions with a single well-characterized gene, an accessible target tissue, and a feasible delivery
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] as the protection of defective embryos, ${ }^{166}$ the elimination of certain disease that might be obliterated
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:51:09]* Green ← Red: **stored** — *leans back, absorbing the shift*
 
@@ -1119,9 +1114,9 @@ To add precision here: pre-existing immunity to Cas9 has been documented in 58�
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] t to these populations might be desirable and/or lucrative? Will such foods be able to safely and successfully s
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] for experimentation ${ }^{4,6,87,88}$. ## To what extent should CRISPR use be permitted in translational and cli
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] outcomes, it is difficult to appraise potential risk and benefit. This ambiguity creates a challenge on its own 
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Black] Blue, you've been asking for failure modes, so let me lay out what I see. The He Jiankui case is exactly the cautionary tale here — prohibitions existed and someone blew right through
 
 > *[Diffusion 09:51:32]* Red ← White: **stored** — The room is generating a lot of heat around what patients experience versus what trials measure — that is a legitimate tension, but it is worth noting that Red is drawing a distinction between sickle cell outcomes and other conditions without yet having data on what patients with those conditions actually report as priorities. What is known is that patient-reported outcome measures are increasingly required components of FDA approval packages, so the question of whether we are asking the right questions has a partial empirical answer: in some cases, yes, formally. What we do not yet know is whether those measures are adequately capturing the dimensions Red is concerned about.

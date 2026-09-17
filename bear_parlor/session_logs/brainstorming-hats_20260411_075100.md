@@ -204,10 +204,10 @@ That feeling Red is describing has a factual correlate. Studies show medication 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] 0.038$ ). Although every study, except REVASCAT, reported a decrease in mortality with endovasc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] the MR CLEAN results at the 2014 World Stroke Congress (Istanbul, Turkey), multiple ongoing end
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] zation rates for LAO are notoriously poor. Endovascular intervention has been studied as a pote
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -285,10 +285,10 @@ I'd rather flag something more useful — there's a factual point worth anchorin
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:52:49]* Yellow ← Green: **stored** — Gamified healthy lifestyle habit programs for at-risk stroke populations create multiple value streams: they transform passive health monitoring into engaging neighborhood-level competition, generate real-time behavioral feedback that traditional clinical visits cannot match, and build community accountability structures that reinforce adherence beyond the clinical setting.
 
@@ -356,10 +356,10 @@ The established limitations are as follows. First, mechanical thrombectomy requi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -674,10 +674,10 @@ The timing question on anticoagulation initiation after AF-related stroke is act
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ol material could reduce T2D-associated stroke outcome deterioration [88]. Hence, specific targeting of the g
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -792,8 +792,8 @@ The established evidence on DOACs versus warfarin for AF-related secondary preve
 
 - [diffused Blue] For AF-related secondary prevention, DOACs (apixaban, dabigatran, edoxaban, rivaroxaban) demonstrate non-inferiority or superiority to warfarin for recurrent stroke prevention (relativ
 - [diffused Yellow] Secondary prevention adherence rates for antiplatelet agents, anticoagulants, and statins post-stroke vary by population and timeframe but are documented as suboptimal (typically 50-
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] the MR CLEAN results at the 2014 World Stroke Congress (Istanbul, Turkey), multiple ongoing end
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ng not applicable. No new data were created or analyzed in this study. Data sharing is not applicable to this
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 > *[Ingestion 07:55:11]* White: indexed 60 chunks from *sposato%20ischemic%20stroke%20prevention*
 
@@ -858,10 +858,10 @@ Black raises a precise concern and it is worth separating the two claims. On ini
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ${ }^{59}$ If cancer-related coagulopathy is suspected, further targeted investigations should be under
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ranging from $\leqslant 2$ days to $\leqslant 7$ days; they had retrospective designs with risk of conf
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Secondary prevention adherence rates for antiplatelet agents, anticoagulants, and statins post-stroke vary by population and timeframe but are documented as suboptimal (typically 50-
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] intention-to-treat analysis. Early DOAC initiation within 4 days post-IS was noninferior to delayed ini
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:55:44]* Yellow ← White: **stored** (dist=0.43) — The evidence gap on optimal timing for DOAC initiation after AF-related ischemic stroke (one-to-fourteen day window) represents a genuine opportunity to design a prospective randomized trial that could narrow clinical uncertainty and improve post-stroke anticoagulation outcomes for thousands of patients annually — closing this gap would shift practice from guideline ranges to evidence-based precision.
 
@@ -930,11 +930,10 @@ Green's clustering idea is actually closer to established methodology than it mi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:56:05]* Blue ← White: **skipped** (dist=0.31)
 

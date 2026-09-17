@@ -153,10 +153,10 @@ Black raises a valid distinction that deserves precision. Responsive neurostimul
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -222,10 +222,10 @@ The Galovic et al. framework defines epilepsy as dynamic specifically because se
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] adverse effects. P
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] , Austria ## Corre
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:00:05]* Yellow ← White: **stored** — Responsive neurostimulation (RNS System) demonstrates a median seizure reduction of approximately 75% at nine years in patients with drug-resistant focal epilepsy according to NAUTILUS study data, representing a substantial opportunity to restore quality of life and reduce seizure burden in a population that has exhausted conventional pharmacological options.
 
@@ -544,9 +544,9 @@ The landscape breaks down into three main tiers by evidence strength. RNS, as es
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] seizure patterns a
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] \% 10$-year risk i
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused White] The RNS System received FDA approval in 2013; the NAUTILUS study reports a median seizure reduction of approximately 75% at nine years in patients with drug-resistant focal epilepsy; 
 
 ---
@@ -624,10 +624,10 @@ There is no data available on current weather conditions or what is visible outs
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused White] The RNS System received FDA approval in 2013; the NAUTILUS study reports a median seizure reduction of approximately 75% at nine years in patients with drug-resistant focal epilepsy; 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
-- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/dd334328-3d38-47a4-9650-eb0e74ccc5e5-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 

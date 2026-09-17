@@ -181,11 +181,10 @@ Just to add one more data point before Black and Yellow take over — the weight
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ment of white adipose tissue function and insulin sensitivity [9]. This "biased agonism" or s
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] nd beneficial alterations in postprandial lipid profiles, particularly the reduction of postp
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] a reduction in cardiovascular death [12]. Similarly, the SUSTAIN-6 trial showed that Semaglut
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -245,11 +244,10 @@ That falls outside what White Hat tracks. What is documented, though: the visito
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ing phase III trials are currently aiming to validate these findings with longer-acting agent
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ptors in the hindbrain (area postrema) and the hypothalamus simultaneously, Tirzepatide appea
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -393,10 +391,10 @@ Red, that unease is worth anchoring in data. On documented safety: the most cons
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ing phase III trials are currently aiming to validate these findings with longer-acting agent
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] albumin binding, and Tirzepatide, a first-in-class dual glucose-dependent insulinotropic poly
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] lanocortin (POMC) neurons and simultaneously inhibits orexigenic neuropeptide Y/agouti-relate
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] rupture risk by dampening the chronic low-grade inflammation associated with visceral adiposi
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -525,10 +523,10 @@ The documented contraindications are: personal or family history of medullary th
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] a reduction in cardiovascular death [12]. Similarly, the SUSTAIN-6 trial showed that Semaglut
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] the natural history of atherosclerotic cardiovascular disease (ASCVD) through mechanisms that
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] nd beneficial alterations in postprandial lipid profiles, particularly the reduction of postp
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ment of white adipose tissue function and insulin sensitivity [9]. This "biased agonism" or s
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:26:46]* Yellow ← White: **skipped** (dist=0.31)
 
@@ -599,10 +597,10 @@ The SELECT trial established a 20% relative risk reduction in MACE for non-diabe
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] cified criteria (appendix pp 2-3). Safety was assessed as the number and nature of serious adverse
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] s. It was recommended that patients were treated according to the evidence-based standard of care.
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] fraction? Finally, was the efficacy and safety of semaglutide in patients with heart failure relat
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -673,13 +671,10 @@ The mechanistic question keeps surfacing and it still has no clean answer. What 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] inal version of the manuscript and had access to the data. JD is the guarantor and takes responsib
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ] of 1099 patients in the placebo group) initiated SGLT2 inhibition therapy during the study.
-Seri
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -822,12 +817,10 @@ There is one data point worth flagging before we move further into implementatio
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] ging the transition off therapy and to clarify the downstream effects of discontinuation in the contex
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] outcomes" was applied during full-text screening, after confirming that studies met all other criteria
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1135,9 +1128,9 @@ For guideline synthesis, the evidence divides into clear tiers. Tier one — str
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] GLP-1 receptor agonists have strong cardiovascular outcome data (20% relative MACE reduction in SELECT) specifically for non-diabetic patients with obesity plus established atheroscl
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] search Center, Chung Shan Medical University, Taichung, 402, Taiwan<br>${ }^{\mathrm{f}}$ Department o
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] thpix.com/cropped/d68a8eb6-fe7b-4193-9f93-cb858901b54b-2.jpg?height=800&width=1360&top_left_y
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 

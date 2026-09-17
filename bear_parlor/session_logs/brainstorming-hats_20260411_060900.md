@@ -275,10 +275,10 @@ That inequality concern is worth grounding in data. Gene therapy trials for SCN1
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] models, COSY enabl
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] without impaired c
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:10:31]* Green ← Blue: **stored** — Got it — we’re changing topics completely. The question now is epilepsy, spanning individualized seizure risk prediction and newer treatments like gene therapy and dietary approaches. It might help to structure this as: first what can be predicted and with what data, then what therapies are emerging, and finally what tradeoffs or gaps still need scrutiny.
 
@@ -327,10 +327,10 @@ On the prediction question now: the most data-supported approaches currently com
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:10:41]* Blue ← Green: **stored** — What if we could use wearable devices—maybe even something as subtle as smart jewelry—to continuously gather seizure risk data and feed it into AI models for ultra-personalized predictions? For therapies, has anyone tried combining gene editing with personalized microbiome adjustments, or using VR environments as a kind of digital "diet" for the brain? Maybe there's even potential in gamifying seizure risk reduction routines to boost adherence!
 
@@ -796,7 +796,7 @@ One thing I want to flag that has not come up yet: all of these assume somatic g
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] We’re on the epilepsy brief now, so let’s keep it organized: prediction first, then emerging therapies, then practical tradeoffs. White has given us a factual base, Green has opened so
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Green] What if we could use wearable devices—maybe even something as subtle as smart jewelry—to continuously gather seizure risk data and feed it into AI models for ultra-personalized predic
 - [diffused Blue] Got it — we’re changing topics completely. The question now is epilepsy, spanning individualized seizure risk prediction and newer treatments like gene therapy and dietary approaches. 
 
@@ -1103,9 +1103,9 @@ The visitor's question assumes these three modalities are currently integrated i
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] on therapies, conducting long-term safety studies, evaluating quality of life impact, expanding
+- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] (excerpt omitted: copyrighted source text)
 - [diffused Blue] We’re on the epilepsy brief now, so let’s keep it organized: prediction first, then emerging therapies, then practical tradeoffs. White has given us a factual base, Green has opened so
-- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
+- [![](https://cdn.mathpix.com/cropped/d8563ce0-0c5c-46a5-a9ee-d39cc8d454c7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Red] *nods slowly, then sits back*
 
 Yeah, okay—Yellow, I hear that hope, and honestly it lands with me too. But White, hearing those numbers... one-third of people not getting relief with wh

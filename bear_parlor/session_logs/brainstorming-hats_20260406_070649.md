@@ -209,10 +209,10 @@ Need to flag something useful for Black's point: the dynamic disease framing act
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] on epidemiological
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] adverse effects. P
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] , Austria ## Corre
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] erm risk estimates
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:08:19]* Black ← Red: **stored** — *shifts in seat, tuning into the energy of the room*
 
@@ -338,10 +338,10 @@ That's outside my role here — what I can offer is this: the field does appear 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/147b8cca-99d3-40ee-89ee-e070019c8bc3-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -978,10 +978,10 @@ The strongest evidence currently comes from SCN1A-related Dravet syndrome, where
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] # State-of-the-art gene therapy in epilepsy Matthew C. Walker ## Purpose of review Gene therapy in epilepsy has undergone a rapid expansion 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] d by designer drugs (DREADDs), ‘inhibitory’ glutamate receptors activated by excessive glutamate spill-over, and activitydependent promoters
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] therapy tools, in particular safe and effective viral vectors. Epilepsy remains an ideal target disease for gene therapy and this review hig
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] n shown to decrease seizures and mortality in genetic mouse models of SCN8A developmental and epileptic encephalopathy [4]. ASO therapies ha
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 
 ---
 

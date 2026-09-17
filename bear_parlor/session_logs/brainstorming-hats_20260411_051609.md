@@ -281,9 +281,9 @@ On thrombectomy limitations, what is established: the procedure requires special
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] Mechanical thrombectomy demonstrates a documented 24-hour treatment window, extending the intervention timeline beyond tPA's 4.5-hour window, though specific efficacy data, patient sele
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:18:02]* Blue ← Red and White: **stored** — The discussion has achieved directional clarity (stroke treatment and prevention pathway) but remains split between acute intervention bottlenecks (tPA eligibility and thrombectomy access) and chronic adherence unknowns (secondary prevention medication compliance). The group is treating these as a single problem when they may require distinct solution frameworks—one addressing system/timing barriers, the other addressing behavioral/emotional barriers.
 
@@ -662,9 +662,9 @@ The available data on anticoagulation for AF-related stroke is worth establishin
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Green] Ultrasound or electromagnetic pre-conditioning of brain tissue: no published human clinical trials exist testing ultrasound or electromagnetic field exposure as neuroprotective pre-tr
 
 ---
@@ -852,9 +852,9 @@ Two points worth establishing here. First, cognitive impairment post-stroke is d
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] Secondary prevention medication adherence rates post-stroke remain unmeasured in the current discussion, representing a critical data gap for understanding long-term outcomes and the ac
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ${ }^{59}$ If cancer-related coagulopathy is suspected, further targeted investigations should be under
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] the earlier than the later group, but without reaching statistical significance. The CATALYST meta-anal
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] awaited (NCT03961334). Other blood biomarkers are at earlier stages of investigation or are less specif
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:20:46]* Yellow ← Green: **skipped** (dist=0.33)
 
@@ -893,11 +893,10 @@ The room has shifted toward what feels like assumption-building — several clai
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:20:59]* Green ← White: **stored** (dist=0.50) — The documented cognitive impairment in 20–30% of acute stroke survivors creates an unexpected design opportunity: what if medication management systems were built around *external* cognitive scaffolding rather than patient memory—such as pre-filled, time-locked dispensers that create environmental cues, or integration with existing stroke recovery routines (e.g., physical therapy schedules) so anticoagulation becomes part of a supervised ritual rather than an isolated daily choice?
 
@@ -970,9 +969,9 @@ Three factual gaps are worth anchoring before design recommendations proceed. Th
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] still of clinical importance include poor absorption, underdosing, drug-drug interactions, and inapprop
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] the MR CLEAN results at the 2014 World Stroke Congress (Istanbul, Turkey), multiple ongoing end
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Red] Secondary prevention medication adherence rates post-stroke remain unmeasured in the current discussion, representing a critical data gap for understanding long-term outcomes and the ac
 
 ---
@@ -1090,10 +1089,10 @@ For a patient presenting with AF-related stroke today, the established evidence 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] cations were started at a median of 76 days (interquartile range (IQR): 29-146) in the RESTART trial, $
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] 772) and ENRICH-AF, which have completed recruitment, are awaited, and the ASPIRE (Anticoagulation in I
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ients with recent (<6 months) cerebrovascular events, the primary study endpoint is a recurrent ischemi
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] as matured long enough to become a symptomatic high-burden arrhythmia. In contrast, AF detected on oppo
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 ---
 

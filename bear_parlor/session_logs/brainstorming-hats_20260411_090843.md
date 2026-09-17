@@ -241,10 +241,10 @@ The most promising data streams right now are EEG, neuroimaging, and clinical hi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] COSY)-based risk f
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] models, COSY enabl
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ably with establis
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -271,10 +271,10 @@ There is no data available to me on current weather conditions or the state of t
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:10:25]* Yellow ← Red: **stored** — Gene therapy targeting epilepsy's genetic root offers a genuine pathway to address causation rather than perpetual symptom management, potentially freeing patients from lifelong medication dependence and the cognitive side effects that accompany long-term antiepileptic drugs. The combination of seizure prediction tools (EEG, neuroimaging, clinical history via COSY framework) with dietary interventions creates a tiered, human-centered care model where patients gain agency through real-time risk awareness and immediately actionable lifestyle modifications.
 
@@ -484,7 +484,7 @@ We know that Dravet syndrome, caused by SCN1A loss-of-function variants, and CDK
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] Red states gene therapy for epilepsy carries unknown long-term effects over 5-10 year horizons, but no specific safety data, trial duration, or comparison population is named. Data gap:
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Red] Red expresses concern about 'irreversible genetic intervention plus dietary shifts plus predictive surveillance' as a combined system, but no evidence is presented on whether these thre
 - [diffused Yellow] Yellow claims the ketogenic diet has 'shown solid success for some' in epilepsy, but provides no efficacy metric, population size, seizure reduction percentage, or syndrome specifici
 
@@ -602,10 +602,10 @@ The SCN1A cargo problem is well-documented — dual-vector splitting approaches 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -669,11 +669,9 @@ Available evidence indicates that approximately 50% of children with drug-resist
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Yellow] Yellow claims the ketogenic diet has 'shown solid success for some' in epilepsy, but provides no efficacy metric, population size, seizure reduction percentage, or syndrome specifici
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] roved treatment efficacy with far fewer adverse effects, especially compared to our present use of small molecules and resective surgery. ##
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] 2024; 32:2130-2149.
-An example of the efficacy of gene replacement in a devastating progressive myoclonic epilepsy.
-24. Voronin G, Narasimha
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] was very effective in a rodent model of focal epilepsy [52], and it is, thus, likely that the interictal activity is sufficient to drive ove
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:12:26]* Red ← White: **stored** (dist=0.38) — The uncertainty about long-term safety outcomes in gene therapy trials for epilepsy—with published follow-up data extending only a few years—creates a visceral anxiety for families considering these treatments: the fear of committing to an irreversible intervention without knowing what happens in year five or ten. That ambiguity triggers a gut-level distrust of 'promising early data' when the stakes are a child's neurological future.
 
@@ -872,10 +870,10 @@ The room is moving toward integration before the evidence base supports it — t
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] on therapies, conducting long-term safety studies, evaluating quality of life impact, expanding
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] roved treatment efficacy with far fewer adverse effects, especially compared to our present use of small molecules and resective surgery. ##
+- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:13:24]* Blue ← Green, Yellow: **stored** (dist=0.40) — The discussion has moved from evidence mapping (White's initial data on ketogenic diet efficacy rates and mechanistic uncertainty) into solution generation (Green's diagnostic and gamification proposals, Yellow's integration framework) without establishing what gaps or decision points actually require filling. The group is missing an explicit inventory of what clinical question each proposed intervention would answer — is the goal patient selection, mechanism discovery, adherence improvement, or outcome prediction?
 
@@ -939,9 +937,9 @@ What is established: each modality has its own efficacy dataset, but those datas
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] No published trial data exists comparing combined gene therapy plus ketogenic diet intervention against any control, meaning the appeal of integrating these modalities currently outp
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] d by designer drugs (DREADDs), ‘inhibitory’ glutamate receptors activated by excessive glutamate spill-over, and activitydependent promoters
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] # State-of-the-art gene therapy in epilepsy Matthew C. Walker ## Purpose of review Gene therapy in epilepsy has undergone a rapid expansion 
-- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] as it is a rigorous diet and requires good compliance. Hence knowledge of the mechanisms may he
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:13:45]* Red ← Green: **skipped** (dist=0.16)
 
@@ -1054,7 +1052,7 @@ The clearest gaps are these: we have no prospective data on how gene therapy, ke
 
 - [diffused Red] Red expresses concern about 'irreversible genetic intervention plus dietary shifts plus predictive surveillance' as a combined system, but no evidence is presented on whether these thre
 - [diffused Red] Red's concern identifies a factual gap in informed consent: families are being asked to consent to irreversible gene therapy based on follow-up data spanning a few years, but the time h
-- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] models, COSY enabl
+- [![](https://cdn.mathpix.com/cropped/71d41579-5333-439b-8ac4-7626b53eb5a7-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [session insight] No published trial data exists comparing combined gene therapy plus ketogenic diet intervention against any control, meaning the appeal of integrating these modalities currently outp
 
 > *[Diffusion 09:14:27]* Green ← White: **stored** (dist=0.42) — The absence of validated biomarkers predicting responders across ketogenic diet, gene therapy, or ASMs creates an opportunity to design a prospective biomarker discovery study embedded in real-world treatment sequences — treating non-response as a natural experiment that reveals which biological signatures distinguish responders from non-responders, potentially unlocking personalization across all three modalities simultaneously rather than in isolation.

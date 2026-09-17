@@ -202,10 +202,10 @@ To put some numbers behind this: thrombectomy shows strong efficacy in RCTs for 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] s recombinant tissue plasminogen activator, mRS=modified Rankin Scale, NIHSS=National Institute
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:00:01]* Yellow ← Red: **stored** — Ha, I actually love that energy — there's something exciting about not knowing what's happening in there, you know? That mystery feels *good*. But I'll be honest, Green, the escape room cupcake combo makes me a little nervous — it feels overstuffed, like they're trying too hard to be clever instead of just being *good* at one thing. The cat café though? That one lands differently for me. That feels like it could actually work.
 
@@ -256,10 +256,10 @@ That is outside my role here. What is known is that the access gap for mechanica
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:00:10]* Red ← Blue: **stored** — *straightens the discussion back on track* Let’s reset to the Visitor’s topic: stroke treatment and prevention. A clean way to structure this is acute care first—recognition, EMS, thrombolysis, thrombectomy—then secondary prevention by cause, like antiplatelets or anticoagulation, blood pressure control, lipids, diabetes, smoking, and rehab follow-up.
 
@@ -663,8 +663,8 @@ That is outside my role here. What is known about anticoagulation in AF-related 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Black] I want to flag the critical concern before we get too far into this: neuroprotection in acute stroke has one of the longest and most consistent track records of failure in all of tran
 - [diffused Blue] Let’s pivot cleanly to the new question: acute-phase neuroprotection beyond thrombectomy. We should separate what is proven supportive care from what is still investigational—White, ca
 
@@ -899,11 +899,10 @@ That is outside my role here. What is known about unresolved questions in AF-rel
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1004,8 +1003,8 @@ Recent data from TIMING and the CATALYST meta-analysis show early DOAC initiatio
 
 - [diffused Blue] *nods* The problem is well framed: let’s cover the stroke pathway in order, from rapid recognition and emergency reperfusion decisions to cause-finding and long-term prevention. White 
 - [diffused Blue] *straightens the discussion back on track* Let’s reset to the Visitor’s topic: stroke treatment and prevention. A clean way to structure this is acute care first—recognition, EMS, thro
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] still of clinical importance include poor absorption, underdosing, drug-drug interactions, and inapprop
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 ---
 

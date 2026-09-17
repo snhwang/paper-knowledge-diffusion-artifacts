@@ -204,11 +204,10 @@ Green, those are interesting directions. On neural repair specifically — there
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] cond-line therapy option for most MS patients with active, non-progressive disease. However, as an off-lab
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] nce Peter Alping, Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden.
-Email: pe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] # Disease-modifying therapies in multiple sclerosis: A focused review of rituximab Peter Alping © Departme
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:47:32]* Red ← Black: **stored** — I want to flag something before we dive in — this is an enormously broad topic. If we try to cover the entire treatment landscape for both relapsing and progressive MS in one session, we risk skating across the surface of everything and saying nothing rigorous about any of it. Blue, I'd push us to narrow the scope early — are we evaluating specific emerging therapies, comparing treatment paradigms, or identifying gaps in the current landscape? Because the risks of a vague framing are that we end up with vague conclusions.
 
@@ -247,10 +246,10 @@ I need to flag something before we drift — on rituximab specifically, we do ha
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] is the main author or co-author of several of the studies reported on in this review. ## CONFLICT OF INTER
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:47:44]* Black ← Blue: **stored** — Fair point, Black. The problem as I understand it is to map the current MS treatment landscape across relapsing and progressive disease, then separate established options from genuinely emerging directions. Let’s keep it structured: current standard treatments first, then unmet needs in progressive MS, then what new approaches may change practice.
 
@@ -402,9 +401,9 @@ A few data points worth anchoring to here. Rituximab, ocrelizumab, and ofatumuma
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] So the frame now is narrower: not whether B-cell depletion works broadly, but how clinicians weigh off-label rituximab against approved agents like ocrelizumab and ofatumumab. So far w
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] if these newer therapies provide any benefits over rituximab as the mechanism of action is identical. Stud
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] e effects of rituximab appear to be mostly limited to preventing clinical relapses and the inflammatory le
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ab and the new B-cell-depleting therapies. It is also important to study the effects of using biosimilars 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -689,10 +688,10 @@ Black raises a fair methodological concern. To be precise: the post-mortem evide
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] n of Oligodendroglial Progenitor Cells and Protects From Excitotoxic and Inflammation-Related Damage," 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] phenotype, AMPK activation | OPC, microglia | PPMS and SPMS | Safety, new T2 lesions | Imaging: cortica
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] 38]. Few studies explored combination treatments. However, the complex processes underlying MS patholog
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] LAD, OCR, OFA, and OZN). Additionally, by excluding clinical trials without any information posted in t
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:49:31]* Blue ← Red: **stored** — *leans forward*
 
@@ -765,10 +764,10 @@ The room has moved productively, but there is a pattern worth naming: several cl
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ed controlled and uncontrolled trials, respectively. For preclinical trials, the SYRCLE RoB tool [96] (
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -825,10 +824,10 @@ To be precise about what is actually established: the agents with the strongest 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] rkers [242], liquid biopsies [243] including extracellular vesicles, and exploring advanced imaging tec
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] uggesting sustained metabolic integrity of the neuronal tissue [233]. In the same study, MWF analysis d
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] entially due to intra-class differences of BTK-i [4-9]. To date, no EMA or FDA-approved DMT targets dis
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:50:19]* Black ← Yellow: **stored** — This focus on progression independent of relapses is vital because it targets the core driver of long-term disability that current therapies often miss. The value here is that understanding mechanisms like microglial activation and mitochondrial dysfunction can lead to therapies that specifically slow or halt progression, improving patient outcomes beyond relapse control. Yes, these are complex processes, and biomarkers are lacking, but tackling these challenges opens the door to truly transformative treatments for progressive MS.
 
@@ -943,12 +942,10 @@ That request falls outside what the available information can address. What is k
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] iority of rituximab compared with ocrelizumab,
-![](https://cdn.mathpix.com/cropped/32ab88a5-1cd4-4824-a245
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ls.gov |
-| rTMS | Randomized, shamcontrolled phase I clinical trial |  |  | RMS, SPMS | DTI, MTR | Safe
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] # Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple sclerosis Lina 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:50:44]* Yellow ← White: **stored** — Black raises a fair methodological concern. To be precise: the post-mortem evidence for microglial activation and axonal pathology in progressive MS is well-replicated across multiple independent tissue cohorts, but Black is correct that post-mortem data establishes association, not causation in living disease. The anti-LINGO-1 example is instructive — preclinical remyelination data was robust, but Phase II primary endpoints were not met, which is consistent with the inference-versus-causation problem Black is describing. What we currently lack are longitudinal in vivo studies that track these mechanisms in parallel with disability outcomes at sufficient scale to establish directionality.
 
@@ -1099,7 +1096,7 @@ The question of a personalized algorithm is worth grounding before we speculate.
 - [diffused Red] *nods slowly*
 
 Yeah, that lands with me, Yellow. Because right now we're treating progression like it's just relapsing disease in slow motion, and I feel like we're missing something fu
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] eatment effects. Furthermore, functional and cognitive outcomes, which are essential for evaluati
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
 - [diffused Green] Red, I hear you — that unease about progressive MS makes me want to throw out some wild ideas. What if we totally rethink what a “treatment” is here? Could we design interventions tha
 
 ---

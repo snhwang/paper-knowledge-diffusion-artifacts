@@ -198,10 +198,10 @@ Black raises a valid point, and it connects directly to a gap worth naming preci
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] , and users can adjust model outputs directly on their own systems. However, state-of-the-art mode
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] e inherent model biases, misinformation and hallucinations cannot directly be avoided, they can at
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:02:58]* Green ← Red: **stored** — *shifts in seat, eyes lighting up a bit*
 
@@ -297,11 +297,10 @@ I need to flag something before we move on — the Dennstädt et al. framework a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:03:16]* Blue ← Red: **stored** — *shifts in seat, eyes lighting up a bit*
 
@@ -500,8 +499,8 @@ Black's point on confidence calibration is worth grounding in what is actually d
 
 - [diffused Blue] The problem as framed is clear: we need to examine LLMs in clinical decision support across three lanes — evidence, risks, and safe deployment. Let’s take them in order so we do not mi
 - [diffused Yellow] The value here is that LLMs shine particularly in tasks like summarizing patient histories, generating differential diagnoses, and suggesting evidence-based treatment options, where 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m unstructured medical text ${ }^{5}$, medical education ${ }^{6}$, and screening medical literatu
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:04:18]* Green ← Yellow: **stored** — The value here is that LLMs shine particularly in tasks like summarizing patient histories, generating differential diagnoses, and suggesting evidence-based treatment options, where they can quickly process and organize complex data. This works because these functions support clinicians by reducing cognitive load and speeding up access to relevant information. On the other hand, tasks requiring nuanced clinical judgment in unpredictable, high-stakes scenarios—like emergency decision-making or interpreting ambiguous symptoms—pose greater risks, so the risk-benefit ratio favors use as an adjunct in lower-risk, more standardized decision points. Overall, deploying LLMs to assist with routine, data-driven parts of care can enhance efficiency and safety while leaving final judgment firmly with clinicians.
 
@@ -585,7 +584,7 @@ On bias specifically: documented evidence shows LLMs trained on historical clini
 - [diffused Blue] The problem as framed is clear: we need to examine LLMs in clinical decision support across three lanes — evidence, risks, and safe deployment. Let’s take them in order so we do not mi
 - [diffused Blue] I’m going to stop us there — we’re drifting before we’ve framed the actual question. The topic is large language models in clinical decision support, specifically the evidence, the ris
 - [diffused Yellow] The value here is that LLMs shine particularly in tasks like summarizing patient histories, generating differential diagnoses, and suggesting evidence-based treatment options, where 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] size-fits-all all approaches, especially if standards of safety remain undefined and data structur
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:04:40]* Black ← Yellow: **stored** — The value here is that LLMs shine particularly in tasks like summarizing patient histories, generating differential diagnoses, and suggesting evidence-based treatment options, where they can quickly process and organize complex data. This works because these functions support clinicians by reducing cognitive load and speeding up access to relevant information. On the other hand, tasks requiring nuanced clinical judgment in unpredictable, high-stakes scenarios—like emergency decision-making or interpreting ambiguous symptoms—pose greater risks, so the risk-benefit ratio favors use as an adjunct in lower-risk, more standardized decision points. Overall, deploying LLMs to assist with routine, data-driven parts of care can enhance efficiency and safety while leaving final judgment firmly with clinicians.
 
@@ -708,10 +707,10 @@ On RAG systems specifically: available evidence shows they reduce hallucination 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nment quality. Furthermore, targeted training and fine-tuning of LLMs can lead to overfitting on evaluation benchmarks, giving an inflated impres
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ensuring AI adheres to human-defined objectives and principles, addressing concerns like objective mis-specification and hacking reward set by pa
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] The value here is that large language models have the potential to enhance clinical decision support by processing vast amounts of medical knowledge quickly, which can help clinician
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] | Different clinical tasks to use LLMs. Schematic illustration of various clinical tasks where LLM
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:05:11]* Blue ← Black: **stored** — The least suitable tasks are the ones where the LLM output becomes the final decision input in time-pressured, high-acuity situations — emergency triage, medication dosing in complex polypharmacy, interpreting ambiguous imaging findings. The risk there is that the failure mode isn't just a wrong answer, it's a wrong answer delivered with high confidence in a moment where the clinician has the least bandwidth to second-guess it. What concerns me more, though, is that even the supposedly "favorable" bucket — summarizing patient histories, generating differentials — carries a risk we keep glossing over: automation bias. If a clinician sees a plausible-looking summary that omits a critical detail buried in messy documentation, they may never go back to check, and that silent failure is harder to detect and measure than an obviously wrong recommendation.
 
@@ -750,11 +749,10 @@ The session has covered a fair amount of ground — it might be worth noting tha
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] d establish trust among the general public is crucial for ensuring the ethical, reliable, and secure deployment of AI technologies in real-world 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -915,15 +913,12 @@ There is one data point that keeps surfacing across everything we've discussed a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] *shifts in seat, eyes lighting up a bit*
 
 Actually, I like that — there's something about putting pen to paper before words that feels less... pressured, you know? Like your gut can sho
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] sions information is available at
-http://www.nature.com/reprints
-Publisher's note Springer Nature 
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:06:10]* Black ← Yellow: **stored** — This works because deterministic frameworks and retrieval-augmented generation (RAG) systems combine structured, verifiable data sources with LLM flexibility, which can reduce hallucination by anchoring outputs to real evidence. The value here is clearer traceability and enhanced clinician confidence, which are critical for acceptance in clinical workflows. Plus, integrating these methods could bridge the gap between raw AI potential and practical safety requirements, making AI assistance more reliable for routine informational tasks.
 
@@ -1117,9 +1112,9 @@ What is known about the 2 AM scenario Red described: cognitive load and time pre
 - [diffused Red] *shifts in seat, eyes lighting up a bit*
 
 Actually, I like that — there's something about putting pen to paper before words that feels less... pressured, you know? Like your gut can sho
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nfidence among patients, clinicians, and the public in the safety of AI within clinical practice, healthcare operations, and its broader social i
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Blue] So far, White has grounded that hallucination and poor calibration are documented, and liability remains largely unresolved; Black has added that the practical danger is false reassura
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] th shifting disease prevalence, makes maintaining AI model calibration challenging, necessitating continuous updates and recalibration to ensure 
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 10:07:05]* Green ← Yellow: **stored** — This is promising because these frameworks work by anchoring LLM outputs to verified, up-to-date clinical data, which directly tackles hallucination and misinformation risks. The value created here is increased clinician trust and safer decision support, especially in routine but critical informational tasks. And taking that further, combining deterministic checks with RAG can create layered safeguards, making AI assistance not only more reliable but also more transparent and easier for clinicians to audit in real time.
 

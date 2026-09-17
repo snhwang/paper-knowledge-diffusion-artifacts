@@ -278,10 +278,10 @@ The room is mixing feeling with interpretation, which is worth noting. What is e
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:55:25]* Red ← Yellow: **stored** — The acknowledgment that disease-modifying therapies show promise in slowing Alzheimer's progression evokes hope and relief—a visceral sense that suffering might be reduced and families might gain more time together. This emotional weight is real and grounded, but it can obscure the gap between detecting early brain changes and actually preventing or reversing cognitive loss.
 
@@ -337,10 +337,10 @@ The tau propagation hypothesis has strong genetic and neuropathological support 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ing to neuronal loss and finally to AD symptoms [49]. The amyloid cascade hypothesis is supported by th
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ompounds targeting $\mathrm{A} \beta$ failed in ameliorating or stopping cognitive impairment associate
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] couraging results $[171,172]$. On this basis, further efforts in the search for selective S1R agonists 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ontribute to reducing amyloid beta formation. Care in serotoninergic-based prescriptions could be of he
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:55:46]* Blue ← Blue (process observation): **stored** — The discussion has moved from emotional acknowledgment of disease burden into substantive disagreement about mechanistic assumptions underlying treatment strategy, but the group has not yet explicitly named that the choice of therapeutic target (amyloid vs. tau vs. neuroinflammation vs. synaptic failure) is a foundational decision point that determines which interventions count as 'promising' or 'reckless.' The group is evaluating hope and caution without first establishing shared clarity on which disease mechanism is being targeted.
 
@@ -675,10 +675,10 @@ On patient selection specifically — the CLARITY AD trial excluded patients wit
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] # Alzheimer's Disease: Treatment Challenges for the Future John Hardy ${ }^{1,2}$ (D)<br>${ }^{1}$ Department of Neurodege
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -826,12 +826,10 @@ There is no data available on current weather conditions or the physical environ
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ly do. To provide more complete context, we created visual summaries of the data from the Phase 3
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] week trial period. While one may hypothesize that continued divergence will
-continue between the 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] 36 months (double the length of the lecanemab trial), $[X-Y]$ would need to increase to 0.9 to ma
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] eft_y=1181&top_left_x=176)
-Figure 2. Infographic of the lecanemab pivotal trial. The data are sho
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:58:17]* Yellow ← White: **skipped** (dist=0.23)
 

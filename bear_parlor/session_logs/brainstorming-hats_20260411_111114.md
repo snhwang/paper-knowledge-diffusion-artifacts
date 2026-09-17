@@ -307,11 +307,10 @@ I need to flag something Black raised — the claim that temozolomide became sta
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] elae [87]. To discover clinically significant immunotherapies for the treatment of DMGs, robust 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] . Several Fig. 1 Systematic filtering and selection of DMG trials
-![](https://cdn.mathpix.com/cr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] That’s a really important feeling to honor, Red. From an optimistic angle, recent advances like targeted therapies and immunotherapy approaches have shown real promise in extending s
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:13:04]* Yellow ← Red: **stored** — *shifts in seat, leaning forward slightly*
 
@@ -553,8 +552,7 @@ On efficacy, the strongest data point we have is ONC201: one published cohort re
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Agreed, Blue — getting the actual data on the table is exactly what we need right now. But I want to flag something while we wait for White: even the "standard of care" framing deserv
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Let’s answer the facilitator directly: strongest efficacy signal right now is probably ONC201, but that’s still early-phase and non-randomized, so we should call it the strongest hint,
 - [diffused Yellow] The strongest efficacy evidence currently lies with ONC201, as it has shown measurable radiographic responses and a median survival extension in some patients, which is a meaningful 
 
@@ -745,13 +743,12 @@ The room has shifted toward mechanistic reasoning, which is worth noting — cla
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Black] Agreed, Blue — getting the actual data on the table is exactly what we need right now. But I want to flag something while we wait for White: even the "standard of care" framing deserv
 - [diffused Red] *takes a breath, settling back into the question*
 
 You know what strikes me hearing this laid out — there's a real tension between the hope that *should* be there and the caution that *
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] y-phase evidence |
-| Integrated Multimodal Trial Designs | Adaptive protocols based on biomarker
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -896,13 +893,10 @@ The room has shifted noticeably toward mechanistic speculation and emotional fra
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] 72-a024-0a88e8ac000a-15.jpg?height=886&width=1335&top_left_y=1319&top_left_x=350)
-FIG A4. ONC016 C
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] l Arrillaga-Romany
-Consulting or Advisory Role: FORMA Therapeutics, Boehringer Ingelheim, SERVIER
-
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] himerix (Inst), Karyopharm Therapeutics (Inst), Servier (Inst), Black Damond (Inst), Erasca, Inc (
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] nt to participate Not applicable. Animal and human studies Experimental approval board Not appli
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:15:51]* Yellow ← Black: **stored** — That's where I want to slow us down a bit. The molecular rationale for targeting H3K27M-driven epigenetic dysregulation is intellectually compelling — ONC201's action through DRD2 antagonism and mitochondrial stress, for instance, has a plausible mechanistic story. But plausible mechanism does not equal clinical validation, and the history of oncology is littered with therapies that made perfect sense at the bench and failed in patients. The specific risk I see here is that the tumor microenvironment in DMG — immunosuppressive, located in the brainstem with limited drug penetration and unique blood-brain barrier constraints — may functionally neutralize therapies that look promising based on molecular target alone. If we let elegant biology substitute for rigorous clinical evidence, we end up back where Yellow and I were disagreeing: conflating "this should work" with "this does work."
 
@@ -1007,11 +1001,10 @@ We would need data on whether H3 K27M variant type — K27M-H3.3 versus K27M-H3.
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] mage, Nicole Shonka, Ashley Sumrall, Rohinton S. Tarapore, Yoshie Umemura Manuscript writing: All 
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 - [diffused Black] I want to press on something specific as we look at this data. The ONC201 survival figure White mentioned — approximately 21 months in a subset — needs to be weighed against selection
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] ere were no treatment-related deaths or discontinuations. This safety profile suggests that ONC201
-- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] slow
-onset of response also suggests that evaluation in the frontline setting, where PFS is prolon
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
+- [}^{6}$（D） et al. — ${ }^{(2)}$ ONC201（Dordaviprone）in Recurrent H3 K27M－Mutant Diffuse Midline Glio] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:16:18]* Blue ← Black: **stored** — That's where I want to slow us down a bit. The molecular rationale for targeting H3K27M-driven epigenetic dysregulation is intellectually compelling — ONC201's action through DRD2 antagonism and mitochondrial stress, for instance, has a plausible mechanistic story. But plausible mechanism does not equal clinical validation, and the history of oncology is littered with therapies that made perfect sense at the bench and failed in patients. The specific risk I see here is that the tumor microenvironment in DMG — immunosuppressive, located in the brainstem with limited drug penetration and unique blood-brain barrier constraints — may functionally neutralize therapies that look promising based on molecular target alone. If we let elegant biology substitute for rigorous clinical evidence, we end up back where Yellow and I were disagreeing: conflating "this should work" with "this does work."
 

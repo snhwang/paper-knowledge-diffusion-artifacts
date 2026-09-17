@@ -268,7 +268,7 @@ There is no data on town gossip — that is outside what I can offer here. What 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] I hear you — and honestly, my first instinct is: redesigning from scratch feels like we'd be throwing out something important. Rule-based systems are transparent enough that when they f
 - [diffused Blue] Let’s frame the question clearly: we’re comparing a redesign of clinical decision support using LLMs against current rule-based systems, and we should separate capabilities, risks, evi
 - [diffused Red] I appreciate the setup here. Honestly, my gut reaction to swapping rule-based systems for LLM-driven ones in clinical settings is unease — there's something about the opacity that bothe
@@ -616,7 +616,7 @@ There is a factual point worth flagging here. Black's three failure modes are we
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Yellow] We see promising early signs especially in areas like radiology and diagnostic support, where LLMs help synthesize complex information faster and more accurately than before. This wo
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] maintaining the AI infrastructure is higher if healthcare facilities have to set up and maintain t
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Green] What if the LLM could generate a “decision trace” alongside every recommendation—a sort of auto-generated reasoning tree in plain language, even if imperfect? Or have we considered hy
 - [diffused Blue] Let’s tighten the frame: the question is now failure modes and no-trust conditions, not general promise. So far we have one clear category from Yellow — confident falsehoods — and it w
 
@@ -755,13 +755,10 @@ There is no data available to me on current room conditions or weather — that 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ${ }^{1}$ National University of Singapore, Singapore, Singapore 5
-${ }^{2}$ University of Cambridge, Cambridge, UK 6
-${ }^{3}$ Mila-Quebec AI In
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] //cdn.mathpix.com/cropped/fe70a01a-158f-4ed4-bdcf-f87addc1bf7b-03.jpg?height=1278&width=1374&top_left_y=191&top_left_x=349)
-Figure 1: Al safety c
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -850,7 +847,7 @@ What is established on this: hallucination rates in clinical LLM deployments var
 
 - [diffused Yellow] The most dangerous failure modes are indeed when the LLM confidently provides false or misleading information, especially in high-stakes situations like medication dosing or rare con
 - [diffused Yellow] That’s a crucial question. The most dangerous failure modes typically involve hallucinated or confidently incorrect information that could mislead clinical decisions. The value in re
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] ng the safety of LLMs from various angles. In this section, we aim to discuss different problems of LLMs that may lead to potential medical risks
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Red] Yeah, I hear that — and the adaptability piece does appeal to me, honestly. The idea that the system could catch something new in the research that a static rulebook would miss? That's 
 
 > *[Diffusion 07:36:06]* Green ← Black: **stored** — I want to come back to this because I don't think we've been specific enough. There are at least three distinct failure modes that deserve separate treatment. First, confident hallucination in dosing or drug interactions — the LLM generates a plausible but fabricated recommendation, and because it reads as authoritative, a fatigued clinician acts on it without verification. Second, silent context omission — the LLM produces a reasonable-sounding recommendation but fails to account for a critical variable in the patient record, like a renal impairment that changes everything about how a drug is metabolized, and there's no signal to the clinician that something was missed. Third, and this one keeps me up at night: distributional drift, where the LLM was trained on data that doesn't represent the patient population in front of you — pediatric, geriatric, rare genetic conditions — and it defaults to the most common pattern rather than flagging its own uncertainty.
@@ -1048,9 +1045,9 @@ There is no data available to me on current room conditions or weather — that 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] fety concerns shared by patients, clinicians, and the public. A recent U.S. survey revealed that $60 \%$ of the population feels uncomfortable wi
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] lopers poses a significant limitation. Therefore, hospital users often need to tune their own version of LLMs either using service from large mod
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] cess to the model but need to access the model by providing queries and contextual data to an online portal. In healthcare, most data belongs to 
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Red] I appreciate the setup here. Honestly, my gut reaction to swapping rule-based systems for LLM-driven ones in clinical settings is unease — there's something about the opacity that bothe
 
 > *[Diffusion 07:36:59]* Blue ← White: **stored** — There is no data available to me on current room conditions or weather — that falls outside what I can speak to. What I can flag is that Green's distributional watchdog idea connects to a real research area: out-of-distribution detection methods do exist, though evidence on their reliability in clinical NLP pipelines is still limited.
@@ -1159,7 +1156,7 @@ What is established on this: deterministic guardrails have documented evidence o
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Green] What if, instead of relying on the LLM to self-assess, we pair it with a "distributional watchdog"—maybe a smaller, dedicated model or heuristic that constantly checks whether the cur
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] The most dangerous failure modes are indeed when the LLM confidently provides false or misleading information, especially in high-stakes situations like medication dosing or rare con
 - [diffused Red] I hear the shift, and honestly, my gut reaction to this question is mixed. The hallucination piece terrifies me — I can viscerally picture a clinician at 2 AM acting on something that *
 
@@ -1245,7 +1242,7 @@ What is established: there are documented cases where algorithmic systems have i
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Green] What if, instead of relying on the LLM to self-assess, we pair it with a "distributional watchdog"—maybe a smaller, dedicated model or heuristic that constantly checks whether the cur
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] e a way to estimate LLMs' limit, and when they can be trusted, it will be very difficult to develop robust LLM based tools to handle important me
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Red] Yeah, I hear that — and the adaptability piece does appeal to me, honestly. The idea that the system could catch something new in the research that a static rulebook would miss? That's 
 - [diffused Blue] Let’s reset on the facilitator’s question: we’re now focused specifically on what would be designed differently in an LLM-based clinical decision support system, not whether the curren
 
@@ -1468,8 +1465,8 @@ What is established from the literature: responsible deployment requires, at min
 
 - [diffused Blue] Let’s reset on the facilitator’s question: we’re now focused specifically on what would be designed differently in an LLM-based clinical decision support system, not whether the curren
 - [diffused Green] What if, instead of a static deployment framework, we built a continuously learning sandbox — sort of a "clinical testbed mode" where new LLM features or override options are trialed 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] e inherent model biases, misinformation and hallucinations cannot directly be avoided, they can at
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:39:07]* Blue ← Green: **stored** — What if we didn't treat it as an either/or? Imagine a dynamic guardrail system that adapts—say, the LLM is normally open-ended, but switches into "hard stop" mode if certain risk signals light up (like flagged drug classes or rare populations). Or maybe the model could "negotiate" its own constraints with the clinician in real time—kind of like a consent layer for risk tradeoffs. Or, totally wild: what if we let clinicians dial the rigidity of the guardrails themselves like a mixing board?
 

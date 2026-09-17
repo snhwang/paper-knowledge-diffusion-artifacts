@@ -178,11 +178,10 @@ To finish the point I was making: we also know that anti-CD20 therapies, particu
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ic increase in use since the initial reports from the clinical trials programme that showed it to
-be effec
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -403,10 +402,9 @@ What we do know on safety is agent-specific. Natalizumab carries a quantified ri
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused White] High-efficacy agents including natalizumab and anti-CD20 monoclonal antibodies demonstrate superior relapse rate reduction compared to older interferon therapies; this efficacy advant
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] switch to more effective treatment alternatives. ${ }^{79}$ For patients where the disease is clearly aggr
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -553,7 +551,7 @@ The group is treating
 - [diffused White] Tolerogenic dendritic cell therapies and inverse vaccines are in early-phase clinical trials with Phase I safety data published by Anokion and University of Chicago researchers in 202
 - [diffused White] High-efficacy agents including natalizumab and anti-CD20 monoclonal antibodies demonstrate superior relapse rate reduction compared to older interferon therapies; this efficacy advant
 - [diffused White] Bruton's tyrosine kinase inhibitors tolebrutinib and fenebrutinib are in Phase III trials for both relapsing and progressive MS; progressive MS historically has had few effective trea
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -658,10 +656,10 @@ Currently, there are no approved therapies with a validated primary endpoint of 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] tological quantification of myelin [23], Transmission Electron Microscopy (TEM) of the sections of remy
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] cyte lineage cells in cell cultures or histological analysis in vivo, could only be found in studies in
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:03:20]* Blue ← Green: **stored** (dist=0.53) — The discussion has progressed from comparing high-efficacy agents (natalizumab, ocrelizumab, rituximab) against first-generation therapies to questioning the foundational escalation-versus-de-escalation treatment paradigm itself. The group is missing a systematic framework for when to apply each strategy: no structured decision tree exists that maps patient phenotypes, disease severity categories, or immune response profiles to specific treatment sequencing recommendations.
 

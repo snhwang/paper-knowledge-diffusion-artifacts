@@ -178,10 +178,10 @@ I need to flag something — that question falls outside my role here. There is 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -261,10 +261,10 @@ Green, the idea of intervening aggressively during the early high-risk window is
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] on epidemiological
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] adverse effects. P
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] erm risk estimates
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -392,10 +392,10 @@ I need to flag a gap, though — we do not yet have head-to-head comparative tri
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] adverse effects. P
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] , Austria ## Corre
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -502,10 +502,10 @@ One factual distinction worth flagging: the improving efficacy over time seen in
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Black] No validated safety profiles currently exist for combinations of immune modulation and neuromodulation therapies applied to post-stroke or traumatic brain injury patients in the acute
 - [diffused Green] Drug-resistant epilepsy has been proposed as a candidate for combined treatment approaches including immune modulation, neuromodulation, dietary interventions, and pharmacological the
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -584,10 +584,10 @@ A critical distinction worth flagging: mon
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] \% 10$-year risk i
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/3407d6a1-9850-485f-869d-cedde45f1e0f-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 16:50:59]* Black ← White: **skipped** (dist=0.24)
 
@@ -724,9 +724,9 @@ For broader context, no gene therapy has yet achieved what would be classified a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] # State-of-the-art gene therapy in epilepsy Matthew C. Walker ## Purpose of review Gene therapy in epilepsy has undergone a rapid expansion 
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] d by designer drugs (DREADDs), ‘inhibitory’ glutamate receptors activated by excessive glutamate spill-over, and activitydependent promoters
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] therapy tools, in particular safe and effective viral vectors. Epilepsy remains an ideal target disease for gene therapy and this review hig
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
 - [diffused Green] Drug-resistant epilepsy has been proposed as a candidate for combined treatment approaches including immune modulation, neuromodulation, dietary interventions, and pharmacological the
 
 ---

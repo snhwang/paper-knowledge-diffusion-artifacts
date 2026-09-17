@@ -174,11 +174,10 @@ There is no data on town gossip that falls within the scope of this session. Wha
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] diseases- involving CRISPR applications have been developed ${ }^{1-3}$. Moreover, as of May, 2018, in C
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] nversion of one base into another ( C to T or A to G ). Most importantly, the targeted base transition
-h
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] g that multiple efforts are underway to discover novel Cas9 variants or re-engineer the existing Cas9 pr
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] me types with unprecedented ease has caused considerable excitement and Author Manuscript Author Manuscr
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -301,9 +300,9 @@ We know that current CRISPR governance operates under a patchwork of national fr
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considera
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however,
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been deb
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Alright, let’s frame it clearly: the question is where to set ethical boundaries for CRISPR across two axes—therapy versus enhancement, and somatic versus germline editing. White Hat, 
 
 > *[Diffusion 07:24:39]* Blue ← Green: **stored** — What if we flip the whole debate and ask: instead of drawing hard lines, could we design a system that treats every new use as an experiment—with rapid, real-time public input on each case? Or, have we considered letting people "opt in" to enhancements as a society-wide pilot, sort of like open beta software? What if the biggest boundary is actually how transparent and reversible our edits are, not what we edit?
@@ -677,7 +676,7 @@ Two approved therapies are relevant here: Casgevy, approved in the US and UK in 
 
 - [diffused Blue] Alright, new lane: we’re setting governance aside and switching to the clinical status of CRISPR therapies in use or near use. White Hat, give us the current factual picture on approve
 - [diffused Blue] Let’s keep the question tight: we need to examine two boundaries separately — therapy vs enhancement, and somatic vs germline. So far we have one process idea from Green, but we still 
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however,
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 - [diffused Green] What if we flip the whole debate and ask: instead of drawing hard lines, could we design a system that treats every new use as an experiment—with rapid, real-time public input on each
 
 > *[Diffusion 07:26:09]* Blue ← Yellow: **stored** — The existing ethical frameworks work because they create a foundation for dialogue and set shared principles internationally, which helps align many stakeholders on core values like safety and human dignity. The value here is that even without enforcement, these frameworks guide responsible research and clinical use, preventing a complete free-for-all. And taking that further, they provide a platform to build more adaptive, transparent governance models—as Green suggested—by showing what broad consensus on ethics looks like and where flexibility can still exist. Yes, the frameworks lag behind some rapid advances, but they keep the conversation grounded and open paths for improvement rather than chaos.
@@ -725,10 +724,9 @@ Lyfgenia was also FDA-approved in December 2023 alongside Casgevy — both speci
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] news-events/press-announcements/fda-roundup-december-19-2023
-[15] Orkin SH. Recent advances in gl
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Alright, new lane: we’re setting governance aside and switching to the clinical status of CRISPR therapies in use or near use. White Hat, give us the current factual picture on approve
 
 > *[Diffusion 07:26:22]* Green ← Yellow: **stored** — The existing ethical frameworks work because they create a foundation for dialogue and set shared principles internationally, which helps align many stakeholders on core values like safety and human dignity. The value here is that even without enforcement, these frameworks guide responsible research and clinical use, preventing a complete free-for-all. And taking that further, they provide a platform to build more adaptive, transparent governance models—as Green suggested—by showing what broad consensus on ethics looks like and where flexibility can still exist. Yes, the frameworks lag behind some rapid advances, but they keep the conversation grounded and open paths for improvement rather than chaos.
@@ -800,10 +798,10 @@ What is established: both therapies target hemoglobinopathies by editing patient
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] ease Zainab Syyeda Rahmat, MBBS ${ }^{\text {a }}$, Mohammad Haris Ali, MBBS ${ }^{\text {b }}$, 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] Research registration unique identifying number (UIN) Not applicable. ## Guarantor Mohammad Haris
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:26:46]* Yellow ← Green: **stored** — What if we explore therapies not just by medical success, but by unexpected positive side effects—like, are there CRISPR edits in trials that led to surprise resilience or other downstream benefits no one predicted? Or what if, alongside the official clinical pipeline, we track off-label or “compassionate use” cases as mini-experiments to rapidly learn what’s possible? Maybe we need a public map of every “almost approved” CRISPR therapy so we can crowdsource real-world feedback before full rollout.
 
@@ -985,7 +983,7 @@ Available evidence points to several strong candidates beyond hemoglobinopathies
 - [diffused Blue] Alright, let’s frame it clearly: the question is where to set ethical boundaries for CRISPR across two axes—therapy versus enhancement, and somatic versus germline editing. White Hat, 
 - [diffused Blue] Alright, new lane: we’re setting governance aside and switching to the clinical status of CRISPR therapies in use or near use. White Hat, give us the current factual picture on approve
 - [diffused Blue] Let’s keep the question tight: we need to examine two boundaries separately — therapy vs enhancement, and somatic vs germline. So far we have one process idea from Green, but we still 
-- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] g that multiple efforts are underway to discover novel Cas9 variants or re-engineer the existing Cas9 pr
+- [\boldsymbol{ et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 07:27:48]* Blue ← White: **stored** — Lyfgenia was also FDA-approved in December 2023 alongside Casgevy — both specifically for sickle cell disease in patients 12 and older, which I should have flagged explicitly in my earlier response where I mentioned only Casgevy by name. That was an incomplete data point on my part. What is now confirmed: two gene therapies for the same condition received approval simultaneously, which is itself a factual signal about how rapidly this field is moving from trial to clinical reality.
 

@@ -237,10 +237,10 @@ I need to flag something Yellow said — the claim that community-integrated pre
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -406,10 +406,10 @@ Black, noted — but the weather observation is outside my scope. On the funding
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] cular centers should seek to optimize workflow so that the appropriate patients can be rapidly 
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Black] tPA (tissue plasminogen activator) reaches a measurable fraction of eligible stroke patients; the primary constraint is time-window eligibility rather than protocol refinement capacit
 - [diffused Blue] Bleeding-risk stratification in older and renally fragile post-stroke patients is an identified unresolved issue; existing stratification tools and their predictive validity in these s
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -541,10 +541,10 @@ What is known from the clinical literature is that no neuroprotective agent has 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] patients are transferred to a supra-regional stroke unit after experiencing thrombolysis. This is dubbed as "
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] d. This article is an open access article distributed under the terms and conditions of the Creative Commons 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -589,10 +589,10 @@ Something worth flagging that I have been tracking across this conversation: we 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ol material could reduce T2D-associated stroke outcome deterioration [88]. Hence, specific targeting of the g
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:27:16]* Yellow ← White: **stored** (dist=0.68) — Neuroprotective agent research reveals an actionable opportunity: the consistent mismatch between animal model timelines (agents administered within minutes of occlusion) and human treatment windows (administration occurring hours later) identifies a specific design principle for future candidates — developing agents optimized for delayed administration rather than immediate intervention could unlock a class of treatments that preclinical models have systematically undervalued.
 
@@ -843,11 +843,10 @@ There is a data point worth surfacing here: medication adherence post-stroke dro
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:28:29]* Blue ← White: **stored** (dist=0.61) — The discussion has now surfaced a critical diagnostic gap: we possess robust trial evidence for direct oral anticoagulants in atrial fibrillation-related stroke (approximately 70% relative risk reduction), yet the conversation reveals that medication adherence post-stroke drops to 50-60% by 12 months with unknown specific drivers. The process observation is that future trial designs must measure and report the precise mechanisms of non-adherence (symptom resolution creating false security, side effect burden, cost barriers, loss of clinical follow-up) rather than treating adherence as a binary outcome, or the efficacy-versus-real-world implementation gap will persist across this domain as it has in tPA, thrombectomy access, and neuroprotection.
 
@@ -1003,8 +1002,7 @@ For a patient presenting with AF-related stroke today, what is established is th
 - [diffused Green] Rapid-cycle pilot trials testing ten concurrent anticoagulation adherence interventions (behavioral reminders, gamification, group check-ins, wearable feedback, community rituals) wou
 - [diffused Black] Secondary prevention adherence is measurable through direct observation (medication possession ratio, pharmacy refill data, electronic monitoring) rather than prescription-fill rates 
 - [diffused Blue] Bleeding-risk stratification in older and renally fragile post-stroke patients is an identified unresolved issue; existing stratification tools and their predictive validity in these s
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:29:20]* Black ← Green: **stored** (dist=0.37) — Rapid-cycle pilot testing of ten concurrent adherence support methods (patches, games, group check-ins) assumes that weekly persistence monitoring will reliably identify 'sticky' interventions, but risks confounding short-term engagement with long-term sustainability—a patient may show high adherence in week 4 of a novel gamified system but abandon it by month 6 when novelty wears off. The ecosystem approach also assumes patient-driven ritual design will transfer across different stroke populations, but may systematically exclude patients with cognitive impairment, low health literacy, or limited digital access who cannot participate in hackathons.
 

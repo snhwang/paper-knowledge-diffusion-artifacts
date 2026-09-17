@@ -173,12 +173,10 @@ Black's point about the clinical trial record in progressive MS is worth pinning
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] switch to more effective treatment alternatives. ${ }^{79}$ For patients where the disease is clearly aggr
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] y. Lancet Neurol. 2014;13(7):657-665. doi:10.1016/S1474-4422(14) 70068-7
-46. Newsome SD, Scott TF, Arnold 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -281,10 +279,10 @@ That's outside my role — what's relevant here is that the visitor's question a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] is the main author or co-author of several of the studies reported on in this review. ## CONFLICT OF INTER
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:40:29]* Black ← Yellow: **stored** — The assumption that separating relapsing-remitting and progressive MS treatment pathways will enable personalization risks overlooking the heterogeneity within each category—patients classified as relapsing-remitting may progress unpredictably, and the efficacy data supporting pathway separation may not account for individual variation in disease biology, comorbidities, or treatment tolerance.
 
@@ -386,10 +384,10 @@ The efficacy comparison is actually fairly well-documented at this point — obs
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] if these newer therapies provide any benefits over rituximab as the mechanism of action is identical. Stud
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] e effects of rituximab appear to be mostly limited to preventing clinical relapses and the inflammatory le
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ab and the new B-cell-depleting therapies. It is also important to study the effects of using biosimilars 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ima. There are few studies comparing these new biosimilars to MabThera in MS, but one study of Truxima rep
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -526,12 +524,10 @@ The mechanism list Blue laid out is worth unpacking for what's actually establis
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] switch to more effective treatment alternatives. ${ }^{79}$ For patients where the disease is clearly aggr
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] tumumab | Kesimpta | Novartis | 2021/2020 | 60,68-70 |
-| L04AA50 | Ponesimod | Ponvory | Janssen | 2021/20
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] y. Lancet Neurol. 2014;13(7):657-665. doi:10.1016/S1474-4422(14) 70068-7
-46. Newsome SD, Scott TF, Arnold 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -642,10 +638,10 @@ What is known about DMTs with remyelination evidence is worth stating precisely 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ed controlled and uncontrolled trials, respectively. For preclinical trials, the SYRCLE RoB tool [96] (
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -702,10 +698,10 @@ What is established comes in tiers. Clemastine is the strongest clinical signal 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] rkers [242], liquid biopsies [243] including extracellular vesicles, and exploring advanced imaging tec
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] uggesting sustained metabolic integrity of the neuronal tissue [233]. In the same study, MWF analysis d
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] entially due to intra-class differences of BTK-i [4-9]. To date, no EMA or FDA-approved DMT targets dis
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -888,12 +884,10 @@ The Anderhalten review we have in front of us documents something worth flagging
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] iority of rituximab compared with ocrelizumab,
-![](https://cdn.mathpix.com/cropped/fa0e3824-11a3-4858-bdbc
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ls.gov |
-| rTMS | Randomized, shamcontrolled phase I clinical trial |  |  | RMS, SPMS | DTI, MTR | Safe
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] # Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple sclerosis Lina 
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:43:42]* Red ← White: **stored** (dist=0.44) — The ReBUILD trial's demonstration of reduced visual evoked potential latency in clemastine-treated patients evokes cautious hope because it represents the first clinical-stage evidence of actual functional remyelination rather than mere disease slowing — this breaks the long pattern of MS therapeutics only offering neuroprotection, which feels like a fundamental shift in what's possible.
 

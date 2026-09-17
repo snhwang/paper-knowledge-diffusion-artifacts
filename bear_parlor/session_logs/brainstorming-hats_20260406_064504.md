@@ -172,10 +172,10 @@ The room is generating a wide range of proposals, which is productive. To keep t
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] interventional arm either did not have a LAO or had an inaccessible, distally located thrombus.
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:46:19]* Black ← Green: **stored** — What if we could use wearable tech to detect the earliest micro-signs of a stroke and trigger instant remote intervention? Or maybe there's something in rapid cooling—like a portable headband that chills the brain on the spot. Have we considered using AI to personalize thrombolytic dosing in real time? Just riffing here!
 
@@ -431,9 +431,9 @@ The trial data here is fairly clear. The landmark 2015 trials — MR CLEAN, ESCA
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Let me tighten the frame: the visitor has shifted us to mechanical thrombectomy specifically, so we should answer in two parts — outcome gains, then limits. So far we have Red naming t
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Green] That feeling of racing against time makes me wonder—what if we could bring thrombectomy tools to where the patient is, kind of like mobile stroke vans but with even more advanced capa
 
 ---
@@ -515,10 +515,10 @@ The DAWN and DEFUSE 3 trials are the primary evidence base here. DAWN enrolled p
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] nts in the interventional arm of SYNTHESIS Expansion were not administered IV-tPA, the use of w
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] This is a crucial area with huge potential impact. New treatment approaches could dramatically improve recovery times and reduce long-term disability, which benefits patients, famili
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] zation Conference (Glasgow, UK), with the concurrent publication of SWIFT PRIME and REVASCAT. T
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -621,7 +621,7 @@ Confirmed. What is established: no randomized controlled trial data currently su
 
 - [diffused Blue] The problem on the table is new treatment approaches for acute ischemic stroke, so let’s keep this tight: first emerging interventions, then evidence level, then practical barriers. We
 - [diffused Blue] Let me tighten the frame: the visitor has shifted us to mechanical thrombectomy specifically, so we should answer in two parts — outcome gains, then limits. So far we have Red naming t
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] the MR CLEAN results at the 2014 World Stroke Congress (Istanbul, Turkey), multiple ongoing end
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 - [diffused Green] What if we could use wearable tech to detect the earliest micro-signs of a stroke and trigger instant remote intervention? Or maybe there's something in rapid cooling—like a portable 
 
 ---
@@ -709,10 +709,10 @@ The mood here is worth grounding. Yellow is optimistic about neuroprotection, bu
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] Istanbul, Turkey<br>* Correspondence: matteo.haupt@stud.uni-goettingen.de (M.H.); thorsten.doeppner@neuro.med
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -943,9 +943,9 @@ We know that mechanical thrombectomy is the only acute intervention with robust 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Neuroprotective agents could complement thrombectomy by preserving brain tissue during the critical window, potentially improving outcomes and expanding the patient pool who benefit.
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] d. This article is an open access article distributed under the terms and conditions of the Creative Commons 
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Blue] So far we have White grounding us at no routine clinical success for neuroprotective agents, and Yellow highlighting the possible upside if they work alongside reperfusion. The next qu
 
 ---

@@ -180,10 +180,10 @@ The room has moved in a productive direction — we are back on the correct topi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:24:13]* Yellow ← Black: **stored** — I want to flag something before we go further — we were asked to discuss treatments for diffuse midline glioma, and somehow we've landed on remote work. That's a pretty significant drift, and there are real, serious risks being left unexamined when we skip past a topic like pediatric brain cancer without any scrutiny. Can we get back on track?
 
@@ -282,9 +282,9 @@ On checkpoint inhibitors specifically: available data from trials like NCT023595
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Good — the facilitator has sharpened our focus. We're now specifically on immunotherapy: CAR-T and checkpoint inhibitors for DMG. White Hat has already laid solid ground on H3K27M-targ
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] rs. Pediatric brain tumors, however, present unique challenges due to their low mutational burde
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:24:38]* Green ← Black: **stored** — I want to flag something before we go further — we were asked to discuss treatments for diffuse midline glioma, and somehow we've landed on remote work. That's a pretty significant drift, and there are real, serious risks being left unexamined when we skip past a topic like pediatric brain cancer without any scrutiny. Can we get back on track?
 
@@ -373,8 +373,8 @@ That combination hypothesis has merit, and there is emerging data to support the
 
 - [diffused Blue] Good — the facilitator has sharpened our focus. We're now specifically on immunotherapy: CAR-T and checkpoint inhibitors for DMG. White Hat has already laid solid ground on H3K27M-targ
 - [diffused Red] Honestly, something about this topic hits me hard — these are kids, mostly, and the desperation families feel is real and I carry that weight even just discussing it. But underneath tha
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] erapeutic advances. Surgical resection is not feasible due to anatomical constraints, and conven
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -554,9 +554,9 @@ There is no data available on current weather conditions or what is visible from
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Good — the facilitator has sharpened our focus. We're now specifically on immunotherapy: CAR-T and checkpoint inhibitors for DMG. White Hat has already laid solid ground on H3K27M-targ
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 - [diffused Green] Oh, and Red Hat just said something that sparked a whole chain for me — the H3K27M mutation isn't just a target, what if it's actually a *key*? Like, what if we designed a logic-gated
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:26:20]* Red ← White: **stored** — On checkpoint inhibitors specifically: available data from trials like NCT02359565 show that single-agent PD-1 blockade in DMG has not demonstrated meaningful clinical benefit to date. The working hypothesis is that DMG's tumor microenvironment is profoundly immunosuppressive and has low mutational burden — roughly 1-2 mutations per megabase — which limits the neoantigens checkpoint inhibitors rely on to activate T-cells. That is a structural problem, not a dosing problem, and it is worth the group holding that distinction clearly.
 

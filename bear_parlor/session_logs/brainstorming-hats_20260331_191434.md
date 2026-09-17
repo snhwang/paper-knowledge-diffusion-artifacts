@@ -245,9 +245,9 @@ The available evidence on treatment resistance indicates that approximately 30% 
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] Here are the notable insights from this session:
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] 15,19,22-25}$ This
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] We're making excellent progress now by really pinning down the boundaries of our current knowledge. Thanks, White, for that crucial clarification on generalizability. We've got our bas
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -595,9 +595,9 @@ I need to flag something here, because a factual gap is widening as the conversa
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] Here are the notable insights from this session:
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] 15,19,22-25}$ This
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] We're making excellent progress now by really pinning down the boundaries of our current knowledge. Thanks, White, for that crucial clarification on generalizability. We've got our bas
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1114,7 +1114,7 @@ Red, I understand the analogy, but I want to be precise about what's actually ha
 - [diffused Black] If we treat epilepsy as dynamic, the critical flaw we immediately inherit is that our entire clinical trial infrastructure is built around static endpoints — seizure frequency average
 - [diffused Blue] That is our new directive. How does viewing epilepsy as a dynamic disease fundamentally change our treatment approach? We need to look at this from all angles, starting with the immedi
 - [diffused Green] What if we stop trying to predict the trajectory and instead build treatments that *adapt* as the disease changes? Like, we know seizure risk isn't fixed — so what if we designed clos
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] , Austria ## Corre
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1212,7 +1212,7 @@ Green, I need to flag something important here. What you're describing — a min
 - [diffused Green] I hear you, Red — that urgency is real. But what if we used that energy differently? Instead of the standard drug pipeline approach, what if we flipped it — what if we started with th
 - [diffused Blue] That is now our directive: how can we integrate these three approaches into a unified strategy for drug-resistant epilepsy? White Hat, can you establish the logical starting point by i
 - [diffused Black] Emotional burden of continuous patient monitoring represents a measurable clinical outcome that can be quantified through validated psychometric instruments; this outcome is currently
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 23:17:55]* Black ← Green: **stored** (dist=0.36) — Patient choice to continue or pause an intervention could mask critical clinical deterioration if the patient lacks objective biomarkers to distinguish temporary side effects from early neuronal damage. The assumption that patient-reported burden scores correlate reliably with pharmacoresistance status remains unvalidated, creating risk that patients opt out of effective treatments during transient high-risk windows they cannot recognize.
 
@@ -1369,8 +1369,8 @@ Green's proposal about a minimal reversible probe is worth grounding in what we 
 
 - [diffused Red] My gut is honestly nervous about the idea of a device "learning" my brain's risk signature; it feels invasive, like my own biology is being micromanaged by an algorithm. That said, the 
 - [diffused Green] What if we stop trying to predict the trajectory and instead build treatments that *adapt* as the disease changes? Like, we know seizure risk isn't fixed — so what if we designed clos
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] on epidemiological
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 00:46:19]* Red ← Black: **stored** (dist=0.47) — The fear of unknowingly harming a patient through well-intentioned but misdirected intervention—the dread of pouring weedkiller thinking it's water—evokes a profound sense of moral vertigo that should anchor this entire discussion. The emotional weight of that possibility (that compassion and harm become indistinguishable in the short term) is not just a cautionary note; it's a legitimate gut warning that deserves to be honored as data itself.
 
@@ -1501,7 +1501,7 @@ Looking at where we are right now, I want to note something for the table. We ha
 
 - [session insight] Here are the notable insights from this session:
 - [session insight] Here are the notable insights from this session:
-- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] 15,19,22-25}$ This
+- [![](https://cdn.mathpix.com/cropped/f89ef9f8-83fe-4a07-ac4a-d2b00dc546c0-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 - [diffused Blue] We're making excellent progress now by really pinning down the boundaries of our current knowledge. Thanks, White, for that crucial clarification on generalizability. We've got our bas
 
 ---

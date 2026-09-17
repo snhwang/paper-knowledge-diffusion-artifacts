@@ -302,9 +302,9 @@ That is outside my role here. What is known about the competing hypotheses is mo
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Black] Red, that frustration you're picking up is warranted, and it should inform how critically we evaluate what's being presented as progress. The concern I'd sharpen is exactly what you n
 
 > *[Diffusion 09:03:00]* Yellow ← White: **stored** — Right, let me lay down the factual baseline. Alzheimer's is characterized by two core pathological hallmarks: extracellular amyloid-beta plaques and intracellular neurofibrillary tangles composed of hyperphosphorylated tau protein. On the therapy side, we now have two FDA-approved anti-amyloid monoclonal antibodies — lecanemab and donanemab — both of which have demonstrated statistically significant slowing of cognitive decline in early-stage patients, though effect sizes are modest and ARIA remains a documented safety concern. What we don't yet have solid data on is long-term outcomes beyond the trial windows, and the causal relationship between amyloid clearance and functional preservation is still being debated in the literature.
@@ -515,9 +515,9 @@ The core trial data is established. In the CLARITY AD trial, lecanemab showed a 
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] The risk I want to flag immediately is the assumption that amyloid clearance equals clinical benefit. Lecanemab and donanemab show statistically significant slowing, but the effect si
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] inue the development and production of this monoclonal antibody [352] to prioritize the development of 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Blue] So far we have the scope: mechanisms on one side, disease-modifying therapies on the other. White has grounded the pathology and current anti-amyloid data, and Green has opened alterna
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] inition of "disease modifying therapy" arose [315], inspiring, in 2021 and later, the design of anti- $
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:04:05]* Red ← Yellow: **stored** — The value in exploring competing hypotheses like tau pathology and neuroinflammation lies in offering alternative therapeutic targets that could address different aspects of the disease process. This broadens our strategy and could lead to combination therapies that tackle multiple pathways simultaneously, potentially enhancing overall treatment efficacy. And taking that further, incorporating these perspectives might help us identify more precise biomarkers for earlier, individualized intervention, ultimately improving patient outcomes and quality of life.
 
@@ -728,10 +728,10 @@ That is outside my role here. What is actually on the table is the visitor's que
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] # Alzheimer's Disease: Treatment Challenges for the Future John Hardy ${ }^{1,2}$ (D)<br>${ }^{1}$ Department of Neurodege
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -830,10 +830,10 @@ Across the four named barriers, here is what the data establishes. ARIA — amyl
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] inical decline beyond amyloid. Clearly, we need to understand the reasons for the residual decline and whether, for exampl
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 - [diffused Black] The risk I want to flag immediately is the assumption that amyloid clearance equals clinical benefit. Lecanemab and donanemab show statistically significant slowing, but the effect si
 - [diffused Yellow] This focus works because understanding the full pathological mechanism—amyloid, tau, neuroinflammation—provides a comprehensive foundation to evaluate therapies realistically. The va
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] e issues differentiating successful antibodies are discussed in (Karran and De Strooper 2022) and the contrast between suc
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:05:44]* Red ← Blue: **stored** — So the frame is clear now: trial efficacy versus real-world benefit, with White having established the core numbers and the biggest gap — limited large-scale real-world effectiveness data. Black, stress-test clinical meaningfulness and safety in ordinary practice, and then Red can add what these outcomes are likely to feel like from the patient and family side.
 
@@ -901,10 +901,9 @@ There is an unresolved data point worth flagging before the group moves to next-
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Red, that frustration you're picking up is warranted, and it should inform how critically we evaluate what's being presented as progress. The concern I'd sharpen is exactly what you n
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ly do. To provide more complete context, we created visual summaries of the data from the Phase 3
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] week trial period. While one may hypothesize that continued divergence will
-continue between the 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] 36 months (double the length of the lecanemab trial), $[X-Y]$ would need to increase to 0.9 to ma
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1113,8 +1112,8 @@ A few facts worth anchoring this to before the group builds priorities. Current 
 
 - [diffused Yellow] This focus works because understanding the full pathological mechanism—amyloid, tau, neuroinflammation—provides a comprehensive foundation to evaluate therapies realistically. The va
 - [diffused Black] The risk I want to flag immediately is the assumption that amyloid clearance equals clinical benefit. Lecanemab and donanemab show statistically significant slowing, but the effect si
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] e issues differentiating successful antibodies are discussed in (Karran and De Strooper 2022) and the contrast between suc
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] inical decline beyond amyloid. Clearly, we need to understand the reasons for the residual decline and whether, for exampl
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:06:51]* Yellow ← White: **stored** — There is an unresolved data point worth flagging before the group moves to next-generation targets. The visitor's new question assumes a hierarchy of promising alternatives, but what is actually established is more limited: tau accumulation is confirmed as a correlate of cognitive decline, neuroinflammation via microglial activation is documented in post-mortem and imaging studies, and synaptic density loss measured by PET shows strong correlation with symptom severity. What is not yet established is which of these is upstream versus downstream in the causal sequence, and without that, ranking therapeutic promise is premature.
 

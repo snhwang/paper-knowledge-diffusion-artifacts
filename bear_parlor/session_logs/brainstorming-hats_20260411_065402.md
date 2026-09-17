@@ -261,11 +261,10 @@ Available evidence suggests LLMs perform best on well-defined, information-retri
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good, we’re aligned on the question now: evidence, risks, and the path to safe deployment in clinical decision support. White Hat, give us the strongest current evidence and the cleare
 - [diffused Black] I'm ready to dig into the failure modes once White Hat establishes what the evidence actually shows. Clinical decision support is exactly the kind of high-stakes domain where unexamin
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:55:34]* Red ← Blue: **stored** — Let me frame it: the question is not whether these tools are interesting, but what evidence exists, what risks matter most in practice, and what conditions would make deployment safe. White Hat, start us with the current evidence and known limitations; then I want Black Hat on failure modes, Yellow Hat on potential benefits, and we’ll close by identifying the guardrails still missing.
 
@@ -369,10 +368,10 @@ Available evidence indicates LLMs perform well on documentation tasks — clinic
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] maintaining the AI infrastructure is higher if healthcare facilities have to set up and maintain t
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] and ethical considerations must remain priorities. Rigorous testing and validation of systems, alo
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:56:01]* Blue ← Black: **stored** — I'll hold my critique until White Hat lays out what we actually know. There's no point identifying failure modes until we've established the evidence base — otherwise I'd just be speculating, and that's not rigorous. White, what does the data actually show?
 
@@ -711,9 +710,8 @@ What is known: retrieval-augmented generation systems have demonstrated measurab
 
 - [diffused Blue] So let’s answer the facilitator’s question directly: based on what we’ve established, hallucination is a serious operational risk because plausible errors are hard for clinicians to de
 - [diffused Red] I've got to sit with this for a second — because when White and Black laid out the evidence, my dread actually crystallized into something clearer. The hallucination risk feels acute an
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] nequalities and prejudices in medical research and clinical practice can be perpetuated and amplified through biased Al
-models, necessitating a c
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] technical problems, dependence and skill degradation among healthcare workers can occur due to over-reliance on AI as well as LLMs, leading to a 
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -786,11 +784,10 @@ That falls outside what White Hat covers — what is known is that we have an op
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] d establish trust among the general public is crucial for ensuring the ethical, reliable, and secure deployment of AI technologies in real-world 
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good, we’re aligned on the question now: evidence, risks, and the path to safe deployment in clinical decision support. White Hat, give us the strongest current evidence and the cleare
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:57:50]* Yellow ← Blue: **stored** — So let’s answer the facilitator’s question directly: based on what we’ve established, hallucination is a serious operational risk because plausible errors are hard for clinicians to detect, while bias and liability remain serious but less well quantified in live deployments. We have evidence of the failure pattern, but we still lack prospective workflow data on frequency, subgroup impact, and who is accountable when the model influences care. Next, it would help to hear White on real-world evidence for bias and deployment data, then Black can separate fatal risks from manageable ones.
 
@@ -1031,12 +1028,9 @@ The room is converging on a concern that is factually grounded: the gap between 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] sions information is available at
-http://www.nature.com/reprints
-Publisher's note Springer Nature 
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good, we’re aligned on the question now: evidence, risks, and the path to safe deployment in clinical decision support. White Hat, give us the strongest current evidence and the cleare
 
 > *[Diffusion 06:58:56]* Red ← White: **stored** — What is known: retrieval-augmented generation systems have demonstrated measurable reductions in factual hallucination rates in general-domain benchmarks, with some studies reporting improvements in the range of 30–50% compared to standard generation. However, clinical deployment data specifically is sparse — most published evaluations are on general or lightly medical-domain tasks, not live care settings. Deterministic frameworks, meaning rule-based guardrails layered over LLM outputs, have documented efficacy in constrained tasks like medication contraindication flagging, but the evidence base is small and largely vendor-reported, which is a meaningful caveat. The critical gap: we do not yet have prospective data showing whether RAG or deterministic approaches reduce the specific failure mode Black identified — plausible-sounding fabrication in high-stakes clinical decisions — at a rate sufficient to restore clinician oversight as a reliable backstop.
@@ -1273,7 +1267,7 @@ On the evidence side, what responsible integration looks like in five years has 
 **Knowledge RAG** for White (4 chunks):
 
 - [session insight] 2. Clinician oversight cannot be treated as a reliable safety backstop for LLM outputs in clinical settings because documented studies show clinicians fail to identify plausible-soun
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Green] Have we considered using LLMs to help spot patterns across massive datasets, like finding rare disease presentations or subtle drug interactions that even experienced clinicians might
 - [session insight] 1. Hallucination, training-data bias, and liability opacity in LLM clinical deployments are not independent risks but a compounding systemic failure mode: a hallucinated recommendati
 

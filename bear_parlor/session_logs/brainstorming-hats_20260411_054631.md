@@ -274,9 +274,9 @@ The available information on the competing hypotheses is more relevant here. Bey
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Red] Disease-modifying therapy efficacy is currently measured by cognitive decline rate (ADAS-cog14, MMSE) and amyloid/tau biomarkers, not by restoration of specific functional domains; a ga
 
 > *[Diffusion 05:48:21]* Blue ← White: **stored** — The discussion has established that amyloid-cascade-hypothesis-focused therapies show biomarker efficacy but lack corresponding functional outcome improvements, revealing a critical gap in the current evidence framework. The group needs to prioritize gathering comparative clinical data on tau-propagation-hypothesis interventions, neuroinflammation-hypothesis approaches, and cholinergic-hypothesis treatments to determine which pathological mechanism most directly predicts functional decline in patients.
@@ -636,9 +636,9 @@ The room is converging on a concern that is actually a data gap, not just a feel
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Red] Disease-modifying therapy efficacy is currently measured by cognitive decline rate (ADAS-cog14, MMSE) and amyloid/tau biomarkers, not by restoration of specific functional domains; a ga
 
 ---
@@ -768,12 +768,10 @@ There is no data available on current weather conditions or what is visible outs
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ly do. To provide more complete context, we created visual summaries of the data from the Phase 3
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] week trial period. While one may hypothesize that continued divergence will
-continue between the 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] 36 months (double the length of the lecanemab trial), $[X-Y]$ would need to increase to 0.9 to ma
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] eft_y=1181&top_left_x=176)
-Figure 2. Infographic of the lecanemab pivotal trial. The data are sho
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -846,10 +844,10 @@ What is known across those three buckets: tau-targeting therapies have demonstra
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] act that Tau abnormalities can be found in several other neurodegenerative diseases, such as progressiv
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] , monoclonal antibodies such as ABBV-8E12 targeting tau proteins were proved to reduce Tau protein in C
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] distribution are strongly correlated with the severity of such effects [202]. Genetic evidence highligh
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (monoclonal antibodies directly targeting the undesired protein), not leading to encouraging results as
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 05:51:29]* Yellow ← Red: **stored** (dist=0.49) — The absence of functional validation for biomarker-to-outcome translation in lecanemab creates a genuine opportunity to design the first rigorous real-world evidence study that captures everyday outcomes families actually care about — dinner table time, conversation quality, independence in daily tasks — which could become the gold standard for how we evaluate disease-modifying therapies going forward and unlock confidence in this entire drug class.
 
@@ -1022,10 +1020,10 @@ To ground the group on the facilitator's question: across the three targets, the
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] act that Tau abnormalities can be found in several other neurodegenerative diseases, such as progressiv
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] x, and S. J. van Veluw. 2025. "Amyloid-Related Imaging Abnormalities: Manifestations, Metrics and Mechanisms." Nature Revi
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] https://doi.org/10. 1038/nn. 4017. Karran, E., and B. De Strooper. 2022. "The Amyloid Hypothesis in Alzheimer Disease: New
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] found in several other neurodegenerative diseases, such as progressive supranuclear palsy and corticoba
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 

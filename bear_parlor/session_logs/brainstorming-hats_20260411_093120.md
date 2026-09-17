@@ -354,8 +354,7 @@ You know, I have to say — there's something that feels genuinely hopeful about
 - [diffused Red] *pauses, tilting head slightly with a puzzled but not unkind expression*
 
 Wait — hold on a second, Green. I was actually right there with you on the GLP-1 thing, and now we're suddenly 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good pivot — let’s keep this structured: mechanism first, then strongest clinical evidence, then where extension beyond diabetes and obesity is plausible versus still speculative. Whit
 
 > *[Diffusion 09:33:02]* Yellow ← Green: **stored** — What if GLP-1 agonists could be used in ways nobody expects yet — like for cognitive enhancement, mood disorders, maybe even addiction? Imagine if we could reframe their reputation from just "weight loss drugs" to "metabolic modulators" for brain, gut, and beyond. Or what if we explored microdosing, or paired them with tech like wearables to optimize timing and effect? There might be a whole universe of applications we're overlooking!
@@ -899,14 +898,12 @@ What is established at the trial level is this: SELECT enrolled patients with ob
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
 - [diffused Red] *pauses, tilting head slightly with a puzzled but not unkind expression*
 
 Wait — hold on a second, Green. I was actually right there with you on the GLP-1 thing, and now we're suddenly 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] inal version of the manuscript and had access to the data. JD is the guarantor and takes responsib
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:35:03]* Black ← Red: **stored** — *nods, shifting focus immediately*
 
@@ -1197,12 +1194,10 @@ The Tzang systematic review on GLP-1 discontinuation is worth anchoring to here.
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] ging the transition off therapy and to clarify the downstream effects of discontinuation in the contex
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] outcomes" was applied during full-text screening, after confirming that studies met all other criteria
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
 
 ---
 

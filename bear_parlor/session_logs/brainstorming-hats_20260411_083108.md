@@ -179,10 +179,10 @@ The room has shifted toward a useful tension — concerns about delivery and com
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:32:35]* Yellow ← White: **stored** — We know that for ischemic stroke — which accounts for roughly 85% of all strokes — the primary acute intervention is IV alteplase, with an evidence-based treatment window of up to 4.5 hours from symptom onset, and mechanical thrombectomy extending that window to 24 hours for selected large-vessel occlusions. For secondary prevention, we know antiplatelet therapy, anticoagulation for atrial fibrillation, statin therapy, and blood pressure control all have strong trial evidence behind them. What we don't yet have solid data on is optimal implementation at scale — particularly why door-to-needle times remain highly variable across centers despite established protocols.
 
@@ -268,10 +268,10 @@ The evidence base for thrombectomy is strongest for proximal anterior circulatio
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:32:58]* Black ← White: **stored** — We know that for ischemic stroke — which accounts for roughly 85% of all strokes — the primary acute intervention is IV alteplase, with an evidence-based treatment window of up to 4.5 hours from symptom onset, and mechanical thrombectomy extending that window to 24 hours for selected large-vessel occlusions. For secondary prevention, we know antiplatelet therapy, anticoagulation for atrial fibrillation, statin therapy, and blood pressure control all have strong trial evidence behind them. What we don't yet have solid data on is optimal implementation at scale — particularly why door-to-needle times remain highly variable across centers despite established protocols.
 
@@ -618,10 +618,10 @@ There is a data point worth surfacing before we go further. The knowledge base f
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ol material could reduce T2D-associated stroke outcome deterioration [88]. Hence, specific targeting of the g
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:34:21]* Green ← Blue: **stored** — Good reset — the question now is mechanical thrombectomy specifically: current limitations, and what could address them. So far we have one clear bucket on the table — evidence and access gaps — and I want to keep us structured around clinical limits, system limits, and implementation fixes. Black, give us the main failure points, then Green can help on practical ways to close them.
 
@@ -698,7 +698,7 @@ We know that for AF-related stroke, direct oral anticoagulants — specifically 
 
 - [diffused Blue] Understood — resetting to the facilitator’s topic. The problem as I understand it is to map the current state across the full stroke pathway: acute treatment, transition out of hospita
 - [diffused Black] That variability in door-to-needle times is exactly where I'd start pressing. We have the protocols, we have the evidence, and yet roughly 80% of stroke patients in the US are treated
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ecific stroke etiology, surgery or intervention may be necessary to prevent further stroke, for example, in t
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Red] I'll be honest — there's something that sits underneath all this that I think matters more than we're naming yet. When I think about someone who's just had a stroke, or their family in 
 
 > *[Diffusion 08:34:47]* Blue ← Green: **stored** — What if we reimagined thrombectomy as a mobile service — like a stroke ambulance equipped for on-site intervention in high-incidence regions? Or maybe there’s a role for remote-controlled robotic devices, where expert interventionalists guide procedures at distant hospitals in real time. Also, have we explored AI-driven triage to identify transfer candidates the moment they hit a local ER, before imaging is even done?
@@ -914,11 +914,10 @@ The room has shifted toward optimism and broad synthesis, which is understandabl
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:35:42]* Green ← White: **stored** — We know that for AF-related stroke, direct oral anticoagulants — specifically apixaban, rivaroxaban, dabigatran, and edoxaban — have demonstrated superiority over warfarin in reducing recurrent stroke risk while carrying a lower intracranial hemorrhage burden across major randomized trials. That is fairly settled ground. What is less settled is real-world adherence, which circles back to what Red and Black flagged earlier — trial efficacy and population-level protection are not the same number when roughly half of patients have discontinued medication within a year of discharge.
 

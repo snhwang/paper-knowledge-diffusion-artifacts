@@ -233,10 +233,10 @@ There is no data on town gossip within the scope of what we are examining here. 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] # Epilepsy as a dy
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] rediction into cli
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:57:59]* White ← Yellow: **skipped** (dist=0.27)
 
@@ -328,10 +328,10 @@ Several data inputs have demonstrated value in individualized seizure risk model
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] f experiencing a s
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] influence clinical
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ably with establis
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] fforts must priori
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:58:20]* Red ← Yellow: **stored** — Individualized seizure risk prediction evokes hope and relief for families living with the constant fear of the next seizure—but it also triggers anxiety about whether a prediction of high risk might become a self-fulfilling prophecy or lead to overtreatment that steals childhood normalcy. The emotional stakes are profound: families want control and reassurance, not more uncertainty dressed up as data.
 
@@ -626,10 +626,10 @@ We know that Dravet syndrome is caused by loss-of-function variants in SCN1A in 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] ices, and outcomes
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] without impaired c
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:59:54]* Blue ← Red and Black, synthesized through process lens: **skipped** (dist=0.35)
 
@@ -897,10 +897,10 @@ There's actually a data point worth pulling back in here — we don't currently 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] on therapies, conducting long-term safety studies, evaluating quality of life impact, expanding
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] us primarily on ep
-- [Walker et al. — State-of-the-art gene therapy in epilepsy] roved treatment efficacy with far fewer adverse effects, especially compared to our present use of small molecules and resective surgery. ##
-- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] titute, Christian 
+- [}^{\mathrm{a} et al. — Drug resistant epilepsy and ketogenic diet: A narrative review of mechanisms of] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
+- [Walker et al. — State-of-the-art gene therapy in epilepsy] (excerpt omitted: copyrighted source text)
+- [![](https://cdn.mathpix.com/cropped/ba3aabfb-4d41-467a-9e4b-3b21093fb583-01.jpg?height=59 et al. — Epilepsy as a dynamic disease: Toward actionable, individualized seizure risk pr] (excerpt omitted: copyrighted source text)
 
 ---
 

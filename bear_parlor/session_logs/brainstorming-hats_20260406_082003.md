@@ -178,10 +178,10 @@ The group has surfaced a useful tension worth grounding. What is actually establ
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] MS III, ${ }^{1}$ MR RESCUE, ${ }^{2}$ and SYNTHESIS Expansion ${ }^{3}$ were three multicenter
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] interventional arm either did not have a LAO or had an inaccessible, distally located thrombus.
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 08:21:18]* Yellow ← Red: **stored** — *laughs* Oh man, I'd wear a giant foam hat for this conversation — honestly, there's something about the absurdity of it that would make me *feel* more free to say the weird stuff, you know? Right now I'm sitting here with all this gut reaction to stroke treatment that I'm trying to justify, but if I had a ridiculous hat on, I think I'd just blurt it out without the filter.
 
@@ -636,9 +636,9 @@ The question just asked is directly relevant to a documented evidence gap. What 
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] *laughs* Oh man, I'd wear a giant foam hat for this conversation — honestly, there's something about the absurdity of it that would make me *feel* more free to say the weird stuff, you 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -755,10 +755,10 @@ There is one additional data point worth adding to what Black just outlined. The
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ated extravasation of immune cells into the brain parenchyma and the formation of brain edema [7]. The latter
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Mechanical thrombectomy has significantly improved outcomes by enabling recovery in patients who would otherwise face severe disability or death, especially since it extends the trea
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] s recombinant tissue plasminogen activator, mRS=modified Rankin Scale, NIHSS=National Institute
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] d. This article is an open access article distributed under the terms and conditions of the Creative Commons 
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -869,9 +869,9 @@ We know the most coherent hypothesis in the current literature is thrombectomy c
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ombectomy. However, only a small number of stroke patients benefit from these treatments due to time constrai
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] d. This article is an open access article distributed under the terms and conditions of the Creative Commons 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] cludes neurodegenerative processes occurring days, weeks, and even months after the ischemic event. Modulatin
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Right, resetting to the facilitator’s question: we are discussing new treatment approaches for acute ischemic stroke. Let’s structure this as current limits first, then emerging treatm
 
 > *[Diffusion 08:24:37]* Black ← White: **stored** — The question just asked is directly relevant to a documented evidence gap. What is known: hundreds of neuroprotective compounds have shown promising preclinical results, and to date none have successfully translated to clinical routine — that is not an opinion, it is the established record. The question of whether they can complement thrombectomy is live and unanswered.

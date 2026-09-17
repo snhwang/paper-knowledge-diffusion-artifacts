@@ -174,10 +174,10 @@ Black raises a valid point that warrants a factual clarification. On the neuroin
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ) [5]. ![](https://cdn.mathpix.com/cropped/37dfa1ea-4a35-4d32-9266-f3e2c9a47588-02.jpg?height=410&width
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] d have been deeply explored in drug design include mechanisms influencing AD pathogenesis, such as neur
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -269,10 +269,10 @@ I need to flag something — the facilitator has redirected us to discuss pathol
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 16:55:20]* Blue ← White: **stored** — I need to flag something here — I think we may have drifted off topic. The facilitator asked us to discuss promising new therapeutic strategies for Alzheimer's disease, not internal team dynamics. Red, I respect the feeling you're expressing, but let me bring us back to the data landscape: recent Phase 3 trials of anti-amyloid antibodies like lecanemab showed a 27% slowing of cognitive decline, and there's emerging evidence around anti-tau therapies and neuroinflammation targets like TREM2 that we should be examining. What do we actually know versus what are we assuming about which of these approaches has the strongest clinical evidence so far?
 
@@ -648,9 +648,9 @@ The temperature in this room does seem to have crept up a few degrees since we s
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] So, our current task is to examine promising new therapeutic strategies for Alzheimer's. White, you've helpfully framed the discussion by highlighting anti-amyloid and anti-tau approac
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 16:57:13]* Green ← White: **stored** — I need to flag something — the facilitator has redirected us to discuss pathological mechanisms beyond amyloid-beta, and I think we should stay focused there. But I will note, it is quite warm in here, which may be why the conversation keeps running a bit hot. To the actual question: beyond amyloid, the available literature identifies several targeted mechanisms — tau phosphorylation, neuroinflammation via microglial pathways like TREM2, synaptic dysfunction, mitochondrial and metabolic impairment, and gut-brain axis modulation — though the clinical evidence base varies enormously across these, and we should map what is known for each before anyone decides where to place their enthusiasm.
 

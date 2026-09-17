@@ -280,11 +280,10 @@ The available data on governance frameworks is more relevant here than the weath
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however, is beyo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been debated lon
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:40:43]* Green ← Red: **stored** — The tension between Red Hat's emotional unease about crossing a genetic line and Yellow Hat's confidence in scalable manufacturing opens a lateral possibility: what if the discomfort itself is a signal worth designing into the process? Could we create deliberate friction points—ceremonial review stages, mandatory stakeholder councils, or 'cooling-off' periods—that slow deployment just enough to let cultural adaptation catch up with technical capability, without blocking progress?
 
@@ -383,10 +382,10 @@ What is established: somatic editing affects only the treated individual and doe
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been debated lon
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] enue, New Haven, CT 06519-1362 ${ }^{2}$ Department of Biochemistry and Molecular Genetics, University of Virgin
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] an embryos ${ }^{12-14}$, the NASEM report suggests that when technical and safety risks are better understood, 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] be dedicated to gathering information from dispersed sources, bringing to the fore perspectives that are often o
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -579,10 +578,9 @@ What is established: both Casgevy and Lyfgenia demonstrated significant reductio
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Casgevy and Lyfgenia trial data showed positive short-term clinical outcomes, but sample sizes were small, follow-up periods measured in months to a few years rather than decades, and
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] { }^{98}$, cystic fibrosis ${ }^{99}$, infertility ${ }^{100}$, and any number of novel diseases. The potential 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (U.S.). 2015. Available from: http:// nationalacademies.org/cs/groups/pgasite/documents/webpage/pga_170455.pdf
-9
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] t to these populations might be desirable and/or lucrative? Will such foods be able to safely and successfully s
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -653,10 +651,9 @@ The room is operating with a reasonable degree of factual discipline at this poi
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] news-events/press-announcements/fda-roundup-december-19-2023
-[15] Orkin SH. Recent advances in gl
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 - [diffused Black] Casgevy and Lyfgenia trial data showed positive short-term clinical outcomes, but sample sizes were small, follow-up periods measured in months to a few years rather than decades, and
 
 ---
@@ -744,10 +741,10 @@ What is established: inherited conditions most amenable to CRISPR therapy share 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] me types with unprecedented ease has caused considerable excitement and Author Manuscript Author Manuscript Auth
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] for experimentation ${ }^{4,6,87,88}$. ## To what extent should CRISPR use be permitted in translational and cli
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] ease Zainab Syyeda Rahmat, MBBS ${ }^{\text {a }}$, Mohammad Haris Ali, MBBS ${ }^{\text {b }}$, 
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 
 > *[Ingestion 09:43:06]* White: indexed 66 chunks from *laurent%20CRISPR-based%20gene%20therapies*
 
@@ -874,12 +871,10 @@ That is outside my role here. What is known about the technical barriers is more
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] m of free speech? ${ }^{139}$ Alternatively, what authority should may stop individuals from exercising their ri
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] 1 | potential to encroach on societal autonomy limit discovery and progress |
-|  |  | safeguard against potentia
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] as the protection of defective embryos, ${ }^{166}$ the elimination of certain disease that might be obliterated
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 09:43:37]* Red ← White: **stored** (dist=0.44) — The distinction between 'not observed' and 'not present' in long-term oncogenic risk for Casgevy and Lyfgenia triggers deep unease — patients and families are being asked to accept permanent genetic modification based on a follow-up window too short to rule out cancer decades later, creating a visceral tension between hope for immediate symptom relief and dread of invisible future harm.
 
@@ -1056,10 +1051,10 @@ What is established: no germline-edited human has been born under sanctioned cli
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] each instantiating, and the possible justifications driving the results of any one. The ethical concerns about C
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however, is beyo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] an embryos ${ }^{12-14}$, the NASEM report suggests that when technical and safety risks are better understood, 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 ---
 

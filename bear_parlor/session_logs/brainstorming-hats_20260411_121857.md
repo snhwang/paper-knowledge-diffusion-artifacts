@@ -351,12 +351,11 @@ What I can add to Black's point: automation bias is not theoretical — studies 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] *leans back, nods slowly*
 
 Yeah, that lands for me. I appreciate White laying that out—because honestly, what's been gnawing at me isn't just "this feels risky," it's that we're talking
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] *shifts in seat, eyes narrowing slightly*
 
 I gotta be honest — there's something that's been sitting under this whole thing for me, and Green just touched it. I'm feeling this tension b
@@ -500,10 +499,10 @@ To Black's direct question: no published randomized controlled trial to date has
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] ${ }^{22}$. Microsoft has also joined a consortium of healthcare leaders to form the Trustworthy \
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] This works because LLMs can synthesize vast amounts of medical literature and patient data quickly, providing up-to-date insights that clinicians might otherwise miss. The value here
 - [diffused Blue] The problem as I understand it is threefold: what evidence supports LLMs in clinical decision support, what risks could cause harm, and what a safe deployment path looks like. So far, 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] maintaining the AI infrastructure is higher if healthcare facilities have to set up and maintain t
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -696,7 +695,7 @@ To Black's question about documented instances — this is a critical data gap a
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Green] I keep coming back to the idea of a “clinical intuition coach” — what if LLMs didn’t give answers, but instead tossed out creative counter-considerations or flagged unexpected differe
 - [diffused Black] I want to press on something that's been glossed over. The risk-benefit ratio is *not* clearly favorable anywhere yet, and I think we need to sit with that discomfort. White just told
 - [diffused Red] *shifts in seat, eyes narrowing slightly*
@@ -850,13 +849,12 @@ What evidence exists on RAG and deterministic frameworks is what I can speak to.
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 - [diffused Red] *leans back, nods slowly*
 
 Yeah, that lands for me. I appreciate White laying that out—because honestly, what's been gnawing at me isn't just "this feels risky," it's that we're talking
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] iation Oncology, Kantonsspital St. Gallen, St. Gallen, Switzerland. ⟶e-mail: fabio.dennstaedt@inse
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1179,15 +1177,10 @@ The room's mood is noted, but what is actually observable is this: multiple hats
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] m. http://deepinfra.com/.
-26. Karabacak, M. \& Margetis, K. Embracing large language models for me
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] hatGPT or Gemini), has different needs compared to an LLM integrated into a sophisticated system w
-- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] - review editing ..... 573
-- Dianbo Liu: Conceptualization; Investigation; Visualization; Supervision; Project adminis- ..... 574
-tration; Writin
-- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] sions information is available at
-http://www.nature.com/reprints
-Publisher's note Springer Nature 
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
+- [Wang%20safety%20challenges%20of%20AI%20in%20medicine] (excerpt omitted: copyrighted source text)
+- [Dennstädt et al. — Implementing large language models in healthcare while balancing control, collab] (excerpt omitted: copyrighted source text)
 
 ---
 

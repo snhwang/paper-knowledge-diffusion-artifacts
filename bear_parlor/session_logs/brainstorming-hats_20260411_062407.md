@@ -173,11 +173,10 @@ Black raises a fair point, and the data supports the caution. The trial populati
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] modifying effects in Alzheimer's and Parkinson's disease. These findings point towards a unif
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] thpix.com/cropped/0c3f3596-2296-4802-87fb-8ea9c95beadd-2.jpg?height=800&width=1360&top_left_y
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] in early Alzheimer's disease (MCI/Mild Dementia) [23]. |
-| Alzheimer's | ELAD | Liraglutide |
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -257,11 +256,10 @@ Black's earlier caution about extrapolating trial data to novel populations is w
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (Subcutaneous) |
-| Primary Mechanism | Selective GLP-1R activation | Selective GLP-1R activat
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ing phase III trials are currently aiming to validate these findings with longer-acting agent
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ptors in the hindbrain (area postrema) and the hypothalamus simultaneously, Tirzepatide appea
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:25:43]* Blue ← Green: **stored** — What if we explored GLP-1 receptor agonists as enhancers not just for metabolic issues, but for entirely different domains — like cognitive function or mental health? Have we considered using these compounds in combinations with unexpected therapies, say, digital health platforms or microbiome interventions? And what about wearable tech that could deliver tailored micro-doses in response to real-time biofeedback?
 
@@ -403,9 +401,9 @@ To build on what Black just flagged about mechanism ambiguity: we know the cardi
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Yellow] The cardiovascular benefits of GLP-1 agonists are well-supported by robust trial data like LEADER and SELECT, which is really promising because reducing major adverse events can mean
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ## Review Article # Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity,
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] modifying effects in Alzheimer's and Parkinson's disease. These findings point towards a unif
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ), which cleaves the N-terminal dipeptide, rendering the hormone inactive within minutes and 
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -599,7 +597,7 @@ The known safety concerns are documented and worth stating plainly. Gastrointest
 - [diffused Blue] Got it — let’s structure this around three lanes: mechanism, current clinical evidence, and what counts as credible expansion beyond diabetes and obesity. White can ground us in establ
 - [diffused Blue] Let’s keep this tight around evidence strength first, then mechanisms: White should rank cardiovascular, renal, and neurological by quality of evidence, and Black and Yellow can test h
 - [diffused Black] Blue's tiering is right, but let me pressure-test the confidence we should actually have in each level. Cardiovascular is the strongest, yes — but White flagged that we still can't cl
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] ment of white adipose tissue function and insulin sensitivity [9]. This "biased agonism" or s
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -676,13 +674,10 @@ There is a factual point worth flagging before we move to population-specific so
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] inal version of the manuscript and had access to the data. JD is the guarantor and takes responsib
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ] of 1099 patients in the placebo group) initiated SGLT2 inhibition therapy during the study.
-Seri
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:27:35]* Blue ← Black: **stored** — Blue's tiering is right, but let me pressure-test the confidence we should actually have in each level. Cardiovascular is the strongest, yes — but White flagged that we still can't cleanly attribute the mechanism, whether it's weight loss, direct vascular effects, or anti-inflammatory action, and that ambiguity matters because if the benefit is mostly weight-mediated, it may not generalize to patients who don't lose significant weight. Renal evidence from the FLOW trial is encouraging, but we should be cautious about treating one well-designed trial as settled science the way we treat the converging cardiovascular data from LEADER, SUSTAIN-6, and SELECT. And neurological is where I'd push hardest — we have receptor expression in the CNS and some preclinical signals, but calling that "evidence of neurological benefit" conflates biological plausibility with clinical proof, and that's exactly the kind of slippage that leads to premature off-label use.
 
@@ -804,7 +799,7 @@ The SELECT trial enrolled approximately 17,604 non-diabetic participants with ob
 - [diffused Yellow] The SELECT trial’s cardiovascular mortality reduction in patients with obesity and established cardiovascular disease is a major breakthrough because it shows real, life-saving benef
 - [diffused Red] I hear the visitor asking about SELECT and what it means for prescribing beyond diabetes — and honestly, that mortality reduction does something to me. It feels significant in a way tha
 - [session insight] The cardiovascular benefit of GLP-1 receptor agonists demonstrated in the SELECT trial is notable because SELECT enrolled non-diabetic patients with obesity and established cardiovas
-- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] the natural history of atherosclerotic cardiovascular disease (ASCVD) through mechanisms that
+- [Professor et al. 2025 — Systemic Effects of GLP-1 and Dual GIP/GLP-1 Receptor Agonism in Obesity, Cardio] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:28:08]* Black ← White: **stored** — The known safety concerns are documented and worth stating plainly. Gastrointestinal adverse events — nausea, vomiting, diarrhea — are the most commonly reported, occurring in roughly 30 to 40 percent of patients in trials like STEP 1 and SURMOUNT-1, and are the primary driver of discontinuation. The established contraindications include personal or family history of medullary thyroid carcinoma and multiple endocrine neoplasia syndrome type 2, based on rodent carcinogenicity data, though the human risk remains unquantified. There is also a documented association with acute pancreatitis, though causality versus confounding by underlying risk factors has not been cleanly resolved in the literature.
 
@@ -983,12 +978,10 @@ There is documented evidence on weight regain after semaglutide discontinuation 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] ed to define LVEF into three categories: less than $40 \%, 40-49 \%$, and $50 \%$ and greater (app
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] ging the transition off therapy and to clarify the downstream effects of discontinuation in the contex
-- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] |  |
-| Class I |  | $0 \cdot 99$ (0.50-1.95) | $0 \cdot 10$ |
-| Class III |  | 1.13 (0.53-2.41) | 
-- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] outcomes" was applied during full-text screening, after confirming that studies met all other criteria
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
+- [Deanfield et al. — Semaglutide and cardiovascular outcomes in patients with obesity and prevalent h] (excerpt omitted: copyrighted source text)
+- [Tzang et al. — Metabolic rebound after GLP-1 receptor agonist discontinuation: a systematic rev] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:28:54]* Blue ← Red: **stored** — I hear the visitor asking about SELECT and what it means for prescribing beyond diabetes — and honestly, that mortality reduction does something to me. It feels significant in a way that makes me want to take this seriously, because we're not just talking about weight loss anymore, we're talking about people not dying.
 

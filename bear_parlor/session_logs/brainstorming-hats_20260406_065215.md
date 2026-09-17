@@ -186,11 +186,10 @@ However, the safety tradeoff is well-documented. What is known is that higher ef
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ic increase in use since the initial reports from the clinical trials programme that showed it to
-be effec
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 06:53:35]* Yellow ← Green: **stored** — What if we looked beyond just medicine — like, could virtual reality training programs help retrain neural pathways? Or maybe personalized microbiome transplants, tailored to each person? And what if instead of suppressing the immune system, we "re-educate" it with designer immune cells? Just tossing ideas — what’s the wildest intervention we haven’t even imagined yet?
 
@@ -814,9 +813,9 @@ That question is outside my role — what is actually known about remyelination 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] tological quantification of myelin [23], Transmission Electron Microscopy (TEM) of the sections of remy
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Let’s keep this structured: the topic is emerging treatment strategies for multiple sclerosis, and it may help to group them into immune modulation, remyelination/repair, and symptom-m
 
 > *[Diffusion 06:55:50]* Blue ← Red: **stored** — *sits back, processing that detail about risk stratification*
@@ -1148,10 +1147,9 @@ What is known supports Red's intuition. In progressive MS, the dominant patholog
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] cond-line therapy option for most MS patients with active, non-progressive disease. However, as an off-lab
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] The evidence for early aggressive treatment shows promise because it aims to prevent irreversible damage before it accumulates, which could significantly improve long-term outcomes f
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] nce Peter Alping, Department of Clinical Neuroscience, Karolinska Institutet, Stockholm, Sweden.
-Email: pe
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Black] The main decision risk here is that the evidence favoring early aggressive treatment comes disproportionately from observational studies and post-hoc analyses rather than large, prosp
 
 ---

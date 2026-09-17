@@ -201,10 +201,10 @@ Several distinct mechanisms are under active investigation. Tau protein aggregat
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] orbidities can play an important role in AD progression and complicate the scenario for the development
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 16:42:25]* Red ← Black: **stored** — The fact that APOE4 carriers — the very people most genetically vulnerable to Alzheimer's — face substantially higher rates of amyloid-related imaging abnormalities from lecanemab feels like a cruel irony, and it should provoke genuine moral discomfort about who we are actually helping with this treatment. There is something deeply unsettling about a therapy whose risks fall hardest on those who need protection most.
 
@@ -239,10 +239,10 @@ The discussion has been productive in one respect — multiple mechanisms have b
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] g time without any symptoms [13]. A combination between fluid biomarkers, imaging, and (more recently) 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -394,9 +394,9 @@ That is an insightful framing from Green, but I want to separate the metaphor fr
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Black] Amyloid-Related Imaging Abnormalities (ARIA) occurred in approximately 21% of lecanemab-treated participants in CLARITY AD; APOE4 homozygotes showed substantially elevated ARIA rates 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ) [5]. ![](https://cdn.mathpix.com/cropped/637d4a19-b5ab-4839-be12-3a16452c07b3-02.jpg?height=410&width
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -455,8 +455,8 @@ To answer directly: anti-tau immunotherapies have the most advanced clinical tri
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Green] No published Phase 2 or Phase 3 randomized controlled trial data currently demonstrate statistically significant cognitive benefit from combination therapy pairing an anti-amyloid age
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Black] Amyloid-Related Imaging Abnormalities (ARIA) occurred in approximately 21% of lecanemab-treated participants in CLARITY AD; APOE4 homozygotes showed substantially elevated ARIA rates 
 
 ---
@@ -484,10 +484,10 @@ I need to flag a data gap that has been largely absent from this discussion. We 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] # Alzheimer's Disease: Treatment Challenges for the Future John Hardy ${ }^{1,2}$ (D)<br>${ }^{1}$ Department of Neurodege
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 16:44:36]* Black ← Red: **stored** — The emotional relief felt toward TREM2 and microglial modulation may be generating premature enthusiasm: TREM2-targeting therapies remain largely in Phase 1 or early Phase 2, meaning there is no controlled efficacy data in patients yet, and the history of Alzheimer's drug development shows that preclinical promise has repeatedly failed to translate into clinical benefit.
 
@@ -577,10 +577,10 @@ The available evidence points to several distinct categories of challenge. First
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] g would it be before amyloid build up starts again and clinical benefit is lost. If such holidays are possible, then this 
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] ucl.ac.uk)<br>Received: 22 March 2025 | Revised: 4 June 2025 | Accepted: 30 June 2025 Keywords: Alzheimer's disease | amyl
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -707,11 +707,10 @@ I need to flag something relevant to the visitor's question that connects back t
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] 37d4a19-b5ab-4839-be12-3a16452c07b3-03.jpg?height=666&width=1308&top_left_y=701&top_left_x=584)
-Figure 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] Lecanemab Phase 3 trial (CLARITY AD) reported a 27% slowing of cognitive decline on the CDR-SB scale versus placebo; this is a statistically significant but modest absolute differenc
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] h an individual's daily life. Among MCI patients, about one-third develop Alzheimer's dementia within f
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ive stimulation (xi) is regarded as a protective factor as well as a reduction in social isolation (xii
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 

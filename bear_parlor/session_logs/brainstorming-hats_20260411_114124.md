@@ -298,9 +298,9 @@ The facilitator has shifted focus to rituximab and B-cell depleting therapies, s
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] and off-label rituximab (Figure 1). Third-line treatment options, reserved for patients with a very severe
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] 9,10}$ Additionally, EBV establishes itself as a chronic latent infection in the memory B cell pool after 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] al biologic drugs. Table 1 lists the currently available DMTs for MS. As few therapies have any proven eff
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Black] Red, that frustration is completely justified, and I'd push it even further — the danger is that all these exciting emerging ideas Green is raising, reprogrammed immune cells, smart i
 
 > *[Diffusion 11:43:11]* Black ← Green: **stored** — What if companies went even further and set up global “talent pools” where people could jump in and out of projects on demand, almost like gig work but for high-skilled roles? Or — totally different angle — what if we created virtual coworking worlds where MS patients and others could network, access resources, and support each other in real time, regardless of geography? Have we considered how tech for remote work could double as platforms for health support and community building?
@@ -418,10 +418,10 @@ To add to what's already been noted — the rituximab literature shows it has be
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] if these newer therapies provide any benefits over rituximab as the mechanism of action is identical. Stud
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] e effects of rituximab appear to be mostly limited to preventing clinical relapses and the inflammatory le
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ab and the new B-cell-depleting therapies. It is also important to study the effects of using biosimilars 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] ima. There are few studies comparing these new biosimilars to MabThera in MS, but one study of Truxima rep
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -730,10 +730,10 @@ The room is treating "we have candidate mechanisms" as roughly equivalent to "we
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] # Recent Advances in Interventions Targeting Remyelination and a Systematic Review of Remyelinating Eff
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ells | Phase I/IIa | Failure on standard of care DMT |  |  | RRMS, SPMS | Safety, EDSS | MRI parameters
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ed controlled and uncontrolled trials, respectively. For preclinical trials, the SYRCLE RoB tool [96] (
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -794,10 +794,10 @@ What is established: no currently approved DMT has demonstrated remyelination as
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] rkers [242], liquid biopsies [243] including extracellular vesicles, and exploring advanced imaging tec
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] uggesting sustained metabolic integrity of the neuronal tissue [233]. In the same study, MWF analysis d
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] entially due to intra-class differences of BTK-i [4-9]. To date, no EMA or FDA-approved DMT targets dis
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] strated through manipulation of ODC lineage cells in cell cultures or confirmed by histological analysi
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1026,12 +1026,10 @@ What is documented but rarely centered in these discussions: the gap between bio
 
 **Knowledge RAG** for White (4 chunks):
 
-- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] iority of rituximab compared with ocrelizumab,
-![](https://cdn.mathpix.com/cropped/a7730e44-1990-44b8-bb4f
+- [© et al. — Disease-modifying therapies in multiple sclerosis: A focused review of rituximab] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Right, narrowing to the off-label versus approved-agent debate. So far we have White’s anchor: similar real-world efficacy is often claimed for rituximab, but the distinction turns on 
-- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] d their correlation with disease progression including cognitive impairment. ${ }^{9}$ PRLs, indi
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] ls.gov |
-| rTMS | Randomized, shamcontrolled phase I clinical trial |  |  | RMS, SPMS | DTI, MTR | Safe
+- [Anderhalten et al. — Emerging MRI and biofluid biomarkers in the diagnosis and prognosis of multiple] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -1226,9 +1224,9 @@ What is established for a 2025 algorithm: baseline assessment would include seru
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] -to-date overview of the remyelinating effects of currently available FDA- and EMA-approved DMTs, used 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] fe, OCT, relapse rate, MSFC | NCT05532943 | [87] | [^1]success [41]. Tables 1 and 2 show completed and 
-- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] nd endogenous remyelination should be considered. Combining different modalities such as electrophysiol
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Recent Advances in Interventions Targeting Remyelination and a Systematic Review] (excerpt omitted: copyrighted source text)
 - [diffused Black] White just laid out the critical distinction, and I want to sharpen the risk here. If no approved DMT has confirmed remyelination in humans, then any claim of "repair potential" is be
 
 > *[Diffusion 11:47:17]* Black ← White: **stored** — What is documented but rarely centered in these discussions: the gap between biomarker detection and clinical action is not just a regulatory problem — it is a time problem. Serum NfL can signal axonal damage weeks to months before functional decline becomes measurable on standard scales, but we do not yet have established protocols for what a clinician should *do* with that early signal in the absence of approved intervention options. We know the signal is there. We do not yet know how to act on it.

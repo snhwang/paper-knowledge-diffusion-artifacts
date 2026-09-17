@@ -184,10 +184,10 @@ On CAR-T specifically, what is known: GD2-targeting CAR-T has shown early signal
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] anatomical location is crucial in immunotherapy development, given differential expression of tu
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] a M. Prolo ${ }^{1}$. Michelle Monje ${ }^{2} \cdot$ Michael Lim ${ }^{1}$ Received: 10 August 2
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 01:43:49]* Yellow ← Blue: **stored** — Alright, let's get focused. The question is: what promising new treatment directions exist for diffuse midline glioma, a notoriously treatment-resistant pediatric brain cancer?
 
@@ -490,8 +490,8 @@ I want to flag something Yellow said — that H3K27M is present in "virtually ev
 - [diffused Blue] Alright, let's get focused. The question is: what promising new treatment directions exist for diffuse midline glioma, a notoriously treatment-resistant pediatric brain cancer?
 
 I'd su
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] umor immune-neural crosstalk, combination therapies, and immune biology in pediatric patients wi
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good — the facilitator has sharpened our focus. Let's direct our energy specifically to immunotherapy: CAR-T and checkpoint inhibitors for DMG. White Hat has already given us a useful 
 
 > *[Ingestion 01:45:26]* White: indexed 16 chunks from *Nonnenbroich%20DMG%20from%20molecular%20mechanisms%20to%20targeted%20interventions*
@@ -602,9 +602,9 @@ That request is outside my role here. What is known about the molecular mechanis
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] So the facilitator wants us to rank by evidence strength — let's be precise about that. GD2-targeting CAR-T is our current evidence leader based on actual clinical trial signals, H3K27
-- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] BB (such as convection enhanced delivery (CED) and focused ultrasound (FUS)) have shown promisi
+- [\boldsymbol{ et al. — H3K27-Altered Diffuse Midline Glioma of the Brainstem: From Molecular Mechanisms] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Good — the facilitator is asking us to evaluate evidence strength. Let's anchor here: among the approaches discussed, GD2-targeting CAR-T currently has the strongest, most concrete ear
-- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] # Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epigenetic reprogr
+- [}^{1}$ et al. 2025 — Adaptive immunotherapeutic paradigms in diffuse midline glioma: integrating epig] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 01:46:12]* Black ← Yellow: **stored** — Yes, and here's what genuinely excites me about CAR-T for DMG specifically: the H3K27M mutation is present in virtually every tumor cell, which means you have a near-universal target that doesn't disappear through antigen escape the way surface proteins sometimes do — that's a real structural advantage. And the early GD2 data, even if preliminary, proves the concept that T-cells can actually get into that CNS environment and do something meaningful. Even with checkpoint inhibitors underperforming as single agents, that failure is actually informative — it tells us the immune system needs to be activated first before you try to release the brakes, which points toward CAR-T plus checkpoint inhibitor sequencing rather than abandoning the checkpoint approach entirely.
 

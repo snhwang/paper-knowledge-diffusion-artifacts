@@ -208,11 +208,10 @@ Red raised the question of who gets left behind — that concern has a factual b
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] Author Manuscript Author Manuscript Author Manuscript Author Manuscript # CRISPR ethics: moral considerations fo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] n of the exerted effect and the purpose of the experiments. Detailed discussion of such issues, however, is beyo
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] hical concerns are specific to CRISPR technology, many, such as research on human embryos, have been debated lon
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:05:41]* Black ← Green: **stored** — What if the building’s flaws became part of the draw instead of something to hide? Like, maybe a section with transparent flooring to showcase the old, imperfect foundation — turn the repairs into a living exhibit on restoration itself? Or what if vendors “adopted” pieces of the foundation and each stall had a theme inspired by its quirks?
 
@@ -660,10 +659,9 @@ That request falls outside my role here. What is known is that several inherited
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Blue] Let me tighten the frame to the facilitator’s question: we need two things only — what the trial data show for Casgevy and Lyfgenia, and what limitations still matter. We’ve heard stro
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] # FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for sickle cell dis
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] news-events/press-announcements/fda-roundup-december-19-2023
-[15] Orkin SH. Recent advances in gl
-- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] CD. Addressing these ethical challenges demands continuous interdisciplinary collaboration, ethic
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
+- [Rahmat et al. 2023 — FDA approval of Casgevy and Lyfgenia: a dual breakthrough in gene therapies for] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 12:07:31]* Red ← Black: **stored** — The clinical data for Casgevy showed that around 29 of 31 patients in the pivotal trial were free of severe vaso-occlusive crises for at least 12 consecutive months, which sounds impressive until you realize that's a tiny sample size with limited follow-up — we're talking about a permanent, irreversible edit to a patient's stem cells validated on a few dozen people over a few years. The durability question White flagged is the real pressure point: we simply don't know if these edits remain stable at the five, ten, or twenty-year mark, and any off-target cuts the Cas9 protein made could take years to manifest as problems. And then there's the practical bottleneck — both therapies require myeloablative conditioning, essentially wiping out a patient's existing bone marrow with chemotherapy before reinfusing the edited cells, which carries its own serious risks and limits who can safely undergo treatment. Combine that with the $2.2 million price tag White mentioned and the fact that sickle cell disproportionately affects populations already facing structural barriers to care, and you've got a therapy that could technically cure a disease while remaining functionally inaccessible to most of the people who actually have it.
 
@@ -903,11 +901,9 @@ On delivery: lipid nanoparticles for liver targets are well-characterized; the c
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] I hear the pivot, Blue — and honestly, stepping back to just the data and limits, what strikes me is this: the clinical wins are *real* for those 29 patients, and I feel genuine relief 
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] m of free speech? ${ }^{139}$ Alternatively, what authority should may stop individuals from exercising their ri
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] 1 | potential to encroach on societal autonomy limit discovery and progress |
-|  |  | safeguard against potentia
-- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] s: toward the responsible use of genome editing. The CRISPR Journal. 2018; 1(2):128-129.
-171. Jasanoff S, Hurlbu
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
+- [}^{2 et al. — CRISPR ethics: moral considerations for applications of a powerful tool] (excerpt omitted: copyrighted source text)
 
 ---
 

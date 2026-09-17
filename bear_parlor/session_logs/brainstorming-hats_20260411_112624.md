@@ -196,10 +196,10 @@ Black, you're right that the 50% figure is significant, but let me be precise ab
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] ike the United States, which has a much more heterogeneous healthcare environment. However, vir
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] 0.038$ ). Although every study, except REVASCAT, reported a decrease in mortality with endovasc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] zation rates for LAO are notoriously poor. Endovascular intervention has been studied as a pote
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] interventional arm either did not have a LAO or had an inaccessible, distally located thrombus.
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:27:49]* Black ← Green: **stored** — What if instead of just treating strokes after they happen, we had real-time wearable tech that could predict and even intervene before an event? Or maybe we could gamify secondary prevention—imagine stroke risk reduction as a multiplayer quest where progress is visible and social. Have we ever thought about using AI-driven personalized nutrition plans for high-risk individuals?
 
@@ -303,10 +303,10 @@ That is outside my role here. What is known about mechanical thrombectomy's curr
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] Investigators T. The contribution of intra-arterial thrombectomy in acute ischemic stroke in pa
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] , Durst CR, Crowley RW, Liu KC. Evolution of endovascular mechanical thrombectomy for acute isc
-- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] # Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard of Care Dale D
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
+- [Neurosurgery et al. — Endovascular Mechanical Thrombectomy for Acute Ischemic Stroke: A New Standard o] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -773,10 +773,10 @@ The available data on anticoagulation in AF-related stroke is worth anchoring be
 
 **Knowledge RAG** for White (4 chunks):
 
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] ## 4.1. Neuroprotectants In the last decade, numerous agents showed promising neuroprotective potential in pr
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Right, topic shift acknowledged: acute-phase neuroprotection beyond thrombectomy. Let’s keep this tight — first, what has the strongest current evidence or signal, second, what deliver
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] e field of neuroprotection. Future trials will elucidate if one neuroprotectant or a combined strategy with d
-- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] # Neuroprotective Strategies for Ischemic Stroke-Future Perspectives Matteo Haupt ${ }^{\mathbf{1} \boldsymbo
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
+- [\boldsymbol{ et al. — Neuroprotective Strategies for Ischemic Stroke-Future Perspectives] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -925,11 +925,10 @@ Something I keep coming back to is that we genuinely do not have clean data sepa
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] est The author(s) declared the following potential conflicts of interest with respect to the research, 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] ion Health Research Institute, McMaster University, Hamilton, ON, Canada
-    *Indicates members of the 
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] M Cecilia Bahit ${ }^{\mathbf{2 2}}$, Jan F Scheitz ${ }^{23, *}$ and Ashkan Shoamanesh ${ }^{24, * \te
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] n time between stroke and LAAC of 7.6 months) showed no differences in the rates of IS and ICH, but a l
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:31:01]* Blue ← Red: **stored** — I appreciate where you're going with that, Green, but honestly it's making me more anxious, not less—because now we're layering complexity on top of a foundation we haven't even solidified yet. My gut is telling me that before we start talking about real-time adaptive cocktails and brain-computer interfaces, we need to sit with the uncomfortable question I just raised: are we actually confident that neuroprotection *works* in the real world, or are we chasing it because it feels like we have to do *something*? That uncertainty is eating at me, and I don't think more tech sophistication is going to settle it.
 
@@ -1178,8 +1177,7 @@ For a patient presenting today, here is what is established: DOACs demonstrate s
 
 - [diffused Black] Red, that uncertainty you're naming is well-founded, and the evidence backs it up — decades of neuroprotection trials have produced over a thousand candidate agents with essentially z
 - [diffused Red] I'm hearing a lot of hard data about DOACs versus warfarin, persistence rates, eligibility gaps—and honestly, underneath all that, I'm sensing something that feels almost resigned, like
-- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] mption. | F |
-|  | 25 | Currently, there are no robust data on the safety and efficacy of other interve
+- [}^{1 et al. — Ischemic stroke prevention in patients with atrial fibrillation and a recent isc] (excerpt omitted: copyrighted source text)
 - [diffused Blue] Right, hard pivot accepted: we are on secondary prevention now, specifically anticoagulation for AF-related stroke. So far we have the basic evidence frame from White and the adherence
 
 > *[Diffusion 11:32:07]* Black ← White: **stored** — Something I keep coming back to is that we genuinely do not have clean data separating *why* patients stop anticoagulation — whether it's cost, side effects, symptom resolution creating false security, or loss of follow-up — and without that breakdown, trial designers are essentially guessing at which intervention to test. We know adherence drops to roughly 50-60% by 12 months and keeps falling, but that single number is masking very different causal pathways that would require very different solutions. Future trials need discontinuation reason as a primary captured variable, not an afterthought, otherwise we'll keep optimizing the wrong end of the problem.

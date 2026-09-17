@@ -297,9 +297,9 @@ The amyloid cascade hypothesis has held the dominant position since the early 19
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] I love where your head's at, Green — there's something genuinely hopeful about the idea that the brain might be retrain-able rather than just degenerating. That resonates with me. But I
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] This is promising because it shows that early biomarkers like mean diffusivity can provide a real window of opportunity for intervention before symptoms become severe. The value here
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] odulations, peptide deposit control and aspecific treatments, followed by a discussion of treatment lim
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:50:35]* Yellow ← Green: **stored** — What if we looked at Alzheimer’s like a communications breakdown between neurons — could we borrow protocols from digital error-correction? Or maybe there’s potential in using non-traditional therapies, like sensory art or virtual reality, to "retrain" neural pathways? Or, wild idea, what if prevention focused on social networks — almost like herd immunity for the brain?
 
@@ -380,10 +380,10 @@ The amyloid cascade hypothesis has held the dominant position since the early 19
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ing to neuronal loss and finally to AD symptoms [49]. The amyloid cascade hypothesis is supported by th
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ompounds targeting $\mathrm{A} \beta$ failed in ameliorating or stopping cognitive impairment associate
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] couraging results $[171,172]$. On this basis, further efforts in the search for selective S1R agonists 
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] Psychostimulants such as methylphenidate was proven to decrease the severity of apathy in AD patients, 
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -679,7 +679,7 @@ Green's brain dashboard idea assumes patients would have access to real-time bio
 - [diffused Green] What if the intervention windows themselves are dynamic — could we use real-time biomarker feedback loops, sort of like a closed-loop insulin pump but for Alzheimer's? Or, building on
 - [diffused Green] What if we looked at Alzheimer’s like a communications breakdown between neurons — could we borrow protocols from digital error-correction? Or maybe there’s potential in using non-tra
 - [diffused Yellow] This is promising because it shows that early biomarkers like mean diffusivity can provide a real window of opportunity for intervention before symptoms become severe. The value here
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] ive stimulation (xi) is regarded as a protective factor as well as a reduction in social isolation (xii
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 > *[Diffusion 11:52:10]* Green ← White: **stored** — The amyloid cascade hypothesis has held the dominant position since the early 1990s, but several competing frameworks have substantial evidence behind them. The tau propagation hypothesis is well-supported — tau pathology correlates more closely with cognitive decline than amyloid burden does, which is a documented finding across multiple large studies. The neuroinflammation hypothesis has gained considerable traction, with GWAS data consistently implicating microglial genes like TREM2 as risk factors. Each of these hypotheses has generated distinct therapeutic targets — tau aggregation inhibitors, TREM2 agonists, and synaptic protection strategies — which is why the competing frameworks matter practically, not just theoretically.
 
@@ -737,9 +737,9 @@ The room is generating a lot of heat around real-world translation, which is exa
 **Knowledge RAG** for White (4 chunks):
 
 - [diffused Red] I love where your head's at, Green — there's something genuinely hopeful about the idea that the brain might be retrain-able rather than just degenerating. That resonates with me. But I
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] # Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspective Naomi Scarano ${ }^
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 - [diffused Yellow] This is promising because it shows that early biomarkers like mean diffusivity can provide a real window of opportunity for intervention before symptoms become severe. The value here
-- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] .S.)<br>2 Institute for Biomedical Technologies, National Research Council, 20054 Segrate, Milan, Italy
+- [}^{1 et al. — Alzheimer's Disease Etiology Hypotheses and Therapeutic Strategies: A Perspectiv] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -914,8 +914,8 @@ The separation Blue is pointing to matters for the data. What is known: lecanema
 
 - [diffused Blue] So far we have Yellow on the potential upside, but the facilitator’s question is specifically about what the evidence shows in practice. It would help to hear White give the trial-leve
 - [diffused Yellow] This works because understanding the pathological mechanisms clearly can directly inform more precise therapies, increasing their effectiveness. The value here is that by targeting t
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ies for another day. We would note, however, that a substantial impact on our healthcare networks
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] there have been far fewer studies and the limited data available suggests that much more work is yet required to reach sat
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 
 ---
 
@@ -990,10 +990,9 @@ What is known about tau as a biomarker is worth flagging here before we go furth
 
 **Knowledge RAG** for White (4 chunks):
 
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] ly do. To provide more complete context, we created visual summaries of the data from the Phase 3
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 - [diffused Blue] So far White has put three live alternatives on the table: tau propagation, neuroinflammation, and synaptic protection. The next step is to hear the hats map how each hypothesis change
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] week trial period. While one may hypothesize that continued divergence will
-continue between the 
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 - [diffused Blue] So far we have Yellow on the potential upside, but the facilitator’s question is specifically about what the evidence shows in practice. It would help to hear White give the trial-leve
 
 > *[Diffusion 11:53:39]* Green ← White: **stored** — The room is generating a lot of heat around real-world translation, which is exactly where the data gaps are most critical. What is known: ARIA occurred in approximately 21% of lecanemab-treated patients and around 24% for donanemab in trials — those are not rare events. Cost figures for lecanemab are documented at approximately $26,500 USD annually, and that excludes the monitoring infrastructure required to administer it safely. We do not yet have robust real-world data on what patient selection looks like outside trial populations, where comorbidities and access barriers are substantially higher.
@@ -1207,10 +1206,10 @@ Blue's grid is the right frame — here is what the evidence actually shows for 
 
 **Knowledge RAG** for White (4 chunks):
 
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] e issues differentiating successful antibodies are discussed in (Karran and De Strooper 2022) and the contrast between suc
-- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] inical decline beyond amyloid. Clearly, we need to understand the reasons for the residual decline and whether, for exampl
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
+- [}^{1 et al. 2025 — Alzheimer's Disease: Treatment Challenges for the Future] (excerpt omitted: copyrighted source text)
 - [diffused Blue] We’re cleanly on the new question now: not rollout barriers, but which non-amyloid targets look most promising and why. White has started the evidence base on tau, so the best next seq
-- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] f Neurobiology, University of Pittsburgh, Pittsburgh, Pennsylvania 15261 Key words: aducanumab; A
+- [Espay et al. 2023 — Lecanemab and Donanemab as Therapies for Alzheimer's Disease: An Illustrated Per] (excerpt omitted: copyrighted source text)
 
 ---
 
