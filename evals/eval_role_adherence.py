@@ -99,6 +99,10 @@ def load_role_anchors() -> dict[str, list[str]]:
             data = yaml.safe_load(f)
         texts = []
         for instr in data.get("instructions", []):
+            # Speaking profile only: the knowledge-diffusion lens is a separate
+            # facet that never enters a hat's system prompt.
+            if "knowledge-diffusion" in (instr.get("tags") or []):
+                continue
             content = instr.get("content", "").strip()
             if content:
                 texts.append(content)

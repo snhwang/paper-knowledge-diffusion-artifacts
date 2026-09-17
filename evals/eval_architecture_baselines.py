@@ -247,10 +247,13 @@ def load_role_queries(hat_dir: Path) -> dict[str, str]:
         except Exception:
             queries[hat] = fallback[hat]
             continue
+        # Speaking profile only: the knowledge-diffusion lens is a separate
+        # facet that never enters a hat's system prompt.
         parts = [
             str(ins.get("content", "")).strip()
             for ins in (data.get("instructions") or [])
             if ins.get("type") in ("persona", "directive")
+            and "knowledge-diffusion" not in (ins.get("tags") or [])
         ]
         text = "\n".join(p for p in parts if p)
         queries[hat] = text if text else fallback[hat]

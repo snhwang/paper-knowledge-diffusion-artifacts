@@ -15,6 +15,9 @@
 # hard gating, so a newer version need not reproduce the published numbers.
 # The eval scripts read recorded logs and store snapshots, so they do not
 # themselves depend on this pin.
+# The v6 sessions (bear_parlor/session_logs/v6/) did NOT use this pin: the Parlor
+# server imports BEAR from the bear-dev checkout, commit d90058c. See
+# EXPERIMENT_LOG.md, v6.
 bear @ git+https://github.com/snhwang/bear.git@v0.1.0
 
 # --- NOT a pip dependency: Mathpix -----------------------------------------
@@ -38,3 +41,20 @@ matplotlib>=3.7
 PyYAML
 python-dotenv
 openai
+
+# --- generating panel sessions (bear_parlor/run_sessions.py) ----------------
+# Not needed to analyse recorded sessions. Needs Python 3.10-3.13: ChromaDB
+# does not import under 3.14. Exact tested versions are recorded in
+# bear_parlor/requirements-sessions.lock.txt. The Parlor server imports BEAR
+# from the bear-dev checkout it runs from, ahead of the pinned package above.
+# Mathpix credentials (MATHPIX_APP_ID, MATHPIX_APP_KEY) go in bear-dev's .env.
+aiohttp>=3.9                  # session runner
+fastapi>=0.104.0              # Parlor server
+uvicorn[standard]>=0.24.0
+websockets>=12.0
+python-multipart>=0.0.9       # PDF upload endpoint
+chromadb>=0.4.0               # per-hat knowledge stores
+pypdf>=4.0.0                  # fallback PDF extraction
+requests>=2.28                # Mathpix API
+pydantic>=2.0
+anthropic>=0.20.0             # only for Anthropic models
