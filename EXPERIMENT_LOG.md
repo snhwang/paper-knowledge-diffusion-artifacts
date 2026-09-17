@@ -188,6 +188,14 @@ setting for both models keeps the method simple. Greedy decoding caused no
 visible problems: in BRAINTEASER `single`, all 301 items gave a parseable
 answer on the first attempt.
 
+### Qwen3.8-27B (panel benchmarks)
+
+Model id `Qwen3.8-27B`, served by vLLM at `http://localhost:8355/v1` (reached
+from WSL); the server reports its weights as `nvidia/Qwen3.8-27B-NVFP4` (NVFP4
+4-bit quantization), max_model_len 262144, no API key. Thinking is disabled
+(localhost), and sampling is the same as for the other benchmark models (see
+above). Targets: `run_panel_bench.sh sct-qwen27b` / `brainteaser-qwen27b`.
+
 ### Uniform local 12B
 
 All hats use: `mistral-nemo-instruct-2407`.
