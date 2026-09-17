@@ -10,6 +10,8 @@
 #   sct-qwen            SCT-Bench on qwen3.8-flash-next (local model server)
 #   brainteaser-haiku   BRAINTEASER, sentence + word puzzles, on Claude Haiku 4.5
 #   brainteaser-qwen    BRAINTEASER, sentence + word puzzles, on qwen3.8-flash-next
+#   sct-qwen27b         SCT-Bench on Qwen3.8-27B (local server, port 8355)
+#   brainteaser-qwen27b BRAINTEASER, sentence + word puzzles, on Qwen3.8-27B
 #
 # Examples:
 #   benchmarks/run_panel_bench.sh sct-haiku --n 10        # quick check, 10 items
@@ -31,6 +33,14 @@ QWEN_KEY_ENV="THEMINDFOLD_API_KEY"   # read from .env; only this variable
 QWEN_CONCURRENCY=8
 HAIKU_MODEL="claude-haiku-4-5-20251001"   # ANTHROPIC_API_KEY is read from bear-dev/.env
 HAIKU_CONCURRENCY=4
+# Qwen3.8-27B on the local server. Override with environment variables if the
+# server reports another model id or runs elsewhere; the model id names the
+# results directory, so keep it the same across runs. Set QWEN27B_KEY_ENV to
+# the .env variable holding the key if the server needs one.
+QWEN27B_MODEL="${QWEN27B_MODEL:-Qwen3.8-27B}"
+QWEN27B_URL="${QWEN27B_URL:-http://localhost:8355/v1}"
+QWEN27B_KEY_ENV="${QWEN27B_KEY_ENV:-}"
+QWEN27B_CONCURRENCY="${QWEN27B_CONCURRENCY:-4}"
 # ------------------------------------------------------------------------------
 
 cd "$(dirname "$0")/.."
@@ -39,7 +49,7 @@ if [[ -f .venv/bin/activate ]]; then
     source .venv/bin/activate
 fi
 
-usage() { sed -n '2,24p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
+usage() { sed -n '2,26p' "$0" | sed 's/^# \{0,1\}//'; exit "${1:-0}"; }
 
 status() {
     echo "Running panel_bench processes:"
@@ -69,6 +79,12 @@ case "$target" in
     sct-qwen)          bench=sct;         model_args=(--model "$QWEN_MODEL" --base-url "$QWEN_URL" --api-key-env "$QWEN_KEY_ENV" --concurrency "$QWEN_CONCURRENCY") ;;
     brainteaser-haiku) bench=brainteaser; model_args=(--model "$HAIKU_MODEL" --concurrency "$HAIKU_CONCURRENCY" --puzzle-type both) ;;
     brainteaser-qwen)  bench=brainteaser; model_args=(--model "$QWEN_MODEL" --base-url "$QWEN_URL" --api-key-env "$QWEN_KEY_ENV" --concurrency "$QWEN_CONCURRENCY" --puzzle-type both) ;;
+    sct-qwen27b|brainteaser-qwen27b)
+        bench="${target%-qwen27b}"
+        model_args=(--model "$QWEN27B_MODEL" --base-url "$QWEN27B_URL" --concurrency "$QWEN27B_CONCURRENCY")
+        if [[ -n "$QWEN27B_KEY_ENV" ]]; then model_args+=(--api-key-env "$QWEN27B_KEY_ENV"); fi
+        if [[ "$bench" == brainteaser ]]; then model_args+=(--puzzle-type both); fi
+        ;;
     *) echo "unknown target: $target"; usage 1 ;;
 esac
 
