@@ -177,8 +177,10 @@ def make_backend(args, bear_dev: Path):
         key = read_env_var(args.api_key_env, bear_dev) if args.api_key_env else None
         if args.api_key_env and not key:
             sys.exit(f"{args.api_key_env} not found in the environment or .env")
+        # the HTTP timeout must not be shorter than our own per-call cap, or a
+        # slow server's requests are cut off and retried instead of finishing
         return OpenAIBackend(model=args.model, base_url=args.base_url, api_key=key or "no-key",
-                             no_system_role=args.no_system_role)
+                             no_system_role=args.no_system_role, timeout=args.call_timeout)
     if args.model.startswith("claude"):
         from bear.backends.llm.anthropic_backend import AnthropicBackend
         key = read_env_var("ANTHROPIC_API_KEY", bear_dev)
