@@ -37,3 +37,17 @@ panels:
       direction; Blue Hat does NOT set the agenda independently.
       Other hats respond when their mode is relevant. Build on each other.
       Disagreement between hats is productive — that is the point of the method.
+
+  - id: benchmark-hats
+    name: "Six Thinking Hats task panel"
+    description: "Six Thinking Hats panel answering one benchmark item (SCT-Bench, BRAINTEASER)."
+    user_label: "The task"
+    # Hat instructions only: the common chat constraints ("respond ONLY with
+    # dialogue", "you are a person having a conversation") would conflict with
+    # a required answer format.
+    instruction_dirs: [hats]
+    characters: [white-hat, red-hat, black-hat, yellow-hat, green-hat, blue-hat]
+    room_context: |
+      This is a Six Thinking Hats panel working on a single question. Each
+      participant contributes from their assigned thinking mode. Follow the
+      task instructions in each message, including the required answer format.

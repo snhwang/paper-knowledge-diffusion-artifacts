@@ -41,9 +41,12 @@ benchmarks/                     # 10 experiments scripts + input data
 │   └── sct_cleaned_full.csv          # cleaned SCT dataset
 ├── brainteaser_puzzles.json          # frozen brainteaser SP puzzles
 ├── brainteaser_wp_puzzles.json       # frozen brainteaser WP puzzles
+├── panel_bench.py                    # CURRENT: SCT-Bench and BRAINTEASER, BEAR-built hats,
+│                                     #   one task instruction for all conditions
+├── bear_hat_prompts.py               # builds hat system prompts with BEAR (benchmark-hats panel)
 ├── bbh_eval.py                       # single vs panel on BBH
 ├── brainteaser_eval.py               # single vs panel on brainteaser
-├── sct_eval.py, sct_eval_v2.py       # SCT evaluation (v1 + v2)
+├── sct_eval.py, sct_eval_v2.py       # SCT evaluation (v1 + v2); April runs, hard-coded hat prompts
 ├── sct_repair_panel.py, sct_repair_panel_trunc.py, sct_rerun_nulls.py
 ├── analyze_panel.py                  # cross-model panel analysis
 ├── llm_rejudge_brainteaser.py        # LLM re-judging
