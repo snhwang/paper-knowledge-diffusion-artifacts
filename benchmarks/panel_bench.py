@@ -480,21 +480,25 @@ def analyze(args):
         # records have no token count and are not counted
         max_tokens = BENCHMARKS[args.benchmark].max_tokens
         calls = [k for v in r.values() for k in v["calls"]]
+        cfg_path = out_dir / "config.json"
+        cfg = json.loads(cfg_path.read_text(encoding="utf-8")) if cfg_path.exists() else {}
+        num_ctx = cfg.get("num_ctx") or 8192
         truncated = sum((k.get("output_tokens") or 0) >= max_tokens for k in calls)
         counted = sum(k.get("output_tokens") is not None for k in calls)
-        # BEAR asks Ollama-style servers for num_ctx 8192, which covers prompt
-        # plus output; calls close to it risk a silently truncated prompt
+        # An Ollama-style server truncates a prompt that does not fit its
+        # context window (prompt plus output), silently. Compare against the
+        # window this run asked for, falling back to BEAR's 8192 default.
         totals = [(k.get("prompt_tokens") or 0) + (k.get("output_tokens") or 0) for k in calls]
-        near_ctx = sum(t >= 8000 for t in totals)
+        near_ctx = sum(t >= 0.95 * num_ctx for t in totals)
         summary["conditions"][c] = {"n_items": len(scores), "mean_score": sum(scores) / len(scores),
                                     "no_answer": unparsed, "items_with_api_errors": errored,
                                     "calls": len(calls), "calls_with_token_counts": counted,
                                     "calls_at_output_limit": truncated,
                                     "max_prompt_plus_output_tokens": max(totals) if totals else 0,
-                                    "calls_near_8k_context": near_ctx}
+                                    "context_window": num_ctx, "calls_near_context_limit": near_ctx}
         print(f"  {c:<14} n={len(scores):<4} mean={sum(scores)/len(scores):.3f}  no answer={unparsed}"
               + (f"  at output limit={truncated}/{counted} calls" if counted else "")
-              + (f"  NEAR 8k CONTEXT: {near_ctx} calls" if near_ctx else "")
+              + (f"  NEAR {num_ctx // 1024}k CONTEXT (truncation risk): {near_ctx} calls" if near_ctx else "")
               + (f"  API errors in {errored} items (rerun to retry them)" if errored else ""))
         if args.benchmark == "brainteaser":
             for t in sorted({v["type"] for v in r.values()}):
