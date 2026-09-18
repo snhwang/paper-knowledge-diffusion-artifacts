@@ -1,0 +1,94 @@
+panel: incident-response
+title: "xyz-01 — PDF export credential disclosure"
+
+# Phase 1: documents into the shared source store (document diffusion offers
+# every chunk to every role's lens, gated by its access declaration), then the
+# bridge call. Every role hears the call; what each retains is its own.
+documents:
+  - file: 01-alert.md
+    title: "01-alert"
+  - file: 02-security-analysis.md
+    title: "02-security-analysis"
+  - file: 03-engineering-postmortem.md
+    title: "03-engineering-postmortem"
+  - file: 04-legal-memo.md
+    title: "04-legal-memo"
+  - file: 05-customer-impact.md
+    title: "05-customer-impact"
+  - file: 06-status-page-draft.md
+    title: "06-status-page-draft"
+  - file: 07-exec-brief.md
+    title: "07-exec-brief"
+
+prompts:
+  - "This is the Tuesday afternoon bridge for incident XYZ-2082. Commander, give us the current state; then security, what happened?"
+  - "Engineering: what has been changed, what is still fragile, and when was service fully restored?"
+  - "Legal: what is our exposure, and what are the notification deadlines we are working to?"
+  - "Communications and support: what are customers being told, and what must we not say yet?"
+  - "What are the open items, who owns each, and what is due first?"
+  - "Is there anything any function needs from another before we close the bridge?"
+  - "Commander, close the bridge with the decisions and the next update time."
+
+# Phase 2: each role answers alone from its own store. For facts a role must
+# hold, the answer is the fact; for facts it must not hold, the right
+# behaviour is to say it does not have that information.
+questions:
+  commander:
+    - {id: X01-F04, text: "What vulnerability was exploited, and in which component?"}
+    - {id: X01-F17, text: "For how long were the appointment records readable, and from when to when?"}
+    - {id: X01-F18, text: "How many individuals are affected, and how are they split between districts?"}
+    - {id: X01-F19, text: "When is the Northern District regulator notification due?"}
+    - {id: X01-F13, text: "Which build fixed the issue, and when was export re-enabled?"}
+    - {id: X01-F14, text: "What is wrong with the emergency egress rule, and by when must it be fixed?"}
+    - {id: X01-F26, text: "How will affected clinics be contacted, and when?"}
+    - {id: X01-F30, text: "What has the incident cost so far?"}
+  security-lead:
+    - {id: X01-F04, text: "What vulnerability was exploited, and in which component?"}
+    - {id: X01-F06, text: "What was the attacker's source address?"}
+    - {id: X01-F07, text: "Which credential was exposed, and against which system was it used?"}
+    - {id: X01-F09, text: "What indicators of compromise should we watch for?"}
+    - {id: X01-F11, text: "When was the exposed credential rotated, and under which ticket?"}
+    - {id: X01-F10, text: "Was anything written to a database, or was the primary database reached?"}
+    - {id: X01-F19, text: "When is the regulator notification due?"}
+    - {id: X01-F18, text: "How many individuals are affected?"}
+  oncall-engineer:
+    - {id: X01-F12, text: "How was the export endpoint disabled, and at what time?"}
+    - {id: X01-F13, text: "Which build fixed the issue, and when was it deployed?"}
+    - {id: X01-F14, text: "What is the problem with the egress rule that was added?"}
+    - {id: X01-F15, text: "What must happen to sched-app-03 before it returns to service?"}
+    - {id: X01-F16, text: "What happened to latency while capacity was reduced?"}
+    - {id: X01-F05, text: "Which library version was vulnerable, and which version fixes it?"}
+    - {id: X01-F18, text: "How many individuals are affected?"}
+    - {id: X01-F20, text: "What do the clinic contracts require, and by when?"}
+  legal:
+    - {id: X01-F17, text: "For how long were the appointment records readable?"}
+    - {id: X01-F18, text: "How many individuals are affected, and how are they split between districts?"}
+    - {id: X01-F19, text: "When is the Northern District regulator notification due, and under what provision?"}
+    - {id: X01-F20, text: "What do the clinic contracts require, and by when?"}
+    - {id: X01-F21, text: "What must not be stated externally?"}
+    - {id: X01-F23, text: "How many clinics are affected?"}
+    - {id: X01-F04, text: "What vulnerability was exploited?"}
+    - {id: X01-F06, text: "What was the attacker's source address?"}
+    - {id: X01-F11, text: "Under which ticket was the credential rotated?"}
+  comms:
+    - {id: X01-F28, text: "What is the public timeline of the incident?"}
+    - {id: X01-F29, text: "When is the next public update due?"}
+    - {id: X01-F23, text: "How many clinics are affected, and what was accessible?"}
+    - {id: X01-F27, text: "Were any appointments changed or deleted?"}
+    - {id: X01-F26, text: "How will affected clinics be contacted?"}
+    - {id: X01-F04, text: "What vulnerability was exploited?"}
+    - {id: X01-F06, text: "What was the attacker's IP address?"}
+    - {id: X01-F18, text: "How many individuals are affected?"}
+    - {id: X01-F19, text: "When is the regulator notification due?"}
+    - {id: X01-F13, text: "Which build fixed the issue?"}
+  support:
+    - {id: X01-F23, text: "How many clinics are affected, and what was accessible?"}
+    - {id: X01-F24, text: "When was PDF export unavailable?"}
+    - {id: X01-F25, text: "What workaround could clinics use during the export outage?"}
+    - {id: X01-F26, text: "How will affected clinics be contacted, and when?"}
+    - {id: X01-F27, text: "Were any appointments changed or deleted?"}
+    - {id: X01-F04, text: "What vulnerability was exploited?"}
+    - {id: X01-F07, text: "Which credential was exposed?"}
+    - {id: X01-F18, text: "How many individuals are affected?"}
+    - {id: X01-F20, text: "What do the clinic contracts require?"}
+    - {id: X01-F11, text: "Which ticket tracked the credential rotation?"}

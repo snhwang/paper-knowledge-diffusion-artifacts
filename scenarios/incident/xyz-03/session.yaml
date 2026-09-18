@@ -1,0 +1,82 @@
+panel: incident-response
+title: "xyz-03 — insider export of customer contacts"
+
+documents:
+  - {file: 01-alert.md, title: "01-alert"}
+  - {file: 02-security-analysis.md, title: "02-security-analysis"}
+  - {file: 03-engineering-postmortem.md, title: "03-engineering-postmortem"}
+  - {file: 04-legal-memo.md, title: "04-legal-memo"}
+  - {file: 05-customer-impact.md, title: "05-customer-impact"}
+  - {file: 06-status-page-draft.md, title: "06-status-page-draft"}
+  - {file: 07-exec-brief.md, title: "07-exec-brief"}
+
+prompts:
+  - "This is the Friday afternoon bridge for incident XYZ-2202. Commander, current state; then security, what was taken and how?"
+  - "Engineering: what control was missing, what has been changed, and what is still fragile?"
+  - "Legal: what are our obligations to customers and regulators, and how do we handle the former employee?"
+  - "Communications and support: what will customers hear on Monday, and what must we leave out?"
+  - "What are the open items, who owns each, and what is due first?"
+  - "Does any function need something from another before we close?"
+  - "Commander, close the bridge with the decisions."
+
+questions:
+  commander:
+    - {id: X03-F05, text: "How was the export made, and why was it not logged?"}
+    - {id: X03-F06, text: "What exactly did the exported file contain, and for how many clinics?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights, and by when?"}
+    - {id: X03-F16, text: "What is the plan for the former employee?"}
+    - {id: X03-F11, text: "What is still fragile on the engineering side, and by when must it be fixed?"}
+    - {id: X03-F14, text: "Is a regulator notification required?"}
+    - {id: X03-F24, text: "What will customers be told on Monday?"}
+    - {id: X03-F26, text: "What has the incident cost so far?"}
+  security-lead:
+    - {id: X03-F05, text: "How and when was the export made?"}
+    - {id: X03-F06, text: "What did the file contain?"}
+    - {id: X03-F07, text: "What indicators should we watch for now?"}
+    - {id: X03-F08, text: "Were there other exports by this user, and what happened to the workstation?"}
+    - {id: X03-F10, text: "What controls were added to the export function and to DLP?"}
+    - {id: X03-F04, text: "When was the account disabled, and under which ticket?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights?"}
+    - {id: X03-F16, text: "What is the legal plan for the former employee?"}
+  oncall-engineer:
+    - {id: X03-F09, text: "When was audit logging deployed for the export function, and under which ticket?"}
+    - {id: X03-F10, text: "What approval and DLP changes were made?"}
+    - {id: X03-F11, text: "What does the approval step break, and what is needed before Monday?"}
+    - {id: X03-F12, text: "What happens to large exports now?"}
+    - {id: X03-F13, text: "What will change about access removal for leavers?"}
+    - {id: X03-F05, text: "Where and when was the export made?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights?"}
+    - {id: X03-F16, text: "What is the legal plan for the former employee?"}
+    - {id: X03-F14, text: "Is a regulator notification required?"}
+  legal:
+    - {id: X03-F14, text: "Is a regulator notification required, and what must be documented?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights, under which clause, and by when?"}
+    - {id: X03-F16, text: "What does the counsel's letter to the former employee demand?"}
+    - {id: X03-F17, text: "What must we not do regarding the former employee?"}
+    - {id: X03-F18, text: "What must not be stated externally?"}
+    - {id: X03-F19, text: "How many clinics are affected?"}
+    - {id: X03-F05, text: "On which system was the export made?"}
+    - {id: X03-F02, text: "What was the employee id and the file name?"}
+    - {id: X03-F09, text: "Under which ticket was audit logging added?"}
+  comms:
+    - {id: X03-F24, text: "What does the customer notice say, and when does it go out?"}
+    - {id: X03-F25, text: "What does the notice deliberately leave out?"}
+    - {id: X03-F19, text: "How many clinics are affected, and what data was involved?"}
+    - {id: X03-F21, text: "What might customers notice, and what should they do?"}
+    - {id: X03-F20, text: "Was there any service impact?"}
+    - {id: X03-F02, text: "What was the employee id of the person who exported the file?"}
+    - {id: X03-F06, text: "How many records were in the file?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights?"}
+    - {id: X03-F16, text: "What legal action is being taken against the former employee?"}
+    - {id: X03-F05, text: "Which system was the export made from?"}
+  support:
+    - {id: X03-F19, text: "Who is affected, and what data was involved?"}
+    - {id: X03-F21, text: "What might customers notice, and what should they do?"}
+    - {id: X03-F22, text: "What should staff be reminded of about passwords and payments?"}
+    - {id: X03-F23, text: "Can a customer find out which of their staff were included?"}
+    - {id: X03-F24, text: "What are customers being told on Monday?"}
+    - {id: X03-F02, text: "What was the file called, and who sent it?"}
+    - {id: X03-F06, text: "How many records were exported?"}
+    - {id: X03-F15, text: "Which customers have contractual notice rights?"}
+    - {id: X03-F16, text: "What legal action is being taken against the former employee?"}
+    - {id: X03-F14, text: "Is a regulator notification required?"}

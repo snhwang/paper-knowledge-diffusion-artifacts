@@ -1,0 +1,82 @@
+panel: incident-response
+title: "xyz-04 — breach at the SMS reminder provider"
+
+documents:
+  - {file: 01-alert.md, title: "01-alert"}
+  - {file: 02-security-analysis.md, title: "02-security-analysis"}
+  - {file: 03-engineering-postmortem.md, title: "03-engineering-postmortem"}
+  - {file: 04-legal-memo.md, title: "04-legal-memo"}
+  - {file: 05-customer-impact.md, title: "05-customer-impact"}
+  - {file: 06-status-page-draft.md, title: "06-status-page-draft"}
+  - {file: 07-exec-brief.md, title: "07-exec-brief"}
+
+prompts:
+  - "This is the Tuesday midday bridge for incident XYZ-2300. Commander, current state; then security, what does the provider say happened and what of ours was exposed?"
+  - "Engineering: what is switched off, what is running instead, and who is left without reminders?"
+  - "Legal: whose obligations are these, what do we owe the clinics and by when, and what is our position with the provider?"
+  - "Communications and support: what is public, what are clinics being told, and what must patients be warned about?"
+  - "What are the open items, who owns each, and what is due first?"
+  - "Does any function need something from another before we close?"
+  - "Commander, close the bridge with the decisions and the next update time."
+
+questions:
+  commander:
+    - {id: X04-F03, text: "What does the provider say caused the breach?"}
+    - {id: X04-F05, text: "How many messages and phone numbers were in the window, and how do we know?"}
+    - {id: X04-F15, text: "When is notice to the clinics due, and why?"}
+    - {id: X04-F16, text: "What is our position with the provider under its contract?"}
+    - {id: X04-F12, text: "Which clinics are currently without reminders, and how many?"}
+    - {id: X04-F11, text: "What has to happen before SMS reminders can be switched back on?"}
+    - {id: X04-F24, text: "What does the public statement say about the provider, and when is the next update?"}
+    - {id: X04-F26, text: "What has the incident cost so far?"}
+  security-lead:
+    - {id: X04-F03, text: "What does the provider say caused the breach?"}
+    - {id: X04-F04, text: "Over what window did the access run?"}
+    - {id: X04-F05, text: "What did we send through the provider in the window, and from which logs?"}
+    - {id: X04-F02, text: "What was done with the API key, and when?"}
+    - {id: X04-F07, text: "What indicators of misuse should we watch for?"}
+    - {id: X04-F08, text: "What is your recommendation on resuming SMS?"}
+    - {id: X04-F15, text: "When is notice to the clinics due?"}
+    - {id: X04-F16, text: "What is the provider's liability cap?"}
+  oncall-engineer:
+    - {id: X04-F06, text: "How were reminders suspended?"}
+    - {id: X04-F09, text: "When were email reminders enabled, and for whom?"}
+    - {id: X04-F10, text: "What changed in the reminder template, and under which ticket?"}
+    - {id: X04-F11, text: "What blocks re-enabling the SMS flag?"}
+    - {id: X04-F12, text: "How many clinics have no reminders at all now?"}
+    - {id: X04-F13, text: "What longer-term follow-ups are planned?"}
+    - {id: X04-F15, text: "When is notice to the clinics due?"}
+    - {id: X04-F16, text: "What is the provider's liability cap?"}
+    - {id: X04-F14, text: "Who is the controller of the patient data?"}
+  legal:
+    - {id: X04-F14, text: "Who is the controller and who is the processor here, and what follows from that?"}
+    - {id: X04-F15, text: "When is notice to the clinics due, under which clause?"}
+    - {id: X04-F16, text: "What is the provider's liability cap, and what should we do to preserve a claim?"}
+    - {id: X04-F17, text: "What must not be said publicly about the provider and about counts?"}
+    - {id: X04-F18, text: "What is the caution about saying no XYZ system was compromised?"}
+    - {id: X04-F19, text: "How many clinics are affected?"}
+    - {id: X04-F03, text: "What does the provider say caused the breach?"}
+    - {id: X04-F02, text: "What was done with the API key?"}
+    - {id: X04-F06, text: "Which flag suspended the reminders?"}
+  comms:
+    - {id: X04-F24, text: "How does the public statement refer to the provider, and when is the next update?"}
+    - {id: X04-F25, text: "What does the statement say about XYZ's own systems and about clinics?"}
+    - {id: X04-F20, text: "Since when are text reminders paused, and what runs instead?"}
+    - {id: X04-F21, text: "What should patients be warned about?"}
+    - {id: X04-F19, text: "How many clinics are affected, and what did the messages contain?"}
+    - {id: X04-F01, text: "Which company is the provider, and what is our account with them?"}
+    - {id: X04-F03, text: "What caused the breach at the provider?"}
+    - {id: X04-F27, text: "How many patients are affected?"}
+    - {id: X04-F16, text: "What is the provider's liability cap?"}
+    - {id: X04-F06, text: "Which flag suspended the reminders?"}
+  support:
+    - {id: X04-F19, text: "How many clinics are affected, and what did the messages contain?"}
+    - {id: X04-F20, text: "What happens to reminders now?"}
+    - {id: X04-F21, text: "What should patients be warned about?"}
+    - {id: X04-F22, text: "How can a clinic check its reminder channel, and what can clinics without email do?"}
+    - {id: X04-F23, text: "Can a clinic find out how many of its patients were affected?"}
+    - {id: X04-F01, text: "Which company is the provider?"}
+    - {id: X04-F27, text: "How many patients are affected in total?"}
+    - {id: X04-F16, text: "What is the provider's liability cap?"}
+    - {id: X04-F15, text: "By when must clinics be notified?"}
+    - {id: X04-F10, text: "Under which ticket was the template changed?"}

@@ -1,0 +1,82 @@
+panel: incident-response
+title: "xyz-02 — expired API gateway certificate"
+
+documents:
+  - {file: 01-alert.md, title: "01-alert"}
+  - {file: 02-security-analysis.md, title: "02-security-analysis"}
+  - {file: 03-engineering-postmortem.md, title: "03-engineering-postmortem"}
+  - {file: 04-legal-memo.md, title: "04-legal-memo"}
+  - {file: 05-customer-impact.md, title: "05-customer-impact"}
+  - {file: 06-status-page-draft.md, title: "06-status-page-draft"}
+  - {file: 07-exec-brief.md, title: "07-exec-brief"}
+
+prompts:
+  - "This is the Tuesday late-morning bridge for incident XYZ-2142. Commander, current state; then engineering, what happened and what did the fix involve?"
+  - "Security: was this an attack, and what did the review of the fix window find?"
+  - "Legal: what do we owe anyone, contractually or otherwise, and what may we say publicly?"
+  - "Communications and support: what is on the status page, and what are customers being told about the mobile outage and about credits?"
+  - "What is still fragile, and who owns closing it?"
+  - "Does any function need something from another before we close?"
+  - "Commander, close the bridge with the decisions and the follow-up time."
+
+questions:
+  commander:
+    - {id: X02-F04, text: "Why had the certificate not been renewed automatically?"}
+    - {id: X02-F09, text: "What caused the second, mobile-only outage?"}
+    - {id: X02-F15, text: "Which customers are owed credits, and how much in total?"}
+    - {id: X02-F16, text: "Which customer is entitled to a written root-cause report, and by when?"}
+    - {id: X02-F12, text: "What security setting is currently relaxed, and what must happen before it is restored?"}
+    - {id: X02-F14, text: "Is any regulatory notification required?"}
+    - {id: X02-F26, text: "When is the public follow-up due?"}
+    - {id: X02-F27, text: "What has the incident cost so far?"}
+  security-lead:
+    - {id: X02-F04, text: "Why had the certificate not been renewed automatically?"}
+    - {id: X02-F05, text: "What did the review of API sessions during the fix window find?"}
+    - {id: X02-F06, text: "What happened to the interim self-signed certificate afterwards?"}
+    - {id: X02-F12, text: "What is the current state of mobile certificate pinning?"}
+    - {id: X02-F07, text: "What was your conclusion about data access, and when was it confirmed?"}
+    - {id: X02-F19, text: "How many customers were affected by the API outage?"}
+    - {id: X02-F15, text: "How much do the service credits total?"}
+    - {id: X02-F16, text: "Which customer is entitled to a root-cause report?"}
+  oncall-engineer:
+    - {id: X02-F08, text: "What was the interim fix, and when was it applied?"}
+    - {id: X02-F09, text: "What caused the mobile outage, and which flag was changed?"}
+    - {id: X02-F10, text: "When did the replacement certificate arrive, and when was it deployed?"}
+    - {id: X02-F11, text: "How was renewal automation fixed, and under which ticket?"}
+    - {id: X02-F12, text: "What must happen before strict pinning is restored?"}
+    - {id: X02-F03, text: "Why was the web calendar unaffected?"}
+    - {id: X02-F15, text: "Which customers are owed credits, and how much?"}
+    - {id: X02-F16, text: "Which customer is entitled to a written root-cause report?"}
+    - {id: X02-F14, text: "Is a regulatory notification required?"}
+  legal:
+    - {id: X02-F14, text: "Is any regulatory notification required, and why?"}
+    - {id: X02-F15, text: "Which customers are owed a service credit, under which clause, and how much in total?"}
+    - {id: X02-F16, text: "Which customer is entitled to a root-cause report, and by when?"}
+    - {id: X02-F17, text: "What must not be stated externally, and until when?"}
+    - {id: X02-F18, text: "What is your recommendation on how to issue the credits?"}
+    - {id: X02-F19, text: "How many customers were affected?"}
+    - {id: X02-F04, text: "Why had the certificate not been renewed?"}
+    - {id: X02-F09, text: "What caused the mobile outage technically?"}
+    - {id: X02-F06, text: "What was done with the interim certificate?"}
+  comms:
+    - {id: X02-F24, text: "What is the public timeline of the outage?"}
+    - {id: X02-F25, text: "What exactly does the statement say about data, and why that wording?"}
+    - {id: X02-F26, text: "When is the public follow-up due?"}
+    - {id: X02-F20, text: "How long were mobile app users affected?"}
+    - {id: X02-F19, text: "How many customers were affected by the API outage?"}
+    - {id: X02-F04, text: "Why had the certificate not been renewed automatically?"}
+    - {id: X02-F15, text: "How much are the service credits worth in total?"}
+    - {id: X02-F16, text: "Which customer is entitled to a root-cause report?"}
+    - {id: X02-F09, text: "Which setting was changed to end the mobile outage?"}
+    - {id: X02-F02, text: "Which certificate expired?"}
+  support:
+    - {id: X02-F19, text: "How many customers were affected, and how?"}
+    - {id: X02-F20, text: "What happened to mobile app users, and for how long?"}
+    - {id: X02-F21, text: "Was any appointment data changed or lost?"}
+    - {id: X02-F22, text: "What should customers do about bookings they queued during the outage?"}
+    - {id: X02-F23, text: "How will Premium customers receive their credit?"}
+    - {id: X02-F15, text: "How much are the credits worth in total, and under which clause?"}
+    - {id: X02-F16, text: "Which customer is entitled to a root-cause report?"}
+    - {id: X02-F04, text: "Why had the certificate not been renewed?"}
+    - {id: X02-F09, text: "Which setting was changed to end the mobile outage?"}
+    - {id: X02-F17, text: "What did legal say must not be stated?"}

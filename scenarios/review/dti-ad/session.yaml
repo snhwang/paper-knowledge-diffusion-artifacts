@@ -1,0 +1,27 @@
+panel: paper-review
+title: "Diffusion MRI of white matter in Alzheimer's disease"
+
+# Three CC-BY papers (licence to be confirmed on each article page before the
+# logs are published; see ../PAPERS.md). Ingested into the shared source
+# store; document diffusion offers every chunk to every role's lens.
+documents:
+  - file: freewater-dti-ad-2021.pdf
+    title: "Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)"
+  - file: tbss-mci-ad-2025.pdf
+    title: "Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)"
+  - file: advanced-diffusion-ad-2025.pdf
+    title: "Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)"
+
+# Seven facilitator prompts, as in the v6 sessions.
+prompts:
+  - "We have three papers on diffusion MRI of white matter in Alzheimer's disease. Synthesizer, what do they find, taken together?"
+  - "Methodologist and statistician: how were these studies done, and do the numbers support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported, and what is missing?"
+  - "Does free-water correction change what we should conclude from standard DTI in this population?"
+  - "Communicator: what does this evidence mean for someone with early memory complaints, and what does it not mean?"
+  - "Where do the three papers disagree, and what study would settle it?"
+
+# No phase-2 questions: this scenario is scored on the stores and the
+# discussion (differentiation, role alignment, section provenance,
+# cross-role uptake), not on fact delivery.
