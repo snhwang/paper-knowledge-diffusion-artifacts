@@ -97,7 +97,10 @@ case "$target" in
     sct-gptoss20b|brainteaser-gptoss20b|sct-gptoss120b|brainteaser-gptoss120b)
         bench="${target%%-*}"
         size="${target##*-gptoss}"
-        model_args=(--model "gpt-oss:${size}" --base-url "$OLLAMA_URL" --concurrency "$OLLAMA_CONCURRENCY")
+        # gpt-oss reasons in a hidden channel; without an effort level it spends
+        # the whole output budget there and returns an empty visible answer
+        model_args=(--model "gpt-oss:${size}" --base-url "$OLLAMA_URL" --concurrency "$OLLAMA_CONCURRENCY"
+                    --reasoning-effort low)
         if [[ "$bench" == brainteaser ]]; then model_args+=(--puzzle-type both); fi
         ;;
     *) echo "unknown target: $target"; usage 1 ;;

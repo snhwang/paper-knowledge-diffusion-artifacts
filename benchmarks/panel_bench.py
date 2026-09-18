@@ -58,7 +58,7 @@ sys.path.insert(0, str(HERE))
 
 from bear_hat_prompts import BearHatPrompter, git_commit, use_bear_dev  # noqa: E402
 
-VERSION = "panel_bench 1.0"
+VERSION = "panel_bench 1.1"
 CONDITIONS = ["single", "consistency", "role-majority", "panel"]
 HAT_COUNT = 6
 
@@ -107,11 +107,15 @@ class Brainteaser:
     def __init__(self, args):
         import brainteaser_eval as bt
         self.bt = bt
+        # The rationale is requested explicitly because reasoning models served
+        # through Ollama (gpt-oss) otherwise keep everything in a hidden channel
+        # and return only a letter, leaving the panel nothing to read. The same
+        # instruction is used in every condition.
         self.task = (
             "Think carefully about this puzzle. It requires lateral thinking — the obvious "
             "answer is likely wrong. Consider wordplay, double meanings, and unconventional "
-            "interpretations. After your reasoning, state your final answer as a single letter "
-            "(A, B, C, or D)."
+            "interpretations. Give your reasoning in 2-3 sentences, then state your final "
+            "answer as a single letter (A, B, C, or D)."
         )
         files = {"sp": ["brainteaser_puzzles.json"], "wp": ["brainteaser_wp_puzzles.json"],
                  "both": ["brainteaser_puzzles.json", "brainteaser_wp_puzzles.json"]}[args.puzzle_type]
@@ -180,7 +184,8 @@ def make_backend(args, bear_dev: Path):
         # the HTTP timeout must not be shorter than our own per-call cap, or a
         # slow server's requests are cut off and retried instead of finishing
         return OpenAIBackend(model=args.model, base_url=args.base_url, api_key=key or "no-key",
-                             no_system_role=args.no_system_role, timeout=args.call_timeout)
+                             no_system_role=args.no_system_role, timeout=args.call_timeout,
+                             num_ctx=args.num_ctx, reasoning_effort=args.reasoning_effort)
     if args.model.startswith("claude"):
         from bear.backends.llm.anthropic_backend import AnthropicBackend
         key = read_env_var("ANTHROPIC_API_KEY", bear_dev)
@@ -327,6 +332,7 @@ def run_config(bench, args, prompter, bear_dev):
         "hat_order": bench.hat_order, "aggregation": "majority vote, ties to first seen",
         "parse_retries": 2, "puzzle_type": getattr(args, "puzzle_type", None),
         "call_timeout_seconds": args.call_timeout,  # infrastructure, not compared between runs
+        "num_ctx": args.num_ctx, "reasoning_effort": args.reasoning_effort,
         "role_prompts": prompter.describe(),
         "server_model": server_model_info(args),
         "prompt_fingerprint": prompt_fingerprint(bench, prompter),
@@ -365,7 +371,8 @@ def acquire_lock(out_dir: Path) -> None:
 def comparable(a: dict, b: dict) -> list[str]:
     """Config fields that must match for results to be appended."""
     keys = ["version", "benchmark", "model", "base_url", "task_instruction", "max_tokens",
-            "temperature_sampled", "consistency_samples", "top_p", "thinking", "hat_order", "puzzle_type"]
+            "temperature_sampled", "consistency_samples", "top_p", "thinking", "hat_order", "puzzle_type",
+            "reasoning_effort", "num_ctx"]
     diffs = [k for k in keys if a.get(k) != b.get(k)]
     for k in ("instruction_dirs", "n_instructions", "top_k", "room_context"):
         if a["role_prompts"].get(k) != b["role_prompts"].get(k):
@@ -519,6 +526,10 @@ def main():
     ap.add_argument("--top-p", type=float, default=None)
     ap.add_argument("--thinking", action="store_true")
     ap.add_argument("--concurrency", type=int, default=4, help="simultaneous model calls")
+    ap.add_argument("--num-ctx", type=int, default=32768,
+                    help="context window asked of an Ollama-style server (prompt + output)")
+    ap.add_argument("--reasoning-effort", default=None,
+                    help="for reasoning models behind a local server (gpt-oss): low, medium or high")
     ap.add_argument("--call-timeout", type=float, default=300.0,
                     help="seconds to wait for one model call before treating it as an error")
     ap.add_argument("--puzzle-type", choices=["sp", "wp", "both"], default="both", help="brainteaser only")
