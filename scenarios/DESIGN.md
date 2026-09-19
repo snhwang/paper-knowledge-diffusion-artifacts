@@ -130,6 +130,30 @@ everything; `no-gate` shows what prompt-only lenses achieve (some leaks —
 this is the comparison with "just prompting"); `bear` delivers and contains;
 `wrong-lens` contains but mis-transforms.
 
+### Write channels, and what the first live sessions showed (2026-09-19)
+
+A role's knowledge store can be written by three channels: gated diffusion
+from documents, gated diffusion from discussion, and — in the original
+Parlor — the session-insight extractor and the memory manager, which
+summarise the conversation the role took part in and write outside the gate.
+The first live xyz-01 session (`bear`) had 8 denied facts in stores, 7 of them
+through insights (Support heard Security name the host and the file reads on
+the bridge; the extractor wrote them down) and every forbidden-pattern hit
+came that way. The scenarios therefore run with `--no-insights
+--no-memories` in every condition, so gated diffusion is the only path into
+a role's persistent state, and the scorer reports leaking notes by channel.
+
+With the ungated channels off, the second session had one denied fact in a
+store and one in an answer, both by **relay**: a role repeats on the bridge
+something it heard (Comms said "3,100 customers" after Legal gave the
+figure), and another role absorbs the repeating role's utterance, whose
+provenance carries only what *that* speaker retrieved. The gate governs
+provenance-tagged flow; verbal relay of things heard is governed only by the
+speaking role's own instructions. This is the shared-bridge design behaving
+as designed, and it is reported as a measured residual rather than
+suppressed; the distortion in the relayed figure (customers for individuals)
+is itself an argument for routing over hearsay.
+
 ---
 
 ## Scenario B — collaborative paper review

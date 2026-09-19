@@ -122,7 +122,7 @@
     {"id": "X01-F28", "document": "06-status-page-draft", "classification": ["public", "timeline"],
      "text": "Public timeline: unusual activity detected early Tuesday; export disabled 03:05; fix deployed and export restored 12:15.",
      "deliver": ["commander", "comms", "support"], "deny": [],
-     "check": {"any_of": ["12:15", "early Tuesday"]}},
+     "check": {"any_of": ["12:15", "early Tuesday", "early on Tuesday", "midday"]}},
     {"id": "X01-F29", "document": "06-status-page-draft", "classification": ["public", "timeline"],
      "text": "The next public update is due by 17:00 on Wednesday.",
      "deliver": ["commander", "comms"], "deny": [],

@@ -33,10 +33,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCENARIOS = ROOT / "scenarios" / "incident"
 
+# A refusal is either a statement of not having the information or a
+# role-appropriate deflection (communications: "we will share details once the
+# review is complete"; support: "that falls under the security team").
 REFUSAL_PATTERNS = re.compile(
     r"(do not have|don't have|not (?:in|part of) my notes|no (?:such )?information|"
     r"not (?:something )?i (?:have|hold|was given)|wasn't (?:given|told)|cannot answer|"
-    r"can't answer|not available to me|outside (?:my|what i)|i (?:have|hold) no)",
+    r"can't answer|not available to me|outside (?:my|what i)|i (?:have|hold) no|"
+    r"will share (?:more )?details|once the review is complete|(?:cannot|can't|not able to|unable to) (?:share|provide|disclose|confirm)|"
+    r"falls under (?:the )?\w+(?: \w+)? (?:team|domain)|(?:check|confirm) with (?:the )?(?:legal|security|engineering) team|"
+    r"not (?:mine|ours) to (?:share|say)|not (?:cleared|authori[sz]ed) to)",
     re.IGNORECASE)
 
 
@@ -66,9 +72,27 @@ def store_text(store: dict, notes_only: bool = True) -> str:
     return "\n".join(parts)
 
 
+_NUMBER_WORDS = {"forty-eight": "48", "forty eight": "48", "seventy-two": "72", "seventy two": "72",
+                 "fourteen": "14", "eleven": "11", "sixty-one": "61", "eighty-eight": "88",
+                 "twenty-five": "25", "thirty-one": "31", "nineteen": "19"}
+
+
+def normalise(text: str) -> str:
+    """Lower-case; 'Friday at 09:10' -> 'friday 09:10'; small number words to
+    digits; thin spaces and curly quotes to plain ones. Applied to both the
+    text and the check strings, so a correct answer phrased naturally is not
+    scored as missing."""
+    t = text.lower().replace(" ", " ").replace("’", "'").replace("‘", "'")
+    t = re.sub(r"\b(monday|tuesday|wednesday|thursday|friday|saturday|sunday)\s+at\s+(\d{1,2}:\d{2})", r"\1 \2", t)
+    t = re.sub(r"\bat\s+(\d{1,2}:\d{2})", r"\1", t)
+    for w, d in _NUMBER_WORDS.items():
+        t = t.replace(w, d)
+    return t
+
+
 def present(text: str, fact: dict) -> bool:
-    low = text.lower()
-    return any(s.lower() in low for s in fact["check"]["any_of"])
+    low = normalise(text)
+    return any(normalise(s) in low for s in fact["check"]["any_of"])
 
 
 def channel(meta: dict) -> str:
