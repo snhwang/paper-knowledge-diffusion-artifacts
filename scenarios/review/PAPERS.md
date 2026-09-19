@@ -17,16 +17,27 @@ journals.
 |---|---|---|---|---|
 | 1 | Free-water diffusion tensor imaging improves the accuracy and sensitivity of white matter analysis in Alzheimer's disease | Scientific Reports, 2021 | CC BY (statement in PDF) | `freewater-dti-ad-2021.pdf` |
 | 2 | Longitudinal tract-based spatial statistics analysis of white matter diffusivity changes and cognitive decline during the transition from MCI to Alzheimer's disease | PLOS ONE, 2025 | CC BY (statement in PDF) | `tbss-mci-ad-2025.pdf` |
-| 3 | Analysis of advanced diffusion models assessing white matter microstructure in Alzheimer's disease | Scientific Reports, 2025 | CC BY (statement in PDF) | `advanced-diffusion-ad-2025.pdf` |
-
-Downloaded 2026-09-18; each PDF's own text carries a Creative Commons
-Attribution licence statement (checked with pypdf). Confirm the version (4.0)
-on the article pages before the logs are published.
+| 3 | Microstructural white matter alterations in preclinical Alzheimer's disease detected using free water elimination diffusion tensor imaging | PLOS ONE, 2017 | CC0 (US government work; statement in PDF) | `freewater-preclinical-ad-2017.pdf` |
 
 Links:
 - https://www.nature.com/articles/s41598-021-86505-7
 - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329893
-- https://www.nature.com/articles/s41598-025-09412-1
+- https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0173982
+
+**Withdrawn (2026-09-19):** "Analysis of advanced diffusion models assessing
+white matter microstructure in Alzheimer's disease" (Sci Rep 2025) was used
+in the first three dti-ad sessions on the strength of a truncated licence
+match; a full-text scan shows it is **CC BY-NC-ND**, whose no-derivatives
+term does not cover excerpted and paraphrased logs. The PDF and those three
+sessions were removed from the tree (not from history) and the topic re-run
+with the PLOS ONE 2017 paper in its place.
+
+## Licence checking
+
+Every PDF's full text is scanned for its licence statement (pypdf; PLOS
+extractions drop spaces, e.g. "CreativeCommonsAttributionLicense"). Only
+plain CC BY (any version) or CC0 is accepted; NC and ND variants are not.
+Confirm the version on the article page before the logs are published.
 
 ## Topic 2 — diffusion MRI in Parkinson's disease (`review/dti-pd/`)
 
