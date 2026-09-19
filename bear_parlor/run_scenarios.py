@@ -60,8 +60,46 @@ import run_sessions as v6  # noqa: E402
 HERE = v6.HERE
 ARTIFACTS_ROOT = v6.ARTIFACTS_ROOT
 SCENARIOS_ROOT = ARTIFACTS_ROOT / "scenarios"
-SERVER_URL = v6.SERVER_URL
+SERVER_URL = v6.SERVER_URL   # replaced per run once a port is chosen
 WS_URL = v6.WS_URL
+
+
+def free_port() -> int:
+    """A port nothing is listening on. The v6 runner assumed 8000, and a
+    stray service there made its readiness check pass against the wrong
+    server."""
+    import socket
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind(("127.0.0.1", 0))
+        return s.getsockname()[1]
+
+
+def use_port(port: int) -> None:
+    global SERVER_URL, WS_URL
+    SERVER_URL = f"http://localhost:{port}"
+    WS_URL = f"ws://localhost:{port}/ws"
+    v6.SERVER_URL, v6.WS_URL = SERVER_URL, WS_URL
+
+
+async def wait_for_parlor(panel: str, timeout: int = 300) -> None:
+    """Wait until /health answers from a BEAR Parlor serving this panel."""
+    import time
+    import aiohttp
+    deadline = time.time() + timeout
+    while time.time() < deadline:
+        try:
+            async with aiohttp.ClientSession() as s:
+                async with s.get(f"{SERVER_URL}/health", timeout=aiohttp.ClientTimeout(total=2)) as r:
+                    if r.status == 200:
+                        d = await r.json()
+                        if d.get("service") == "bear-parlor" and d.get("panel") == panel and d.get("ready"):
+                            return
+                        if d.get("service") != "bear-parlor":
+                            raise RuntimeError(f"{SERVER_URL} is not a BEAR Parlor server")
+        except (aiohttp.ClientError, asyncio.TimeoutError, ValueError):
+            pass
+        await asyncio.sleep(1)
+    raise RuntimeError(f"Parlor did not become ready on {SERVER_URL} within {timeout}s")
 
 CONDITIONS = {
     "bear":          ["--document-diffusion"],
@@ -181,10 +219,11 @@ async def run_phase2(spec: dict) -> list[dict]:
 
 # ── one session ───────────────────────────────────────────────────────────────
 
-def build_server_cmd(panel: str, case: str, condition: str) -> list[str]:
+def build_server_cmd(panel: str, case: str, condition: str, port: int) -> list[str]:
     cmd = [
         sys.executable, "-u", "parlor.py",
         "--panel", panel,
+        "--port", str(port),
         "--backend", _OPTS["backend"],
         "--model", _OPTS["model"],
         "--override-model",
@@ -228,10 +267,13 @@ async def run_session(scenario: str, case: str, condition: str) -> None:
 
     import time
     t0 = time.time()
-    server = subprocess.Popen(build_server_cmd(panel, case, condition), cwd=str(HERE), env=v6.server_env())
+    port = _OPTS.get("port") or free_port()
+    use_port(port)
+    print(f"  Parlor server on port {port}")
+    server = subprocess.Popen(build_server_cmd(panel, case, condition, port), cwd=str(HERE), env=v6.server_env())
     answers: list[dict] = []
     try:
-        await v6.wait_for_server(timeout=240)
+        await wait_for_parlor(panel, timeout=_OPTS["start_timeout"])
         await asyncio.sleep(2)
         turns = await run_phase1(folder, spec)
         print(f"\n  Phase 1 complete: {turns} turns")
@@ -271,6 +313,9 @@ async def main() -> None:
     ap.add_argument("--ingest-wait", type=float, default=5.0, help="seconds after each document")
     ap.add_argument("--settle", type=float, default=8.0, help="seconds after connecting")
     ap.add_argument("--drain", type=float, default=45.0, help="seconds for diffusion to drain before phase 2")
+    ap.add_argument("--port", type=int, default=None, help="Parlor port (default: a free one)")
+    ap.add_argument("--start-timeout", type=int, default=300,
+                    help="seconds to wait for the server (imports from /mnt/c are slow)")
     args = ap.parse_args()
 
     _OPTS.update(vars(args))
