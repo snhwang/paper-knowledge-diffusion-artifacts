@@ -1,0 +1,23 @@
+panel: paper-review
+title: "Parkinson's disease: measurement, rehabilitation and drug-induced risk"
+
+# Three CC BY papers (PLOS Digital Health, PLOS ONE), deliberately covering
+# different facets of the disease rather than one imaging method: a digital
+# biomarker validation, a rehabilitation trial, and a pharmacoepidemiological
+# cohort. Licences verified in the PDFs, see ../PAPERS.md.
+documents:
+  - file: ocular-microtremor-pd-2026.pdf
+    title: "Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)"
+  - file: antigravity-gait-training-pd-2026.pdf
+    title: "Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)"
+  - file: antipsychotics-pd-risk-2026.pdf
+    title: "Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)"
+
+prompts:
+  - "We have three papers on Parkinson's disease, covering measurement, rehabilitation and drug-induced risk. Synthesizer, what do they find, taken together?"
+  - "Methodologist and statistician: these use three different designs — a validation study, an intervention trial, and a cohort. How sound is each, and do the numbers support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported — instruments, protocols, data, code — and what is missing?"
+  - "What would it take for any of these measures to change how a patient is managed?"
+  - "Communicator: what does this evidence mean for someone recently diagnosed, and what does it not mean?"
+  - "Where do the three papers disagree, and what study would settle it?"

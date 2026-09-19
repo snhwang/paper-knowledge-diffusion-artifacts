@@ -1,0 +1,23 @@
+panel: paper-review
+title: "Multiple sclerosis: remyelination, retinal biomarkers and treatment safety"
+
+# Three CC BY papers (PLOS ONE), deliberately covering different facets of
+# the disease rather than one imaging method: a preclinical therapeutic
+# study, a clinical biomarker study, and a pharmacovigilance analysis.
+# Licences verified in the PDFs, see ../PAPERS.md.
+documents:
+  - file: gpr17-remyelination-2026.pdf
+    title: "Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)"
+  - file: retinal-oct-disability-ms-2026.pdf
+    title: "Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)"
+  - file: dmt-pml-pharmacovigilance-2026.pdf
+    title: "Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)"
+
+prompts:
+  - "We have three papers on multiple sclerosis: a remyelination therapy in animals, a retinal biomarker study, and a drug-safety analysis. Synthesizer, what do they find, taken together?"
+  - "Methodologist and statistician: how sound is each design — animal models, cross-sectional imaging, spontaneous adverse-event reports — and do the numbers support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported — animals, imaging protocols, the reporting database and its code — and what is missing?"
+  - "How should evidence from an animal model and from spontaneous reporting be weighed against each other in deciding treatment?"
+  - "Communicator: what does this evidence mean for someone living with relapsing MS, and what does it not mean?"
+  - "Where do the three papers disagree, and what study would settle it?"

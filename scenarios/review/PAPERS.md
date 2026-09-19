@@ -2,7 +2,9 @@
 
 Six topics, three papers each, chosen to span different kinds of study so the
 reviewer roles' lenses meet different methods sections: imaging analyses,
-AI evaluations, molecular-biology experiments and clinical drug studies. The
+AI evaluations, molecular-biology experiments, clinical trials, cohorts,
+pharmacovigilance and health-economic models. Only one topic is a diffusion
+MRI topic; the disease topics cover several facets each. The
 topics revisit those used in the earlier Six Hats sessions (Alzheimer's,
 Parkinson's, MS, GLP-1, CRISPR, LLMs in clinical decision support), whose
 source PDFs were paywalled and could not be published with the logs.
@@ -31,23 +33,28 @@ a full-text scan shows it is **CC BY-NC-ND**. The PDF and those three sessions
 were removed from the tree (not from history) and the topic is re-run with the
 PLOS ONE 2017 paper in its place.
 
-## Topic 2 — `dti-pd`: diffusion MRI in Parkinson's disease
+## Topic 2 — `parkinsons`: Parkinson's disease
+
+Three facets of the disease rather than one imaging method: a digital
+biomarker validation, a rehabilitation trial, and a pharmacoepidemiological
+cohort.
 
 | # | Paper | Journal | Licence | File |
 |---|---|---|---|---|
-| 1 | Progression of regional microstructural degeneration in Parkinson's disease: a multicenter diffusion tensor imaging study | PLOS ONE, 2016 | CC BY | `dti-progression-pd-2016.pdf` |
-| 2 | White matter alterations in Parkinson's disease with normal cognition precede grey matter atrophy | PLOS ONE, 2018 | CC BY | `wm-precedes-gm-pd-2018.pdf` |
-| 3 | Diffusion tensor and restriction spectrum imaging reflect different aspects of neurodegeneration in Parkinson's disease | PLOS ONE, 2019 | CC BY | `dti-rsi-pd-2019.pdf` |
+| 1 | Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation | PLOS Digital Health, 2026 | CC BY | `ocular-microtremor-pd-2026.pdf` |
+| 2 | Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease | PLOS ONE, 2026 | CC BY | `antigravity-gait-training-pd-2026.pdf` |
+| 3 | Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use | PLOS ONE, 2026 | CC BY | `antipsychotics-pd-risk-2026.pdf` |
 
-## Topic 3 — `dti-ms`: diffusion MRI in multiple sclerosis
+## Topic 3 — `ms`: multiple sclerosis
+
+Again three facets: a preclinical remyelination therapy, a clinical retinal
+biomarker study, and a drug-safety analysis.
 
 | # | Paper | Journal | Licence | File |
 |---|---|---|---|---|
-| 1 | Radial diffusivity reflects general decline rather than specific cognitive deterioration in multiple sclerosis | Scientific Reports, 2022 | CC BY 4.0 | `radial-diffusivity-ms-2022.pdf` |
-| 2 | Diffusion tensor imaging metrics associated with future disability in multiple sclerosis | Scientific Reports, 2023 | CC BY 4.0 | `dti-future-disability-ms-2023.pdf` |
-| 3 | Regional grey matter microstructural changes and volume loss according to disease duration in multiple sclerosis patients | Scientific Reports, 2021 | CC BY 4.0 | `gm-microstructure-duration-ms-2021.pdf` |
-
-(A 2025 Sci Rep candidate on fatigue is CC BY-NC-ND and was not used.)
+| 1 | Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination | PLOS ONE, 2026 | CC BY | `gpr17-remyelination-2026.pdf` |
+| 2 | Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis | PLOS ONE, 2026 | CC BY | `retinal-oct-disability-ms-2026.pdf` |
+| 3 | Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports | PLOS ONE, 2026 | CC BY | `dmt-pml-pharmacovigilance-2026.pdf` |
 
 ## Topic 4 — `llm-cds`: large language models in clinical decision support
 
