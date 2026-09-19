@@ -35,7 +35,36 @@ import time
 from pathlib import Path
 
 HATS = ["white-hat", "red-hat", "black-hat", "yellow-hat", "green-hat", "blue-hat"]
-BLOCK = re.compile(r"<summary>BEAR retrieval for (\w+) \((\d+) instructions\)</summary>(.*?)</details>", re.S)
+PANEL = {"id": "brainstorming-hats", "requires_mathpix": True}
+# display name used in the log's retrieval tables (lower-cased) -> role id
+SPEAKER_TO_ROLE: dict[str, str] = {}
+
+
+def configure(panel_id: str, roles: list[str]) -> None:
+    """Check sessions of another panel: its role ids, and the display names
+    (characters.yaml short_name / name) the log uses for them. The Mathpix
+    requirement applies only to the hats' PDF sessions; scenario documents
+    are Markdown ("text") or CC-BY PDFs extracted however the server could."""
+    import yaml
+    PANEL["id"] = panel_id
+    PANEL["requires_mathpix"] = panel_id == "brainstorming-hats"
+    HATS[:] = list(roles)
+    SPEAKER_TO_ROLE.clear()
+    chars = yaml.safe_load((Path(__file__).resolve().parent.parent / "bear_parlor" / "characters.yaml")
+                           .read_text(encoding="utf-8"))["characters"]
+    for c in chars:
+        if c["id"] in roles:
+            for k in ("short_name", "name", "id"):
+                if c.get(k):
+                    SPEAKER_TO_ROLE[str(c[k]).lower()] = c["id"]
+
+
+def role_of(speaker: str) -> str:
+    s = speaker.lower()
+    return SPEAKER_TO_ROLE.get(s) or (s + "-hat" if PANEL["id"] == "brainstorming-hats" else s)
+
+
+BLOCK = re.compile(r"<summary>BEAR retrieval for ([\w ]+?) \((\d+) instructions\)</summary>(.*?)</details>", re.S)
 ROW = re.compile(r"^\|\s*(\w+)\s*\|\s*([\w.:-]+)\s*\|\s*([\d.]+)\s*\|\s*([^|]*)\|", re.M)
 PANEL_PREFIXES = ("persona-", "directive-", "protocol-", "constraint-", "room-context-",
                   "memory-", "evolved-")
@@ -70,12 +99,13 @@ def check_session(md_path: Path) -> tuple[bool, list[str], dict]:
             problems.append("diffusion: wrong-lens session has no lens_map")
         if stats.get("condition") == "bear" and run.get("lens_map"):
             problems.append("diffusion: bear session has a lens_map (should use each hat's own lens)")
-        if not run.get("mathpix_credentials"):
+        if PANEL["requires_mathpix"] and not run.get("mathpix_credentials"):
             problems.append("pdfs: Mathpix credentials were not available to the server")
         if run.get("uncommitted_changes"):
             info["warning"] = "code had uncommitted changes when this session ran"
     extractors = [i.get("extractor") for i in stats.get("ingestions", [])]
-    if stats.get("ingestions") and any(e != "mathpix" for e in extractors):
+    info["extractors"] = sorted(set(e for e in extractors if e))
+    if PANEL["requires_mathpix"] and stats.get("ingestions") and any(e != "mathpix" for e in extractors):
         problems.append(f"pdfs: extractors used {extractors}")
     dropped = sum((stats.get("diffusion_errors") or {}).values())
     stored = stats.get("n_diffusion_stored", 0) + stats.get("n_diffusion_skipped", 0)
@@ -88,7 +118,7 @@ def check_session(md_path: Path) -> tuple[bool, list[str], dict]:
     turns = cross = stale = foreign = no_persona = 0
     examples = {"speaking": None, "isolation": None, "corpus": None}
     for speaker, _, body in BLOCK.findall(md):
-        hat = speaker.lower() + "-hat"
+        hat = role_of(speaker.strip())
         rows = [(t, i, tags) for t, i, _, tags in ROW.findall(body) if t != "Type"]
         if not rows:
             continue
@@ -103,7 +133,7 @@ def check_session(md_path: Path) -> tuple[bool, list[str], dict]:
             if not iid.startswith(PANEL_PREFIXES):
                 foreign += 1
                 examples["corpus"] = examples["corpus"] or f"{hat} got {iid}"
-            m = re.match(r"^(?:memory-[\w-]+?-hat|evolved-[\w-]+?-hat)-(\d{9,})", iid)
+            m = re.match(r"^(?:memory|evolved)-[\w-]+?-(\d{9,})", iid)
             if m and int(m.group(1)) < started - 60:
                 stale += 1
                 examples["isolation"] = examples["isolation"] or f"{hat} got {iid}"

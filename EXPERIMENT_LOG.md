@@ -379,6 +379,31 @@ repeating role retrieved.
 Dropped diffusion batches (one unparseable model reply each): 12 across the
 22 sessions, in `diffusion_errors` per session.
 
+### Scenario sessions — paper review (2026-09-19)
+
+Six reviewer roles (`scenarios/DESIGN.md`) reading three CC-BY papers on
+diffusion MRI in Alzheimer's disease (`scenarios/review/dti-ad`, licences
+in `scenarios/review/PAPERS.md`), same model and runner as above; document
+diffusion on, no gate (no access declarations), `--no-insights
+--no-memories`. One topic × `bear` / `naive` / `wrong-lens` = 3 sessions
+(~9-14 min each; 840-1050 notes per session). Logs ship in full.
+
+**Analyses.** `evals/eval_review_provenance.py` (section provenance,
+cross-role uptake, chi-square with permutation p, wrong-lens tracking by
+Jensen-Shannon), and the v6 scripts run with `--panel paper-review`
+(`evals/results/paper-review_differentiation.json`,
+`paper-review_role_alignment.json`). With one topic there are no paired
+tests across topics; the per-session permutation nulls apply.
+
+**Results.** Where a role's notes come from depends on the role under
+`bear` (Cramér's V 0.17, permutation p 0.0005) and not at all under `naive`;
+under `wrong-lens` all six roles' section patterns lie closer to their lens
+donor's `bear` pattern than to their own. Store differentiation: `bear`
+centroid 0.058 (z +116), `naive` 0.000 (identical stores), `wrong-lens`
+0.062. Role alignment (hubness-corrected): notes nearest their own role's
+reference 0.29 under `bear` (chance 0.17), 0.16 under `naive`; under
+`wrong-lens` 0.08 to the storing role and 0.30 to the lens donor.
+
 ## Embedding Model
 
 All evaluations use **BAAI/bge-base-en-v1.5** (768-dim) via `bear.retriever.Embedder`.

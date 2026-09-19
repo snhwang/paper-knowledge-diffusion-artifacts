@@ -50,12 +50,43 @@ TOPICS = ["dmg", "stroke", "ms", "alzheimers", "epilepsy", "glp1", "crispr", "ll
 CONDITIONS = ["naive", "bear", "wrong-lens"]
 HATS = ["white-hat", "red-hat", "black-hat", "yellow-hat", "green-hat", "blue-hat"]
 MIN_HATS_AT_SIZE = 5
+PANEL = {"id": "brainstorming-hats"}   # the panel whose sessions are analysed
+
+
+def configure(panel_id: str, log_dir: Path | None = None) -> None:
+    """Point the analysis at another panel (e.g. paper-review): its roles come
+    from bear_parlor/panels.yaml, its sessions are named <panel>_*, and its
+    topics are whatever the log directory holds a complete condition set for.
+    HATS and TOPICS are mutated in place so modules that imported them see
+    the change."""
+    import yaml
+    from check_session_integrity import configure as configure_integrity
+    panels = yaml.safe_load((HERE.parent / "bear_parlor" / "panels.yaml").read_text(encoding="utf-8"))["panels"]
+    panel = next((p for p in panels if p["id"] == panel_id), None)
+    if panel is None:
+        sys.exit(f"panel {panel_id!r} not found in panels.yaml")
+    PANEL["id"] = panel_id
+    PANEL["instruction_dirs"] = list(panel.get("instruction_dirs") or [])
+    HATS[:] = list(panel["characters"])
+    configure_integrity(panel_id, HATS)
+    # the utterance parser keys turns by the display name used in the log
+    import eval_constant_model_reconciled as ecm
+    chars = yaml.safe_load((HERE.parent / "bear_parlor" / "characters.yaml").read_text(encoding="utf-8"))["characters"]
+    ecm.HATS[:] = [str(c["short_name"]).capitalize() for c in chars if c["id"] in HATS]
+    if log_dir is not None:
+        found = set()
+        for st in log_dir.glob(f"{panel_id}_*.stats.json"):
+            d = json.loads(st.read_text(encoding="utf-8"))
+            if d.get("topic") and d.get("condition") in CONDITIONS:
+                found.add((d["topic"], d["condition"]))
+        topics = sorted(t for t in {t for t, _ in found} if all((t, c) in found for c in CONDITIONS))
+        TOPICS[:] = topics
 
 
 def select_sessions(log_dir: Path) -> dict:
     """One session per (topic, condition): completed first, then most turns."""
     best = {}
-    for st in sorted(log_dir.glob("brainstorming-hats_*.stats.json")):
+    for st in sorted(log_dir.glob(f"{PANEL['id']}_*.stats.json")):
         d = json.loads(st.read_text(encoding="utf-8"))
         if not d.get("topic") or d.get("condition") not in CONDITIONS:
             continue
@@ -114,9 +145,15 @@ def main():
     ap.add_argument("--log-dir", default=str(HERE.parent / "bear_parlor" / "session_logs" / "v6"))
     ap.add_argument("--n-perm", type=int, default=1000)
     ap.add_argument("--sizes", type=int, nargs="+", default=[2, 4, 6])
+    ap.add_argument("--panel", default="brainstorming-hats",
+                    help="panel whose sessions to analyse (roles from panels.yaml; topics discovered)")
     args = ap.parse_args()
 
     log_dir = Path(args.log_dir)
+    if args.panel != "brainstorming-hats":
+        configure(args.panel, log_dir)
+        if not TOPICS:
+            sys.exit(f"no topic in {log_dir} has all of {CONDITIONS} for panel {args.panel}")
     sessions = select_sessions(log_dir)
     missing = [(t, c) for t in TOPICS for c in CONDITIONS if (t, c) not in sessions]
     if missing:
@@ -168,7 +205,7 @@ def main():
                  if results[c][t]["store"]["centroid_at_size"][n] is not None]
             summary[c][f"store_centroid_at_{n}"] = {"mean": float(np.mean(v)) if v else None, "n_topics": len(v)}
 
-    tests = [
+    tests = [] if len(TOPICS) < 2 else [
         paired(results, "store", "bear", "naive", "centroid"),
         paired(results, "store", "bear", "wrong-lens", "centroid"),
         paired(results, "store", "naive", "bear", "items_per_hat"),
@@ -187,22 +224,26 @@ def main():
     print("\nstore centroid at matched size: " + "   ".join(
         f"n={n}: " + ", ".join(f"{c}={summary[c][f'store_centroid_at_{n}']['mean']:.3f}" for c in CONDITIONS)
         for n in args.sizes))
-    print("\npaired tests across topics:")
-    for st in tests:
-        print(f"  {st['comparison']:<42} {st['mean_a']:.3f} vs {st['mean_b']:.3f}  "
-              f"greater in {st['a_greater_in']}/8  t p={st['t_p']:.3g}  Wilcoxon p={st['wilcoxon_p']:.3g}")
+    if tests:
+        print("\npaired tests across topics:")
+        for st in tests:
+            print(f"  {st['comparison']:<42} {st['mean_a']:.3f} vs {st['mean_b']:.3f}  "
+                  f"greater in {st['a_greater_in']}/{len(TOPICS)}  t p={st['t_p']:.3g}  Wilcoxon p={st['wilcoxon_p']:.3g}")
+    else:
+        print("\n(one topic: no paired tests across topics; per-session permutation z and p above)")
 
     out = HERE / "results"
     out.mkdir(exist_ok=True)
-    (out / "v6_differentiation.json").write_text(json.dumps(
+    name = "v6_differentiation.json" if PANEL["id"] == "brainstorming-hats" else f"{PANEL['id']}_differentiation.json"
+    (out / name).write_text(json.dumps(
         {"log_dir": str(log_dir), "embedding_model": EMBEDDING_MODEL, "n_perm": args.n_perm,
          "sizes": args.sizes, "summary": summary, "paired_tests": tests, "per_session": results},
         indent=2), encoding="utf-8")
-    with open(out / "v6_differentiation.csv", "w", newline="", encoding="utf-8") as f:
+    with open(out / name.replace(".json", ".csv"), "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=list(rows[0]))
         w.writeheader()
         w.writerows(rows)
-    print(f"\nWrote {out / 'v6_differentiation.json'} and .csv")
+    print(f"\nWrote {out / name} and .csv")
 
 
 if __name__ == "__main__":

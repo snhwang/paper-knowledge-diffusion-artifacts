@@ -67,8 +67,26 @@ def reference_texts(hat_dir: Path) -> dict[str, str]:
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--log-dir", default=str(HERE.parent / "bear_parlor" / "session_logs" / "v6"))
-    ap.add_argument("--hat-dir", default=str(HERE.parent / "bear_parlor" / "instructions" / "hats"))
+    ap.add_argument("--hat-dir", default=None,
+                    help="instruction directory holding each role's persona and method (default: the panel's)")
+    ap.add_argument("--panel", default="brainstorming-hats",
+                    help="panel whose sessions to analyse (roles from panels.yaml; topics discovered)")
     args = ap.parse_args()
+
+    global CHANCE, WRONG_LENS_MAP
+    if args.panel != "brainstorming-hats":
+        from eval_v6_differentiation import PANEL, configure
+        configure(args.panel, Path(args.log_dir))
+        if not TOPICS:
+            sys.exit(f"no topic in {args.log_dir} has all of {CONDITIONS} for panel {args.panel}")
+        CHANCE = 1 / len(HATS)
+        # any other panel rotates its roles one step (parlor.wrong_lens_map)
+        WRONG_LENS_MAP = {HATS[i]: HATS[(i + 1) % len(HATS)] for i in range(len(HATS))}
+        if args.hat_dir is None:
+            sub = [d for d in PANEL.get("instruction_dirs", []) if d != "common"][-1]
+            args.hat_dir = str(HERE.parent / "bear_parlor" / "instructions" / sub)
+    elif args.hat_dir is None:
+        args.hat_dir = str(HERE.parent / "bear_parlor" / "instructions" / "hats")
 
     sessions = select_sessions(Path(args.log_dir))
     missing = [(t, c) for t in TOPICS for c in CONDITIONS if (t, c) not in sessions]
@@ -142,9 +160,10 @@ def main():
             print(f"  {c:<11}{m['storing_hat']:>13.3f}{m['lens_hat']:>10.3f}")
         for st in tests:
             print(f"  {st['comparison']:<46} {st['mean_a']:.3f} vs {st['mean_b']:.3f}  "
-                  f"{st['a_greater_in']}/8  Wilcoxon p={st['wilcoxon_p']:.3g}")
+                  f"{st['a_greater_in']}/{len(TOPICS)}  Wilcoxon p={st['wilcoxon_p']:.3g}")
 
-    dest = HERE / "results" / "v6_role_alignment.json"
+    dest = HERE / "results" / ("v6_role_alignment.json" if args.panel == "brainstorming-hats"
+                               else f"{args.panel}_role_alignment.json")
     dest.parent.mkdir(exist_ok=True)
     dest.write_text(json.dumps(out, indent=2), encoding="utf-8")
     print(f"\nWrote {dest}")
