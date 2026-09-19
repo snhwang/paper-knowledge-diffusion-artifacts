@@ -101,12 +101,17 @@ async def wait_for_parlor(panel: str, timeout: int = 300) -> None:
         await asyncio.sleep(1)
     raise RuntimeError(f"Parlor did not become ready on {SERVER_URL} within {timeout}s")
 
+# In every condition, gated diffusion is the only path into a role's stores:
+# the session-insight extractor and the memory manager, which write from the
+# shared conversation outside the gate, are off. The first live session showed
+# insights carrying hostnames and ticket ids into Support's store that way.
+COMMON = ["--document-diffusion", "--no-insights", "--no-memories"]
 CONDITIONS = {
-    "bear":          ["--document-diffusion"],
-    "naive":         ["--naive-diffusion", "--document-diffusion"],
-    "shared-memory": ["--shared-knowledge", "--document-diffusion"],
-    "no-gate":       ["--no-gate", "--document-diffusion"],
-    "wrong-lens":    ["--wrong-lens", "--document-diffusion"],
+    "bear":          COMMON,
+    "naive":         ["--naive-diffusion"] + COMMON,
+    "shared-memory": ["--shared-knowledge"] + COMMON,
+    "no-gate":       ["--no-gate"] + COMMON,
+    "wrong-lens":    ["--wrong-lens"] + COMMON,
 }
 _OPTS: dict = {}
 

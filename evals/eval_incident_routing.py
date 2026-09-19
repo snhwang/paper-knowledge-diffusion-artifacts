@@ -71,6 +71,29 @@ def present(text: str, fact: dict) -> bool:
     return any(s.lower() in low for s in fact["check"]["any_of"])
 
 
+def channel(meta: dict) -> str:
+    """Which channel wrote a note: gated document diffusion, gated discussion
+    diffusion, or the ungated session-insight extractor."""
+    src = (meta or {}).get("source")
+    if src == "insight":
+        return "insight"
+    if src == "diffusion":
+        return "document" if str((meta or {}).get("source_hat", "")).startswith("document:") else "discussion"
+    return src or "other"
+
+
+def leak_channels(store: dict, facts: list, role: str) -> dict:
+    """Per channel, how many denied facts this role's notes carry."""
+    counts = defaultdict(int)
+    for d, m in zip(store.get("documents", []), store.get("metadatas", [])):
+        if (m or {}).get("source") in ("pdf", "document"):
+            continue
+        for f in facts:
+            if role in f["deny"] and present(d, f):
+                counts[channel(m)] += 1
+    return dict(counts)
+
+
 def score_session(sess: dict, spec: dict) -> dict:
     facts = spec["facts"]
     roles = sorted({r for f in facts for r in f["deliver"] + f["deny"]})
@@ -119,6 +142,7 @@ def score_session(sess: dict, spec: dict) -> dict:
                     r["pattern_leaks_store"][name] = ns
                 if na:
                     r["pattern_leaks_answers"][name] = na
+        r["leak_notes_by_channel"] = leak_channels(store, facts, role)
         d, n = r["deliver"], r["deny"]
         r["delivery_rate_store"] = d["in_store"] / d["n"] if d["n"] else None
         r["delivery_rate_answer"] = d["in_answer"] / d["asked"] if d["asked"] else None
@@ -132,6 +156,8 @@ def score_session(sess: dict, spec: dict) -> dict:
             out["totals"][f"deny_{k}"] += n[k]
         out["totals"]["pattern_leaks_store"] += sum(r["pattern_leaks_store"].values())
         out["totals"]["pattern_leaks_answers"] += sum(r["pattern_leaks_answers"].values())
+        for ch, k in r["leak_notes_by_channel"].items():
+            out["totals"][f"leak_notes_{ch}"] += k
     t = out["totals"]
     out["summary"] = {
         "delivery_store": t["deliver_in_store"] / t["deliver_n"] if t["deliver_n"] else None,
@@ -141,6 +167,7 @@ def score_session(sess: dict, spec: dict) -> dict:
         "refusal": t["deny_refused"] / t["deny_asked"] if t["deny_asked"] else None,
         "pattern_leaks_store": t["pattern_leaks_store"],
         "pattern_leaks_answers": t["pattern_leaks_answers"],
+        "leak_notes_by_channel": {k[len("leak_notes_"):]: v for k, v in t.items() if k.startswith("leak_notes_")},
     }
     out["totals"] = dict(t)
     return out
@@ -178,9 +205,11 @@ def main():
     for r in results:
         s = r["summary"]
         by_cond[r["condition"]].append(r)
+        ch = s["leak_notes_by_channel"]
         print(f"{r['case']:<8} {r['condition']:<14} {fmt(s['delivery_store']):>8} {fmt(s['delivery_answer']):>9} "
               f"{fmt(s['leak_store']):>7} {fmt(s['leak_answer']):>8} {fmt(s['refusal']):>7} "
-              f"{s['pattern_leaks_store']:>6} {s['pattern_leaks_answers']:>7} {r['n_gated']:>5}")
+              f"{s['pattern_leaks_store']:>6} {s['pattern_leaks_answers']:>7} {r['n_gated']:>5}"
+              + (f"   leak notes by channel: {ch}" if ch else ""))
     print("\nper-condition means:")
     for cond, rs in by_cond.items():
         keys = ("delivery_store", "delivery_answer", "leak_store", "leak_answer", "refusal")
