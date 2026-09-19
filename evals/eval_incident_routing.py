@@ -71,8 +71,12 @@ def load_session(md_path: Path) -> dict | None:
         return None
     stats = json.loads(stats_path.read_text(encoding="utf-8"))
     knowledge = json.loads(kj_path.read_text(encoding="utf-8"))
+    ri = stats.get("run_info", {})
+    # sessions run before the ungated write channels were switched off are
+    # kept as evidence but excluded from per-condition means
+    governed = (ri.get("insight_extractor") is False and ri.get("memory_manager") is False)
     return {"log": md_path.name, "topic": stats.get("topic"), "condition": stats.get("condition"),
-            "completed": stats.get("completed"), "run_info": stats.get("run_info", {}),
+            "completed": stats.get("completed"), "run_info": ri, "governed": governed,
             "gated": stats.get("gated", []), "answers": stats.get("answers", []),
             "stores": knowledge}
 
@@ -149,8 +153,9 @@ def score_session(sess: dict, spec: dict) -> dict:
         answers_by[role][a.get("question_id")] = a.get("answer", "") or ""
 
     out = {"log": sess["log"], "case": sess["topic"], "condition": sess["condition"],
-           "completed": sess["completed"], "n_gated": len(sess["gated"]),
-           "roles": {}, "totals": defaultdict(int)}
+           "completed": sess["completed"], "governed": sess.get("governed", True),
+           "shared_read_path": bool(sess["run_info"].get("shared_knowledge")),
+           "n_gated": len(sess["gated"]), "roles": {}, "totals": defaultdict(int)}
     for role in roles:
         store = sess["stores"].get(role, {})
         text = store_text(store)
@@ -246,13 +251,18 @@ def main():
     by_cond = defaultdict(list)
     for r in results:
         s = r["summary"]
-        by_cond[r["condition"]].append(r)
+        if r["governed"]:
+            by_cond[r["condition"]].append(r)
         ch = s["leak_notes_by_channel"]
+        # in shared-memory the per-role stores are still gated; sharing is on
+        # the read path, so the store-leak column does not apply
+        leak_st = "  n/a" if r["shared_read_path"] else fmt(s["leak_store"])
         print(f"{r['case']:<8} {r['condition']:<14} {fmt(s['delivery_store']):>8} {fmt(s['delivery_answer']):>9} "
-              f"{fmt(s['leak_store']):>7} {fmt(s['leak_answer']):>8} {fmt(s['refusal']):>7} "
+              f"{leak_st:>7} {fmt(s['leak_answer']):>8} {fmt(s['refusal']):>7} "
               f"{s['pattern_leaks_store']:>6} {s['pattern_leaks_answers']:>7} {r['n_gated']:>5}"
+              + ("   [ungated channels on; excluded from means]" if not r["governed"] else "")
               + (f"   leak notes by channel: {ch}" if ch else ""))
-    print("\nper-condition means:")
+    print("\nper-condition means (governed sessions only):")
     for cond, rs in by_cond.items():
         keys = ("delivery_store", "delivery_answer", "leak_store", "leak_answer", "refusal")
         means = {k: (sum(r["summary"][k] for r in rs if r["summary"][k] is not None)
