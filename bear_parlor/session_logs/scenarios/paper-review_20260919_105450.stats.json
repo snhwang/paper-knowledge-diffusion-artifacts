@@ -1,0 +1,3209 @@
+{
+  "topic": "dti-ad",
+  "condition": "wrong-lens",
+  "started": "2026-09-19 10:54:50",
+  "last_updated": "2026-09-19 11:08:54",
+  "elapsed_seconds": 843.6,
+  "n_turns": 95,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 913,
+  "n_diffusion_skipped": 95,
+  "ingestions": [
+    {
+      "time": "10:55:21",
+      "turn": 1,
+      "hat": "source",
+      "title": "Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+      "chunks": 55,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "10:58:01",
+      "turn": 16,
+      "hat": "source",
+      "title": "Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+      "chunks": 45,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "11:00:23",
+      "turn": 28,
+      "hat": "source",
+      "title": "Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+      "chunks": 47,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {
+    "Methods:parse_failure": 3,
+    "Stats:parse_failure": 1,
+    "Replication:parse_failure": 1
+  },
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 3,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829730392-14",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829735704-27",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829734395-23",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829733357-20",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829734707-24",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829747269-55",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829751424-60",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829735344-26",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829773887-106",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829750546-59",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829764109-88",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829755651-73",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829784892-127",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829780672-120",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829790875-135",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829725078-4",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829737136-32",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829729727-12",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829751737-61",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829778860-118",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829780376-119",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829790875-135",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829784892-127",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829811529-178",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829821952-200",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829816692-189",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829795460-143",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829748637-57",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829774825-109",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829748305-56",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829762565-84",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829811529-178",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829817004-190",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829816692-189",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829801596-158",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829725078-4",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829737136-32",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829729727-12",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829751737-61",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829835925-232",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829875452-306",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829835379-230",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842626-242",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829790554-134",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829789520-131",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829789142-130",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829780672-120",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829835379-230",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829843189-244",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829829844-217",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829829500-216",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789829874218-303",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829850875-259",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829870829-296",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829866005-286",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829907739-367",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829893818-337",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829898934-348",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829906439-363",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829835379-230",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842339-241",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842897-243",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829841331-238",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829927605-399",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829757441-79",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829764109-88",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829913979-378",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829822260-201",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829805586-169",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829794653-142",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829878337-307",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829878599-308",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829748637-57",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829757441-79",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829975563-495",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975251-494",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975918-496",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829844109-247",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936594-414",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829943525-430",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829969028-479",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829822260-201",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936051-413",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829783724-123",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789829861357-280",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829861066-279",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829862260-283",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829996720-535",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829975563-495",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975251-494",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975918-496",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829844109-247",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829943525-430",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829937507-417",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829789520-131",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830003622-548",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829861357-280",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830011324-558",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830024281-584",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829907739-367",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048650-627",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048315-626",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830039896-612",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829911382-373",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829915379-382",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829911045-372",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829927605-399",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829936051-413",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936594-414",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830014821-568",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995261-530",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829997296-537",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995840-532",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789830117882-760",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829811840-179",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829809405-177",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829801912-159",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829835379-230",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829843189-244",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830026971-585",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829840314-235",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829907739-367",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048650-627",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048315-626",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830039896-612",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830007784-555",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830162707-841",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829874218-303",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829989405-519",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829835379-230",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829829844-217",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829829500-216",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829840702-236",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830017022-574",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829872152-297",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830019145-581",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829989967-521",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789830045268-621",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830028342-589",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830027326-586",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829744635-43",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829781014-121",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789830079328-687",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789830087974-700",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829780376-119",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830120393-765",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830116840-757",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829975563-495",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830126145-778",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975251-494",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830125838-777",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830103102-727",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830105566-735",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829969356-480",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829785181-128",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829937507-417",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936594-414",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789829995261-530",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830002565-546",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830173170-863",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830001520-544",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829842339-241",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842897-243",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830135297-792",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830197906-871",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789830037757-605",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829906751-364",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829906439-363",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829889918-325",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830120393-765",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830116840-757",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829906751-364",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830037757-605",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830035729-599",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830176025-864",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830207785-872",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830150819-823",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830162707-841",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829998504-541",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969356-480",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829969028-479",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830023706-583",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 60,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830014440-567",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830014108-566",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829998212-540",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829997296-537",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789830275776-881",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830197906-871",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830026971-585",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842897-243",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 62,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829936051-413",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829931867-405",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829790554-134",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830172895-862",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830208100-873",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830162707-841",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829856388-267",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 65,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789830324474-889",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830247051-874",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830247345-875",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830010824-557",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 66,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830208100-873",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830172895-862",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995840-532",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830173170-863",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 67,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789830275776-881",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830026971-585",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829875452-306",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830197906-871",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 68,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830120393-765",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830116840-757",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 69,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789829995261-530",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829993676-525",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830173170-863",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830172895-862",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 71,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789830087671-699",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789830300171-884",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829936896-415",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829940284-421",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 72,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789829850875-259",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829874218-303",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830024281-584",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829867395-290",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 73,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789830323533-887",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830180723-868",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829809057-176",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830166725-851",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 74,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789829975563-495",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830126145-778",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829975251-494",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830125838-777",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 75,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789830086670-696",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829935748-412",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829931548-404",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829943525-430",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 76,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829894383-339",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830037757-605",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830040197-613",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830027700-587",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 78,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830014821-568",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995261-530",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829997296-537",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995840-532",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 79,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829906127-362",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829897428-345",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830035729-599",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830049758-630",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 80,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789830104054-730",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829965183-469",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829961294-464",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830104352-731",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 81,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829897121-344",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829894383-339",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829898934-348",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789829751737-61",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 82,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830002882-547",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830146469-816",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830207785-872",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830001182-543",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 83,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789829790554-134",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829932929-408",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829931867-405",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789829789520-131",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 85,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829927969-400",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829927283-398",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830060392-655",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829905242-359",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 86,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789830323533-887",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830118851-763",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829950782-442",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829879824-312",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 87,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789830172335-860",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830407355-897",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789830197906-871",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829875452-306",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 88,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830002565-546",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829997296-537",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830001520-544",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830173170-863",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 89,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789830275776-881",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829824303-207",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829842897-243",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789829981363-503",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 90,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789829927283-398",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830060392-655",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789829912637-377",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830322861-886",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 91,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829969686-481",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830120393-765",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829944574-433",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830116840-757",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 92,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789830377215-892",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830322861-886",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830262550-878",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789830197511-870",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 93,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789830292371-882",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829850875-259",
+          "citation": "diffused document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "source": "diffusion",
+          "source_hat": "document:Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789829995261-530",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789830172895-862",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 94,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789829907739-367",
+          "citation": "diffused document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048650-627",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830048315-626",
+          "citation": "diffused document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789830475302-905",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 95,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789829879824-312",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789829879534-311",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830450056-901",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789830323533-887",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {
+      "methodologist": "statistician",
+      "statistician": "synthesizer",
+      "synthesizer": "skeptic",
+      "skeptic": "replicator",
+      "replicator": "communicator",
+      "communicator": "methodologist"
+    },
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "3c6fd062f8989f8b1dd7b69cce8be0459df48f94",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_105450.md",
+  "completed": true,
+  "ended": "2026-09-19 11:09:00",
+  "duration_seconds": 849.5
+}
