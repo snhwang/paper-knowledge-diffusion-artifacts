@@ -9,8 +9,8 @@ documents:
     title: "Free-water DTI improves white matter analysis in Alzheimer's disease (Sci Rep 2021)"
   - file: tbss-mci-ad-2025.pdf
     title: "Longitudinal TBSS of white matter diffusivity from MCI to Alzheimer's disease (PLOS ONE 2025)"
-  - file: advanced-diffusion-ad-2025.pdf
-    title: "Advanced diffusion models of white matter microstructure in Alzheimer's disease (Sci Rep 2025)"
+  - file: freewater-preclinical-ad-2017.pdf
+    title: "Microstructural white matter alterations in preclinical Alzheimer's disease detected using free water elimination DTI (PLOS ONE 2017)"
 
 # Seven facilitator prompts, as in the v6 sessions.
 prompts:

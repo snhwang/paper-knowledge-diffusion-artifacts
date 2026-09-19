@@ -28,6 +28,34 @@ Links:
 - https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0329893
 - https://www.nature.com/articles/s41598-025-09412-1
 
+## Topic 2 — diffusion MRI in Parkinson's disease (`review/dti-pd/`)
+
+| # | Paper | Journal | Licence | File |
+|---|---|---|---|---|
+| 1 | Progression of regional microstructural degeneration in Parkinson's disease: a multicenter diffusion tensor imaging study | PLOS ONE, 2016 | CC BY (statement in PDF) | `dti-progression-pd-2016.pdf` |
+| 2 | White matter alterations in Parkinson's disease with normal cognition precede grey matter atrophy | PLOS ONE, 2018 | CC BY (statement in PDF) | `wm-precedes-gm-pd-2018.pdf` |
+| 3 | Diffusion tensor and restriction spectrum imaging reflect different aspects of neurodegeneration in Parkinson's disease | PLOS ONE, 2019 | CC BY (statement in PDF) | `dti-rsi-pd-2019.pdf` |
+
+Links: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165540 ·
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0187939 ·
+https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0217922
+
+## Topic 3 — diffusion MRI in multiple sclerosis (`review/dti-ms/`)
+
+| # | Paper | Journal | Licence | File |
+|---|---|---|---|---|
+| 1 | Radial diffusivity reflects general decline rather than specific cognitive deterioration in multiple sclerosis | Scientific Reports, 2022 | CC BY (statement in PDF) | `radial-diffusivity-ms-2022.pdf` |
+| 2 | Diffusion tensor imaging metrics associated with future disability in multiple sclerosis | Scientific Reports, 2023 | CC BY (statement in PDF) | `dti-future-disability-ms-2023.pdf` |
+| 3 | Regional grey matter microstructural changes and volume loss according to disease duration in multiple sclerosis patients | Scientific Reports, 2021 | CC BY 4.0 (statement in PDF) | `gm-microstructure-duration-ms-2021.pdf` |
+
+Links: https://www.nature.com/articles/s41598-022-26204-z ·
+https://www.nature.com/articles/s41598-023-30502-5 ·
+https://www.nature.com/articles/s41598-021-96132-x
+
+(A first candidate, "White matter volume and microstructural integrity are
+associated with fatigue in relapsing multiple sclerosis", Sci Rep 2025, is
+CC BY-NC-ND and was not used.)
+
 ## Other candidates
 
 - NODDI-derived measures of microstructural integrity in medial temporal lobe

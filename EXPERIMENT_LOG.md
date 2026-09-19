@@ -395,7 +395,16 @@ Jensen-Shannon), and the v6 scripts run with `--panel paper-review`
 `paper-review_role_alignment.json`). With one topic there are no paired
 tests across topics; the per-session permutation nulls apply.
 
-**Results.** Where a role's notes come from depends on the role under
+**Withdrawn and re-run (2026-09-19).** The third dti-ad paper in those three
+sessions turned out to be CC BY-NC-ND (see `scenarios/review/PAPERS.md`);
+the PDF, the three session logs and their derived results were removed
+from the tree and the topic re-run with a CC0 PLOS ONE paper in its place.
+Two further topics were added: diffusion MRI in Parkinson's disease
+(`dti-pd`, three PLOS ONE CC BY papers) and in multiple sclerosis (`dti-ms`,
+three Scientific Reports CC BY papers). The numbers below are from the
+withdrawn sessions and are superseded by the re-run.
+
+**Results (withdrawn sessions).** Where a role's notes come from depends on the role under
 `bear` (Cramér's V 0.17, permutation p 0.0005) and not at all under `naive`;
 under `wrong-lens` all six roles' section patterns lie closer to their lens
 donor's `bear` pattern than to their own. Store differentiation: `bear`
