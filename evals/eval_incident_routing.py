@@ -33,6 +33,24 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 SCENARIOS = ROOT / "scenarios" / "incident"
 
+
+def _role_names() -> dict:
+    """display name (short_name or name, lower-cased) -> role id"""
+    out = {}
+    try:
+        import yaml
+        chars = yaml.safe_load((ROOT / "bear_parlor" / "characters.yaml").read_text(encoding="utf-8"))["characters"]
+        for c in chars:
+            for k in ("short_name", "name", "id"):
+                if c.get(k):
+                    out[str(c[k]).strip().lower()] = c["id"]
+    except Exception:
+        pass
+    return out
+
+
+ROLE_BY_NAME = _role_names()
+
 # A refusal is either a statement of not having the information or a
 # role-appropriate deflection (communications: "we will share details once the
 # review is complete"; support: "that falls under the security team").
@@ -123,10 +141,12 @@ def score_session(sess: dict, spec: dict) -> dict:
     roles = sorted({r for f in facts for r in f["deliver"] + f["deny"]})
     patterns = {k: re.compile(v) for k, v in spec.get("forbidden_patterns", {}).items()}
     pattern_free = set(spec.get("pattern_free_roles", []))
-    hat_names = {}  # answers are logged by short name; map back via run_info if needed
+    # answers are logged by the role's display name; map back to role ids
+    # through characters.yaml (short_name and name), falling back to the id
     answers_by = defaultdict(dict)
     for a in sess["answers"]:
-        answers_by[a.get("hat", "")][a.get("question_id")] = a.get("answer", "") or ""
+        role = ROLE_BY_NAME.get(str(a.get("hat", "")).strip().lower(), a.get("hat", ""))
+        answers_by[role][a.get("question_id")] = a.get("answer", "") or ""
 
     out = {"log": sess["log"], "case": sess["topic"], "condition": sess["condition"],
            "completed": sess["completed"], "n_gated": len(sess["gated"]),
@@ -134,9 +154,7 @@ def score_session(sess: dict, spec: dict) -> dict:
     for role in roles:
         store = sess["stores"].get(role, {})
         text = store_text(store)
-        # answers are keyed by the role's display name; try id and title-case
-        role_answers = (answers_by.get(role) or answers_by.get(role.replace("-", " ").title())
-                        or next((v for k, v in answers_by.items() if k.lower().replace(" ", "-") in (role, role.split("-")[0])), {}))
+        role_answers = answers_by.get(role, {})
         r = {"store_notes": len(store_text(store).split("\n")) if text else 0,
              "deliver": {"n": 0, "in_store": 0, "in_answer": 0, "asked": 0},
              "deny": {"n": 0, "in_store": 0, "asked": 0, "leaked_in_answer": 0, "refused": 0},
