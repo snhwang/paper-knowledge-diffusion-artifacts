@@ -1,0 +1,23 @@
+panel: paper-review
+title: "GLP-1 receptor agonists: safety signals, outcomes and cost-effectiveness"
+
+# Three CC BY papers (PLOS Medicine, PLOS ONE); licence statements verified
+# in the PDFs, see ../PAPERS.md. Deliberately different designs: a
+# pharmacoepidemiological safety study, a retrospective cohort, and a health
+# economic model.
+documents:
+  - file: semaglutide-naion-risk-2026.pdf
+    title: "Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)"
+  - file: antidiabetics-cognitive-cohort-2026.pdf
+    title: "Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)"
+  - file: semaglutide-costeffectiveness-2026.pdf
+    title: "Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)"
+
+prompts:
+  - "We have three papers on GLP-1 receptor agonists. Synthesizer, what do they find, taken together?"
+  - "Methodologist and statistician: these use three different designs — a safety study, a cohort, and a cost model. How sound is each, and do the numbers support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported — data sources, code, model parameters — and what is missing?"
+  - "How should a clinician weigh a safety signal from observational data against modelled cost-effectiveness?"
+  - "Communicator: what does this evidence mean for someone taking or considering these drugs, and what does it not mean?"
+  - "Where do the three papers disagree, and what study would settle it?"

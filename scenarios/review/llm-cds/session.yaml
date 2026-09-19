@@ -1,0 +1,22 @@
+panel: paper-review
+title: "Large language models in clinical decision support"
+
+# Three CC BY papers (npj Digital Medicine); licence statements verified in
+# the PDFs, see ../PAPERS.md. Ingested into the shared source store; document
+# diffusion offers every chunk to every role's lens.
+documents:
+  - file: diagnostic-reasoning-prompts-2024.pdf
+    title: "Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)"
+  - file: llm-workflows-triage-2025.pdf
+    title: "Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)"
+  - file: llm-health-trajectories-2025.pdf
+    title: "Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)"
+
+prompts:
+  - "We have three papers evaluating large language models for clinical decision support. Synthesizer, what do they claim, taken together?"
+  - "Methodologist and statistician: how were these evaluations designed, and do the numbers support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported — models, prompts, data, code — and what is missing?"
+  - "Is the comparison with clinicians fair in these studies, and what would a fair one require?"
+  - "Communicator: what does this evidence mean for a patient whose doctor uses such a tool, and what does it not mean?"
+  - "Where do the three papers disagree, and what study would settle it?"

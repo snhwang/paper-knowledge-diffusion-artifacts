@@ -1,0 +1,21 @@
+panel: paper-review
+title: "Precision genome editing: delivery, correction and unintended edits"
+
+# Three CC BY papers (Nature Communications, Nature Biomedical Engineering,
+# PLOS Genetics); licence statements verified in the PDFs, see ../PAPERS.md.
+documents:
+  - file: lnp-rnp-base-prime-editing-2024.pdf
+    title: "Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)"
+  - file: base-editing-gsd1a-2024.pdf
+    title: "Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)"
+  - file: insertional-mutagenesis-editing-2026.pdf
+    title: "Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)"
+
+prompts:
+  - "We have three papers on precision genome editing. Synthesizer, what do they find, taken together?"
+  - "Methodologist and statistician: how were these experiments done, and do the data support the claims?"
+  - "Skeptic: what is the most consequential limitation across the three, and what alternative explanation should we consider?"
+  - "Replicator: which of these could we reproduce from what is reported — constructs, sequencing, analysis — and what is missing?"
+  - "How well do these studies characterise unintended edits, and what would adequate characterisation look like?"
+  - "Communicator: what does this evidence mean for someone hoping for a gene-editing treatment, and what does it not mean?"
+  - "Where do the three papers disagree, and what experiment would settle it?"
