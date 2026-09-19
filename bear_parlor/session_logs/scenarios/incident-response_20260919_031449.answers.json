@@ -1,0 +1,819 @@
+{
+  "scenario": "incident",
+  "case": "xyz-03",
+  "condition": "wrong-lens",
+  "panel": "incident-response",
+  "log": "incident-response_20260919_031449.md",
+  "answers": [
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F05",
+      "question": "How was the export made, and why was it not logged?",
+      "answer": "Current state: Employee E-4471 used the \"Export contacts\" function on admin-web-01 at 17:31 Thursday and emailed the file to a personal address at 17:42. The action was not logged because audit logging was implemented for edits but not for exports. Security owns the root cause analysis; Engineering has since deployed logging for this function under ticket XYZ-2204.",
+      "retrieved": [
+        "diffusion-commander-1789802171311-64",
+        "diffusion-commander-1789802129343-17",
+        "diffusion-commander-1789802341682-85",
+        "diffusion-commander-1789802120390-12",
+        "diffusion-commander-1789802129640-18",
+        "diffusion-commander-1789802129922-19"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F06",
+      "question": "What exactly did the exported file contain, and for how many clinics?",
+      "answer": "The exported file contained 1,880 business contact records, specifically names, work email addresses, work phone numbers, and account tiers for staff at 212 customer clinics.",
+      "retrieved": [
+        "diffusion-commander-1789802146743-37",
+        "diffusion-commander-1789802341682-85",
+        "diffusion-commander-1789802138794-32",
+        "diffusion-commander-1789802341928-86",
+        "diffusion-commander-1789802171561-65",
+        "diffusion-commander-1789802171311-64"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights, and by when?",
+      "answer": "Current state: Contractual notice obligations are active for three customers: Harbor Clinic Group, Westfield Family Practice, and Lakeside Paediatrics.\nThe deadline for these notifications is 08:50 next Friday.\nOwner: Legal.",
+      "retrieved": [
+        "diffusion-commander-1789802139051-33",
+        "diffusion-commander-1789802341928-86",
+        "diffusion-commander-1789802131040-23",
+        "diffusion-commander-1789802130795-22",
+        "diffusion-commander-1789802139300-34",
+        "diffusion-commander-1789802341682-85"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F16",
+      "question": "What is the plan for the former employee?",
+      "answer": "Current state: The former employee's access was revoked at 09:20 Friday, and their mailbox and SSO are disabled.\nOpen decision: Legal is executing the containment action by sending a letter from outside counsel demanding deletion of the file and written certification within 5 business days.\nOwner: Legal.",
+      "retrieved": [
+        "diffusion-commander-1789802139300-34",
+        "diffusion-commander-1789802147049-38",
+        "diffusion-commander-1789802146743-37",
+        "diffusion-commander-1789802131040-23",
+        "diffusion-commander-1789802138794-32",
+        "diffusion-commander-1789802120904-14"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F11",
+      "question": "What is still fragile on the engineering side, and by when must it be fixed?",
+      "answer": "Current state: The service account exemption for the nightly CRM sync is not yet validated.\nOpen decision: Engineering must complete the exemption implementation and pass the dual-approval validation test by Monday 02:00.\nOwner: Engineering.",
+      "retrieved": [
+        "diffusion-commander-1789802274585-78",
+        "diffusion-commander-1789802431626-97",
+        "diffusion-commander-1789802171817-66",
+        "diffusion-commander-1789802139300-34",
+        "diffusion-commander-1789802120904-14",
+        "diffusion-commander-1789802120651-13"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "Current state: I do not have legal’s assessment on regulatory obligations in my notes. Open decision: Legal must confirm whether the 212 affected clinics trigger a mandatory regulator notification. Owner: Legal.",
+      "retrieved": [
+        "diffusion-commander-1789802341928-86",
+        "diffusion-commander-1789802130795-22",
+        "diffusion-commander-1789802171311-64",
+        "diffusion-commander-1789802120651-13",
+        "diffusion-commander-1789802171817-66",
+        "diffusion-commander-1789802274585-78"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F24",
+      "question": "What will customers be told on Monday?",
+      "answer": "Current state: Customers will receive a notification on Monday regarding unsolicited contact related to their accounts.\nThey will be given the option to request confirmation of which staff were involved within two business days.\nThe message will omit specific system names and internal ticket numbers.",
+      "retrieved": [
+        "diffusion-commander-1789802131040-23",
+        "diffusion-commander-1789802341928-86",
+        "diffusion-commander-1789802139051-33",
+        "diffusion-commander-1789802341682-85",
+        "diffusion-commander-1789802120651-13",
+        "diffusion-commander-1789802146743-37"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X03-F26",
+      "question": "What has the incident cost so far?",
+      "answer": "I do not have the financial cost figures in my notes. I can confirm the operational actions taken, such as the re-imaging of workstation ws-0412 and the containment steps, but I do not have the data on monetary impact.",
+      "retrieved": [
+        "diffusion-commander-1789802146743-37",
+        "diffusion-commander-1789802139051-33",
+        "diffusion-commander-1789802341928-86",
+        "diffusion-commander-1789802120904-14",
+        "diffusion-commander-1789802111111-5",
+        "diffusion-commander-1789802341682-85"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F05",
+      "question": "How and when was the export made?",
+      "answer": "Employee E-4471 invoked the export function on admin-web-01 at 17:31 Thursday and emailed the resulting file to a personal address at 17:42 Thursday. The export function on the internal admin console failed to generate audit records for the CSV export because audit logging was implemented for edits but not for exports.",
+      "retrieved": [
+        "diffusion-security-lead-1789802131578-25",
+        "diffusion-security-lead-1789802119595-9",
+        "diffusion-security-lead-1789802119323-8",
+        "diffusion-security-lead-1789802171019-63",
+        "diffusion-security-lead-1789802120145-11",
+        "diffusion-security-lead-1789802131342-24"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F06",
+      "question": "What did the file contain?",
+      "answer": "The file was a 2.3 MB CSV attachment named customers_contacts_export.csv containing 1,880 rows of data that matched the customer-contact pattern.",
+      "retrieved": [
+        "diffusion-security-lead-1789802110216-2",
+        "diffusion-security-lead-1789802120145-11",
+        "diffusion-security-lead-1789802161746-56",
+        "diffusion-security-lead-1789802132097-27",
+        "diffusion-security-lead-1789802119595-9",
+        "diffusion-security-lead-1789802131835-26"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F07",
+      "question": "What indicators should we watch for now?",
+      "answer": "Containment on host admin-web-01 is confirmed, so the immediate threat is neutralized. The primary indicator to watch now is the validation of the sync test in the admin-web-01 logs, which Engineering is monitoring until I provide explicit security validation. Additionally, we are tracking the deployment of audit logging for the /admin/contacts/export function to ensure it correctly records user, time, row count, and filter details as required by ticket XYZ-2204.",
+      "retrieved": [
+        "diffusion-security-lead-1789802550201-110",
+        "diffusion-security-lead-1789802205894-74",
+        "diffusion-security-lead-1789802390230-89",
+        "diffusion-security-lead-1789802132664-29",
+        "diffusion-security-lead-1789802170699-62",
+        "diffusion-security-lead-1789802131342-24"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F08",
+      "question": "Were there other exports by this user, and what happened to the workstation?",
+      "answer": "I do not have records of other exports by this user in my notes. Regarding the workstation, copies of the exported file on office workstation ws-0412 were removed and the device was re-imaged on Friday at 15:00.",
+      "retrieved": [
+        "diffusion-security-lead-1789802120145-11",
+        "diffusion-security-lead-1789802119595-9",
+        "diffusion-security-lead-1789802171019-63",
+        "diffusion-security-lead-1789802131578-25",
+        "diffusion-security-lead-1789802131342-24",
+        "diffusion-security-lead-1789802132097-27"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F10",
+      "question": "What controls were added to the export function and to DLP?",
+      "answer": "The export function on admin-web-01 was restricted on Friday at 16:00 to require approval by a second account manager or team lead, and all export activities are now logged. I do not have any notes regarding changes to DLP controls.",
+      "retrieved": [
+        "diffusion-security-lead-1789802131578-25",
+        "diffusion-security-lead-1789802171019-63",
+        "diffusion-security-lead-1789802119595-9",
+        "diffusion-security-lead-1789802120145-11",
+        "diffusion-security-lead-1789802119323-8",
+        "diffusion-security-lead-1789802161746-56"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F04",
+      "question": "When was the account disabled, and under which ticket?",
+      "answer": "The SSO account for employee E-4471 was disabled at 09:20 on Friday under ticket XYZ-2203.",
+      "retrieved": [
+        "diffusion-security-lead-1789802110545-3",
+        "diffusion-security-lead-1789802119862-10",
+        "diffusion-security-lead-1789802132921-30",
+        "diffusion-security-lead-1789802132409-28",
+        "diffusion-security-lead-1789802205894-74",
+        "diffusion-security-lead-1789802550201-110"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I do not have that information; contractual notice rights fall under legal exposure and obligations, not security containment.",
+      "retrieved": [
+        "diffusion-security-lead-1789802132409-28",
+        "diffusion-security-lead-1789802170437-61",
+        "diffusion-security-lead-1789802132921-30",
+        "diffusion-security-lead-1789802161746-56",
+        "diffusion-security-lead-1789802133176-31",
+        "diffusion-security-lead-1789802119862-10"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X03-F16",
+      "question": "What is the legal plan for the former employee?",
+      "answer": "I do not have the legal plan for the former employee; that falls under Legal's jurisdiction. I can only confirm that the personal email address was recorded for legal purposes.",
+      "retrieved": [
+        "diffusion-security-lead-1789802119862-10",
+        "diffusion-security-lead-1789802132921-30",
+        "diffusion-security-lead-1789802110545-3",
+        "diffusion-security-lead-1789802119595-9",
+        "diffusion-security-lead-1789802161746-56",
+        "diffusion-security-lead-1789802390568-90"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F09",
+      "question": "When was audit logging deployed for the export function, and under which ticket?",
+      "answer": "I don't have that information in my notes. My records cover the incident timeline, the re-imaging of ws-0412, and the CRM sync issue, but they do not specify when audit logging was deployed for the export function or the associated ticket ID.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802119068-7",
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802127533-15",
+        "diffusion-oncall-engineer-1789802109840-1",
+        "diffusion-oncall-engineer-1789802118820-6",
+        "diffusion-oncall-engineer-1789802150383-48"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F10",
+      "question": "What approval and DLP changes were made?",
+      "answer": "I don't have the specific details on approval or DLP changes in my notes, so I can't confirm what was modified. I only have visibility into the customer-facing messaging and support scripts regarding tightened export controls.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802487816-102",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802415218-93",
+        "diffusion-oncall-engineer-1789802415553-94",
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802487536-101"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F11",
+      "question": "What does the approval step break, and what is needed before Monday?",
+      "answer": "The approval step breaks the nightly CRM sync, leaving the sales team's pipeline view stale. I need the service account exemption for ticket XYZ-2207 implemented before Monday 02:00 to prevent a service disruption.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802127533-15",
+        "diffusion-oncall-engineer-1789802250314-77",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802487536-101",
+        "diffusion-oncall-engineer-1789802415218-93",
+        "diffusion-oncall-engineer-1789802176631-73"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F12",
+      "question": "What happens to large exports now?",
+      "answer": "*checks notes*\nThe export approval step is now mandatory for large exports, and the service account exemption for this step is scheduled to be implemented before Monday 02:00. Until that exemption is live, the CRM sync will fail nightly, leaving the sales team's pipeline view stale.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802127533-15",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802119068-7",
+        "diffusion-oncall-engineer-1789802118820-6",
+        "diffusion-oncall-engineer-1789802415820-95"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F13",
+      "question": "What will change about access removal for leavers?",
+      "answer": "Automatic access removal will now trigger on an employee's confirmed last day instead of the following Monday. This closes the gap where accounts remained active after departure, ensuring immediate revocation of credentials upon exit.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802127820-16",
+        "diffusion-oncall-engineer-1789802118820-6",
+        "diffusion-oncall-engineer-1789802119068-7",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802176384-72",
+        "diffusion-oncall-engineer-1789802150130-47"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F05",
+      "question": "Where and when was the export made?",
+      "answer": "The export was made on Thursday at 17:42 by employee E-4471, who sent the 1,880 records to a personal webmail address.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802127533-15",
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802119068-7",
+        "diffusion-oncall-engineer-1789802118820-6",
+        "diffusion-oncall-engineer-1789802109840-1",
+        "diffusion-oncall-engineer-1789802150383-48"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have the specific list of customers with contractual notice rights in my notes. Legal owns the specific wording and compliance details for the three contractual customers, so you should direct that question to them.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802415553-94",
+        "diffusion-oncall-engineer-1789802487536-101",
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802415218-93",
+        "diffusion-oncall-engineer-1789802487267-100"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F16",
+      "question": "What is the legal plan for the former employee?",
+      "answer": "I don't have the legal plan for the former employee; that falls under legal's domain. I can confirm that access for employee E-4471 was revoked on Friday at 09:20 and their workstation ws-0412 was re-imaged at 15:00 to remove the data copies.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802118820-6",
+        "diffusion-oncall-engineer-1789802119068-7",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802487536-101",
+        "diffusion-oncall-engineer-1789802415553-94",
+        "diffusion-oncall-engineer-1789802487267-100"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "I don't have that information in my notes. I only track the technical remediation, the configuration changes, and the service status.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789802332851-82",
+        "diffusion-oncall-engineer-1789802487816-102",
+        "diffusion-oncall-engineer-1789802150383-48",
+        "diffusion-oncall-engineer-1789802415218-93",
+        "diffusion-oncall-engineer-1789802415553-94",
+        "diffusion-oncall-engineer-1789802415820-95"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required, and what must be documented?",
+      "answer": "No, regulator notification is not required based on the current assessment. You must document the contractual notices sent to the three specific customers by next Friday at 08:50, as well as the recommended courtesy notice for all affected customers on Monda.",
+      "retrieved": [
+        "diffusion-legal-1789802172561-69",
+        "diffusion-legal-1789802139540-35",
+        "diffusion-legal-1789802471587-99",
+        "diffusion-legal-1789802173116-71",
+        "diffusion-legal-1789802391874-91",
+        "diffusion-legal-1789802249772-75"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights, under which clause, and by when?",
+      "answer": "*checks notes* My records confirm that three specific customers have contractual notice rights, but I do not have the specific clause numbers or the exact names of those customers in front of me. The deadline for these notices is next Friday at 08:50.",
+      "retrieved": [
+        "diffusion-legal-1789802172561-69",
+        "diffusion-legal-1789802139540-35",
+        "diffusion-legal-1789802392122-92",
+        "diffusion-legal-1789802172292-68",
+        "diffusion-legal-1789802471587-99",
+        "diffusion-legal-1789802161448-55"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F16",
+      "question": "What does the counsel's letter to the former employee demand?",
+      "answer": "The letter demands the deletion of the shared data and requires the former employee to provide certification that this deletion has been completed.",
+      "retrieved": [
+        "diffusion-legal-1789802172850-70",
+        "diffusion-legal-1789802161448-55",
+        "diffusion-legal-1789802139540-35",
+        "diffusion-legal-1789802139797-36",
+        "diffusion-legal-1789802148730-42",
+        "diffusion-legal-1789802172058-67"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F17",
+      "question": "What must we not do regarding the former employee?",
+      "answer": "External communications must not name the former employee, describe their role, or state the number of records involved. This restriction is confirmed in our legal memo and the public notice draft to ensure we remain compliant while addressing the incident.",
+      "retrieved": [
+        "diffusion-legal-1789802139797-36",
+        "diffusion-legal-1789802161448-55",
+        "diffusion-legal-1789802148730-42",
+        "diffusion-legal-1789802139540-35",
+        "diffusion-legal-1789802172058-67",
+        "diffusion-legal-1789802391874-91"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F18",
+      "question": "What must not be stated externally?",
+      "answer": "*checks notes* Externally, we must not name the former employee, describe their specific role, or state the number of records involved.",
+      "retrieved": [
+        "diffusion-legal-1789802139797-36",
+        "diffusion-legal-1789802471334-98",
+        "diffusion-legal-1789802161167-54",
+        "diffusion-legal-1789802471587-99",
+        "diffusion-legal-1789802172561-69",
+        "diffusion-legal-1789802392122-92"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F19",
+      "question": "How many clinics are affected?",
+      "answer": "*checks notes* The incident involves 212 customer clinics.",
+      "retrieved": [
+        "diffusion-legal-1789802148126-40",
+        "diffusion-legal-1789802392122-92",
+        "diffusion-legal-1789802148408-41",
+        "diffusion-legal-1789802139540-35",
+        "diffusion-legal-1789802172058-67",
+        "diffusion-legal-1789802172292-68"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F05",
+      "question": "On which system was the export made?",
+      "answer": "I do not have that information in my notes. My assessment focuses on the nature of the data involved and the resulting obligations, not the specific technical infrastructure where the export occurred.",
+      "retrieved": [
+        "diffusion-legal-1789802148730-42",
+        "diffusion-legal-1789802325600-80",
+        "diffusion-legal-1789802161167-54",
+        "diffusion-legal-1789802249772-75",
+        "diffusion-legal-1789802173116-71",
+        "diffusion-legal-1789802471334-98"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F02",
+      "question": "What was the employee id and the file name?",
+      "answer": "I do not have that information in my notes.",
+      "retrieved": [
+        "diffusion-legal-1789802161448-55",
+        "diffusion-legal-1789802139797-36",
+        "diffusion-legal-1789802148730-42",
+        "diffusion-legal-1789802172058-67",
+        "diffusion-legal-1789802148126-40",
+        "diffusion-legal-1789802139540-35"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X03-F09",
+      "question": "Under which ticket was audit logging added?",
+      "answer": "I do not have the specific ticket number for the audit logging implementation in my notes. I can confirm that logging was added to the export process as part of the new controls, but I do not have the technical ticket reference.",
+      "retrieved": [
+        "diffusion-legal-1789802173116-71",
+        "diffusion-legal-1789802471334-98",
+        "diffusion-legal-1789802325600-80",
+        "diffusion-legal-1789802161167-54",
+        "diffusion-legal-1789802161448-55",
+        "diffusion-legal-1789802148730-42"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F24",
+      "question": "What does the customer notice say, and when does it go out?",
+      "answer": "The notice confirms that instructions for reporting unsolicited contact are now live and that staff confirmation will be processed within two days. It is scheduled to go out to the 212 affected clinics by the end of the weekend.",
+      "retrieved": [
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802300068-79",
+        "diffusion-comms-1789802149577-45",
+        "diffusion-comms-1789802522140-106",
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802522434-107"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F25",
+      "question": "What does the notice deliberately leave out?",
+      "answer": "The notice deliberately leaves out any technical details about how the incident occurred or specific internal system names. It also avoids stating any legal conclusions, focusing instead on the fact that a list of business contact details was exported without authorization and that no patient information was involved.",
+      "retrieved": [
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802300068-79",
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802149294-44",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802149577-45"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F19",
+      "question": "How many clinics are affected, and what data was involved?",
+      "answer": "Here is what we can say today: 212 clinics are affected, and the incident involved business names, work email addresses, and work phone numbers. No patient information or passwords were involved.",
+      "retrieved": [
+        "diffusion-comms-1789802300068-79",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802149294-44",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802522434-107"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F21",
+      "question": "What might customers notice, and what should they do?",
+      "answer": "Here is what we can say today: Customers may notice unsolicited emails or calls that appear to come from us or a partner, but they should treat any such contact as unofficial. They should report this unexpected contact to our support team immediately to ensure their account safety.",
+      "retrieved": [
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802365457-87",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802149294-44",
+        "diffusion-comms-1789802522434-107"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F20",
+      "question": "Was there any service impact?",
+      "answer": "No, the service remained fully operational with no interruptions to your workflows. Customers experienced no visible product changes or outages, so there is no technical issue for them to address.",
+      "retrieved": [
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802300068-79",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802522434-107",
+        "diffusion-comms-1789802149294-44"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F02",
+      "question": "What was the employee id of the person who exported the file?",
+      "answer": "I do not have that information. Our public statement focuses on the impact and the steps we are taking to secure your data, rather than individual personnel details.",
+      "retrieved": [
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802365457-87",
+        "diffusion-comms-1789802149577-45",
+        "diffusion-comms-1789802365837-88"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F06",
+      "question": "How many records were in the file?",
+      "answer": "I don't have the specific number of records in the file. What I can confirm is that the incident involved business contact details for staff at 212 customer clinics, with no patient information or passwords included.",
+      "retrieved": [
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802300068-79",
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802149577-45"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have that information in my notes. That is a legal determination regarding specific contract terms, so I would need to hand this off to the legal team to confirm which agreements trigger those obligations.",
+      "retrieved": [
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802149577-45",
+        "diffusion-comms-1789802149294-44",
+        "diffusion-comms-1789802365837-88"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F16",
+      "question": "What legal action is being taken against the former employee?",
+      "answer": "I don't have that information in my notes. I can only confirm that we are tightening controls on data exports and that customers should report any unsolicited contact to support.",
+      "retrieved": [
+        "diffusion-comms-1789802365457-87",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802365837-88",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802149294-44",
+        "diffusion-comms-1789802300068-79"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X03-F05",
+      "question": "Which system was the export made from?",
+      "answer": "I can’t share internal system names or technical details about how the incident happened. What we can say today is that a list of customer business contact details was exported without authorization, and we are tightening controls on exports to prevent this from happening again.",
+      "retrieved": [
+        "diffusion-comms-1789802422629-96",
+        "diffusion-comms-1789802149864-46",
+        "diffusion-comms-1789802149022-43",
+        "diffusion-comms-1789802365457-87",
+        "diffusion-comms-1789802522434-107",
+        "diffusion-comms-1789802300068-79"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F19",
+      "question": "Who is affected, and what data was involved?",
+      "answer": "Customers at 212 clinics are affected, specifically their staff members whose business contact details were involved. The data included staff names, work email addresses, and work phone numbers, but no patient information or account credentials were compromised.",
+      "retrieved": [
+        "diffusion-support-1789802153103-50",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802494358-105",
+        "diffusion-support-1789802152870-49",
+        "diffusion-support-1789802162671-57"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F21",
+      "question": "What might customers notice, and what should they do?",
+      "answer": "Customers at the 212 affected clinics may notice unsolicited emails or calls that appear to come from XYZ or a partner, but this contact is unofficial. They should treat these messages as fraudulent and report any such contact directly to our support team.",
+      "retrieved": [
+        "diffusion-support-1789802163420-60",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802153103-50",
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802493852-103"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F22",
+      "question": "What should staff be reminded of about passwords and payments?",
+      "answer": "I don't have any notes regarding specific reminders for staff about passwords or payments, so I cannot provide that information.",
+      "retrieved": [
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802152870-49",
+        "diffusion-support-1789802493852-103",
+        "diffusion-support-1789802162671-57",
+        "diffusion-support-1789802163420-60",
+        "diffusion-support-1789802340490-84"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F23",
+      "question": "Can a customer find out which of their staff were included?",
+      "answer": "I don't have the specific list of which staff members were included to share with customers. What I can tell them is that the incident involved business contact details for staff at their clinic, but no patient information or account credentials were compromised. I need cleared wording on whether we can confirm specific individuals were affected before I can answer that part of their question.",
+      "retrieved": [
+        "diffusion-support-1789802152870-49",
+        "diffusion-support-1789802162671-57",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802153103-50",
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802153631-52"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F24",
+      "question": "What are customers being told on Monday?",
+      "answer": "Customers will be told to treat any unsolicited emails or calls referring to their XYZ account as unofficial and to report such contact directly to our support team. The notice is strictly limited to this guidance regarding unsolicited contact and does not include any technical incident details.",
+      "retrieved": [
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802163420-60",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802493852-103",
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802153103-50"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F02",
+      "question": "What was the file called, and who sent it?",
+      "answer": "I don't have that information. The customer-facing notice deliberately omits the file name and the former employee's name to avoid implying an accusation.",
+      "retrieved": [
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802153370-51",
+        "diffusion-support-1789802162671-57",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802153631-52"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F06",
+      "question": "How many records were exported?",
+      "answer": "I don't have the specific number of records in my notes, but I can confirm that the export included business contact details for staff at 212 customer clinics.",
+      "retrieved": [
+        "diffusion-support-1789802162671-57",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802153370-51",
+        "diffusion-support-1789802152870-49",
+        "diffusion-support-1789802153631-52",
+        "diffusion-support-1789802494102-104"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have the specific list of which customers hold those rights in my notes. I know there are three customers with contractual notice terms that require separate wording, but I need the legal team to confirm the exact identities before I can address them directly.",
+      "retrieved": [
+        "diffusion-support-1789802494102-104",
+        "diffusion-support-1789802163420-60",
+        "diffusion-support-1789802493852-103",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802163174-59"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F16",
+      "question": "What legal action is being taken against the former employee?",
+      "answer": "I don't have the specific details on the legal proceedings or charges being filed against the former employee. I can confirm that the company is pursuing the matter through appropriate channels, but for the precise legal status, you would need to check with Legal or the Commander.",
+      "retrieved": [
+        "diffusion-support-1789802162671-57",
+        "diffusion-support-1789802153631-52",
+        "diffusion-support-1789802493852-103",
+        "diffusion-support-1789802494102-104",
+        "diffusion-support-1789802162929-58",
+        "diffusion-support-1789802153370-51"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "I do not have that information in my notes, as regulatory obligations fall under the legal function.",
+      "retrieved": [
+        "diffusion-support-1789802163420-60",
+        "diffusion-support-1789802494358-105",
+        "diffusion-support-1789802340490-84",
+        "diffusion-support-1789802163174-59",
+        "diffusion-support-1789802493852-103",
+        "diffusion-support-1789802162929-58"
+      ]
+    }
+  ]
+}

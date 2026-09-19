@@ -1,0 +1,6 @@
+condition,delivery_store,delivery_answer,leak_store,leak_answer,refusal,n_cases
+bear,0.892,0.806,0.000,0.000,0.968,4
+naive,1.000,0.542,1.000,0.335,0.524,4
+shared-memory,0.892,0.736,0.014,0.415,0.428,4
+no-gate,0.917,0.812,0.162,0.175,0.794,4
+wrong-lens,0.647,0.542,0.009,0.031,0.938,4

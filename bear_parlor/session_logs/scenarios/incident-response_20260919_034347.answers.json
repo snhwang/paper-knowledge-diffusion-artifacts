@@ -1,0 +1,819 @@
+{
+  "scenario": "incident",
+  "case": "xyz-04",
+  "condition": "shared-memory",
+  "panel": "incident-response",
+  "log": "incident-response_20260919_034347.md",
+  "answers": [
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F03",
+      "question": "What does the provider say caused the breach?",
+      "answer": "Current state: The provider attributes the breach to credential stuffing against their customer support portal, which lacked second-factor authentication. This allowed an attacker to log in as support staff and export message logs. No XYZ systems were accessed during this incident.",
+      "retrieved": [
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F05",
+      "question": "How many messages and phone numbers were in the window, and how do we know?",
+      "answer": "Current state: 41,600 appointment reminder messages were sent to approximately 27,000 distinct phone numbers during the access window.\nOwner: Security.\nWe know this from the security analysis of the Relay access logs, which confirmed the volume and distinct recipient count.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803855844-10",
+        "diffusion-legal-1789803883317-49",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-commander-1789803881758-43",
+        "diffusion-security-lead-1789803897991-78"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F15",
+      "question": "When is notice to the clinics due, and why?",
+      "answer": "Current state: Notice to all 88 affected clinics is due by Wednesday at 15:10.\nThis deadline is required to meet Clause 8.3 obligations and allow clinics to satisfy their own regulatory requirements.\nOwner: Legal holds the position on provider liability, and Support owns the final notification wording.",
+      "retrieved": [
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-commander-1789803893194-65"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F16",
+      "question": "What is our position with the provider under its contract?",
+      "answer": "Current state: The provider is on notice of a claim under the contract this week.\nOpen decision: Legal owns the notice of claim to the provider due Friday.\nOwner: Legal.",
+      "retrieved": [
+        "diffusion-security-lead-1789803870363-33",
+        "diffusion-commander-1789803872143-40",
+        "diffusion-commander-1789803919601-108",
+        "diffusion-oncall-engineer-1789803868579-26",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-commander-1789803872398-41"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F12",
+      "question": "Which clinics are currently without reminders, and how many?",
+      "answer": "Current state: Eighty-eight clinics are currently without automatic text-message reminders.\nOpen decision: Engineering is confirming the specific list of clinics that lack email addresses on file, as those are the ones without any automatic reminders.\nOwner: Engineering.",
+      "retrieved": [
+        "diffusion-security-lead-1789803899027-82",
+        "diffusion-support-1789803897299-76",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-support-1789803896774-74",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-commander-1789803894007-68"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F11",
+      "question": "What has to happen before SMS reminders can be switched back on?",
+      "answer": "Current state: SMS reminders are suspended via the `reminders.sms.enabled=false` flag.\nOpen decision: The provider must attest to fixed controls and confirm the old key is invalidated.\nOwner: Security.",
+      "retrieved": [
+        "diffusion-security-lead-1789803918533-104",
+        "diffusion-legal-1789804081396-123",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-commander-1789803870889-35",
+        "diffusion-oncall-engineer-1789803867162-21"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F24",
+      "question": "What does the public statement say about the provider, and when is the next update?",
+      "answer": "Current state: The public statement advises that the texts did not come from the clinic or the organization, and the next update is scheduled for Wednesday by 12:00.\nOwner: Communications.",
+      "retrieved": [
+        "diffusion-comms-1789803906450-85",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-commander-1789803919866-109",
+        "diffusion-commander-1789803908052-91",
+        "diffusion-security-lead-1789803910848-97",
+        "diffusion-commander-1789804166146-126"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X04-F26",
+      "question": "What has the incident cost so far?",
+      "answer": "Current state: The incident has incurred approximately 26 engineering hours, outside counsel costs, and an estimated 80 support hours.\nOwner: Engineering.",
+      "retrieved": [
+        "diffusion-legal-1789803883768-51",
+        "diffusion-commander-1789803920400-111",
+        "diffusion-commander-1789803882321-45",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-security-lead-1789803910848-97"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F03",
+      "question": "What does the provider say caused the breach?",
+      "answer": "The provider's specific attribution is not in my notes. I can confirm the technical entry point was credential stuffing against the customer support portal, which lacked second-factor authentication, allowing an attacker to log in as support staff and export message logs.",
+      "retrieved": [
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F04",
+      "question": "Over what window did the access run?",
+      "answer": "The access window ran from the previous Tuesday at 03:00 to Sunday at 22:00.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803855844-10",
+        "diffusion-commander-1789804098224-125",
+        "diffusion-commander-1789803908052-91",
+        "diffusion-security-lead-1789803910337-95",
+        "diffusion-commander-1789803849151-7",
+        "diffusion-oncall-engineer-1789803991016-117"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F05",
+      "question": "What did we send through the provider in the window, and from which logs?",
+      "answer": "The compromised Relay API key allowed the retrieval of message logs from the last week, specifically containing recipient phone numbers and message text. No internal account credentials or backend systems were accessed.",
+      "retrieved": [
+        "diffusion-commander-1789803856324-12",
+        "diffusion-commander-1789803848640-5",
+        "diffusion-oncall-engineer-1789803991016-117",
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-security-lead-1789803917772-101"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F02",
+      "question": "What was done with the API key, and when?",
+      "answer": "The Relay API key rk_live_…3f9e was rotated at 15:40 on Monday under ticket XYZ-2302, which invalidated the old key at the vendor's end.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803866883-20",
+        "diffusion-commander-1789803870622-34",
+        "diffusion-security-lead-1789803858156-19",
+        "diffusion-security-lead-1789803869095-28",
+        "diffusion-oncall-engineer-1789803991016-117",
+        "diffusion-security-lead-1789803847940-4"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F07",
+      "question": "What indicators of misuse should we watch for?",
+      "answer": "Indicators of compromise include any use of the old Relay API key rk_live_…3f9e after 15:40 Monday, and reports of patients receiving texts quoting a clinic name and appointment time that request payment or a link click.",
+      "retrieved": [
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-security-lead-1789803858156-19",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-legal-1789803891444-58",
+        "diffusion-commander-1789803919102-106"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F08",
+      "question": "What is your recommendation on resuming SMS?",
+      "answer": "I do not have a recommendation on resuming SMS in my notes. The current status is that SMS reminders are suspended via the feature flag `reminders.sms.enabled=false` under ticket XYZ-2303, and resumption is contingent on the provider attesting to fixed controls.",
+      "retrieved": [
+        "diffusion-commander-1789803999524-121",
+        "diffusion-oncall-engineer-1789803991305-118",
+        "diffusion-security-lead-1789803897696-77",
+        "diffusion-commander-1789803919345-107",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-oncall-engineer-1789803909208-92"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F15",
+      "question": "When is notice to the clinics due?",
+      "answer": "Notice to the 88 affected clinics is due by Wednesday at 15:10.",
+      "retrieved": [
+        "diffusion-legal-1789803917123-99",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-commander-1789803893194-65"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X04-F16",
+      "question": "What is the provider's liability cap?",
+      "answer": "*checks notes*\nI do not have the provider's liability cap in my notes.",
+      "retrieved": [
+        "diffusion-commander-1789803882321-45",
+        "diffusion-legal-1789803883768-51",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-commander-1789803920400-111",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F06",
+      "question": "How were reminders suspended?",
+      "answer": "SMS reminders were suspended on Monday at 16:00 by setting the feature flag `reminders.sms.enabled` to false under ticket XYZ-2303. Email reminders were subsequently enabled for clinics with patient email addresses on file at Monday 17:30.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803867162-21",
+        "diffusion-commander-1789803870889-35",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-oncall-engineer-1789803847404-2",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-commander-1789803894502-70"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F09",
+      "question": "When were email reminders enabled, and for whom?",
+      "answer": "Email reminders were enabled on Monday at 17:30 for every clinic that has patient email addresses on file.",
+      "retrieved": [
+        "diffusion-commander-1789803871150-36",
+        "diffusion-oncall-engineer-1789803867437-22",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-legal-1789803892433-62",
+        "diffusion-legal-1789803891738-59",
+        "diffusion-commander-1789803894502-70"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F10",
+      "question": "What changed in the reminder template, and under which ticket?",
+      "answer": "The reminder template was changed on Tuesday at 09:00 to remove the clinic name, leaving only the patient's first name, date, and time in both SMS and email templates, under ticket XYZ-2304.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803867773-23",
+        "diffusion-security-lead-1789803869579-30",
+        "diffusion-commander-1789803871415-37",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-oncall-engineer-1789803867437-22",
+        "diffusion-commander-1789803871150-36"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F11",
+      "question": "What blocks re-enabling the SMS flag?",
+      "answer": "The `reminders.sms.enabled` flag is currently blocked by a vendor attestation check added in ticket XYZ-2305. It cannot be re-enabled until the `vendor.relay.attested` setting is explicitly set to true.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803868094-24",
+        "diffusion-commander-1789803871658-38",
+        "diffusion-security-lead-1789803869826-31",
+        "diffusion-commander-1789803870889-35",
+        "diffusion-legal-1789804081396-123",
+        "diffusion-oncall-engineer-1789803855588-9"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F12",
+      "question": "How many clinics have no reminders at all now?",
+      "answer": "I don't have the specific count of clinics without email addresses on file in my notes, so I can't give you an exact number. I know that 88 clinics total are affected by the text reminder pause, and the ones without email on file are the ones currently with no automatic reminders, but I don't have the breakdown between those two groups.",
+      "retrieved": [
+        "diffusion-support-1789803897299-76",
+        "diffusion-support-1789803896774-74",
+        "diffusion-security-lead-1789803898787-81",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-commander-1789803894007-68"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F13",
+      "question": "What longer-term follow-ups are planned?",
+      "answer": "I don't have the longer-term follow-ups in my notes; I only track the immediate remediation and the Wednesday deadlines. You'll need to ask the commander or the facilitator for the post-incident roadmap.",
+      "retrieved": [
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-commander-1789804097884-124",
+        "diffusion-oncall-engineer-1789803895926-71",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-commander-1789803893194-65"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F15",
+      "question": "When is notice to the clinics due?",
+      "answer": "Notice to all 88 affected clinics is due by Wednesday at 15:10.",
+      "retrieved": [
+        "diffusion-legal-1789803917123-99",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-security-lead-1789803918255-103",
+        "diffusion-commander-1789803893194-65"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F16",
+      "question": "What is the provider's liability cap?",
+      "answer": "I don't have that information in my notes; that's a legal question for the legal team to answer.",
+      "retrieved": [
+        "diffusion-commander-1789803882321-45",
+        "diffusion-legal-1789803883768-51",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-commander-1789803920400-111",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X04-F14",
+      "question": "Who is the controller of the patient data?",
+      "answer": "The 88 clinics are the controllers of the patient data, while XYZ acts as the processor handling it on their behalf.",
+      "retrieved": [
+        "diffusion-security-lead-1789803897991-78",
+        "diffusion-legal-1789803883317-49",
+        "diffusion-commander-1789803894263-69",
+        "diffusion-commander-1789803881758-43",
+        "diffusion-oncall-engineer-1789803936531-113",
+        "diffusion-commander-1789804097884-124"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F14",
+      "question": "Who is the controller and who is the processor here, and what follows from that?",
+      "answer": "XYZ acts as the processor, while the 88 clinics are the controllers of the personal data. This distinction means the clinics bear the primary legal obligation to notify affected individuals and regulators, though XYZ must provide them with the necessary facts and support to meet those statutory deadlines.",
+      "retrieved": [
+        "diffusion-legal-1789803883317-49",
+        "diffusion-commander-1789803908052-91",
+        "diffusion-commander-1789804098224-125",
+        "diffusion-security-lead-1789803998177-119",
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-commander-1789803856324-12"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F15",
+      "question": "When is notice to the clinics due, under which clause?",
+      "answer": "Notice to all 88 clinics is due by 15:10 on Wednesday, pursuant to Clause 8.3 of the processing terms. This deadline is triggered by the requirement to provide notice within 48 hours of XYZ becoming aware of the incident at 15:10 on Monday.",
+      "retrieved": [
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-commander-1789803882035-44",
+        "diffusion-commander-1789804097884-124"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F16",
+      "question": "What is the provider's liability cap, and what should we do to preserve a claim?",
+      "answer": "Relay's contract caps its liability at approximately $96,000, which is defined as 12 months' fees under clause 14. To preserve the claim, we must put Relay on notice of a claim this week, a task that is currently owned by Legal.",
+      "retrieved": [
+        "diffusion-commander-1789803920139-110",
+        "diffusion-legal-1789803883768-51",
+        "diffusion-commander-1789803882321-45",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-commander-1789803919601-108",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F17",
+      "question": "What must not be said publicly about the provider and about counts?",
+      "answer": "Externally, we must not name Relay publicly until they issue their own statement, and we must not provide specific incident or patient counts to the public.",
+      "retrieved": [
+        "diffusion-legal-1789803907320-88",
+        "diffusion-legal-1789803884038-52",
+        "diffusion-commander-1789803919866-109",
+        "diffusion-commander-1789803882559-46",
+        "diffusion-support-1789803897034-75",
+        "diffusion-commander-1789803893760-67"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F18",
+      "question": "What is the caution about saying no XYZ system was compromised?",
+      "answer": "*checks notes* The legal memo explicitly states that we must not assert that no XYZ system was compromised as a final or definitive settlement of the matter. While we can factually state that no XYZ system was accessed during the incident, we cannot use that phrasing to close the issue or imply the investigation is conclusively over.",
+      "retrieved": [
+        "diffusion-security-lead-1789803910337-95",
+        "diffusion-commander-1789803882808-47",
+        "diffusion-legal-1789803907320-88",
+        "diffusion-security-lead-1789803918011-102",
+        "diffusion-legal-1789803884038-52",
+        "diffusion-legal-1789803883551-50"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F19",
+      "question": "How many clinics are affected?",
+      "answer": "*Checks notes* Eighty-eight clinics are affected by the incident.",
+      "retrieved": [
+        "diffusion-commander-1789803894263-69",
+        "diffusion-legal-1789803891444-58",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-legal-1789803884538-54"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F03",
+      "question": "What does the provider say caused the breach?",
+      "answer": "*checks notes* I don't have the provider's specific statement on the root cause in my current notes. I only have the internal security analysis indicating credential stuffing against the support portal, but I cannot confirm what the provider has officially asserted externally.",
+      "retrieved": [
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F02",
+      "question": "What was done with the API key?",
+      "answer": "The compromised Relay API key was rotated on Monday at 15:40 under ticket XYZ-2302, which invalidated the old key at the vendor's end.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803866883-20",
+        "diffusion-commander-1789803870622-34",
+        "diffusion-security-lead-1789803869095-28",
+        "diffusion-oncall-engineer-1789803991016-117",
+        "diffusion-security-lead-1789803858156-19",
+        "diffusion-security-lead-1789803847940-4"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X04-F06",
+      "question": "Which flag suspended the reminders?",
+      "answer": "The SMS reminders were suspended by setting the feature flag `reminders.sms.enabled` to false.",
+      "retrieved": [
+        "diffusion-commander-1789803870889-35",
+        "diffusion-oncall-engineer-1789803867162-21",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-oncall-engineer-1789803847404-2",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-commander-1789803856812-14"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F24",
+      "question": "How does the public statement refer to the provider, and when is the next update?",
+      "answer": "The public statement does not name the third-party provider. The next update is scheduled for Wednesday by 12:00.",
+      "retrieved": [
+        "diffusion-commander-1789804098224-125",
+        "diffusion-commander-1789803919866-109",
+        "diffusion-comms-1789803906450-85",
+        "diffusion-commander-1789804166146-126",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F25",
+      "question": "What does the statement say about XYZ's own systems and about clinics?",
+      "answer": "We cannot state definitively that XYZ's own systems were not compromised, so we will avoid making that absolute claim. Regarding the clinics, we are providing each of the 88 affected clinics with their specific patient counts and data details privately to help them make their own notification decisions.",
+      "retrieved": [
+        "diffusion-legal-1789803883551-50",
+        "diffusion-security-lead-1789803857624-17",
+        "diffusion-commander-1789803893760-67",
+        "diffusion-legal-1789803884038-52",
+        "diffusion-commander-1789803856561-13",
+        "diffusion-commander-1789803882559-46"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F20",
+      "question": "Since when are text reminders paused, and what runs instead?",
+      "answer": "Here is what we can say today: Text-message reminders have been paused since Monday at 16:00. For clinics with patient email addresses on file, email reminders are automatically sent instead.",
+      "retrieved": [
+        "diffusion-security-lead-1789803897696-77",
+        "diffusion-oncall-engineer-1789803895926-71",
+        "diffusion-commander-1789803919345-107",
+        "diffusion-legal-1789803891738-59",
+        "diffusion-security-lead-1789803910031-94",
+        "diffusion-commander-1789803894502-70"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F21",
+      "question": "What should patients be warned about?",
+      "answer": "Patients should be warned that unexpected texts mentioning their clinic and an appointment, which ask for payment or to click a link, are not from the clinic or the service provider. Clinics are advised to warn patients that the clinic will never ask for payment by text message.",
+      "retrieved": [
+        "diffusion-comms-1789803890873-56",
+        "diffusion-security-lead-1789803898537-80",
+        "diffusion-commander-1789803893760-67",
+        "diffusion-support-1789803897034-75",
+        "diffusion-legal-1789803892201-61",
+        "diffusion-commander-1789804166146-126"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F19",
+      "question": "How many clinics are affected, and what did the messages contain?",
+      "answer": "Here is what we can say today: eighty-eight clinics are affected, and the messages contained patient first names, clinic names, appointment dates and times, and phone numbers.",
+      "retrieved": [
+        "diffusion-legal-1789803891444-58",
+        "diffusion-commander-1789803892945-64",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789803924084-112"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F01",
+      "question": "Which company is the provider, and what is our account with them?",
+      "answer": "I don't have the specific provider name or account details in my notes. I can confirm that the provider is on notice of a claim under the contract this week, but I cannot disclose internal system names or vendor identifiers without legal clearance.",
+      "retrieved": [
+        "diffusion-security-lead-1789803870363-33",
+        "diffusion-commander-1789803872143-40",
+        "diffusion-oncall-engineer-1789803868828-27",
+        "diffusion-commander-1789803919601-108",
+        "diffusion-oncall-engineer-1789803936531-113",
+        "diffusion-commander-1789803920139-110"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F03",
+      "question": "What caused the breach at the provider?",
+      "answer": "We are not in a position to confirm the specific technical cause of the incident at the provider. We will share details once the review is complete.",
+      "retrieved": [
+        "diffusion-security-lead-1789803857300-16",
+        "diffusion-security-lead-1789803917772-101",
+        "diffusion-commander-1789803919102-106",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-security-lead-1789803924084-112",
+        "diffusion-commander-1789803856324-12"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F27",
+      "question": "How many patients are affected?",
+      "answer": "Here is what we can say today: approximately 27,000 patients across 88 clinics are affected. We are contacting each clinic directly with their specific patient counts so they can meet their own regulatory obligations.",
+      "retrieved": [
+        "diffusion-commander-1789803894263-69",
+        "diffusion-legal-1789803891444-58",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-commander-1789803892945-64",
+        "diffusion-legal-1789803907067-87"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F16",
+      "question": "What is the provider's liability cap?",
+      "answer": "I don't have the specific liability cap figure in my notes. I can confirm that Legal is handling the notice of claim to the provider, but I would need to check with them for the exact contractual details.",
+      "retrieved": [
+        "diffusion-commander-1789803882321-45",
+        "diffusion-legal-1789803883768-51",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-commander-1789803920400-111",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X04-F06",
+      "question": "Which flag suspended the reminders?",
+      "answer": "I can’t share internal system details or specific configuration flags. I can confirm that SMS reminders were suspended on Monday at 4:00 PM, and we are working to restore service as quickly as possible.",
+      "retrieved": [
+        "diffusion-commander-1789803870889-35",
+        "diffusion-oncall-engineer-1789803867162-21",
+        "diffusion-oncall-engineer-1789803855588-9",
+        "diffusion-oncall-engineer-1789803847404-2",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-commander-1789803856812-14"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F19",
+      "question": "How many clinics are affected, and what did the messages contain?",
+      "answer": "Eighty-eight clinics are affected by this incident. The reminder texts contained patient first names, clinic names, appointment dates and times, and phone numbers.",
+      "retrieved": [
+        "diffusion-legal-1789803891444-58",
+        "diffusion-commander-1789803892945-64",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-legal-1789803907067-87",
+        "diffusion-security-lead-1789803924084-112"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F20",
+      "question": "What happens to reminders now?",
+      "answer": "Customers will now receive appointment reminders by email if a patient's email address is on file. SMS reminders are currently paused due to a security incident at the text-message provider, but please reassure them that their clinic accounts and calendars were not accessed.",
+      "retrieved": [
+        "diffusion-security-lead-1789803918533-104",
+        "diffusion-legal-1789803892433-62",
+        "diffusion-security-lead-1789803898787-81",
+        "diffusion-security-lead-1789803869335-29",
+        "diffusion-comms-1789803891187-57",
+        "diffusion-commander-1789803871150-36"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F21",
+      "question": "What should patients be warned about?",
+      "answer": "Patients should be warned that they may receive unexpected text messages mentioning their clinic and an appointment that ask for payment or to click a link, but these are not from the clinic or XYZ. Clinics must clearly communicate to patients that the clinic will never ask for payment by text message.",
+      "retrieved": [
+        "diffusion-comms-1789803890873-56",
+        "diffusion-security-lead-1789803898537-80",
+        "diffusion-commander-1789803893760-67",
+        "diffusion-support-1789803897034-75",
+        "diffusion-legal-1789803892201-61",
+        "diffusion-commander-1789804166146-126"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F22",
+      "question": "How can a clinic check its reminder channel, and what can clinics without email do?",
+      "answer": "To check the active reminder channel, clinics should navigate to Settings and then Reminders within the system. For clinics that do not have email reminders active, the workaround is to print a daily reminder list from the calendar and call patients directly to notify them of their appointments.",
+      "retrieved": [
+        "diffusion-support-1789803897299-76",
+        "diffusion-security-lead-1789803898787-81",
+        "diffusion-commander-1789803894007-68",
+        "diffusion-support-1789803896774-74",
+        "diffusion-security-lead-1789803899027-82",
+        "diffusion-security-lead-1789803918255-103"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F23",
+      "question": "Can a clinic find out how many of its patients were affected?",
+      "answer": "Yes, each clinic can request the specific number of its affected patients directly through support. We are also ensuring all 88 clinics receive these per-clinic counts by Wednesday at 15:10 so they can meet their own regulatory obligations.",
+      "retrieved": [
+        "diffusion-commander-1789803894263-69",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803891444-58",
+        "diffusion-commander-1789803919866-109",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-legal-1789803916850-98"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F01",
+      "question": "Which company is the provider?",
+      "answer": "I don't have the specific name of the provider in my notes, so I can't confirm that for you. I can only tell you that the provider is currently on notice of a claim under the contract this week.",
+      "retrieved": [
+        "diffusion-commander-1789803872143-40",
+        "diffusion-security-lead-1789803870363-33",
+        "diffusion-commander-1789803919601-108",
+        "diffusion-oncall-engineer-1789803868579-26",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-oncall-engineer-1789803868828-27"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F27",
+      "question": "How many patients are affected in total?",
+      "answer": "Approximately 27,000 patients are affected in total.",
+      "retrieved": [
+        "diffusion-commander-1789803894263-69",
+        "diffusion-legal-1789803891444-58",
+        "diffusion-legal-1789803916850-98",
+        "diffusion-legal-1789803917123-99",
+        "diffusion-legal-1789803883317-49",
+        "diffusion-commander-1789803919866-109"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F16",
+      "question": "What is the provider's liability cap?",
+      "answer": "I don't have that information in my notes.",
+      "retrieved": [
+        "diffusion-commander-1789803882321-45",
+        "diffusion-legal-1789803883768-51",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-commander-1789803920139-110",
+        "diffusion-commander-1789803920400-111",
+        "diffusion-legal-1789803907320-88"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F15",
+      "question": "By when must clinics be notified?",
+      "answer": "Clinics must be notified by Wednesday at 15:10.",
+      "retrieved": [
+        "diffusion-legal-1789803917123-99",
+        "diffusion-security-lead-1789803918812-105",
+        "diffusion-commander-1789803883046-48",
+        "diffusion-legal-1789803884538-54",
+        "diffusion-security-lead-1789804055596-122",
+        "diffusion-support-1789803897299-76"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X04-F10",
+      "question": "Under which ticket was the template changed?",
+      "answer": "The template change was tracked under ticket XYZ-2304.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789803867773-23",
+        "diffusion-security-lead-1789803869579-30",
+        "diffusion-commander-1789803871415-37",
+        "diffusion-commander-1789803849151-7",
+        "diffusion-oncall-engineer-1789803855259-8",
+        "diffusion-security-lead-1789803870363-33"
+      ]
+    }
+  ]
+}

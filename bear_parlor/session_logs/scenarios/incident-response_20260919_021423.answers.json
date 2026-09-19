@@ -1,0 +1,819 @@
+{
+  "scenario": "incident",
+  "case": "xyz-02",
+  "condition": "no-gate",
+  "panel": "incident-response",
+  "log": "incident-response_20260919_021423.md",
+  "answers": [
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F04",
+      "question": "Why had the certificate not been renewed automatically?",
+      "answer": "The renewal automation `cert-renew` on ops-01 had been disabled since July under ticket XYZ-1988 and was never restored.",
+      "retrieved": [
+        "diffusion-commander-1789798564007-116",
+        "diffusion-commander-1789798510281-39",
+        "diffusion-commander-1789798562989-112",
+        "diffusion-commander-1789798495657-19",
+        "diffusion-commander-1789798510563-40",
+        "diffusion-commander-1789798565555-122"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F09",
+      "question": "What caused the second, mobile-only outage?",
+      "answer": "Current state: The second, mobile-only outage was caused by the mobile app's certificate pinning rejecting the self-signed certificate installed on hosts api-gw-01 and api-gw-02 at 02:10.\nOwner: Engineering.\nNext step: Engineering to confirm the new chain is live on all app versions before restoring the `mobile.pin.strict` flag to true, tracked by ticket XYZ-2144.",
+      "retrieved": [
+        "diffusion-commander-1789798697649-153",
+        "diffusion-commander-1789798550783-98",
+        "diffusion-commander-1789798563222-113",
+        "diffusion-commander-1789798510938-38",
+        "diffusion-commander-1789798511118-36",
+        "diffusion-commander-1789798769303-164"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F15",
+      "question": "Which customers are owed credits, and how much in total?",
+      "answer": "Current state: The 3-hour 40-minute outage breaches the 99.9% SLA for nine Premium customers, entitling each to a 5% service credit.\nOpen decision: None, the exposure is fixed at approximately $4,200 total.\nOwner: Legal and Support own the processing of these credits on next invoices, due by the end of the month.",
+      "retrieved": [
+        "diffusion-commander-1789798563503-114",
+        "diffusion-commander-1789798565019-120",
+        "diffusion-commander-1789798527232-66",
+        "diffusion-commander-1789798537590-76",
+        "diffusion-commander-1789798526867-65",
+        "diffusion-commander-1789798769538-165"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a written root-cause report, and by when?",
+      "answer": "Northgate Medical Group is entitled to the written root-cause report. The deadline is within 10 business days.",
+      "retrieved": [
+        "diffusion-commander-1789798563749-115",
+        "diffusion-commander-1789798527232-66",
+        "diffusion-commander-1789798565261-121",
+        "diffusion-commander-1789798528176-69",
+        "diffusion-commander-1789798526514-64",
+        "diffusion-commander-1789798565019-120"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F12",
+      "question": "What security setting is currently relaxed, and what must happen before it is restored?",
+      "answer": "I do not have that information in my notes.",
+      "retrieved": [
+        "diffusion-commander-1789798573618-141",
+        "diffusion-commander-1789798769303-164",
+        "diffusion-commander-1789798931871-187",
+        "diffusion-commander-1789798697649-153",
+        "diffusion-commander-1789798634046-146",
+        "diffusion-commander-1789798573073-139"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F14",
+      "question": "Is any regulatory notification required?",
+      "answer": "No, regulatory notification is not required. Legal has confirmed that no unauthorized access occurred, meaning the incident is classified strictly as an availability issue with no data exposure. Our only obligation is issuing standard SLA credits for the 25-minute outage.",
+      "retrieved": [
+        "diffusion-commander-1789798851545-181",
+        "diffusion-commander-1789798573618-141",
+        "diffusion-commander-1789798697649-153",
+        "diffusion-commander-1789798551080-99",
+        "diffusion-commander-1789798526514-64",
+        "diffusion-commander-1789798573335-140"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F26",
+      "question": "When is the public follow-up due?",
+      "answer": "Current state: The public follow-up is due Wednesday at 12:00. Communications owns this deadline and will align the statement with the final timeline once Support confirms the SLA credit dispatch.",
+      "retrieved": [
+        "diffusion-commander-1789798564776-119",
+        "diffusion-commander-1789798932132-188",
+        "diffusion-commander-1789798769895-166",
+        "diffusion-commander-1789798551080-99",
+        "diffusion-commander-1789798573335-140",
+        "diffusion-commander-1789798564519-118"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X02-F27",
+      "question": "What has the incident cost so far?",
+      "answer": "Current state: The incident cost includes about 18 engineering hours, $4,200 in credits, and an estimated 20 support hours.",
+      "retrieved": [
+        "diffusion-commander-1789798565813-123",
+        "diffusion-commander-1789798526867-65",
+        "diffusion-commander-1789798563503-114",
+        "diffusion-commander-1789798565261-121",
+        "diffusion-commander-1789798528176-69",
+        "diffusion-commander-1789798526514-64"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F04",
+      "question": "Why had the certificate not been renewed automatically?",
+      "answer": "The renewal automation `cert-renew` on host ops-01 had been disabled since July under ticket XYZ-1988 and was never restored. This configuration gap meant the system did not trigger the renewal process when the certificate for `*.api.xyz.internal` (serial 4F:2B:9C) expired at 00:00 Tuesday.",
+      "retrieved": [
+        "diffusion-security-lead-1789798513001-45",
+        "diffusion-security-lead-1789798567185-129",
+        "diffusion-security-lead-1789798567704-131",
+        "diffusion-security-lead-1789798499584-24",
+        "diffusion-security-lead-1789798513300-46",
+        "diffusion-security-lead-1789798512162-42"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F05",
+      "question": "What did the review of API sessions during the fix window find?",
+      "answer": "The review of gateway access logs for the 02:10 to 03:40 window found 1,114 API sessions exclusively from known customer ranges or 10.4.0.0/16. There were no sessions from unknown addresses or downgrade anomalies, and the mobile application refused the self-signed certificate due to pinning, which prevented interception.",
+      "retrieved": [
+        "diffusion-security-lead-1789798499836-25",
+        "diffusion-security-lead-1789798567446-130",
+        "diffusion-security-lead-1789798825800-170",
+        "diffusion-security-lead-1789798899265-182",
+        "diffusion-security-lead-1789798552388-100",
+        "diffusion-security-lead-1789798486694-11"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F06",
+      "question": "What happened to the interim self-signed certificate afterwards?",
+      "answer": "The interim self-signed certificate was revoked from the trust store under ticket XYZ-2146. It was replaced by a vendor-issued certificate deployed to both gateway hosts at 03:40.",
+      "retrieved": [
+        "diffusion-security-lead-1789798513300-46",
+        "diffusion-security-lead-1789798512162-42",
+        "diffusion-security-lead-1789798512718-44",
+        "diffusion-security-lead-1789798499584-24",
+        "diffusion-security-lead-1789798567185-129",
+        "diffusion-security-lead-1789798567704-131"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F12",
+      "question": "What is the current state of mobile certificate pinning?",
+      "answer": "Strict mobile certificate pinning is currently active, as the `mobile.pin.strict` flag was re-enabled following the completion of the concurrent-access review. This restoration was the final containment action required to fully restore the service.",
+      "retrieved": [
+        "diffusion-security-lead-1789798568008-132",
+        "diffusion-security-lead-1789798512447-43",
+        "diffusion-security-lead-1789798513608-47",
+        "diffusion-security-lead-1789798826029-171",
+        "diffusion-security-lead-1789798567446-130",
+        "diffusion-security-lead-1789798899265-182"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F07",
+      "question": "What was your conclusion about data access, and when was it confirmed?",
+      "answer": "Based on the gateway access logs for the 02:10 to 03:40 window, I confirmed that there was no unauthorized data access, as all 1,114 API sessions originated exclusively from known customer ranges or the 10.4.0.0/16 subnet. This conclusion was established during the security analysis phase, which preceded the final containment actions and service restoration.",
+      "retrieved": [
+        "diffusion-security-lead-1789798568246-133",
+        "diffusion-security-lead-1789798499836-25",
+        "diffusion-security-lead-1789798486951-12",
+        "diffusion-security-lead-1789798760808-159",
+        "diffusion-security-lead-1789798899265-182",
+        "diffusion-security-lead-1789798500081-26"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F19",
+      "question": "How many customers were affected by the API outage?",
+      "answer": "The API integration outage affected 61 customers.",
+      "retrieved": [
+        "diffusion-security-lead-1789798539291-82",
+        "diffusion-security-lead-1789798567446-130",
+        "diffusion-security-lead-1789798499836-25",
+        "diffusion-security-lead-1789798567185-129",
+        "diffusion-security-lead-1789798760808-159",
+        "diffusion-security-lead-1789798512718-44"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F15",
+      "question": "How much do the service credits total?",
+      "answer": "I do not have the total dollar amount for the service credits. My notes confirm that standard SLA credit liability was triggered by the 25-minute mobile outage, but the individual customer calculations are currently in progress and the specific financial figures are not in my possession.",
+      "retrieved": [
+        "diffusion-security-lead-1789798760808-159",
+        "diffusion-security-lead-1789798568530-134",
+        "diffusion-security-lead-1789798512718-44",
+        "diffusion-security-lead-1789798899265-182",
+        "diffusion-security-lead-1789798825800-170",
+        "diffusion-security-lead-1789798567704-131"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a root-cause report?",
+      "answer": "I do not have that information in my notes. My scope covers the technical cause and containment status, not customer entitlements or legal obligations.",
+      "retrieved": [
+        "diffusion-security-lead-1789798760808-159",
+        "diffusion-security-lead-1789798499836-25",
+        "diffusion-security-lead-1789798486951-12",
+        "diffusion-security-lead-1789798568530-134",
+        "diffusion-security-lead-1789798539291-82",
+        "diffusion-security-lead-1789798568246-133"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F08",
+      "question": "What was the interim fix, and when was it applied?",
+      "answer": "The interim fix was applied at 02:10 on Tuesday to restore the API integration connections. It was a temporary measure to stabilize the service before the permanent fix was deployed at 03:40.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798920309-185",
+        "diffusion-oncall-engineer-1789798552651-101",
+        "diffusion-oncall-engineer-1789798649104-150",
+        "diffusion-oncall-engineer-1789798538923-83",
+        "diffusion-oncall-engineer-1789798850593-178",
+        "diffusion-oncall-engineer-1789798585318-143"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F09",
+      "question": "What caused the mobile outage, and which flag was changed?",
+      "answer": "The mobile outage was caused by an expired security certificate that broke the API integration. The specific configuration change tracked for the remediation is the restoration of the `mobile.pin.strict` flag under ticket XYZ-2144.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798710942-154",
+        "diffusion-oncall-engineer-1789798767468-162",
+        "diffusion-oncall-engineer-1789798585318-143",
+        "diffusion-oncall-engineer-1789798567984-126",
+        "diffusion-oncall-engineer-1789798539250-84",
+        "diffusion-oncall-engineer-1789798552651-101"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F10",
+      "question": "When did the replacement certificate arrive, and when was it deployed?",
+      "answer": "The vendor-issued replacement certificate was deployed to hosts api-gw-01 and api-gw-02 at 03:40 Tuesday, which immediately restored full service. I don't have the specific timestamp for when the certificate file itself arrived from the vendor, only the deployment time.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798514127-49",
+        "diffusion-oncall-engineer-1789798485621-8",
+        "diffusion-oncall-engineer-1789798514640-51",
+        "diffusion-oncall-engineer-1789798514389-50",
+        "diffusion-oncall-engineer-1789798567382-124",
+        "diffusion-oncall-engineer-1789798498974-22"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F11",
+      "question": "How was renewal automation fixed, and under which ticket?",
+      "answer": "I re-enabled the `cert-renew` automation on ops-01 under ticket XYZ-2143, setting alerts to trigger 30 and 7 days before expiry. The renewal job had been disabled since July under ticket XYZ-1988 following a failed run, which caused the certificate for *.api.xyz.internal to expire.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798567382-124",
+        "diffusion-oncall-engineer-1789798514389-50",
+        "diffusion-oncall-engineer-1789798498974-22",
+        "diffusion-oncall-engineer-1789798850593-178",
+        "diffusion-oncall-engineer-1789798485621-8",
+        "diffusion-oncall-engineer-1789798849758-175"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F12",
+      "question": "What must happen before strict pinning is restored?",
+      "answer": "Strict mobile certificate pinning is scheduled to be restored once the new certificate chain is confirmed. The restoration itself is tracked under ticket XYZ-2144.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798920309-185",
+        "diffusion-oncall-engineer-1789798567664-125",
+        "diffusion-oncall-engineer-1789798767468-162",
+        "diffusion-oncall-engineer-1789798585318-143",
+        "diffusion-oncall-engineer-1789798513875-48",
+        "diffusion-oncall-engineer-1789798849758-175"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F03",
+      "question": "Why was the web calendar unaffected?",
+      "answer": "The web calendar traffic terminates on hosts web-app-01 through web-app-03, which remained unaffected by the certificate expiration that only impacted the API gateway tier. Since the outage was isolated to the API layer, the web calendar bookings continued operating normally throughout the incident.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798485946-9",
+        "diffusion-oncall-engineer-1789798552651-101",
+        "diffusion-oncall-engineer-1789798538923-83",
+        "diffusion-oncall-engineer-1789798585318-143",
+        "diffusion-oncall-engineer-1789798485319-7",
+        "diffusion-oncall-engineer-1789798485621-8"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F15",
+      "question": "Which customers are owed credits, and how much?",
+      "answer": "I don't have the specific list of customers or the credit amounts in my notes; I only know that Support confirmed the delivery of SLA credit notifications. I can tell you the mobile service outage lasted 25 minutes and affected five mobile users, but I don't have the financial details for the credits.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798920309-185",
+        "diffusion-oncall-engineer-1789798649351-151",
+        "diffusion-oncall-engineer-1789798514640-51",
+        "diffusion-oncall-engineer-1789798850010-176",
+        "diffusion-oncall-engineer-1789798485946-9",
+        "diffusion-oncall-engineer-1789798710942-154"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a written root-cause report?",
+      "answer": "I don't have that information in my notes; I only track the technical remediation and ticket IDs.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798649104-150",
+        "diffusion-oncall-engineer-1789798649351-151",
+        "diffusion-oncall-engineer-1789798920309-185",
+        "diffusion-oncall-engineer-1789798767948-163",
+        "diffusion-oncall-engineer-1789798850010-176",
+        "diffusion-oncall-engineer-1789798514640-51"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X02-F14",
+      "question": "Is a regulatory notification required?",
+      "answer": "I don't have that information; regulatory obligations fall under legal, not my scope.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789798850593-178",
+        "diffusion-oncall-engineer-1789798920309-185",
+        "diffusion-oncall-engineer-1789798850010-176",
+        "diffusion-oncall-engineer-1789798649351-151",
+        "diffusion-oncall-engineer-1789798849758-175",
+        "diffusion-oncall-engineer-1789798485621-8"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F14",
+      "question": "Is any regulatory notification required, and why?",
+      "answer": "No, there are no regulatory notification obligations applicable to this incident. My assessment is that the scope of impact does not trigger any specific statutory or regulatory reporting duties.",
+      "retrieved": [
+        "diffusion-legal-1789798570730-135",
+        "diffusion-legal-1789798729212-155",
+        "diffusion-legal-1789798633013-145",
+        "diffusion-legal-1789798562475-110",
+        "diffusion-legal-1789798571005-136",
+        "diffusion-legal-1789798525598-61"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F15",
+      "question": "Which customers are owed a service credit, under which clause, and how much in total?",
+      "answer": "The nine Premium customers are owed a 5% service credit each under clause 7.2 of the Premium schedule, resulting in a total exposure of approximately $4,200. This assessment is based on the 3-hour, 40-minute outage breaching the 99.9% monthly availability level.",
+      "retrieved": [
+        "diffusion-legal-1789798561926-108",
+        "diffusion-legal-1789798538394-79",
+        "diffusion-legal-1789798524959-59",
+        "diffusion-legal-1789798526150-63",
+        "diffusion-legal-1789798729984-158",
+        "diffusion-legal-1789798729212-155"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a root-cause report, and by when?",
+      "answer": "Northgate Medical Group is entitled to a written root-cause report under clause 7.4 of the Premium schedule, with a deadline of 10 business days from the incident.",
+      "retrieved": [
+        "diffusion-legal-1789798525304-60",
+        "diffusion-legal-1789798562215-109",
+        "diffusion-legal-1789798526150-63",
+        "diffusion-legal-1789798818442-168",
+        "diffusion-legal-1789798525598-61",
+        "diffusion-legal-1789798562475-110"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F17",
+      "question": "What must not be stated externally, and until when?",
+      "answer": "Externally, you must not state that no data was at risk as fact, nor name the specific vendor or security certificate involved, until the security review is confirmed on Wednesday morning. Until that confirmation, you may only state that there is no indication of any data being accessed.",
+      "retrieved": [
+        "diffusion-legal-1789798818698-169",
+        "diffusion-legal-1789798525598-61",
+        "diffusion-legal-1789798524681-58",
+        "diffusion-legal-1789798729462-156",
+        "diffusion-legal-1789798549505-93",
+        "diffusion-legal-1789798549260-92"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F18",
+      "question": "What is your recommendation on how to issue the credits?",
+      "answer": "My recommendation is to issue the Premium service credits proactively rather than waiting for customer requests, ensuring they are applied to invoices by the end of the month. This approach aligns with the contractual obligations and the specific guidance to handle the nine Premium customers without requiring them to initiate the process.",
+      "retrieved": [
+        "diffusion-legal-1789798561926-108",
+        "diffusion-legal-1789798526150-63",
+        "diffusion-legal-1789798729984-158",
+        "diffusion-legal-1789798538394-79",
+        "diffusion-legal-1789798818442-168",
+        "diffusion-legal-1789798729212-155"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F19",
+      "question": "How many customers were affected?",
+      "answer": "Based on the impact data, 61 customers using the API integration were affected by the primary outage, and mobile app users experienced a separate 25-minute login issue.",
+      "retrieved": [
+        "diffusion-legal-1789798524959-59",
+        "diffusion-legal-1789798561639-107",
+        "diffusion-legal-1789798538140-78",
+        "diffusion-legal-1789798729727-157",
+        "diffusion-legal-1789798483022-1",
+        "diffusion-legal-1789798507694-27"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F04",
+      "question": "Why had the certificate not been renewed?",
+      "answer": "I do not have the specific root cause for why the certificate was not renewed in my current notes. I can confirm that the incident was caused by an expired security certificate on the API gateway tier, but I do not have the operational details regarding the failure of the renewal process itself.",
+      "retrieved": [
+        "diffusion-legal-1789798571005-136",
+        "diffusion-legal-1789798483022-1",
+        "diffusion-legal-1789798494325-14",
+        "diffusion-legal-1789798525883-62",
+        "diffusion-legal-1789798508807-30",
+        "diffusion-legal-1789798508419-29"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F09",
+      "question": "What caused the mobile outage technically?",
+      "answer": "*Adjusts glasses* I don't have the technical root cause for the mobile outage in my notes; that falls under engineering's domain. My records only confirm the customer impact: mobile users were unable to log in for 25 minutes between 02:10 and 02:35 on Tuesday.",
+      "retrieved": [
+        "diffusion-legal-1789798525883-62",
+        "diffusion-legal-1789798494325-14",
+        "diffusion-legal-1789798561639-107",
+        "diffusion-legal-1789798549008-91",
+        "diffusion-legal-1789798508070-28",
+        "diffusion-legal-1789798538140-78"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X02-F06",
+      "question": "What was done with the interim certificate?",
+      "answer": "*Checks notes* The interim self-signed certificate has been revoked from the trust store.",
+      "retrieved": [
+        "diffusion-legal-1789798571005-136",
+        "diffusion-legal-1789798494325-14",
+        "diffusion-legal-1789798508807-30",
+        "diffusion-legal-1789798525883-62",
+        "diffusion-legal-1789798483022-1",
+        "diffusion-legal-1789798508070-28"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F24",
+      "question": "What is the public timeline of the outage?",
+      "answer": "Here is what we can say today: The service interruption began at midnight on Tuesday and was fully resolved at 03:40, lasting a total of 3 hours and 40 minutes. During this window, API integrations were affected, while web calendar users experienced no disruption. We will share further details once the review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789798523110-54",
+        "diffusion-comms-1789798560750-104",
+        "diffusion-comms-1789798641718-148",
+        "diffusion-comms-1789798484078-4",
+        "diffusion-comms-1789798641975-149",
+        "diffusion-comms-1789798536180-71"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F25",
+      "question": "What exactly does the statement say about data, and why that wording?",
+      "answer": "The statement says there is no indication that any data was accessed, but we have not yet confirmed that no data was at risk. We use this specific wording because we are waiting for the security review to be fully completed before we can make a definitive assertion.",
+      "retrieved": [
+        "diffusion-comms-1789798523369-55",
+        "diffusion-comms-1789798550274-96",
+        "diffusion-comms-1789798495420-18",
+        "diffusion-comms-1789798761703-161",
+        "diffusion-comms-1789798494918-16",
+        "diffusion-comms-1789798641975-149"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F26",
+      "question": "When is the public follow-up due?",
+      "answer": "The public follow-up is scheduled for Wednesday at 12:00.",
+      "retrieved": [
+        "diffusion-comms-1789798561353-106",
+        "diffusion-comms-1789798550530-97",
+        "diffusion-comms-1789798833845-174",
+        "diffusion-comms-1789798577374-142",
+        "diffusion-comms-1789798561043-105",
+        "diffusion-comms-1789798641718-148"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F20",
+      "question": "How long were mobile app users affected?",
+      "answer": "Mobile app users were unable to log in for 25 minutes, from 02:10 to 02:35 on Tuesday.",
+      "retrieved": [
+        "diffusion-comms-1789798560750-104",
+        "diffusion-comms-1789798536180-71",
+        "diffusion-comms-1789798509496-32",
+        "diffusion-comms-1789798495181-17",
+        "diffusion-comms-1789798550027-95",
+        "diffusion-comms-1789798510044-34"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F19",
+      "question": "How many customers were affected by the API outage?",
+      "answer": "Here is what we can say today: sixty-one customers using the API integration were affected by the service interruption.",
+      "retrieved": [
+        "diffusion-comms-1789798641718-148",
+        "diffusion-comms-1789798523110-54",
+        "diffusion-comms-1789798560750-104",
+        "diffusion-comms-1789798536180-71",
+        "diffusion-comms-1789798523660-56",
+        "diffusion-comms-1789798484078-4"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F04",
+      "question": "Why had the certificate not been renewed automatically?",
+      "answer": "I don't have the technical details on why the automatic renewal failed, as that is part of the engineering review. What I can confirm is that the issue was caused by an expired security certificate and has been fully resolved. We will share further details once the review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789798483461-2",
+        "diffusion-comms-1789798483807-3",
+        "diffusion-comms-1789798577374-142",
+        "diffusion-comms-1789798484078-4",
+        "diffusion-comms-1789798509784-33",
+        "diffusion-comms-1789798561043-105"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F15",
+      "question": "How much are the service credits worth in total?",
+      "answer": "I don't have the total dollar amount for the service credits in my notes. I can confirm that nine premium customers are entitled to a 5% credit for the month, but specific compensation figures cannot be asserted externally until legal has cleared the individual notifications.",
+      "retrieved": [
+        "diffusion-comms-1789798523660-56",
+        "diffusion-comms-1789798833524-173",
+        "diffusion-comms-1789798561043-105",
+        "diffusion-comms-1789798536490-72",
+        "diffusion-comms-1789798561353-106",
+        "diffusion-comms-1789798833845-174"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a root-cause report?",
+      "answer": "Northgate Medical Group is the customer entitled to receive the written root-cause report.",
+      "retrieved": [
+        "diffusion-comms-1789798523955-57",
+        "diffusion-comms-1789798561043-105",
+        "diffusion-comms-1789798561353-106",
+        "diffusion-comms-1789798761703-161",
+        "diffusion-comms-1789798577374-142",
+        "diffusion-comms-1789798833524-173"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F09",
+      "question": "Which setting was changed to end the mobile outage?",
+      "answer": "I can't share the specific technical configuration changes, as those details are part of the internal engineering review. What I can confirm is that the issue has been resolved and mobile users are back online.",
+      "retrieved": [
+        "diffusion-comms-1789798560750-104",
+        "diffusion-comms-1789798495181-17",
+        "diffusion-comms-1789798509496-32",
+        "diffusion-comms-1789798523110-54",
+        "diffusion-comms-1789798510044-34",
+        "diffusion-comms-1789798550027-95"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X02-F02",
+      "question": "Which certificate expired?",
+      "answer": "I can confirm that an expired security certificate caused the disruption, but I cannot name specific internal systems or technical identifiers. We will share those details once the review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789798483461-2",
+        "diffusion-comms-1789798577374-142",
+        "diffusion-comms-1789798483807-3",
+        "diffusion-comms-1789798484078-4",
+        "diffusion-comms-1789798509784-33",
+        "diffusion-comms-1789798561043-105"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F19",
+      "question": "How many customers were affected, and how?",
+      "answer": "Sixty-one customers using the API integration to book appointments were unable to book from midnight to 03:40 on Tuesday, while customers using the web calendar were not affected.",
+      "retrieved": [
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798529151-70",
+        "diffusion-support-1789798567579-127",
+        "diffusion-support-1789798540392-85",
+        "diffusion-support-1789798515155-53",
+        "diffusion-support-1789798775398-167"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F20",
+      "question": "What happened to mobile app users, and for how long?",
+      "answer": "Mobile app users were unable to log in for approximately 25 minutes between 02:10 and 02:35 on Tuesday.",
+      "retrieved": [
+        "diffusion-support-1789798540635-86",
+        "diffusion-support-1789798775398-167",
+        "diffusion-support-1789798567579-127",
+        "diffusion-support-1789798514892-52",
+        "diffusion-support-1789798552896-102",
+        "diffusion-support-1789798486233-10"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F21",
+      "question": "Was any appointment data changed or lost?",
+      "answer": "No, no appointment data was changed or lost during the outage. Bookings made through the web calendar were recorded normally, and there is no indication that any customer data was accessed.",
+      "retrieved": [
+        "diffusion-support-1789798540900-87",
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798540392-85",
+        "diffusion-support-1789798486233-10",
+        "diffusion-support-1789798775398-167",
+        "diffusion-support-1789798552896-102"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F22",
+      "question": "What should customers do about bookings they queued during the outage?",
+      "answer": "Customers who queued bookings in their own systems during the outage should re-send them, as the integration will now accept them.",
+      "retrieved": [
+        "diffusion-support-1789798541156-88",
+        "diffusion-support-1789798567579-127",
+        "diffusion-support-1789798529151-70",
+        "diffusion-support-1789798540900-87",
+        "diffusion-support-1789798541659-90",
+        "diffusion-support-1789798540392-85"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F23",
+      "question": "How will Premium customers receive their credit?",
+      "answer": "Premium customers will receive their service credit automatically on their next invoice, so they do not need to request it.",
+      "retrieved": [
+        "diffusion-support-1789798541400-89",
+        "diffusion-support-1789798566911-128",
+        "diffusion-support-1789798687760-152",
+        "diffusion-support-1789798541156-88",
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798540392-85"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F15",
+      "question": "How much are the credits worth in total, and under which clause?",
+      "answer": "I don't have the specific dollar amounts or the contract clause details in my notes. I can confirm that the nine Premium customers will receive service credits automatically on their next invoices, but I need the legal team to provide the exact figures and contractual basis for that.",
+      "retrieved": [
+        "diffusion-support-1789798566911-128",
+        "diffusion-support-1789798541400-89",
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798541659-90",
+        "diffusion-support-1789798624444-144",
+        "diffusion-support-1789798515155-53"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F16",
+      "question": "Which customer is entitled to a root-cause report?",
+      "answer": "Northgate Medical Group is entitled to a written report, which will be delivered within 10 business days.",
+      "retrieved": [
+        "diffusion-support-1789798687760-152",
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798624444-144",
+        "diffusion-support-1789798566911-128",
+        "diffusion-support-1789798529151-70",
+        "diffusion-support-1789798541400-89"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F04",
+      "question": "Why had the certificate not been renewed?",
+      "answer": "I don't have the specific details on why the renewal process failed or was missed, as that is an internal engineering matter. What I can confirm for customers is that the technical issue has been resolved and the service is fully restored.",
+      "retrieved": [
+        "diffusion-support-1789798624444-144",
+        "diffusion-support-1789798486233-10",
+        "diffusion-support-1789798515155-53",
+        "diffusion-support-1789798540900-87",
+        "diffusion-support-1789798529151-70",
+        "diffusion-support-1789798514892-52"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F09",
+      "question": "Which setting was changed to end the mobile outage?",
+      "answer": "I don't have the specific technical details on which setting was changed to resolve the mobile login issue. I can confirm that the mobile service has been fully restored and that customers should simply retry their logins to verify everything is working correctly.",
+      "retrieved": [
+        "diffusion-support-1789798567579-127",
+        "diffusion-support-1789798529151-70",
+        "diffusion-support-1789798514892-52",
+        "diffusion-support-1789798775398-167",
+        "diffusion-support-1789798540635-86",
+        "diffusion-support-1789798552896-102"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X02-F17",
+      "question": "What did legal say must not be stated?",
+      "answer": "Legal has confirmed that we must not state the system was breached or compromised, as that is not supported by the evidence. The official public statement is approved to describe the incident strictly as a technical issue caused by an expired security certificate that is now resolved.",
+      "retrieved": [
+        "diffusion-support-1789798624444-144",
+        "diffusion-support-1789798687760-152",
+        "diffusion-support-1789798515155-53",
+        "diffusion-support-1789798553181-103",
+        "diffusion-support-1789798540900-87",
+        "diffusion-support-1789798775398-167"
+      ]
+    }
+  ]
+}

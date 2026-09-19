@@ -1,0 +1,804 @@
+{
+  "scenario": "incident",
+  "case": "xyz-01",
+  "condition": "naive",
+  "panel": "incident-response",
+  "log": "incident-response_20260919_010530.md",
+  "answers": [
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F04",
+      "question": "What vulnerability was exploited, and in which component?",
+      "answer": "Current state: A path traversal vulnerability in `xyz-pdfexport` build 4.12.3 was exploited to access appointment data. The specific flaw allowed `../` sequences in export requests to bypass intended boundaries. Security has confirmed the vector is neutralized and the compromised credential is revoked.",
+      "retrieved": [
+        "diffusion-commander-1789794387241-67",
+        "diffusion-commander-1789794490732-127",
+        "diffusion-commander-1789794490886-128",
+        "diffusion-commander-1789794565879-166",
+        "diffusion-commander-1789794434178-97",
+        "diffusion-commander-1789794491014-129"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F17",
+      "question": "For how long were the appointment records readable, and from when to when?",
+      "answer": "Current state: Appointment records were accessible to an unauthorised party for part of Monday and early Tuesday.\nThe specific start and end timestamps are not in my notes; Security owns the precise timeline.\nOpen decision: Confirm exact duration with Security.\nOwner: Security.",
+      "retrieved": [
+        "diffusion-commander-1789794381287-61",
+        "diffusion-commander-1789794434465-99",
+        "diffusion-commander-1789794374693-50",
+        "diffusion-commander-1789794374556-49",
+        "diffusion-commander-1789794650938-202",
+        "diffusion-commander-1789794367347-33"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected, and how are they split between districts?",
+      "answer": "Current state: 3,100 individuals are affected across 14 clinics. The split is roughly 2,400 in the Northern District and 700 in the Eastern District. Legal owns the notification obligations for these figures.",
+      "retrieved": [
+        "diffusion-commander-1789794387369-68",
+        "diffusion-commander-1789794367228-32",
+        "diffusion-commander-1789794367097-31",
+        "diffusion-commander-1789794567035-163",
+        "diffusion-commander-1789794567163-164",
+        "diffusion-commander-1789794387241-67"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F19",
+      "question": "When is the Northern District regulator notification due?",
+      "answer": "Current state: The Northern District regulator notification is due Friday at 09:10.\nOwner: Legal.",
+      "retrieved": [
+        "diffusion-commander-1789794387369-68",
+        "diffusion-commander-1789794567035-163",
+        "diffusion-commander-1789794367228-32",
+        "diffusion-commander-1789794367347-33",
+        "diffusion-commander-1789794491269-131",
+        "diffusion-commander-1789794434839-102"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F13",
+      "question": "Which build fixed the issue, and when was export re-enabled?",
+      "answer": "Current state: Engineering confirms the fix is in build 4.12.4, which upgrades the library to 2.8.4.\nOpen decision: I do not have the specific timestamp for when export was re-enabled in my notes.\nOwner: Engineering, please confirm the re-enablement time.",
+      "retrieved": [
+        "diffusion-commander-1789794355230-7",
+        "diffusion-commander-1789794361962-19",
+        "diffusion-commander-1789794434178-97",
+        "diffusion-commander-1789794355369-8",
+        "diffusion-commander-1789794362090-20",
+        "diffusion-commander-1789794490732-127"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F14",
+      "question": "What is wrong with the emergency egress rule, and by when must it be fixed?",
+      "answer": "Current state: The emergency egress rule is incomplete because it was applied only to the compromised host, sched-app-03, rather than the entire application tier.\nOpen decision: Engineering must extend the rule to all hosts and verify the vendor allow-list.\nOwner: Engineering, due before the host is rebuilt and returned to service.",
+      "retrieved": [
+        "diffusion-commander-1789794367228-32",
+        "diffusion-commander-1789794387369-68",
+        "diffusion-commander-1789794567035-163",
+        "diffusion-commander-1789794362090-20",
+        "diffusion-commander-1789794387241-67",
+        "diffusion-commander-1789794491404-132"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F26",
+      "question": "How will affected clinics be contacted, and when?",
+      "answer": "Current state: The 14 affected clinics will receive a direct call from their account manager on Wednesday, followed by a written notice with details.\nOwner: Support.\nNext step: Support to confirm the account manager call schedule is locked in for Wednesday.",
+      "retrieved": [
+        "diffusion-commander-1789794367097-31",
+        "diffusion-commander-1789794367347-33",
+        "diffusion-commander-1789794567163-164",
+        "diffusion-commander-1789794367228-32",
+        "diffusion-commander-1789794567035-163",
+        "diffusion-commander-1789794374693-50"
+      ]
+    },
+    {
+      "hat_id": "commander",
+      "hat_name": "Commander",
+      "question_id": "X01-F30",
+      "question": "What has the incident cost so far?",
+      "answer": "I do not have the financial cost figures in my notes. Current state: the incident is contained, but the financial impact is not yet quantified. Owner: Finance is not on this bridge, so I will flag this as an open item for the executive review.",
+      "retrieved": [
+        "diffusion-commander-1789794367097-31",
+        "diffusion-commander-1789794387241-67",
+        "diffusion-commander-1789794387369-68",
+        "diffusion-commander-1789794367228-32",
+        "diffusion-commander-1789794567163-164",
+        "diffusion-commander-1789794567327-165"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F04",
+      "question": "What vulnerability was exploited, and in which component?",
+      "answer": "The attacker exploited CVE-2026-90412, a path traversal vulnerability in the `filename` parameter of the export endpoint. This flaw existed in the PDF export library used by the `xyz-pdfexport` component, specifically build 4.12.3.",
+      "retrieved": [
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794515035-145",
+        "diffusion-security-lead-1789794435536-107",
+        "diffusion-security-lead-1789794356270-15",
+        "diffusion-security-lead-1789794356394-16",
+        "diffusion-security-lead-1789794368580-43"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F06",
+      "question": "What was the attacker's source address?",
+      "answer": "The attacker's source address was 203.0.113.9.",
+      "retrieved": [
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794356394-16",
+        "diffusion-security-lead-1789794356270-15",
+        "diffusion-security-lead-1789794675633-220",
+        "diffusion-security-lead-1789794435536-107",
+        "diffusion-security-lead-1789794349776-5"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F07",
+      "question": "Which credential was exposed, and against which system was it used?",
+      "answer": "The exposed credential was the read-only `sched_ro` database account. It was used to execute queries against the `appointments` table on the `sched-app-03` system.",
+      "retrieved": [
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794368580-43",
+        "diffusion-security-lead-1789794356394-16",
+        "diffusion-security-lead-1789794592468-186",
+        "diffusion-security-lead-1789794435124-104",
+        "diffusion-security-lead-1789794591803-181"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F09",
+      "question": "What indicators of compromise should we watch for?",
+      "answer": "*checks notes* I do not have the specific indicators of compromise listed in my current notes.",
+      "retrieved": [
+        "diffusion-security-lead-1789794675633-220",
+        "diffusion-security-lead-1789794368705-44",
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794435536-107",
+        "diffusion-security-lead-1789794675363-218",
+        "diffusion-security-lead-1789794368833-45"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F11",
+      "question": "When was the exposed credential rotated, and under which ticket?",
+      "answer": "I do not have the specific rotation timestamp or the ticket identifier for the credential in my notes. I can confirm the attack is contained and the credential is compromised, but I do not have that specific administrative detail.",
+      "retrieved": [
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794766508-266",
+        "diffusion-security-lead-1789794592468-186",
+        "diffusion-security-lead-1789794356394-16",
+        "diffusion-security-lead-1789794368580-43",
+        "diffusion-security-lead-1789794435399-106"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F10",
+      "question": "Was anything written to a database, or was the primary database reached?",
+      "answer": "The attacker accessed the read-only replica, not the primary database, and no data was written to any system. The entry point was a flaw in the PDF export feature on sched-app-03, which allowed the attacker to obtain the `sched_ro` credential and execute queries against the `appointments` table on the replica.",
+      "retrieved": [
+        "diffusion-security-lead-1789794435124-104",
+        "diffusion-security-lead-1789794592468-186",
+        "diffusion-security-lead-1789794515569-149",
+        "diffusion-security-lead-1789794356394-16",
+        "diffusion-security-lead-1789794388229-75",
+        "diffusion-security-lead-1789794349776-5"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F19",
+      "question": "When is the regulator notification due?",
+      "answer": "The regulator filing is due Friday at 09:10.",
+      "retrieved": [
+        "diffusion-security-lead-1789794515330-147",
+        "diffusion-security-lead-1789794515447-148",
+        "diffusion-security-lead-1789794435656-108",
+        "diffusion-security-lead-1789794368705-44",
+        "diffusion-security-lead-1789794591955-182",
+        "diffusion-security-lead-1789794592468-186"
+      ]
+    },
+    {
+      "hat_id": "security-lead",
+      "hat_name": "Security",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected?",
+      "answer": "Confirmed data exposure for 3,100 individuals across 14 clinics.",
+      "retrieved": [
+        "diffusion-security-lead-1789794515569-149",
+        "diffusion-security-lead-1789794435536-107",
+        "diffusion-security-lead-1789794368580-43",
+        "diffusion-security-lead-1789794515447-148",
+        "diffusion-security-lead-1789794368705-44",
+        "diffusion-security-lead-1789794388229-75"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F12",
+      "question": "How was the export endpoint disabled, and at what time?",
+      "answer": "The export endpoint was disabled by applying a configuration change that required a deploy to take effect, which I executed at 03:05. This was part of the remediation sequence following the credential rotation at 02:38.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794412094-79",
+        "diffusion-oncall-engineer-1789794362673-25",
+        "diffusion-oncall-engineer-1789794356016-13",
+        "diffusion-oncall-engineer-1789794362809-26",
+        "diffusion-oncall-engineer-1789794356138-14",
+        "diffusion-oncall-engineer-1789794491784-135"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F13",
+      "question": "Which build fixed the issue, and when was it deployed?",
+      "answer": "I don't have the specific build number or deployment timestamp for the fix in my notes. I only have the timeline for the containment actions, like the credential rotation at 02:38 and the host isolation at 02:31.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794691571-223",
+        "diffusion-oncall-engineer-1789794362673-25",
+        "diffusion-oncall-engineer-1789794691972-226",
+        "diffusion-oncall-engineer-1789794744931-257",
+        "diffusion-oncall-engineer-1789794356138-14",
+        "diffusion-oncall-engineer-1789794491784-135"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F14",
+      "question": "What is the problem with the egress rule that was added?",
+      "answer": "The egress rule added in ticket XYZ-2086 on the application tier denies connections to addresses outside the vendor allow-list. I don't have specific notes on a functional failure or bug with that rule itself, only that it was part of the changes made during the incident.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794362809-26",
+        "diffusion-oncall-engineer-1789794388105-74",
+        "diffusion-oncall-engineer-1789794368332-41",
+        "diffusion-oncall-engineer-1789794492214-138",
+        "diffusion-oncall-engineer-1789794412477-82",
+        "diffusion-oncall-engineer-1789794558566-151"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F15",
+      "question": "What must happen to sched-app-03 before it returns to service?",
+      "answer": "Security has confirmed the isolation and air-gapped status of `sched-app-03`, clearing us to proceed with final validation and the rebuild by 15:00 Tuesday. The host must be fully rebuilt and returned to the load balancer before we can declare full service restoration.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794745062-258",
+        "diffusion-oncall-engineer-1789794692249-228",
+        "diffusion-oncall-engineer-1789794362673-25",
+        "diffusion-oncall-engineer-1789794349638-4",
+        "diffusion-oncall-engineer-1789794491914-136",
+        "diffusion-oncall-engineer-1789794356138-14"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F16",
+      "question": "What happened to latency while capacity was reduced?",
+      "answer": "While capacity was reduced to two hosts, p95 latency on the scheduling API rose from 180 ms to 310 ms, but no requests failed.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794412212-80",
+        "diffusion-oncall-engineer-1789794492045-137",
+        "diffusion-oncall-engineer-1789794558566-151",
+        "diffusion-oncall-engineer-1789794368332-41",
+        "diffusion-oncall-engineer-1789794362673-25",
+        "diffusion-oncall-engineer-1789794691704-224"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F05",
+      "question": "Which library version was vulnerable, and which version fixes it?",
+      "answer": "The vulnerable library is `xyz-pdfexport` build 4.12.3, which contains CVE-2026-90412. I don't have the specific version number for the patched release in my notes, so I can't confirm which version fixes it.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794387999-73",
+        "diffusion-oncall-engineer-1789794356016-13",
+        "diffusion-oncall-engineer-1789794691972-226",
+        "diffusion-oncall-engineer-1789794356138-14",
+        "diffusion-oncall-engineer-1789794491784-135",
+        "diffusion-oncall-engineer-1789794362673-25"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected?",
+      "answer": "I have 3,100 individuals affected across 14 clinics.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794558723-152",
+        "diffusion-oncall-engineer-1789794491531-133",
+        "diffusion-oncall-engineer-1789794368213-40",
+        "diffusion-oncall-engineer-1789794558566-151",
+        "diffusion-oncall-engineer-1789794368332-41",
+        "diffusion-oncall-engineer-1789794387999-73"
+      ]
+    },
+    {
+      "hat_id": "oncall-engineer",
+      "hat_name": "Engineer",
+      "question_id": "X01-F20",
+      "question": "What do the clinic contracts require, and by when?",
+      "answer": "The clinic contracts require notice to the customer within 48 hours of discovery. Since discovery was Tuesday at 02:45, that contractual deadline is Thursday at 02:45.",
+      "retrieved": [
+        "diffusion-oncall-engineer-1789794558566-151",
+        "diffusion-oncall-engineer-1789794368332-41",
+        "diffusion-oncall-engineer-1789794412477-82",
+        "diffusion-oncall-engineer-1789794368460-42",
+        "diffusion-oncall-engineer-1789794368213-40",
+        "diffusion-oncall-engineer-1789794558723-152"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F17",
+      "question": "For how long were the appointment records readable?",
+      "answer": "The exposure window was 19 hours, from the discovery time of Tuesday 02:45 until the issue was contained and fixed by midday.",
+      "retrieved": [
+        "diffusion-legal-1789794381549-63",
+        "diffusion-legal-1789794652662-215",
+        "diffusion-legal-1789794375214-54",
+        "diffusion-legal-1789794574699-176",
+        "diffusion-legal-1789794508921-144",
+        "diffusion-legal-1789794368087-39"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected, and how are they split between districts?",
+      "answer": "Our estimate is 3,100 individuals across the 14 clinics, of whom roughly 2,400 are in the Northern District and 700 in the Eastern District.",
+      "retrieved": [
+        "diffusion-legal-1789794387880-72",
+        "diffusion-legal-1789794367956-38",
+        "diffusion-legal-1789794367832-37",
+        "diffusion-legal-1789794508921-144",
+        "diffusion-legal-1789794387754-71",
+        "diffusion-legal-1789794368087-39"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F19",
+      "question": "When is the Northern District regulator notification due, and under what provision?",
+      "answer": "The Northern District regulator notification is due by Friday 09:10, which aligns with the 72-hour statutory deadline triggered by the breach determination. This obligation arises under § 45 of the data protection statute, which requires notification within 72 hours of determining a breach affecting personal data.",
+      "retrieved": [
+        "diffusion-legal-1789794387880-72",
+        "diffusion-legal-1789794367956-38",
+        "diffusion-legal-1789794368087-39",
+        "diffusion-legal-1789794508657-142",
+        "diffusion-legal-1789794508785-143",
+        "diffusion-legal-1789794574944-178"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F20",
+      "question": "What do the clinic contracts require, and by when?",
+      "answer": "The clinic contracts require notice to the customer within 48 hours of discovery. Since discovery was Tuesday at 02:45, the contractual deadline is Thursday at 02:45.",
+      "retrieved": [
+        "diffusion-legal-1789794367956-38",
+        "diffusion-legal-1789794442196-111",
+        "diffusion-legal-1789794368087-39",
+        "diffusion-legal-1789794367832-37",
+        "diffusion-legal-1789794508921-144",
+        "diffusion-legal-1789794387880-72"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F21",
+      "question": "What must not be stated externally?",
+      "answer": "Do not state \"service disruption\" in any public or customer-facing channels, as we need to ensure our language accurately reflects the confirmed scope once that data arrives.",
+      "retrieved": [
+        "diffusion-legal-1789794574555-175",
+        "diffusion-legal-1789794651226-216",
+        "diffusion-legal-1789794442196-111",
+        "diffusion-legal-1789794652174-211",
+        "diffusion-legal-1789794367956-38",
+        "diffusion-legal-1789794508785-143"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F23",
+      "question": "How many clinics are affected?",
+      "answer": "Fourteen clinics are affected.",
+      "retrieved": [
+        "diffusion-legal-1789794508921-144",
+        "diffusion-legal-1789794367832-37",
+        "diffusion-legal-1789794368087-39",
+        "diffusion-legal-1789794367956-38",
+        "diffusion-legal-1789794442196-111",
+        "diffusion-legal-1789794387754-71"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F04",
+      "question": "What vulnerability was exploited?",
+      "answer": "I do not have the specific technical details of the vulnerability in my notes, as my role focuses on exposure and obligations rather than exploit mechanics. However, I can confirm that the incident commander has noted the attack is contained and the credential is revoked.",
+      "retrieved": [
+        "diffusion-legal-1789794387754-71",
+        "diffusion-legal-1789794574699-176",
+        "diffusion-legal-1789794442600-114",
+        "diffusion-legal-1789794508231-139",
+        "diffusion-legal-1789794355898-12",
+        "diffusion-legal-1789794442451-113"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F06",
+      "question": "What was the attacker's source address?",
+      "answer": "The attacker's source address was 203.0.113.9.",
+      "retrieved": [
+        "diffusion-legal-1789794574699-176",
+        "diffusion-legal-1789794442600-114",
+        "diffusion-legal-1789794441946-109",
+        "diffusion-legal-1789794387754-71",
+        "diffusion-legal-1789794355898-12",
+        "diffusion-legal-1789794355760-11"
+      ]
+    },
+    {
+      "hat_id": "legal",
+      "hat_name": "Legal",
+      "question_id": "X01-F11",
+      "question": "Under which ticket was the credential rotated?",
+      "answer": "I do not have the specific ticket number for the credential rotation in my notes. I can confirm that the rotation for the `sched_ro` key was fully propagated and the compromised key revoked, but I do not have the administrative ticket ID associated with that action.",
+      "retrieved": [
+        "diffusion-legal-1789794442324-112",
+        "diffusion-legal-1789794508368-140",
+        "diffusion-legal-1789794355898-12",
+        "diffusion-legal-1789794574699-176",
+        "diffusion-legal-1789794387754-71",
+        "diffusion-legal-1789794442600-114"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F28",
+      "question": "What is the public timeline of the incident?",
+      "answer": "We are still finalizing the exact public timeline with Legal to ensure every detail is cleared for release. What we can confirm today is that the incident is contained, and we are working to restore full service by Tuesday at 15:00. We will share the complete timeline and next update details once the internal review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789794608166-190",
+        "diffusion-comms-1789794559460-158",
+        "diffusion-comms-1789794559337-157",
+        "diffusion-comms-1789794559711-160",
+        "diffusion-comms-1789794482837-121",
+        "diffusion-comms-1789794367589-35"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F29",
+      "question": "When is the next public update due?",
+      "answer": "The next public update is scheduled to go out immediately after Security delivers their field-level breakdown at 11:00. We will share details once that review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789794745450-261",
+        "diffusion-comms-1789794559987-162",
+        "diffusion-comms-1789794608166-190",
+        "diffusion-comms-1789794483507-126",
+        "diffusion-comms-1789794482965-122",
+        "diffusion-comms-1789794692695-231"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F23",
+      "question": "How many clinics are affected, and what was accessible?",
+      "answer": "Here is what we can say today: 14 clinics are affected, and the information accessed was limited to patient names and appointment times.",
+      "retrieved": [
+        "diffusion-comms-1789794367464-34",
+        "diffusion-comms-1789794559587-159",
+        "diffusion-comms-1789794367715-36",
+        "diffusion-comms-1789794374933-52",
+        "diffusion-comms-1789794559460-158",
+        "diffusion-comms-1789794387496-69"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F27",
+      "question": "Were any appointments changed or deleted?",
+      "answer": "No, the issue was limited to a read-only access of appointment lists, so no appointments were changed or deleted. We are currently finalizing the approved language regarding data exposure, so I cannot provide further details on the specific data accessed until legal clears the statement.",
+      "retrieved": [
+        "diffusion-comms-1789794381419-62",
+        "diffusion-comms-1789794374933-52",
+        "diffusion-comms-1789794374819-51",
+        "diffusion-comms-1789794387496-69",
+        "diffusion-comms-1789794413082-87",
+        "diffusion-comms-1789794412952-86"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F26",
+      "question": "How will affected clinics be contacted?",
+      "answer": "The 14 affected clinics will receive a direct call from their account manager on Wednesday, followed by a written notice with details.",
+      "retrieved": [
+        "diffusion-comms-1789794367464-34",
+        "diffusion-comms-1789794559587-159",
+        "diffusion-comms-1789794367715-36",
+        "diffusion-comms-1789794367589-35",
+        "diffusion-comms-1789794413222-88",
+        "diffusion-comms-1789794374933-52"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F04",
+      "question": "What vulnerability was exploited?",
+      "answer": "*Looks at the legal team* I can't share the specific technical details of the vulnerability right now. We will share those details once the review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789794387496-69",
+        "diffusion-comms-1789794559711-160",
+        "diffusion-comms-1789794483097-123",
+        "diffusion-comms-1789794483236-124",
+        "diffusion-comms-1789794355628-10",
+        "diffusion-comms-1789794482837-121"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F06",
+      "question": "What was the attacker's IP address?",
+      "answer": "I do not have that information in my notes.",
+      "retrieved": [
+        "diffusion-comms-1789794559711-160",
+        "diffusion-comms-1789794483097-123",
+        "diffusion-comms-1789794412836-85",
+        "diffusion-comms-1789794349348-2",
+        "diffusion-comms-1789794482837-121",
+        "diffusion-comms-1789794355628-10"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected?",
+      "answer": "Here is what we can say today: approximately 3,100 individuals across 14 clinics are affected.",
+      "retrieved": [
+        "diffusion-comms-1789794559587-159",
+        "diffusion-comms-1789794482837-121",
+        "diffusion-comms-1789794367464-34",
+        "diffusion-comms-1789794559460-158",
+        "diffusion-comms-1789794367589-35",
+        "diffusion-comms-1789794387496-69"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F19",
+      "question": "When is the regulator notification due?",
+      "answer": "The regulator filing is due on Friday at 09:10.",
+      "retrieved": [
+        "diffusion-comms-1789794483507-126",
+        "diffusion-comms-1789794559460-158",
+        "diffusion-comms-1789794482965-122",
+        "diffusion-comms-1789794367589-35",
+        "diffusion-comms-1789794559987-162",
+        "diffusion-comms-1789794608166-190"
+      ]
+    },
+    {
+      "hat_id": "comms",
+      "hat_name": "Comms",
+      "question_id": "X01-F13",
+      "question": "Which build fixed the issue?",
+      "answer": "I can't share specific build numbers or technical details right now. We will share those specifics once the full review is complete.",
+      "retrieved": [
+        "diffusion-comms-1789794692566-230",
+        "diffusion-comms-1789794483236-124",
+        "diffusion-comms-1789794362197-21",
+        "diffusion-comms-1789794745450-261",
+        "diffusion-comms-1789794483097-123",
+        "diffusion-comms-1789794692823-232"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F23",
+      "question": "How many clinics are affected, and what was accessible?",
+      "answer": "Fourteen clinics are affected, and their appointment lists were accessible to an unauthorised party. This exposure included patient names and appointment times, but did not include payment details or contact information.",
+      "retrieved": [
+        "diffusion-support-1789794368974-46",
+        "diffusion-support-1789794369250-48",
+        "diffusion-support-1789794375994-60",
+        "diffusion-support-1789794573906-170",
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794369119-47"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F24",
+      "question": "When was PDF export unavailable?",
+      "answer": "Customers saw the PDF export feature unavailable starting early Tuesday morning until it was fully restored by midday. I don't have the exact minute-by-minute timestamps for when the button stopped working versus when it came back online, so I can only confirm that window.",
+      "retrieved": [
+        "diffusion-support-1789794381937-66",
+        "diffusion-support-1789794356524-17",
+        "diffusion-support-1789794363198-29",
+        "diffusion-support-1789794375858-59",
+        "diffusion-support-1789794420127-91",
+        "diffusion-support-1789794363323-30"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F25",
+      "question": "What workaround could clinics use during the export outage?",
+      "answer": "During the outage, clinics could print appointment lists directly from the calendar view or download them as a spreadsheet from the Reports page.",
+      "retrieved": [
+        "diffusion-support-1789794375994-60",
+        "diffusion-support-1789794375858-59",
+        "diffusion-support-1789794381937-66",
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794356655-18",
+        "diffusion-support-1789794388609-78"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F26",
+      "question": "How will affected clinics be contacted, and when?",
+      "answer": "The 14 affected clinics will receive a direct call from their account manager on Wednesday, followed by a written notice with details. I am standing by for the approved language from Legal to ensure we address any customer inquiries accurately once that messaging is cleared.",
+      "retrieved": [
+        "diffusion-support-1789794368974-46",
+        "diffusion-support-1789794369250-48",
+        "diffusion-support-1789794369119-47",
+        "diffusion-support-1789794420377-93",
+        "diffusion-support-1789794573906-170",
+        "diffusion-support-1789794375994-60"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F27",
+      "question": "Were any appointments changed or deleted?",
+      "answer": "No, the issue was strictly read-only, so no appointments were changed or deleted. Customers can continue using the service as normal without taking any action.",
+      "retrieved": [
+        "diffusion-support-1789794381937-66",
+        "diffusion-support-1789794375994-60",
+        "diffusion-support-1789794375858-59",
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794420258-92",
+        "diffusion-support-1789794369250-48"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F04",
+      "question": "What vulnerability was exploited?",
+      "answer": "I don't have the technical details on the specific vulnerability for you; that's outside my scope. I can tell you that customers may have seen issues with their appointment exports during that window, but I need the security team to confirm the exact technical cause before I can address it further.",
+      "retrieved": [
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794574177-172",
+        "diffusion-support-1789794482190-116",
+        "diffusion-support-1789794482316-117",
+        "diffusion-support-1789794356655-18",
+        "diffusion-support-1789794420741-96"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F07",
+      "question": "Which credential was exposed?",
+      "answer": "I don't have the specific technical identifier for that credential in my notes. What I can tell customers is that the access used was a read-only key, which has now been revoked and replaced, so their data is secure.",
+      "retrieved": [
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794574177-172",
+        "diffusion-support-1789794368974-46",
+        "diffusion-support-1789794356655-18",
+        "diffusion-support-1789794420499-94",
+        "diffusion-support-1789794482439-118"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F18",
+      "question": "How many individuals are affected?",
+      "answer": "We have confirmed that 3,100 individuals across 14 clinics are affected. Their appointment lists, including names and dates, were accessible for a 19-hour window, but no clinical notes or payment details were exposed.",
+      "retrieved": [
+        "diffusion-support-1789794420741-96",
+        "diffusion-support-1789794368974-46",
+        "diffusion-support-1789794573906-170",
+        "diffusion-support-1789794369119-47",
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794375858-59"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F20",
+      "question": "What do the clinic contracts require?",
+      "answer": "The contracts require us to provide notice to the affected customers within 48 hours of discovery, which means our deadline is Thursday at 02:45. I need the approved language from Legal to ensure we meet this obligation accurately.",
+      "retrieved": [
+        "diffusion-support-1789794369119-47",
+        "diffusion-support-1789794420377-93",
+        "diffusion-support-1789794369250-48",
+        "diffusion-support-1789794573906-170",
+        "diffusion-support-1789794368974-46",
+        "diffusion-support-1789794388609-78"
+      ]
+    },
+    {
+      "hat_id": "support",
+      "hat_name": "Support",
+      "question_id": "X01-F11",
+      "question": "Which ticket tracked the credential rotation?",
+      "answer": "I don't have the specific ticket number for the credential rotation in my notes. I can confirm that the rotation is fully propagated and the compromised key is revoked, but I cannot provide the internal tracking identifier.",
+      "retrieved": [
+        "diffusion-support-1789794420499-94",
+        "diffusion-support-1789794482439-118",
+        "diffusion-support-1789794574177-172",
+        "diffusion-support-1789794356655-18",
+        "diffusion-support-1789794388481-77",
+        "diffusion-support-1789794482190-116"
+      ]
+    }
+  ]
+}

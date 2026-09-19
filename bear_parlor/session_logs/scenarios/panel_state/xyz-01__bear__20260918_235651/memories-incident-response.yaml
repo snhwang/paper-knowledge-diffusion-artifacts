@@ -1,0 +1,163 @@
+# Character memories — auto-managed by BEAR
+
+instructions:
+- id: memory-security-lead-1789790656-1
+  type: directive
+  priority: 45
+  content: 'Memory — Security previously shared: The scope of exposed data is currently
+    suspected to be limited to the credentials within the /etc/xyz/db.env file, as
+    the full read operations are still being analyzed.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - security-lead
+    - data
+    - exposure
+    - credentials
+    - analysis
+    required_tags:
+    - security-lead
+  tags:
+  - memory
+  - security-lead
+  - data
+  - exposure
+  - credentials
+  - analysis
+  metadata:
+    source: memory_extractor
+    created: 1789790656.39325
+- id: memory-security-lead-1789790656-2
+  type: directive
+  priority: 45
+  content: 'Memory — Security previously shared: Security containment is not considered
+    complete until the verification of the host rebuild is finalized to ensure no
+    residual access paths remain.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - security-lead
+    - containment
+    - verification
+    - rebuild
+    - security
+    required_tags:
+    - security-lead
+  tags:
+  - memory
+  - security-lead
+  - containment
+  - verification
+  - rebuild
+  - security
+  metadata:
+    source: memory_extractor
+    created: 1789790656.39325
+- id: memory-commander-1789790764-1
+  type: directive
+  priority: 45
+  content: 'Memory — Commander previously shared: Security''s egress check on ticket
+    XYZ-2085 is the sole critical path for full resolution and final data assurance.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - commander
+    - security
+    - egress
+    - critical-path
+    - incident
+    required_tags:
+    - commander
+  tags:
+  - memory
+  - commander
+  - security
+  - egress
+  - critical-path
+  - incident
+  metadata:
+    source: memory_extractor
+    created: 1789790764.2714148
+- id: memory-commander-1789790764-2
+  type: directive
+  priority: 45
+  content: 'Memory — Commander previously shared: The system remains fragile pending
+    Security''s final confirmation on the rebuild verification.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - commander
+    - system
+    - fragile
+    - rebuild
+    - verification
+    required_tags:
+    - commander
+  tags:
+  - memory
+  - commander
+  - system
+  - fragile
+  - rebuild
+  - verification
+  metadata:
+    source: memory_extractor
+    created: 1789790764.2714148
+- id: memory-legal-1789790801-1
+  type: directive
+  priority: 45
+  content: 'Memory — Legal previously shared: The contractual obligation to notify
+    the fourteen affected clinics is due by Thursday 02:45, while the regulator notification
+    is due by Friday 09:10.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - legal
+    - deadlines
+    - notification
+    - contractual
+    - regulator
+    required_tags:
+    - legal
+  tags:
+  - memory
+  - legal
+  - deadlines
+  - notification
+  - contractual
+  - regulator
+  metadata:
+    source: memory_extractor
+    created: 1789790801.9875674
+- id: memory-legal-1789790801-2
+  type: directive
+  priority: 45
+  content: 'Memory — Legal previously shared: External communications must not assert
+    that the incident is fully resolved or that no other data was accessed until Security
+    provides final confirmation on the rebuild verification.
+
+    Mention this naturally if the topic comes up again.'
+  scope:
+    tags:
+    - legal
+    - communications
+    - verification
+    - liability
+    - security
+    required_tags:
+    - legal
+  tags:
+  - memory
+  - legal
+  - communications
+  - verification
+  - liability
+  - security
+  metadata:
+    source: memory_extractor
+    created: 1789790801.9875674

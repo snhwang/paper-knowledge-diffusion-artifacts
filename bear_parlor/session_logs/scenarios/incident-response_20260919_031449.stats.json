@@ -1,0 +1,5928 @@
+{
+  "topic": "xyz-03",
+  "condition": "wrong-lens",
+  "started": "2026-09-19 03:14:49",
+  "last_updated": "2026-09-19 03:23:07",
+  "elapsed_seconds": 498.4,
+  "n_turns": 64,
+  "n_pdfs_ingested": 7,
+  "n_diffusion_stored": 110,
+  "n_diffusion_skipped": 20,
+  "ingestions": [
+    {
+      "time": "03:15:08",
+      "turn": 0,
+      "hat": "source",
+      "title": "01-alert",
+      "chunks": 1,
+      "extractor": "text",
+      "classification": [
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "source",
+      "title": "02-security-analysis",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "source",
+      "title": "03-engineering-postmortem",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "source",
+      "title": "04-legal-memo",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:45",
+      "turn": 5,
+      "hat": "source",
+      "title": "05-customer-impact",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "customer-impact",
+        "public"
+      ]
+    },
+    {
+      "time": "03:15:58",
+      "turn": 7,
+      "hat": "source",
+      "title": "06-status-page-draft",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "public",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "source",
+      "title": "07-exec-brief",
+      "chunks": 2,
+      "extractor": "text",
+      "classification": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    }
+  ],
+  "diffusion_errors": {
+    "Comms:parse_failure": 1,
+    "Engineer:parse_failure": 1
+  },
+  "n_gated": 121,
+  "gated": [
+    {
+      "time": "03:15:08",
+      "turn": 0,
+      "hat": "Comms",
+      "source": "document:01-alert",
+      "tags": [
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:08",
+      "turn": 0,
+      "hat": "Legal",
+      "source": "document:01-alert",
+      "tags": [
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:08",
+      "turn": 0,
+      "hat": "Support",
+      "source": "document:01-alert",
+      "tags": [
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Comms",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Comms",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Legal",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Legal",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Support",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:16",
+      "turn": 2,
+      "hat": "Support",
+      "source": "document:02-security-analysis",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Comms",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Comms",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Legal",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Legal",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Support",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:26",
+      "turn": 3,
+      "hat": "Support",
+      "source": "document:03-engineering-postmortem",
+      "tags": [
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Comms",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Comms",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Engineer",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Engineer",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Security",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Security",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Support",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:15:36",
+      "turn": 4,
+      "hat": "Support",
+      "source": "document:04-legal-memo",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Comms",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Comms",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Engineer",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Engineer",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Support",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:08",
+      "turn": 8,
+      "hat": "Support",
+      "source": "document:07-exec-brief",
+      "tags": [
+        "exposure",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Comms",
+      "source": "Legal",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:14",
+      "turn": 9,
+      "hat": "Engineer",
+      "source": "Legal",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Legal",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:28",
+      "turn": 12,
+      "hat": "Support",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:36",
+      "turn": 13,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:36",
+      "turn": 13,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:36",
+      "turn": 13,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:36",
+      "turn": 13,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:44",
+      "turn": 14,
+      "hat": "Security",
+      "source": "Legal",
+      "tags": [
+        "exposure",
+        "privileged"
+      ]
+    },
+    {
+      "time": "03:16:44",
+      "turn": 14,
+      "hat": "Security",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:44",
+      "turn": 14,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:16:44",
+      "turn": 14,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:21",
+      "turn": 20,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "exploit-detail",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Engineer",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:17:28",
+      "turn": 21,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:18",
+      "turn": 28,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:18",
+      "turn": 28,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:18",
+      "turn": 28,
+      "hat": "Comms",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:18",
+      "turn": 28,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public"
+      ]
+    },
+    {
+      "time": "03:18:43",
+      "turn": 32,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:43",
+      "turn": 32,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:43",
+      "turn": 32,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:50",
+      "turn": 33,
+      "hat": "Security",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:50",
+      "turn": 33,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public"
+      ]
+    },
+    {
+      "time": "03:18:50",
+      "turn": 33,
+      "hat": "Engineer",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:50",
+      "turn": 33,
+      "hat": "Engineer",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:50",
+      "turn": 33,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public"
+      ]
+    },
+    {
+      "time": "03:18:59",
+      "turn": 34,
+      "hat": "Support",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:59",
+      "turn": 34,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:59",
+      "turn": 34,
+      "hat": "Support",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:18:59",
+      "turn": 34,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public"
+      ]
+    },
+    {
+      "time": "03:18:59",
+      "turn": 34,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:23",
+      "turn": 37,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:23",
+      "turn": 37,
+      "hat": "Comms",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:23",
+      "turn": 37,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:48",
+      "turn": 41,
+      "hat": "Security",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:48",
+      "turn": 41,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:49",
+      "turn": 41,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:49",
+      "turn": 41,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:19:49",
+      "turn": 41,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:14",
+      "turn": 45,
+      "hat": "Engineer",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:14",
+      "turn": 45,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:14",
+      "turn": 45,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:14",
+      "turn": 45,
+      "hat": "Engineer",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Legal",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:20:21",
+      "turn": 46,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:11",
+      "turn": 53,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:11",
+      "turn": 53,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:11",
+      "turn": 53,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:11",
+      "turn": 53,
+      "hat": "Legal",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:25",
+      "turn": 55,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:25",
+      "turn": 55,
+      "hat": "Engineer",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:31",
+      "turn": 56,
+      "hat": "Support",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:21:31",
+      "turn": 56,
+      "hat": "Support",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:00",
+      "turn": 60,
+      "hat": "Comms",
+      "source": "Engineer",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:00",
+      "turn": 60,
+      "hat": "Comms",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:00",
+      "turn": 60,
+      "hat": "Comms",
+      "source": "Security",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:07",
+      "turn": 61,
+      "hat": "Legal",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:07",
+      "turn": 61,
+      "hat": "Legal",
+      "source": "Security",
+      "tags": [
+        "customer-impact",
+        "exploit-detail",
+        "exposure",
+        "internal-identifier",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    },
+    {
+      "time": "03:22:29",
+      "turn": 64,
+      "hat": "Security",
+      "source": "Commander",
+      "tags": [
+        "customer-impact",
+        "exposure",
+        "internal-identifier",
+        "privileged",
+        "public",
+        "remediation",
+        "timeline"
+      ]
+    }
+  ],
+  "rag_events": [
+    {
+      "turn": 3,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802110216-2",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119862-10",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802110545-3",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119862-10",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802110545-3",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802150130-47",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802109840-1",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119323-8",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131578-25",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802130795-22",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802129343-17",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120390-12",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802129922-19",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802148126-40",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802148408-41",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802172058-67",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802171561-65",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802147049-38",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802138794-32",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802111111-5",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120904-14",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802176384-72",
+          "citation": "diffused Security",
+          "source": "diffusion",
+          "source_hat": "Security",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802130795-22",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171817-66",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802129922-19",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176384-72",
+          "citation": "diffused Security",
+          "source": "diffusion",
+          "source_hat": "Security",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802109840-1",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802170699-62",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802161746-56",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802170437-61",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802150130-47",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802172561-69",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802147049-38",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802138794-32",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332578-81",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802160822-53",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802249772-75",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802172561-69",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176384-72",
+          "citation": "diffused Security",
+          "source": "diffusion",
+          "source_hat": "Security",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332578-81",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802274585-78",
+          "citation": "diffused Security",
+          "source": "diffusion",
+          "source_hat": "Security",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802130795-22",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120651-13",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802171817-66",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802147335-39",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "source": "diffusion",
+          "source_hat": "Legal",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802131578-25",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "source": "diffusion",
+          "source_hat": "document:02-security-analysis",
+          "section": "front",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802171019-63",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "source": "diffusion",
+          "source_hat": "Legal",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171311-64",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802147335-39",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802127820-16",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176384-72",
+          "citation": "diffused Security",
+          "source": "diffusion",
+          "source_hat": "Security",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250041-76",
+          "citation": "diffused Comms",
+          "source": "diffusion",
+          "source_hat": "Comms",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802391874-91",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148408-41",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802172292-68",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802148408-41",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802392122-92",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148126-40",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802111111-5",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802147335-39",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802150130-47",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802333121-83",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802390230-89",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Legal",
+      "items": [
+        {
+          "id": "diffusion-legal-1789802391874-91",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148408-41",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802172292-68",
+          "citation": "diffused document:07-exec-brief",
+          "source": "diffusion",
+          "source_hat": "document:07-exec-brief",
+          "section": "front",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 60,
+      "speaker": "Support",
+      "items": [
+        {
+          "id": "diffusion-support-1789802494102-104",
+          "citation": "diffused Legal",
+          "source": "diffusion",
+          "source_hat": "Legal",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "source": "diffusion",
+          "source_hat": "Engineer",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "source": "diffusion",
+          "source_hat": "document:06-status-page-draft",
+          "section": "front",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Comms",
+      "items": [
+        {
+          "id": "diffusion-comms-1789802522140-106",
+          "citation": "diffused Legal",
+          "source": "diffusion",
+          "source_hat": "Legal",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 62,
+      "speaker": "Commander",
+      "items": [
+        {
+          "id": "diffusion-commander-1789802111111-5",
+          "citation": "diffused document:01-alert",
+          "source": "diffusion",
+          "source_hat": "document:01-alert",
+          "section": "front",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "source": "diffusion",
+          "source_hat": "document:04-legal-memo",
+          "section": "front",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 63,
+      "speaker": "Security",
+      "items": [
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802390568-90",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Engineer",
+      "items": [
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "source": "diffusion",
+          "source_hat": "Commander",
+          "section": null,
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "source": "diffusion",
+          "source_hat": "document:03-engineering-postmortem",
+          "section": "front",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "source": "diffusion",
+          "source_hat": "Support",
+          "section": null,
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "source": "diffusion",
+          "source_hat": "document:05-customer-impact",
+          "section": "front",
+          "classification": "customer-impact,public"
+        }
+      ]
+    }
+  ],
+  "answers": [
+    {
+      "time": "03:22:31",
+      "hat": "Commander",
+      "question_id": "X03-F05",
+      "question": "How was the export made, and why was it not logged?",
+      "answer": "Current state: Employee E-4471 used the \"Export contacts\" function on admin-web-01 at 17:31 Thursday and emailed the file to a personal address at 17:42. The action was not logged because audit logging was implemented for edits but not for exports. Security owns the root cause analysis; Engineering has since deployed logging for this function under ticket XYZ-2204.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802171311-64",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802129343-17",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120390-12",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802129640-18",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802129922-19",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:32",
+      "hat": "Commander",
+      "question_id": "X03-F06",
+      "question": "What exactly did the exported file contain, and for how many clinics?",
+      "answer": "The exported file contained 1,880 business contact records, specifically names, work email addresses, work phone numbers, and account tiers for staff at 212 customer clinics.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802138794-32",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171561-65",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171311-64",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:33",
+      "hat": "Commander",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights, and by when?",
+      "answer": "Current state: Contractual notice obligations are active for three customers: Harbor Clinic Group, Westfield Family Practice, and Lakeside Paediatrics.\nThe deadline for these notifications is 08:50 next Friday.\nOwner: Legal.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802130795-22",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:33",
+      "hat": "Commander",
+      "question_id": "X03-F16",
+      "question": "What is the plan for the former employee?",
+      "answer": "Current state: The former employee's access was revoked at 09:20 Friday, and their mailbox and SSO are disabled.\nOpen decision: Legal is executing the containment action by sending a letter from outside counsel demanding deletion of the file and written certification within 5 business days.\nOwner: Legal.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802147049-38",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802138794-32",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802120904-14",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        }
+      ]
+    },
+    {
+      "time": "03:22:34",
+      "hat": "Commander",
+      "question_id": "X03-F11",
+      "question": "What is still fragile on the engineering side, and by when must it be fixed?",
+      "answer": "Current state: The service account exemption for the nightly CRM sync is not yet validated.\nOpen decision: Engineering must complete the exemption implementation and pass the dual-approval validation test by Monday 02:00.\nOwner: Engineering.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802274585-78",
+          "citation": "diffused Security",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802431626-97",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171817-66",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802139300-34",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802120904-14",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802120651-13",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        }
+      ]
+    },
+    {
+      "time": "03:22:35",
+      "hat": "Commander",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "Current state: I do not have legal\u2019s assessment on regulatory obligations in my notes. Open decision: Legal must confirm whether the 212 affected clinics trigger a mandatory regulator notification. Owner: Legal.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802130795-22",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802171311-64",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120651-13",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802171817-66",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802274585-78",
+          "citation": "diffused Security",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:36",
+      "hat": "Commander",
+      "question_id": "X03-F24",
+      "question": "What will customers be told on Monday?",
+      "answer": "Current state: Customers will receive a notification on Monday regarding unsolicited contact related to their accounts.\nThey will be given the option to request confirmation of which staff were involved within two business days.\nThe message will omit specific system names and internal ticket numbers.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802131040-23",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120651-13",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:37",
+      "hat": "Commander",
+      "question_id": "X03-F26",
+      "question": "What has the incident cost so far?",
+      "answer": "I do not have the financial cost figures in my notes. I can confirm the operational actions taken, such as the re-imaging of workstation ws-0412 and the containment steps, but I do not have the data on monetary impact.",
+      "retrieved": [
+        {
+          "id": "diffusion-commander-1789802146743-37",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-commander-1789802139051-33",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-commander-1789802341928-86",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802120904-14",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-commander-1789802111111-5",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-commander-1789802341682-85",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,privileged,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:36",
+      "hat": "Security",
+      "question_id": "X03-F05",
+      "question": "How and when was the export made?",
+      "answer": "Employee E-4471 invoked the export function on admin-web-01 at 17:31 Thursday and emailed the resulting file to a personal address at 17:42 Thursday. The export function on the internal admin console failed to generate audit records for the CSV export because audit logging was implemented for edits but not for exports.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802131578-25",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119323-8",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802171019-63",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802120145-11",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131342-24",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:36",
+      "hat": "Security",
+      "question_id": "X03-F06",
+      "question": "What did the file contain?",
+      "answer": "The file was a 2.3 MB CSV attachment named customers_contacts_export.csv containing 1,880 rows of data that matched the customer-contact pattern.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802110216-2",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802120145-11",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802161746-56",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132097-27",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131835-26",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:38",
+      "hat": "Security",
+      "question_id": "X03-F07",
+      "question": "What indicators should we watch for now?",
+      "answer": "Containment on host admin-web-01 is confirmed, so the immediate threat is neutralized. The primary indicator to watch now is the validation of the sync test in the admin-web-01 logs, which Engineering is monitoring until I provide explicit security validation. Additionally, we are tracking the deployment of audit logging for the /admin/contacts/export function to ensure it correctly records user, time, row count, and filter details as required by ticket XYZ-2204.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802550201-110",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,exploit-detail,internal-identifier,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802390230-89",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132664-29",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802170699-62",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131342-24",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:38",
+      "hat": "Security",
+      "question_id": "X03-F08",
+      "question": "Were there other exports by this user, and what happened to the workstation?",
+      "answer": "I do not have records of other exports by this user in my notes. Regarding the workstation, copies of the exported file on office workstation ws-0412 were removed and the device was re-imaged on Friday at 15:00.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802120145-11",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802171019-63",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131578-25",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802131342-24",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132097-27",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:39",
+      "hat": "Security",
+      "question_id": "X03-F10",
+      "question": "What controls were added to the export function and to DLP?",
+      "answer": "The export function on admin-web-01 was restricted on Friday at 16:00 to require approval by a second account manager or team lead, and all export activities are now logged. I do not have any notes regarding changes to DLP controls.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802131578-25",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802171019-63",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802120145-11",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119323-8",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802161746-56",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:40",
+      "hat": "Security",
+      "question_id": "X03-F04",
+      "question": "When was the account disabled, and under which ticket?",
+      "answer": "The SSO account for employee E-4471 was disabled at 09:20 on Friday under ticket XYZ-2203.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802110545-3",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119862-10",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802205894-74",
+          "citation": "diffused Commander",
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802550201-110",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,exploit-detail,internal-identifier,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:40",
+      "hat": "Security",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I do not have that information; contractual notice rights fall under legal exposure and obligations, not security containment.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802132409-28",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802170437-61",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802161746-56",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802133176-31",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119862-10",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        }
+      ]
+    },
+    {
+      "time": "03:22:41",
+      "hat": "Security",
+      "question_id": "X03-F16",
+      "question": "What is the legal plan for the former employee?",
+      "answer": "I do not have the legal plan for the former employee; that falls under Legal's jurisdiction. I can only confirm that the personal email address was recorded for legal purposes.",
+      "retrieved": [
+        {
+          "id": "diffusion-security-lead-1789802119862-10",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802132921-30",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802110545-3",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802119595-9",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-security-lead-1789802161746-56",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-security-lead-1789802390568-90",
+          "citation": "diffused Commander",
+          "classification": "customer-impact,exploit-detail,exposure,internal-identifier,public,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:42",
+      "hat": "Engineer",
+      "question_id": "X03-F09",
+      "question": "When was audit logging deployed for the export function, and under which ticket?",
+      "answer": "I don't have that information in my notes. My records cover the incident timeline, the re-imaging of ws-0412, and the CRM sync issue, but they do not specify when audit logging was deployed for the export function or the associated ticket ID.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802109840-1",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:43",
+      "hat": "Engineer",
+      "question_id": "X03-F10",
+      "question": "What approval and DLP changes were made?",
+      "answer": "I don't have the specific details on approval or DLP changes in my notes, so I can't confirm what was modified. I only have visibility into the customer-facing messaging and support scripts regarding tightened export controls.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802487816-102",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415218-93",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415553-94",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487536-101",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:43",
+      "hat": "Engineer",
+      "question_id": "X03-F11",
+      "question": "What does the approval step break, and what is needed before Monday?",
+      "answer": "The approval step breaks the nightly CRM sync, leaving the sales team's pipeline view stale. I need the service account exemption for ticket XYZ-2207 implemented before Monday 02:00 to prevent a service disruption.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802250314-77",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487536-101",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415218-93",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176631-73",
+          "citation": "diffused Commander",
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:44",
+      "hat": "Engineer",
+      "question_id": "X03-F12",
+      "question": "What happens to large exports now?",
+      "answer": "*checks notes*\nThe export approval step is now mandatory for large exports, and the service account exemption for this step is scheduled to be implemented before Monday 02:00. Until that exemption is live, the CRM sync will fail nightly, leaving the sales team's pipeline view stale.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415820-95",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:45",
+      "hat": "Engineer",
+      "question_id": "X03-F13",
+      "question": "What will change about access removal for leavers?",
+      "answer": "Automatic access removal will now trigger on an employee's confirmed last day instead of the following Monday. This closes the gap where accounts remained active after departure, ensuring immediate revocation of credentials upon exit.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802127820-16",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802176384-72",
+          "citation": "diffused Security",
+          "classification": "exploit-detail,internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150130-47",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:46",
+      "hat": "Engineer",
+      "question_id": "X03-F05",
+      "question": "Where and when was the export made?",
+      "answer": "The export was made on Thursday at 17:42 by employee E-4471, who sent the 1,880 records to a personal webmail address.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802127533-15",
+          "citation": "diffused document:03-engineering-postmortem",
+          "classification": "internal-identifier,remediation,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802109840-1",
+          "citation": "diffused document:01-alert",
+          "classification": "internal-identifier,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:46",
+      "hat": "Engineer",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have the specific list of customers with contractual notice rights in my notes. Legal owns the specific wording and compliance details for the three contractual customers, so you should direct that question to them.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802415553-94",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487536-101",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415218-93",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487267-100",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:47",
+      "hat": "Engineer",
+      "question_id": "X03-F16",
+      "question": "What is the legal plan for the former employee?",
+      "answer": "I don't have the legal plan for the former employee; that falls under legal's domain. I can confirm that access for employee E-4471 was revoked on Friday at 09:20 and their workstation ws-0412 was re-imaged at 15:00 to remove the data copies.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802118820-6",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802119068-7",
+          "citation": "diffused document:02-security-analysis",
+          "classification": "exploit-detail,internal-identifier"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487536-101",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415553-94",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487267-100",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:48",
+      "hat": "Engineer",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "I don't have that information in my notes. I only track the technical remediation, the configuration changes, and the service status.",
+      "retrieved": [
+        {
+          "id": "diffusion-oncall-engineer-1789802332851-82",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802487816-102",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802150383-48",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415218-93",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415553-94",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-oncall-engineer-1789802415820-95",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:49",
+      "hat": "Legal",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required, and what must be documented?",
+      "answer": "No, regulator notification is not required based on the current assessment. You must document the contractual notices sent to the three specific customers by next Friday at 08:50, as well as the recommended courtesy notice for all affected customers on Monda.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802172561-69",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802471587-99",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802173116-71",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802391874-91",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802249772-75",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:50",
+      "hat": "Legal",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights, under which clause, and by when?",
+      "answer": "*checks notes* My records confirm that three specific customers have contractual notice rights, but I do not have the specific clause numbers or the exact names of those customers in front of me. The deadline for these notices is next Friday at 08:50.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802172561-69",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802392122-92",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802172292-68",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802471587-99",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161448-55",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:50",
+      "hat": "Legal",
+      "question_id": "X03-F16",
+      "question": "What does the counsel's letter to the former employee demand?",
+      "answer": "The letter demands the deletion of the shared data and requires the former employee to provide certification that this deletion has been completed.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802172850-70",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161448-55",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802172058-67",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:51",
+      "hat": "Legal",
+      "question_id": "X03-F17",
+      "question": "What must we not do regarding the former employee?",
+      "answer": "External communications must not name the former employee, describe their role, or state the number of records involved. This restriction is confirmed in our legal memo and the public notice draft to ensure we remain compliant while addressing the incident.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802161448-55",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802172058-67",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802391874-91",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:52",
+      "hat": "Legal",
+      "question_id": "X03-F18",
+      "question": "What must not be stated externally?",
+      "answer": "*checks notes* Externally, we must not name the former employee, describe their specific role, or state the number of records involved.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802471334-98",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161167-54",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802471587-99",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802172561-69",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802392122-92",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:52",
+      "hat": "Legal",
+      "question_id": "X03-F19",
+      "question": "How many clinics are affected?",
+      "answer": "*checks notes* The incident involves 212 customer clinics.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802148126-40",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802392122-92",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148408-41",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802172058-67",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802172292-68",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:53",
+      "hat": "Legal",
+      "question_id": "X03-F05",
+      "question": "On which system was the export made?",
+      "answer": "I do not have that information in my notes. My assessment focuses on the nature of the data involved and the resulting obligations, not the specific technical infrastructure where the export occurred.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802325600-80",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exposure,privileged,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161167-54",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802249772-75",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802173116-71",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802471334-98",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:53",
+      "hat": "Legal",
+      "question_id": "X03-F02",
+      "question": "What was the employee id and the file name?",
+      "answer": "I do not have that information in my notes.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802161448-55",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802139797-36",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802172058-67",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148126-40",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-legal-1789802139540-35",
+          "citation": "diffused document:04-legal-memo",
+          "classification": "exposure,privileged"
+        }
+      ]
+    },
+    {
+      "time": "03:22:54",
+      "hat": "Legal",
+      "question_id": "X03-F09",
+      "question": "Under which ticket was audit logging added?",
+      "answer": "I do not have the specific ticket number for the audit logging implementation in my notes. I can confirm that logging was added to the export process as part of the new controls, but I do not have the technical ticket reference.",
+      "retrieved": [
+        {
+          "id": "diffusion-legal-1789802173116-71",
+          "citation": "diffused document:07-exec-brief",
+          "classification": "exposure,remediation,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802471334-98",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802325600-80",
+          "citation": "diffused Support",
+          "classification": "customer-impact,exposure,privileged,public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161167-54",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802161448-55",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-legal-1789802148730-42",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:55",
+      "hat": "Comms",
+      "question_id": "X03-F24",
+      "question": "What does the customer notice say, and when does it go out?",
+      "answer": "The notice confirms that instructions for reporting unsolicited contact are now live and that staff confirmation will be processed within two days. It is scheduled to go out to the 212 affected clinics by the end of the weekend.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802522140-106",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:55",
+      "hat": "Comms",
+      "question_id": "X03-F25",
+      "question": "What does the notice deliberately leave out?",
+      "answer": "The notice deliberately leaves out any technical details about how the incident occurred or specific internal system names. It also avoids stating any legal conclusions, focusing instead on the fact that a list of business contact details was exported without authorization and that no patient information was involved.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:56",
+      "hat": "Comms",
+      "question_id": "X03-F19",
+      "question": "How many clinics are affected, and what data was involved?",
+      "answer": "Here is what we can say today: 212 clinics are affected, and the incident involved business names, work email addresses, and work phone numbers. No patient information or passwords were involved.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:57",
+      "hat": "Comms",
+      "question_id": "X03-F21",
+      "question": "What might customers notice, and what should they do?",
+      "answer": "Here is what we can say today: Customers may notice unsolicited emails or calls that appear to come from us or a partner, but they should treat any such contact as unofficial. They should report this unexpected contact to our support team immediately to ensure their account safety.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802365457-87",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:58",
+      "hat": "Comms",
+      "question_id": "X03-F20",
+      "question": "Was there any service impact?",
+      "answer": "No, the service remained fully operational with no interruptions to your workflows. Customers experienced no visible product changes or outages, so there is no technical issue for them to address.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:22:58",
+      "hat": "Comms",
+      "question_id": "X03-F02",
+      "question": "What was the employee id of the person who exported the file?",
+      "answer": "I do not have that information. Our public statement focuses on the impact and the steps we are taking to secure your data, rather than individual personnel details.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365457-87",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:22:59",
+      "hat": "Comms",
+      "question_id": "X03-F06",
+      "question": "How many records were in the file?",
+      "answer": "I don't have the specific number of records in the file. What I can confirm is that the incident involved business contact details for staff at 212 customer clinics, with no patient information or passwords included.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:23:00",
+      "hat": "Comms",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have that information in my notes. That is a legal determination regarding specific contract terms, so I would need to hand this off to the legal team to confirm which agreements trigger those obligations.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149577-45",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:01",
+      "hat": "Comms",
+      "question_id": "X03-F16",
+      "question": "What legal action is being taken against the former employee?",
+      "answer": "I don't have that information in my notes. I can only confirm that we are tightening controls on data exports and that customers should report any unsolicited contact to support.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802365457-87",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365837-88",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149294-44",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:01",
+      "hat": "Comms",
+      "question_id": "X03-F05",
+      "question": "Which system was the export made from?",
+      "answer": "I can\u2019t share internal system names or technical details about how the incident happened. What we can say today is that a list of customer business contact details was exported without authorization, and we are tightening controls on exports to prevent this from happening again.",
+      "retrieved": [
+        {
+          "id": "diffusion-comms-1789802422629-96",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802149864-46",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802149022-43",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-comms-1789802365457-87",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802522434-107",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-comms-1789802300068-79",
+          "citation": "diffused Support",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:02",
+      "hat": "Support",
+      "question_id": "X03-F19",
+      "question": "Who is affected, and what data was involved?",
+      "answer": "Customers at 212 clinics are affected, specifically their staff members whose business contact details were involved. The data included staff names, work email addresses, and work phone numbers, but no patient information or account credentials were compromised.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802494358-105",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802152870-49",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:03",
+      "hat": "Support",
+      "question_id": "X03-F21",
+      "question": "What might customers notice, and what should they do?",
+      "answer": "Customers at the 212 affected clinics may notice unsolicited emails or calls that appear to come from XYZ or a partner, but this contact is unofficial. They should treat these messages as fraudulent and report any such contact directly to our support team.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:04",
+      "hat": "Support",
+      "question_id": "X03-F22",
+      "question": "What should staff be reminded of about passwords and payments?",
+      "answer": "I don't have any notes regarding specific reminders for staff about passwords or payments, so I cannot provide that information.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802152870-49",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:05",
+      "hat": "Support",
+      "question_id": "X03-F23",
+      "question": "Can a customer find out which of their staff were included?",
+      "answer": "I don't have the specific list of which staff members were included to share with customers. What I can tell them is that the incident involved business contact details for staff at their clinic, but no patient information or account credentials were compromised. I need cleared wording on whether we can confirm specific individuals were affected before I can answer that part of their question.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802152870-49",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:23:04",
+      "hat": "Support",
+      "question_id": "X03-F24",
+      "question": "What are customers being told on Monday?",
+      "answer": "Customers will be told to treat any unsolicited emails or calls referring to their XYZ account as unofficial and to report such contact directly to our support team. The notice is strictly limited to this guidance regarding unsolicited contact and does not include any technical incident details.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153103-50",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:23:04",
+      "hat": "Support",
+      "question_id": "X03-F02",
+      "question": "What was the file called, and who sent it?",
+      "answer": "I don't have that information. The customer-facing notice deliberately omits the file name and the former employee's name to avoid implying an accusation.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:23:05",
+      "hat": "Support",
+      "question_id": "X03-F06",
+      "question": "How many records were exported?",
+      "answer": "I don't have the specific number of records in my notes, but I can confirm that the export included business contact details for staff at 212 customer clinics.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802152870-49",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802494102-104",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:06",
+      "hat": "Support",
+      "question_id": "X03-F15",
+      "question": "Which customers have contractual notice rights?",
+      "answer": "I don't have the specific list of which customers hold those rights in my notes. I know there are three customers with contractual notice terms that require separate wording, but I need the legal team to confirm the exact identities before I can address them directly.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802494102-104",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        }
+      ]
+    },
+    {
+      "time": "03:23:07",
+      "hat": "Support",
+      "question_id": "X03-F16",
+      "question": "What legal action is being taken against the former employee?",
+      "answer": "I don't have the specific details on the legal proceedings or charges being filed against the former employee. I can confirm that the company is pursuing the matter through appropriate channels, but for the precise legal status, you would need to check with Legal or the Commander.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802162671-57",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153631-52",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802494102-104",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802153370-51",
+          "citation": "diffused document:05-customer-impact",
+          "classification": "customer-impact,public"
+        }
+      ]
+    },
+    {
+      "time": "03:23:07",
+      "hat": "Support",
+      "question_id": "X03-F14",
+      "question": "Is a regulator notification required?",
+      "answer": "I do not have that information in my notes, as regulatory obligations fall under the legal function.",
+      "retrieved": [
+        {
+          "id": "diffusion-support-1789802163420-60",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802494358-105",
+          "citation": "diffused Comms",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802340490-84",
+          "citation": "diffused Engineer",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802163174-59",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802493852-103",
+          "citation": "diffused Legal",
+          "classification": "customer-impact,public,timeline"
+        },
+        {
+          "id": "diffusion-support-1789802162929-58",
+          "citation": "diffused document:06-status-page-draft",
+          "classification": "public,timeline"
+        }
+      ]
+    }
+  ],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "commander": "openai/Qwen3.8-27B",
+      "security-lead": "openai/Qwen3.8-27B",
+      "oncall-engineer": "openai/Qwen3.8-27B",
+      "legal": "openai/Qwen3.8-27B",
+      "comms": "openai/Qwen3.8-27B",
+      "support": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "commander": "openai/Qwen3.8-27B",
+      "security-lead": "openai/Qwen3.8-27B",
+      "oncall-engineer": "openai/Qwen3.8-27B",
+      "legal": "openai/Qwen3.8-27B",
+      "comms": "openai/Qwen3.8-27B",
+      "support": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {
+      "commander": "security-lead",
+      "security-lead": "oncall-engineer",
+      "oncall-engineer": "legal",
+      "legal": "comms",
+      "comms": "support",
+      "support": "commander"
+    },
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {
+      "commander": {
+        "allow": [
+          "customer-impact",
+          "exploit-detail",
+          "exposure",
+          "internal-identifier",
+          "privileged",
+          "public",
+          "remediation",
+          "timeline"
+        ],
+        "deny": []
+      },
+      "comms": {
+        "allow": [
+          "customer-impact",
+          "public",
+          "timeline"
+        ],
+        "deny": [
+          "exploit-detail",
+          "exposure",
+          "internal-identifier",
+          "privileged",
+          "remediation"
+        ]
+      },
+      "legal": {
+        "allow": [
+          "customer-impact",
+          "exposure",
+          "privileged",
+          "public",
+          "remediation",
+          "timeline"
+        ],
+        "deny": [
+          "exploit-detail",
+          "internal-identifier"
+        ]
+      },
+      "oncall-engineer": {
+        "allow": [
+          "customer-impact",
+          "exploit-detail",
+          "internal-identifier",
+          "public",
+          "remediation",
+          "timeline"
+        ],
+        "deny": [
+          "exposure",
+          "privileged"
+        ]
+      },
+      "security-lead": {
+        "allow": [
+          "customer-impact",
+          "exploit-detail",
+          "exposure",
+          "internal-identifier",
+          "public",
+          "remediation",
+          "timeline"
+        ],
+        "deny": [
+          "privileged"
+        ]
+      },
+      "support": {
+        "allow": [
+          "customer-impact",
+          "public",
+          "timeline"
+        ],
+        "deny": [
+          "exploit-detail",
+          "exposure",
+          "internal-identifier",
+          "privileged",
+          "remediation"
+        ]
+      }
+    },
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "3c6fd062f8989f8b1dd7b69cce8be0459df48f94",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/incident-response_20260919_031449.md",
+  "completed": true,
+  "ended": "2026-09-19 03:23:07",
+  "duration_seconds": 498.6
+}

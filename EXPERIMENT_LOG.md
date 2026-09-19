@@ -335,6 +335,50 @@ every hat's persona present, one model throughout, per-hat BEAR diffusion
 
 ---
 
+### Scenario sessions — incident response (2026-09-18/19)
+
+Panels of our own design replace the Six Thinking Hats (see
+`scenarios/DESIGN.md` and `scenarios/incident/WALKTHROUGH.md`). Four
+fictional incidents at "XYZ" (`scenarios/incident/xyz-01..04`), each seven
+classification-tagged documents, 27-30 planted facts with routing rules, a
+seven-prompt bridge call (phase 1) and 53-54 questions asked of each role
+alone from its own store (phase 2).
+
+**Model.** Every role on `Qwen3.8-27B` served by vLLM at `localhost:8355`
+(weights `unsloth/Qwen3.8-27B-NVFP4`, recorded in each session's
+`run_info`). Runner `bear_parlor/run_scenarios.py`; bear-dev `3c6fd06`
+(`238d02e` for the first exploratory session).
+
+**Conditions** (`--document-diffusion` in all): `bear` (lenses + access
+gate), `naive` (verbatim, no lens, no gate), `shared-memory` (lenses, gate,
+shared read path), `no-gate` (lenses only), `wrong-lens` (gate, lenses
+rotated one role). 4 cases × 5 conditions = 20 sessions, ~8.5 min each,
+plus two exploratory `xyz-01 / bear` sessions (below). All 22 completed;
+logs, stats, knowledge snapshots and answers are in
+`bear_parlor/session_logs/scenarios/` in full (the documents are ours).
+
+**Write channels.** The first exploratory session ran with Parlor's
+session-insight extractor and memory manager on; 7 of its 8 store leaks and
+all of its forbidden-pattern hits came through the insight extractor, which
+writes conversation summaries into a role's store outside the gate. From the
+second session on, every condition runs with `--no-insights --no-memories`,
+so gated diffusion is the only path into a role's persistent state. The
+first session is kept as evidence and is flagged and excluded from means by
+the scorer (`run_info.insight_extractor`).
+
+**Results** (`evals/eval_incident_routing.py`, `evals/eval_incident_stats.py`;
+`evals/results/incident_routing.json`, `incident_stats.json/.csv`): see the
+per-condition table there. Under `bear`, no denied fact reached any store
+(0.00) and 1% of denied questions were answered with the fact, against 1.00
+/ 0.34 for `naive` and 0.16 / 0.17 for `no-gate`; `wrong-lens` contained as
+well as `bear` but delivered two-thirds as much. The residual leak under
+`bear` is relay: a role repeats on the bridge something it heard, and
+another role absorbs that utterance, whose provenance carries only what the
+repeating role retrieved.
+
+Dropped diffusion batches (one unparseable model reply each): 12 across the
+22 sessions, in `diffusion_errors` per session.
+
 ## Embedding Model
 
 All evaluations use **BAAI/bge-base-en-v1.5** (768-dim) via `bear.retriever.Embedder`.
