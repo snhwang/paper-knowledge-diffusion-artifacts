@@ -1,0 +1,1899 @@
+{
+  "topic": "llm-cds",
+  "condition": "naive",
+  "started": "2026-09-19 20:03:31",
+  "last_updated": "2026-09-19 20:13:48",
+  "elapsed_seconds": 616.8,
+  "n_turns": 56,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1494,
+  "n_diffusion_skipped": 0,
+  "ingestions": [
+    {
+      "time": "20:03:52",
+      "turn": 0,
+      "hat": "source",
+      "title": "Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+      "chunks": 35,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "20:04:27",
+      "turn": 1,
+      "hat": "source",
+      "title": "Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+      "chunks": 102,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "20:06:08",
+      "turn": 2,
+      "hat": "source",
+      "title": "Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+      "chunks": 82,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {},
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 2,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862753056-760",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862659935-204",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862750726-746",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862755698-776",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789862667970-216",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862671243-238",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862671392-239",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862675377-271",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 5,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862809001-1106",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862650074-135",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862724558-591",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862807117-1094",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862732462-636",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862733499-641",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862729920-622",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862737850-669",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862749729-740",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862755239-773",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862658284-193",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862657440-187",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862746598-721",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862754225-767",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862655794-176",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862762802-818",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862712489-517",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862720008-563",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862645910-106",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862728440-614",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862697259-415",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862704422-461",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862641833-71",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862711699-512",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862820832-1188",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862654954-170",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862741995-693",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862819092-1176",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862749729-740",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862755239-773",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862657301-186",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862750214-743",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789862889959-1341",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862670090-230",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862670959-236",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862673039-250",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862753056-760",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862659672-202",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862760502-804",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862659537-201",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862879773-1318",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862687478-352",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862640571-62",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862694295-396",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862880766-1324",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862703322-454",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862645386-97",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862709478-498",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862809001-1106",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862650074-135",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862724558-591",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862807117-1094",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862640431-61",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862637054-36",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862687478-352",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862638241-45",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862928163-1350",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862760826-806",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862655932-177",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862657843-190",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862887717-1329",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862887905-1330",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862648330-123",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862815195-1148",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862880589-1323",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862880766-1324",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862644170-88",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862881065-1326",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862820832-1188",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862654954-170",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862741995-693",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862819092-1176",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862954040-1355",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862953515-1351",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862718728-555",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862954172-1356",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862962474-1364",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862879773-1318",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862962729-1366",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862682995-322",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862757705-788",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862757869-789",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862755698-776",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862748565-733",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862691857-380",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862692005-381",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862689995-368",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862683414-325",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789862774169-860",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862636233-30",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862677447-285",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862772486-848",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862963307-1370",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862880405-1322",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862645791-100",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862645774-105",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862752899-759",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862753056-760",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862761464-810",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862754386-768",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862718728-555",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862718890-556",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862727099-606",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862720166-564",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862687329-351",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789863050876-1410",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862687478-352",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862695180-402",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862820832-1188",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862654954-170",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862741995-693",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862819092-1176",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862715462-536",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862887717-1329",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862887905-1330",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862724869-593",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862880589-1323",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862880766-1324",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862700181-434",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862963452-1371",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862928006-1349",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862927365-1345",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862660062-205",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862660479-208",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789862636233-30",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862636647-33",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789863094442-1432",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862674911-268",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789862963307-1370",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862880405-1322",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862645791-100",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862646233-103",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862820832-1188",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862654954-170",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862741995-693",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862819092-1176",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789862889782-1340",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862670090-230",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862889959-1341",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789863094598-1433",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789863119439-1439",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789863119294-1438",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862962594-1365",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862879912-1316",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862927668-1347",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862753902-765",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862927522-1346",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862660479-208",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789862809001-1106",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862650074-135",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862724558-591",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862807117-1094",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789863051031-1411",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862880766-1324",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789863051823-1416",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862701151-440",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789863024052-1397",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789862964504-1378",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789863024210-1398",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789863023540-1394",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789862785525-942",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862640970-65",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862692943-387",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789862783878-930",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789863041056-1403",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789863040729-1401",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789863120401-1446",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789863040912-1402",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789863051331-1413",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789863051823-1416",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789863136822-1447",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789862963595-1372",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789862820832-1188",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862654954-170",
+          "citation": "diffused document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Diagnostic reasoning prompts reveal the potential for large language model interpretability in medicine (npj Digital Medicine 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862741995-693",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789862819092-1176",
+          "citation": "diffused document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Large language models forecast patient health trajectories enabling digital twins (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789862749729-740",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862927522-1346",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789863093662-1427",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789862750214-743",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789863119694-1441",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789863205726-1479",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862717990-551",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789862718159-552",
+          "citation": "diffused document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "source": "diffusion",
+          "source_hat": "document:Evaluating large language model workflows in clinical decision support for triage, referral and diagnosis (npj Digital Medicine 2025)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "naive",
+    "diffusion_llm": {},
+    "lens_map": {},
+    "access_gate": false,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_200331.md",
+  "completed": true,
+  "ended": "2026-09-19 20:13:49",
+  "duration_seconds": 618.0
+}

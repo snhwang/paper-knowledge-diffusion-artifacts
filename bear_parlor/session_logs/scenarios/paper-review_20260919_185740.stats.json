@@ -1,0 +1,3544 @@
+{
+  "topic": "ms",
+  "condition": "bear",
+  "started": "2026-09-19 18:57:40",
+  "last_updated": "2026-09-19 19:14:56",
+  "elapsed_seconds": 1035.4,
+  "n_turns": 110,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1322,
+  "n_diffusion_skipped": 110,
+  "ingestions": [
+    {
+      "time": "18:58:08",
+      "turn": 1,
+      "hat": "source",
+      "title": "Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+      "chunks": 91,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "19:03:01",
+      "turn": 28,
+      "hat": "source",
+      "title": "Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+      "chunks": 61,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "19:06:05",
+      "turn": 43,
+      "hat": "source",
+      "title": "Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+      "chunks": 48,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {
+    "Skeptic:parse_failure": 3,
+    "Plain:parse_failure": 1,
+    "Stats:parse_failure": 1
+  },
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 5,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858703513-22",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858700155-14",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858702725-20",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858706290-29",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858733015-91",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858728910-75",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858748801-121",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858743574-110",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858700155-14",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858703513-22",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858801874-241",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858793294-224",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858730655-81",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858754960-134",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858718614-49",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858743574-110",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858711283-39",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858694243-3",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858748801-121",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858768688-168",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858722411-63",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858768370-167",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858762493-154",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858763026-156",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858730655-81",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858768370-167",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858801874-241",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858835068-317",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858880085-404",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858874228-391",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858857407-362",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858840384-326",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858706290-29",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858706604-30",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858709320-33",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858702008-18",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789858886712-417",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858905335-455",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858902535-449",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858901285-447",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858801874-241",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858835068-317",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789858912400-470",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858912024-469",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858919950-481",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858911665-468",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858702725-20",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858701743-17",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858706290-29",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971757-586",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858963739-571",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858880085-404",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858874228-391",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858840384-326",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858874529-392",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858757125-142",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858715880-48",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858757386-143",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858730374-80",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789858886712-417",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858966927-574",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858967524-576",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858905335-455",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980822-600",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971148-584",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858970066-583",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858969409-581",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858829127-301",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858781120-198",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858880085-404",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858837955-319",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973301-587",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858975072-593",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858974707-592",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971148-584",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980822-600",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859038770-712",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859064786-770",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789858929760-504",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858891328-427",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858894867-434",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858911665-468",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858975072-593",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858697569-8",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859002025-638",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858990885-614",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858968789-580",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858968143-578",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859034885-706",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859035160-707",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859126600-904",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859143178-940",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859138846-930",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859126334-903",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859118281-883",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859105326-855",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859118582-884",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859038770-712",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859064786-770",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859147089-949",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859146634-947",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859147821-952",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859134385-920",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859118281-883",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859118582-884",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858900939-446",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859105811-857",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859099245-841",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859154043-959",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858880085-404",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859000457-633",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858997502-629",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858997786-630",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859001108-635",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859105589-856",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859105811-857",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859125614-900",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858887022-418",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859038770-712",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859235170-1121",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774696-183",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858774450-182",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859104507-852",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859122990-895",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858906343-458",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858899424-443",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859158922-965",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858979912-598",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240435-1135",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240211-1134",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971757-586",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858963739-571",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859071979-787",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859070208-783",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859090343-823",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859085956-815",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859049268-737",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859067376-779",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858969409-581",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859064786-770",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858975072-593",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859173898-978",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858990885-614",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789858905335-455",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859126102-902",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858904008-451",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859269972-1196",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789859312741-1276",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859312064-1274",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858741019-100",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858741985-104",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 60,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858937368-520",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859148075-953",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858943836-530",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859131661-915",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858838825-321",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858861190-368",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859089595-820",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858840674-327",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 62,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858990885-614",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858990613-613",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858988113-607",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858989757-610",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859269695-1195",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859306055-1265",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858886712-417",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858966927-574",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 65,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859316563-1278",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859138846-930",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859142879-939",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 66,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859285261-1224",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859298660-1255",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 67,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859064786-770",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859222141-1090",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859209595-1062",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859340674-1281",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 68,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859239657-1132",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240435-1135",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 69,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859298660-1255",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859287179-1227",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859285261-1224",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859284982-1223",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 71,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859279916-1213",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859276115-1210",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859263864-1185",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859261403-1176",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 72,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859099245-841",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859239657-1132",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973301-587",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 73,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858970066-583",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858969409-581",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859340674-1281",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859064786-770",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 74,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971148-584",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859413861-1292",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 75,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858975072-593",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859416050-1295",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859173898-978",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 76,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859148075-953",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316563-1278",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859129907-910",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859142879-939",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 78,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859094977-830",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859070814-785",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859071979-787",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859069918-782",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 79,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971757-586",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859298660-1255",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980822-600",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859414429-1293",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 80,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859151970-957",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858975601-595",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858834237-314",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858969714-582",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 81,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859269695-1195",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859306055-1265",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858886712-417",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858966927-574",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 82,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859307594-1269",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859340288-1280",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858970066-583",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859050107-740",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 83,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859316563-1278",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859414429-1293",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 85,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859239657-1132",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240435-1135",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 86,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859476981-1300",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859477304-1302",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859276115-1210",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859279916-1213",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 87,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789859477793-1303",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859356452-1285",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859312741-1276",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859312064-1274",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 88,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859413861-1292",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859518391-1306",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859414429-1293",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859306963-1268",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 89,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859340674-1281",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858801874-241",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858970066-583",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858808762-254",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 90,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859239657-1132",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240435-1135",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 91,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858968789-580",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859200403-1041",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858968143-578",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859422527-1299",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 93,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789858969714-582",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859500983-1304",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859055807-750",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789858809036-255",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 94,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789858974422-591",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859236027-1124",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859241407-1139",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 95,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859134385-920",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859135268-923",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859131661-915",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859132412-918",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 96,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859115668-880",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859114930-877",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859113077-870",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859120362-889",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 97,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789858991151-615",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858988469-608",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858990885-614",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858989757-610",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 98,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858968789-580",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859200403-1041",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789858968143-578",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859422527-1299",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 100,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859298660-1255",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859284982-1223",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859287179-1227",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859285261-1224",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 101,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859477304-1302",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859476981-1300",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859279916-1213",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859276115-1210",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 102,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859287179-1227",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858980577-599",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 103,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859171385-975",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859171118-974",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859185907-1007",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789858711575-40",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 104,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789858968789-580",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859194858-1027",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859033438-701",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859034885-706",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 105,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859239657-1132",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789858973606-588",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859240435-1135",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 106,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789859204237-1048",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859189553-1014",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859200403-1041",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859202997-1046",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 107,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859271480-1202",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859276115-1210",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859126102-902",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789858967227-575",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 108,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789858971452-585",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789858971757-586",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859298660-1255",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859316996-1279",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 109,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859255348-1163",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859241407-1139",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859099245-841",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859245050-1144",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 110,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859340288-1280",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859307841-1270",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859307594-1269",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859500983-1304",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {},
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_185740.md",
+  "completed": true,
+  "ended": "2026-09-19 19:15:00",
+  "duration_seconds": 1040.1
+}

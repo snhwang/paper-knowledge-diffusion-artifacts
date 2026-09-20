@@ -1,0 +1,1937 @@
+{
+  "topic": "ms",
+  "condition": "naive",
+  "started": "2026-09-19 19:16:25",
+  "last_updated": "2026-09-19 19:26:18",
+  "elapsed_seconds": 592.9,
+  "n_turns": 57,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1380,
+  "n_diffusion_skipped": 0,
+  "ingestions": [
+    {
+      "time": "19:16:45",
+      "turn": 1,
+      "hat": "source",
+      "title": "Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+      "chunks": 91,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "19:18:09",
+      "turn": 2,
+      "hat": "source",
+      "title": "Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+      "chunks": 61,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "19:19:11",
+      "turn": 3,
+      "hat": "source",
+      "title": "Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+      "chunks": 48,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {},
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 2,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859844913-286",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859853120-341",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859846421-296",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859851639-331",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859805960-2",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859897414-598",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859807371-13",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859894984-583",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789859959430-973",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859959974-977",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859959073-970",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859819793-104",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859953019-926",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952508-922",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952260-920",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859956989-955",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859977140-1101",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859971324-1060",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859975162-1087",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859971461-1061",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859945613-909",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859938069-852",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859945352-907",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859939780-865",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859965980-1021",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859966541-1025",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859965570-1018",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859832432-195",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859953019-926",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952260-920",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952880-925",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859953719-931",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860032859-1218",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032244-1214",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032390-1215",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979414-1117",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860030539-1202",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030679-1203",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860031086-1206",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030373-1201",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860032095-1213",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032528-1216",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979394-1118",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859858263-375",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789860031668-1210",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859965430-1017",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859911427-684",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859966116-1022",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859984457-1156",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038513-1224",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038216-1222",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859985002-1160",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789859964750-1012",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031668-1210",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859965303-1016",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789859965570-1018",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860054051-1225",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054182-1226",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054459-1228",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859972589-1069",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789859979394-1118",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979432-1121",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032528-1216",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979877-1124",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789859953462-929",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859953019-926",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859953860-932",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860061850-1232",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860054599-1229",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054459-1228",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054051-1225",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859926166-781",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789860111523-1243",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031236-1207",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860112084-1247",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031962-1212",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860095428-1237",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030373-1201",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860031086-1206",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030539-1202",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789860112916-1253",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860037921-1220",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038063-1221",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038361-1223",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860120404-1256",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859973208-1073",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054328-1227",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859975162-1087",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789860129432-1270",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860061850-1232",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952756-924",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859954909-940",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789860112640-1251",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859873988-482",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038352-1219",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038361-1223",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860121328-1263",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860121728-1266",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859860710-391",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032095-1213",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860164617-1278",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860096009-1241",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860164186-1275",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859821758-118",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860120808-1259",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054051-1225",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054182-1226",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054459-1228",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860032095-1213",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979414-1117",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789859979877-1124",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032859-1218",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789860129288-1269",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860062127-1234",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860061708-1231",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860062272-1235",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859874478-485",
+          "citation": "diffused document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Selective GPR17 antagonism enhances structural and functional recovery in animal models of demyelination (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038216-1222",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859984457-1156",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860112916-1253",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860163817-1273",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030539-1202",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030679-1203",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860031086-1206",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789860181736-1283",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860181591-1282",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860181095-1279",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860181882-1284",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860206343-1297",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860206988-1301",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860121072-1261",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860206837-1300",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789859938985-859",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860113044-1254",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859939780-865",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859939907-866",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789859919664-737",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859920639-743",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859920617-744",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789859925831-779",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789859900123-615",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860163996-1274",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859901078-621",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859901240-622",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789860061708-1231",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860215190-1308",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859952880-925",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860062127-1234",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789860113044-1254",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860270228-1331",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859938985-859",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789859939780-865",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860095876-1240",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030947-1205",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860164617-1278",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859898974-608",
+          "citation": "diffused document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Retinal macrophage-like cell activation and ganglion cell layer thinning are associated with disability in multiple sclerosis (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789860038352-1219",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038513-1224",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860037921-1220",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860182042-1285",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860054599-1229",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860054051-1225",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860120944-1260",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860120677-1258",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789860061708-1231",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860062127-1234",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860129558-1271",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860129288-1269",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789860112084-1247",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031387-1208",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031528-1209",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789860031962-1212",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860120528-1257",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860198956-1295",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860198662-1293",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860269194-1324",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789860121461-1264",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032244-1214",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032390-1215",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789860032859-1218",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789860129432-1270",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789860061850-1232",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859953306-928",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789859951356-913",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789860322783-1350",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859957845-961",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789859961846-991",
+          "citation": "diffused document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Disproportionality analysis of drug-associated progressive multifocal leukoencephalopathy using spontaneous reports (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789860030539-1202",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789860112916-1253",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860037921-1220",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038063-1221",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789860038361-1223",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789860361713-1365",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860361565-1364",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860361414-1363",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789860269492-1326",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "naive",
+    "diffusion_llm": {},
+    "lens_map": {},
+    "access_gate": false,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_191625.md",
+  "completed": true,
+  "ended": "2026-09-19 19:26:23",
+  "duration_seconds": 597.9
+}

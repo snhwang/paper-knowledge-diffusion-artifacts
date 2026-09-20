@@ -1,0 +1,3359 @@
+{
+  "topic": "glp1",
+  "condition": "wrong-lens",
+  "started": "2026-09-19 21:54:34",
+  "last_updated": "2026-09-19 22:09:48",
+  "elapsed_seconds": 913.8,
+  "n_turns": 101,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1172,
+  "n_diffusion_skipped": 102,
+  "ingestions": [
+    {
+      "time": "21:54:54",
+      "turn": 0,
+      "hat": "source",
+      "title": "Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+      "chunks": 62,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "21:58:18",
+      "turn": 21,
+      "hat": "source",
+      "title": "Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+      "chunks": 46,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "22:00:57",
+      "turn": 34,
+      "hat": "source",
+      "title": "Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+      "chunks": 50,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {
+    "Stats:parse_failure": 1
+  },
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 5,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869318629-51",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869317721-44",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869317406-43",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869332375-81",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869349520-128",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869349778-129",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869350530-132",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869374526-179",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373521-175",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364621-162",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869374259-178",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869382931-195",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869378575-187",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869384211-199",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869376067-184",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869359669-143",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869359973-144",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869348561-125",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869370448-171",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869399597-228",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869398094-225",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869406806-247",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869407852-251",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869378575-187",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869384211-199",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869389140-208",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869383882-198",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869310195-32",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869310763-34",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869300093-9",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869379115-189",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869378575-187",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869387753-203",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869391480-209",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869369538-168",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869362804-155",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869361796-151",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869362300-153",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869429071-293",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869424203-282",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869411975-254",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869405103-241",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869448303-337",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869441589-324",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869445814-331",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869451843-344",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869387041-201",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869394916-217",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869379115-189",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869310195-32",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869310763-34",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869300093-9",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869456142-350",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869477475-393",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869490608-423",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869490306-422",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869348561-125",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869339848-96",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869369538-168",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869366761-164",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869446788-334",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432193-304",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869493315-428",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869503080-442",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869488873-417",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869407076-248",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869503717-444",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869353734-139",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373521-175",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869359409-142",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364367-161",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869414122-261",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869401675-232",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869426051-286",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869425784-285",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869446788-334",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432193-304",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869493315-428",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869399597-228",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869412604-256",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869425425-284",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869589015-625",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869395197-218",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869577511-599",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869378877-188",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869353734-139",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373521-175",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869359409-142",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364367-161",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869426051-286",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869488873-417",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869414122-261",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869401934-233",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869329027-76",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869336210-89",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869318005-45",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869328735-75",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869446788-334",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432193-304",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869493315-428",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869488873-417",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869488598-416",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869427214-290",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869420558-277",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869387041-201",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869651605-758",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395197-218",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869472371-386",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869489521-419",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869473179-389",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869489775-420",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869369538-168",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869348561-125",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869362804-155",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869339848-96",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869650361-757",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869441589-324",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432733-306",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869451244-342",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869429071-293",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869424203-282",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869411975-254",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869405103-241",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869441589-324",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869440178-319",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432733-306",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869448303-337",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869500349-437",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869525199-491",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869322581-60",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323798-64",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869353734-139",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373521-175",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869359409-142",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364367-161",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869483012-411",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869782179-1037",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869466022-374",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869461496-363",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869436572-315",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869445814-331",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869442169-326",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869442439-327",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869310195-32",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869310763-34",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869300093-9",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869448876-339",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869441589-324",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869451843-344",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869448016-336",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869828493-1106",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869807195-1090",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869374018-177",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869827514-1103",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869635856-724",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869790352-1056",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869638998-732",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869464946-370",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869573407-591",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869572882-589",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869576679-596",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869572333-587",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869519709-477",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869304445-14",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869344253-113",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869335896-88",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869802695-1083",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869800059-1075",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869778368-1028",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869481658-406",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869692652-836",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869707575-872",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869349275-127",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869346039-120",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869717142-891",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869724398-906",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869724680-907",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869716800-890",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869310195-32",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869310763-34",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869300093-9",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869378877-188",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869394618-216",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869394289-215",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869373228-174",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869622193-696",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869772446-1016",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869769247-1011",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869766774-1005",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 62,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869826204-1101",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869488598-416",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869488873-417",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869503080-442",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 63,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869720501-898",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869717142-891",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869720793-899",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869394916-217",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869710754-880",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373782-176",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869828125-1105",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869340389-98",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 65,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869472371-386",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869489521-419",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869473179-389",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869489775-420",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 66,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869503080-442",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869876496-1113",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869405105-239",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869399597-228",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 67,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869435216-310",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869622193-696",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869766774-1005",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869433322-308",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 69,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869810609-1095",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869854410-1112",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869632779-719",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869917473-1118",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 70,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869653324-760",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869299557-7",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869327055-72",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869317406-43",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 71,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869488249-415",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869502597-441",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869805622-1085",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869579734-602",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 72,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869353734-139",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869373521-175",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869359409-142",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364367-161",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 73,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869651605-758",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869394916-217",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869568530-578",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 74,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869501365-440",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869653324-760",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869980129-1135",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869652895-759",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 76,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869794894-1067",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869787130-1048",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869800059-1075",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869982006-1140",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 77,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869972529-1134",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869717142-891",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869724398-906",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869720793-899",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 78,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869746587-956",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869735484-930",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869429639-295",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869745262-952",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 79,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869446788-334",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432193-304",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869493315-428",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 80,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869981678-1139",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869854410-1112",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869854021-1111",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869853341-1109",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 81,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869972529-1134",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869651605-758",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869387041-201",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 83,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869457927-356",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869810298-1094",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869624241-703",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869457352-354",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 84,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869619484-691",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869445814-331",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869453166-349",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 85,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869360749-147",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869807195-1090",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869369538-168",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869529486-501",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 86,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869429071-293",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869424203-282",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869411975-254",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869405103-241",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 87,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789870017757-1141",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869433322-308",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869622193-696",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869835768-1107",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 88,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869918756-1122",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869318140-49",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869812471-1099",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869329027-76",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 90,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869561365-567",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869383314-196",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869577774-600",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 91,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869502597-441",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789870090005-1151",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869805894-1086",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869426371-287",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 92,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869360749-147",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869498326-436",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869374791-180",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364869-163",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 93,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869464372-368",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869465513-372",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869471121-381",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869491705-427",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 94,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869411975-254",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869412901-257",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869400736-231",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869398094-225",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 95,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789869360484-146",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869353734-139",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869363046-156",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789869364367-161",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 96,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869310195-32",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869310763-34",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869323204-62",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869300093-9",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 97,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789869982006-1140",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869782278-1041",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869632779-719",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789869784948-1043",
+          "citation": "diffused document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Cost-effectiveness of semaglutide versus dulaglutide for type 2 diabetes in China: a Markov model analysis (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 98,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789869395494-219",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869651605-758",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869379115-189",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789869387041-201",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 99,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789869433050-307",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869446788-334",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869432193-304",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789869493315-428",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 100,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789869918472-1121",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869318140-49",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869324888-68",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789869918215-1120",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 101,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789869584867-611",
+          "citation": "diffused document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Antidiabetic medications and risk of cognitive disorders in type 2 diabetes: a retrospective cohort study (PLOS ONE 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789870090322-1152",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869956098-1124",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789869405372-242",
+          "citation": "diffused document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Semaglutide-associated risk of nonarteritic anterior ischemic optic neuropathy in patients with type 2 diabetes (PLOS Medicine 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {
+      "methodologist": "statistician",
+      "statistician": "synthesizer",
+      "synthesizer": "skeptic",
+      "skeptic": "replicator",
+      "replicator": "communicator",
+      "communicator": "methodologist"
+    },
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_215434.md",
+  "completed": true,
+  "ended": "2026-09-19 22:09:49",
+  "duration_seconds": 914.9
+}

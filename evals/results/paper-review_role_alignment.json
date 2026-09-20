@@ -1,0 +1,542 @@
+{
+  "log_dir": "bear_parlor/session_logs/scenarios",
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "chance": 0.16666666666666666,
+  "reference": "persona + method instructions per hat",
+  "reference_mean_similarity": {
+    "methodologist": 0.48632603883743286,
+    "statistician": 0.5245112776756287,
+    "synthesizer": 0.4943118691444397,
+    "skeptic": 0.5247732996940613,
+    "replicator": 0.5102470517158508,
+    "communicator": 0.5131915211677551
+  },
+  "wrong_lens_map": {
+    "methodologist": "statistician",
+    "statistician": "synthesizer",
+    "synthesizer": "skeptic",
+    "skeptic": "replicator",
+    "replicator": "communicator",
+    "communicator": "methodologist"
+  },
+  "scorings": {
+    "raw": {
+      "per_topic": {
+        "naive": {
+          "storing_hat": {
+            "crispr": 0.1620734908136483,
+            "dti-ad": 0.16071428571428573,
+            "glp1": 0.16488413547237077,
+            "llm-cds": 0.15997322623828647,
+            "ms": 0.16159420289855073,
+            "parkinsons": 0.1646090534979424
+          },
+          "lens_hat": {
+            "crispr": 0.1620734908136483,
+            "dti-ad": 0.16071428571428573,
+            "glp1": 0.16488413547237077,
+            "llm-cds": 0.15997322623828647,
+            "ms": 0.16159420289855073,
+            "parkinsons": 0.1646090534979424
+          }
+        },
+        "bear": {
+          "storing_hat": {
+            "crispr": 0.2836710369487485,
+            "dti-ad": 0.3011077542799597,
+            "glp1": 0.24035874439461882,
+            "llm-cds": 0.2962085308056872,
+            "ms": 0.23978819969742815,
+            "parkinsons": 0.2727272727272727
+          },
+          "lens_hat": {
+            "crispr": 0.2836710369487485,
+            "dti-ad": 0.3011077542799597,
+            "glp1": 0.24035874439461882,
+            "llm-cds": 0.2962085308056872,
+            "ms": 0.23978819969742815,
+            "parkinsons": 0.2727272727272727
+          }
+        },
+        "wrong-lens": {
+          "storing_hat": {
+            "crispr": 0.08938869665513265,
+            "dti-ad": 0.07965451055662189,
+            "glp1": 0.09641638225255973,
+            "llm-cds": 0.09684857801691008,
+            "ms": 0.11119293078055964,
+            "parkinsons": 0.07765957446808511
+          },
+          "lens_hat": {
+            "crispr": 0.26585928489042676,
+            "dti-ad": 0.31190019193857965,
+            "glp1": 0.25,
+            "llm-cds": 0.31821675634127594,
+            "ms": 0.2650957290132548,
+            "parkinsons": 0.274468085106383
+          }
+        }
+      },
+      "mean": {
+        "naive": {
+          "storing_hat": 0.16230806577251408,
+          "lens_hat": 0.16230806577251408
+        },
+        "bear": {
+          "storing_hat": 0.2723102564756192,
+          "lens_hat": 0.2723102564756192
+        },
+        "wrong-lens": {
+          "storing_hat": 0.09186011212164484,
+          "lens_hat": 0.2809233412149867
+        }
+      },
+      "paired_tests": [
+        {
+          "comparison": "match to storing hat: bear vs naive",
+          "mean_a": 0.2723102564756192,
+          "mean_b": 0.16230806577251408,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.11000219070310513,
+          "cohens_d": 3.9118593411873803,
+          "t_p": 0.00020971064540053125,
+          "wilcoxon_p": 0.03125
+        },
+        {
+          "comparison": "match to storing hat: bear vs wrong lens",
+          "mean_a": 0.2723102564756192,
+          "mean_b": 0.09186011212164484,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.18045014435397436,
+          "cohens_d": 5.018089041754456,
+          "t_p": 6.308397770327162e-05,
+          "wilcoxon_p": 0.03125
+        },
+        {
+          "comparison": "wrong lens: match to lens hat vs storing hat",
+          "mean_a": 0.2809233412149867,
+          "mean_b": 0.09186011212164484,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.18906322909334183,
+          "cohens_d": 5.638301915440703,
+          "t_p": 3.573497764897957e-05,
+          "wilcoxon_p": 0.03125
+        }
+      ],
+      "confusion": {
+        "naive": {
+          "methodologist": {
+            "methodologist": 3,
+            "statistician": 441,
+            "synthesizer": 42,
+            "skeptic": 462,
+            "replicator": 217,
+            "communicator": 124
+          },
+          "statistician": {
+            "methodologist": 7,
+            "statistician": 435,
+            "synthesizer": 43,
+            "skeptic": 456,
+            "replicator": 219,
+            "communicator": 123
+          },
+          "synthesizer": {
+            "methodologist": 7,
+            "statistician": 440,
+            "synthesizer": 43,
+            "skeptic": 422,
+            "replicator": 217,
+            "communicator": 124
+          },
+          "skeptic": {
+            "methodologist": 7,
+            "statistician": 444,
+            "synthesizer": 43,
+            "skeptic": 443,
+            "replicator": 222,
+            "communicator": 124
+          },
+          "replicator": {
+            "methodologist": 6,
+            "statistician": 442,
+            "synthesizer": 43,
+            "skeptic": 467,
+            "replicator": 201,
+            "communicator": 124
+          },
+          "communicator": {
+            "methodologist": 6,
+            "statistician": 444,
+            "synthesizer": 41,
+            "skeptic": 445,
+            "replicator": 223,
+            "communicator": 118
+          }
+        },
+        "bear": {
+          "methodologist": {
+            "methodologist": 25,
+            "statistician": 665,
+            "synthesizer": 74,
+            "skeptic": 252,
+            "replicator": 366,
+            "communicator": 183
+          },
+          "statistician": {
+            "methodologist": 9,
+            "statistician": 551,
+            "synthesizer": 36,
+            "skeptic": 264,
+            "replicator": 203,
+            "communicator": 124
+          },
+          "synthesizer": {
+            "methodologist": 2,
+            "statistician": 262,
+            "synthesizer": 25,
+            "skeptic": 313,
+            "replicator": 135,
+            "communicator": 198
+          },
+          "skeptic": {
+            "methodologist": 12,
+            "statistician": 261,
+            "synthesizer": 11,
+            "skeptic": 756,
+            "replicator": 120,
+            "communicator": 63
+          },
+          "replicator": {
+            "methodologist": 21,
+            "statistician": 675,
+            "synthesizer": 78,
+            "skeptic": 275,
+            "replicator": 470,
+            "communicator": 174
+          },
+          "communicator": {
+            "methodologist": 1,
+            "statistician": 66,
+            "synthesizer": 16,
+            "skeptic": 406,
+            "replicator": 46,
+            "communicator": 160
+          }
+        },
+        "wrong-lens": {
+          "methodologist": {
+            "methodologist": 5,
+            "statistician": 594,
+            "synthesizer": 42,
+            "skeptic": 266,
+            "replicator": 207,
+            "communicator": 140
+          },
+          "statistician": {
+            "methodologist": 5,
+            "statistician": 232,
+            "synthesizer": 33,
+            "skeptic": 336,
+            "replicator": 142,
+            "communicator": 211
+          },
+          "synthesizer": {
+            "methodologist": 10,
+            "statistician": 296,
+            "synthesizer": 6,
+            "skeptic": 773,
+            "replicator": 149,
+            "communicator": 67
+          },
+          "skeptic": {
+            "methodologist": 21,
+            "statistician": 646,
+            "synthesizer": 85,
+            "skeptic": 248,
+            "replicator": 513,
+            "communicator": 194
+          },
+          "replicator": {
+            "methodologist": 3,
+            "statistician": 69,
+            "synthesizer": 14,
+            "skeptic": 442,
+            "replicator": 34,
+            "communicator": 164
+          },
+          "communicator": {
+            "methodologist": 34,
+            "statistician": 654,
+            "synthesizer": 81,
+            "skeptic": 295,
+            "replicator": 360,
+            "communicator": 176
+          }
+        }
+      }
+    },
+    "corrected": {
+      "per_topic": {
+        "naive": {
+          "storing_hat": {
+            "crispr": 0.16141732283464566,
+            "dti-ad": 0.15731292517006804,
+            "glp1": 0.1622103386809269,
+            "llm-cds": 0.15796519410977242,
+            "ms": 0.15869565217391304,
+            "parkinsons": 0.16358024691358025
+          },
+          "lens_hat": {
+            "crispr": 0.16141732283464566,
+            "dti-ad": 0.15731292517006804,
+            "glp1": 0.1622103386809269,
+            "llm-cds": 0.15796519410977242,
+            "ms": 0.15869565217391304,
+            "parkinsons": 0.16358024691358025
+          }
+        },
+        "bear": {
+          "storing_hat": {
+            "crispr": 0.2556615017878427,
+            "dti-ad": 0.3031218529707956,
+            "glp1": 0.2538116591928251,
+            "llm-cds": 0.3048973143759874,
+            "ms": 0.24659606656580937,
+            "parkinsons": 0.25865800865800864
+          },
+          "lens_hat": {
+            "crispr": 0.2556615017878427,
+            "dti-ad": 0.3031218529707956,
+            "glp1": 0.2538116591928251,
+            "llm-cds": 0.3048973143759874,
+            "ms": 0.24659606656580937,
+            "parkinsons": 0.25865800865800864
+          }
+        },
+        "wrong-lens": {
+          "storing_hat": {
+            "crispr": 0.07093425605536333,
+            "dti-ad": 0.08253358925143954,
+            "glp1": 0.11860068259385666,
+            "llm-cds": 0.07840122982321292,
+            "ms": 0.0979381443298969,
+            "parkinsons": 0.10106382978723404
+          },
+          "lens_hat": {
+            "crispr": 0.24106113033448673,
+            "dti-ad": 0.30614203454894434,
+            "glp1": 0.2645051194539249,
+            "llm-cds": 0.32744043043812454,
+            "ms": 0.26435935198821797,
+            "parkinsons": 0.26063829787234044
+          }
+        }
+      },
+      "mean": {
+        "naive": {
+          "storing_hat": 0.16019694664715103,
+          "lens_hat": 0.16019694664715103
+        },
+        "bear": {
+          "storing_hat": 0.27045773392521144,
+          "lens_hat": 0.27045773392521144
+        },
+        "wrong-lens": {
+          "storing_hat": 0.09157862197350054,
+          "lens_hat": 0.27735772743933984
+        }
+      },
+      "paired_tests": [
+        {
+          "comparison": "match to storing hat: bear vs naive",
+          "mean_a": 0.27045773392521144,
+          "mean_b": 0.16019694664715103,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.11026078727806042,
+          "cohens_d": 3.926047375217718,
+          "t_p": 0.00020611345614021795,
+          "wilcoxon_p": 0.03125
+        },
+        {
+          "comparison": "match to storing hat: bear vs wrong lens",
+          "mean_a": 0.27045773392521144,
+          "mean_b": 0.09157862197350054,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.1788791119517109,
+          "cohens_d": 4.676836281308607,
+          "t_p": 8.878646423713226e-05,
+          "wilcoxon_p": 0.03125
+        },
+        {
+          "comparison": "wrong lens: match to lens hat vs storing hat",
+          "mean_a": 0.27735772743933984,
+          "mean_b": 0.09157862197350054,
+          "a_greater_in": 6,
+          "n": 6.0,
+          "mean_diff": 0.18577910546583928,
+          "cohens_d": 4.551744149393008,
+          "t_p": 0.00010123131927019961,
+          "wilcoxon_p": 0.03125
+        }
+      ],
+      "confusion": {
+        "naive": {
+          "methodologist": {
+            "methodologist": 85,
+            "statistician": 169,
+            "synthesizer": 288,
+            "skeptic": 238,
+            "replicator": 237,
+            "communicator": 272
+          },
+          "statistician": {
+            "methodologist": 90,
+            "statistician": 163,
+            "synthesizer": 290,
+            "skeptic": 230,
+            "replicator": 239,
+            "communicator": 271
+          },
+          "synthesizer": {
+            "methodologist": 90,
+            "statistician": 167,
+            "synthesizer": 282,
+            "skeptic": 211,
+            "replicator": 234,
+            "communicator": 269
+          },
+          "skeptic": {
+            "methodologist": 93,
+            "statistician": 170,
+            "synthesizer": 289,
+            "skeptic": 220,
+            "replicator": 242,
+            "communicator": 269
+          },
+          "replicator": {
+            "methodologist": 90,
+            "statistician": 170,
+            "synthesizer": 293,
+            "skeptic": 243,
+            "replicator": 215,
+            "communicator": 272
+          },
+          "communicator": {
+            "methodologist": 93,
+            "statistician": 170,
+            "synthesizer": 283,
+            "skeptic": 225,
+            "replicator": 244,
+            "communicator": 262
+          }
+        },
+        "bear": {
+          "methodologist": {
+            "methodologist": 249,
+            "statistician": 395,
+            "synthesizer": 257,
+            "skeptic": 125,
+            "replicator": 340,
+            "communicator": 199
+          },
+          "statistician": {
+            "methodologist": 108,
+            "statistician": 381,
+            "synthesizer": 130,
+            "skeptic": 180,
+            "replicator": 208,
+            "communicator": 180
+          },
+          "synthesizer": {
+            "methodologist": 79,
+            "statistician": 148,
+            "synthesizer": 122,
+            "skeptic": 193,
+            "replicator": 149,
+            "communicator": 244
+          },
+          "skeptic": {
+            "methodologist": 160,
+            "statistician": 171,
+            "synthesizer": 61,
+            "skeptic": 531,
+            "replicator": 181,
+            "communicator": 119
+          },
+          "replicator": {
+            "methodologist": 177,
+            "statistician": 437,
+            "synthesizer": 271,
+            "skeptic": 158,
+            "replicator": 459,
+            "communicator": 191
+          },
+          "communicator": {
+            "methodologist": 32,
+            "statistician": 27,
+            "synthesizer": 74,
+            "skeptic": 279,
+            "replicator": 61,
+            "communicator": 222
+          }
+        },
+        "wrong-lens": {
+          "methodologist": {
+            "methodologist": 100,
+            "statistician": 412,
+            "synthesizer": 128,
+            "skeptic": 183,
+            "replicator": 236,
+            "communicator": 195
+          },
+          "statistician": {
+            "methodologist": 97,
+            "statistician": 135,
+            "synthesizer": 128,
+            "skeptic": 210,
+            "replicator": 145,
+            "communicator": 244
+          },
+          "synthesizer": {
+            "methodologist": 170,
+            "statistician": 169,
+            "synthesizer": 62,
+            "skeptic": 555,
+            "replicator": 209,
+            "communicator": 136
+          },
+          "skeptic": {
+            "methodologist": 178,
+            "statistician": 415,
+            "synthesizer": 275,
+            "skeptic": 134,
+            "replicator": 499,
+            "communicator": 206
+          },
+          "replicator": {
+            "methodologist": 34,
+            "statistician": 32,
+            "synthesizer": 82,
+            "skeptic": 316,
+            "replicator": 42,
+            "communicator": 220
+          },
+          "communicator": {
+            "methodologist": 263,
+            "statistician": 392,
+            "synthesizer": 260,
+            "skeptic": 145,
+            "replicator": 335,
+            "communicator": 205
+          }
+        }
+      }
+    }
+  }
+}

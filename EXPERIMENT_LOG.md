@@ -379,39 +379,61 @@ repeating role retrieved.
 Dropped diffusion batches (one unparseable model reply each): 12 across the
 22 sessions, in `diffusion_errors` per session.
 
-### Scenario sessions — paper review (2026-09-19)
+### Scenario sessions — paper review (2026-09-19/20)
 
-Six reviewer roles (`scenarios/DESIGN.md`) reading three CC-BY papers on
-diffusion MRI in Alzheimer's disease (`scenarios/review/dti-ad`, licences
-in `scenarios/review/PAPERS.md`), same model and runner as above; document
-diffusion on, no gate (no access declarations), `--no-insights
---no-memories`. One topic × `bear` / `naive` / `wrong-lens` = 3 sessions
-(~9-14 min each; 840-1050 notes per session). Logs ship in full.
+Six reviewer roles (`scenarios/DESIGN.md`) reading three papers per topic,
+six topics chosen to span different kinds of study so the lenses meet
+different methods sections (`scenarios/review/PAPERS.md`): `dti-ad`
+(diffusion imaging), `parkinsons` (digital biomarker, rehabilitation trial,
+pharmacoepidemiology), `ms` (preclinical remyelination, retinal biomarker,
+pharmacovigilance), `llm-cds` (LLM evaluations), `crispr` (delivery, base
+editing, unintended edits), `glp1` (safety study, cohort, Markov model).
+All 18 PDFs are CC BY or CC0, each verified by scanning the PDF's full text;
+six NC-ND candidates were rejected. Same model and runner as the incident
+scenario; document diffusion on, no access gate (no access declarations),
+`--no-insights --no-memories`.
 
-**Analyses.** `evals/eval_review_provenance.py` (section provenance,
-cross-role uptake, chi-square with permutation p, wrong-lens tracking by
-Jensen-Shannon), and the v6 scripts run with `--panel paper-review`
-(`evals/results/paper-review_differentiation.json`,
-`paper-review_role_alignment.json`). With one topic there are no paired
-tests across topics; the per-session permutation nulls apply.
+6 topics x (`bear`, `naive`, `wrong-lens`) = 18 sessions, 9-20 min each
+(55-127 turns, 800-1700 notes per session, 0-6 dropped diffusion batches).
+Logs ship in full.
 
-**Withdrawn and re-run (2026-09-19).** The third dti-ad paper in those three
-sessions turned out to be CC BY-NC-ND (see `scenarios/review/PAPERS.md`);
-the PDF, the three session logs and their derived results were removed
-from the tree and the topic re-run with a CC0 PLOS ONE paper in its place.
-Two further topics were added: diffusion MRI in Parkinson's disease
-(`dti-pd`, three PLOS ONE CC BY papers) and in multiple sclerosis (`dti-ms`,
-three Scientific Reports CC BY papers). The numbers below are from the
-withdrawn sessions and are superseded by the re-run.
+**Withdrawn (2026-09-19).** Three earlier `dti-ad` sessions used a paper
+that a truncated licence match had passed as CC BY and that a full-text scan
+showed to be CC BY-NC-ND. Those sessions were removed from the artifacts
+tree (kept under `_withdrawn_ncnd_paper/` in the bear-dev log directory) and
+the topic re-run with a CC0 paper in its place. Two earlier topics,
+`dti-pd` and `dti-ms`, were replaced by `parkinsons` and `ms`: narrowing two
+diseases to one imaging method made all three imaging topics near-duplicates.
 
-**Results (withdrawn sessions).** Where a role's notes come from depends on the role under
-`bear` (Cramér's V 0.17, permutation p 0.0005) and not at all under `naive`;
-under `wrong-lens` all six roles' section patterns lie closer to their lens
-donor's `bear` pattern than to their own. Store differentiation: `bear`
-centroid 0.058 (z +116), `naive` 0.000 (identical stores), `wrong-lens`
-0.062. Role alignment (hubness-corrected): notes nearest their own role's
-reference 0.29 under `bear` (chance 0.17), 0.16 under `naive`; under
-`wrong-lens` 0.08 to the storing role and 0.30 to the lens donor.
+**Results** (`evals/eval_review_provenance.py`; the v6 scripts with
+`--panel paper-review`; `evals/results/review_provenance.json`,
+`paper-review_differentiation.json/.csv`, `paper-review_role_alignment.json`).
+
+*Where notes come from.* Under `naive` every role's section distribution is
+identical (Cramer's V = 0.000 in all six topics). Under `bear` it depends on
+the role in five of six topics (V 0.12-0.18, permutation p = 0.0005);
+`parkinsons` is the exception (V 0.079, p = 0.69), its papers having the
+least differentiated section structure. Under `wrong-lens` the dependence
+returns (V 0.11-0.17, p = 0.0005) but follows the rotated lens: in 35 of 36
+role-topic cells the role's section pattern is closer to its lens donor's
+`bear` pattern than to its own.
+
+*Store differentiation* (paired across the six topics): centroid distance
+0.051 under `bear` vs 0.000 under `naive` (6/6 topics, t p = 5.5e-06,
+Wilcoxon p = 0.031); nearest-neighbour overlap 0.249 vs 0.984 (0/6,
+p = 2.7e-07); permutation z +117 vs -8.2 (6/6, p = 0.00022). `bear` and
+`wrong-lens` do not differ (0.051 vs 0.052, p = 0.40): rotating the lenses
+moves what each role keeps without reducing how much roles differ.
+
+*Role alignment* (hubness-corrected, chance 0.167): notes nearest their own
+role's reference 0.270 under `bear` vs 0.160 under `naive` (6/6 topics,
+Wilcoxon p = 0.031); under `wrong-lens` 0.092 to the storing role and 0.277
+to the lens donor (6/6, p = 0.031).
+
+*Speech level.* Response-centroid distance is 0.095 under `bear` vs 0.109
+under `naive` (1/6 topics, p = 0.11) and 0.090 under `wrong-lens`: as in v6,
+differentiation is strong in what roles store and weak and inconsistent in
+what they say. Reported as a limitation.
 
 ## Embedding Model
 

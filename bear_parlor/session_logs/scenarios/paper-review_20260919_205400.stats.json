@@ -1,0 +1,1899 @@
+{
+  "topic": "crispr",
+  "condition": "naive",
+  "started": "2026-09-19 20:54:00",
+  "last_updated": "2026-09-19 21:04:15",
+  "elapsed_seconds": 614.3,
+  "n_turns": 56,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1524,
+  "n_diffusion_skipped": 0,
+  "ingestions": [
+    {
+      "time": "20:54:26",
+      "turn": 1,
+      "hat": "source",
+      "title": "Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+      "chunks": 82,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "20:55:41",
+      "turn": 2,
+      "hat": "source",
+      "title": "Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+      "chunks": 94,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "20:57:09",
+      "turn": 3,
+      "hat": "source",
+      "title": "Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+      "chunks": 49,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {},
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 2,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865666109-1",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865677363-79",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865675419-65",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865677099-77",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 3,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865723342-407",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865809268-941",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865719764-383",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865719620-382",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 4,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865676844-75",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865755692-583",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865754923-578",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865674185-57",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 6,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865723195-406",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865722742-403",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865863375-1296",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865720675-389",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789865772786-694",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865782406-753",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865773929-701",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865772946-695",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 8,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865869123-1335",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865864674-1305",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865724558-415",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865865130-1308",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865861937-1286",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865857525-1256",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865712278-333",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865857937-1259",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 10,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789865848437-1188",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865844010-1158",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865689196-169",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865844467-1161",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865905052-1358",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865904903-1357",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905203-1359",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905348-1360",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789865698400-233",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865847599-1182",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865843722-1156",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865770822-682",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865913263-1368",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865913123-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865726414-428",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865870760-1346",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865912972-1366",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912778-1365",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912637-1364",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865822047-1035",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865905348-1360",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905203-1359",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905052-1358",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865767889-659",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865913400-1369",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913551-1370",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913698-1371",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913995-1373",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865905203-1359",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905052-1358",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865687740-159",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905348-1360",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865726414-428",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865913263-1368",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865727422-435",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865726559-429",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789865971134-1389",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904312-1353",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865971284-1390",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904602-1355",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865979435-1398",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865978833-1394",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913551-1370",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865978994-1395",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789865996037-1408",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865996186-1409",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865938014-1380",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865937560-1377",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865938186-1381",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938328-1382",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865997173-1416",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865996762-1413",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865988249-1404",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865988087-1403",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865987780-1401",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865758406-600",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865978833-1394",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865978994-1395",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865979146-1396",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913846-1372",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865913263-1368",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912972-1366",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866004212-1422",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865728010-439",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865938614-1384",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938328-1382",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865715910-357",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938756-1385",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865987401-1399",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905348-1360",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865682031-111",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865987618-1400",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789865904176-1352",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904026-1351",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904312-1353",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904454-1354",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865996907-1414",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865997036-1415",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938908-1386",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938756-1385",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789865866004-1314",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865864674-1305",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865815731-989",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865864981-1307",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866075980-1446",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865987928-1402",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905483-1361",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865987780-1401",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789865937416-1376",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865937236-1375",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865937560-1377",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866075097-1440",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866040087-1425",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904602-1355",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865971284-1390",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865971134-1389",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866004055-1421",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866092489-1457",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866092629-1458",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866003909-1420",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866004055-1421",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865724218-413",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865812852-968",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865814066-977",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866128099-1470",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866127504-1466",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865666419-3",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865742284-498",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866075224-1441",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865678267-85",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865757146-592",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865987928-1402",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865938186-1381",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938328-1382",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865997173-1416",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865996762-1413",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789865904176-1352",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866118288-1461",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904312-1353",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866039754-1423",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866136405-1473",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865996037-1408",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866075097-1440",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866136861-1476",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866092029-1454",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912972-1366",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912637-1364",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789865912778-1365",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865913698-1371",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913400-1369",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865979435-1398",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866127812-1468",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866040372-1427",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866190786-1499",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904454-1354",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865904176-1352",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789865938186-1381",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865938328-1382",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865997173-1416",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865996762-1413",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866039754-1423",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866190165-1495",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866039942-1424",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789865971134-1389",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866216220-1506",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865996037-1408",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866216080-1505",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789865937560-1377",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789865913400-1369",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913551-1370",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789865913698-1371",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866127318-1465",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866190010-1494",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866189565-1491",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866189402-1490",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866189175-1489",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789865905052-1358",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865904903-1357",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905203-1359",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789865905348-1360",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866216639-1509",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866216925-1511",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866145312-1477",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789865996907-1414",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "naive",
+    "diffusion_llm": {},
+    "lens_map": {},
+    "access_gate": false,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_205400.md",
+  "completed": true,
+  "ended": "2026-09-19 21:04:20",
+  "duration_seconds": 619.8
+}

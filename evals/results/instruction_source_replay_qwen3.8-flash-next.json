@@ -1,0 +1,989 @@
+{
+  "manifest": {
+    "generated": "2026-09-16T08:43:44.150255+00:00",
+    "elapsed_seconds": 1942.8,
+    "embedding_model": "BAAI/bge-base-en-v1.5",
+    "llm": {
+      "backend": "openai",
+      "model": "qwen3.8-flash-next",
+      "base_url": "http://192.168.1.176:9010/v1",
+      "seed": 20261025,
+      "temperature": 0.3,
+      "max_tokens": 400,
+      "structured_output": false,
+      "api_key_env": "THEMINDFOLD_API_KEY",
+      "max_retries": 2
+    },
+    "local_build": {
+      "quantization": "FP8",
+      "server": "vLLM",
+      "server_version": "0.11.0",
+      "context_length": 262144,
+      "note": "record these; the Mistral Nemo control could not be reproduced because they were not."
+    },
+    "pipeline": {
+      "batch_size": 6,
+      "dedup_threshold": 0.35,
+      "top_k": 6,
+      "item_cap": 2,
+      "min_item_chars": 20,
+      "seed_stores_with_pdf_items": true,
+      "panel_id": "brainstorming-hats",
+      "mismatch_map": {
+        "white-hat": "red-hat",
+        "red-hat": "black-hat",
+        "black-hat": "blue-hat",
+        "blue-hat": "green-hat",
+        "green-hat": "yellow-hat",
+        "yellow-hat": "white-hat"
+      }
+    },
+    "topics": [
+      "dmg",
+      "stroke",
+      "ms",
+      "alzheimers",
+      "epilepsy",
+      "glp1",
+      "crispr",
+      "llm-cds"
+    ],
+    "arms": [
+      "naive",
+      "embed_only",
+      "static",
+      "bear",
+      "mismatch"
+    ],
+    "sessions": {
+      "dmg": "20260411_081607",
+      "stroke": "20260411_112624",
+      "ms": "20260411_084608",
+      "alzheimers": "20260411_114857",
+      "epilepsy": "20260411_091612",
+      "glp1": "20260411_093120",
+      "crispr": "20260411_094628",
+      "llm-cds": "20260411_100136"
+    },
+    "git": {
+      "artifacts": "4693dd284825db4c3f4b3f41c57c9f6c2b849808",
+      "bear": "aed4b9ca71c0e037c15b78b2cc7f1cde13fb54b1"
+    }
+  },
+  "results": {
+    "naive": {
+      "per_topic": {
+        "dmg": {
+          "n_hats": 6,
+          "items_per_hat": 19.0,
+          "centroid_distance": 0.009927598635355632,
+          "nn_similarity": 0.9576355655988057,
+          "nn_overlap": 0.8439814814814816,
+          "null": {
+            "observed": 0.009927598635355632,
+            "null_mean": 0.01891291081905365,
+            "null_sd": 0.0032233872914865787,
+            "z": -2.7875372616345224,
+            "p": 0.00999000999000999,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "stroke": {
+          "n_hats": 6,
+          "items_per_hat": 20.0,
+          "centroid_distance": 0.007378304004669189,
+          "nn_similarity": 0.9601277828216552,
+          "nn_overlap": 0.8351851851851853,
+          "null": {
+            "observed": 0.007378304004669189,
+            "null_mean": 0.020073727500438693,
+            "null_sd": 0.0032792093984202937,
+            "z": -3.8714891162135974,
+            "p": 0.001998001998001998,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "ms": {
+          "n_hats": 6,
+          "items_per_hat": 21.0,
+          "centroid_distance": 0.007268762588500977,
+          "nn_similarity": 0.9635565042495727,
+          "nn_overlap": 0.8814814814814813,
+          "null": {
+            "observed": 0.007268762588500977,
+            "null_mean": 0.017249793903032936,
+            "null_sd": 0.0028435953271741888,
+            "z": -3.5100041201891297,
+            "p": 0.003996003996003996,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "alzheimers": {
+          "n_hats": 6,
+          "items_per_hat": 20.0,
+          "centroid_distance": 0.009092132250467936,
+          "nn_similarity": 0.9542465806007385,
+          "nn_overlap": 0.7930555555555555,
+          "null": {
+            "observed": 0.009092132250467936,
+            "null_mean": 0.02147329443693161,
+            "null_sd": 0.003755490402505328,
+            "z": -3.2968163567144435,
+            "p": 0.008991008991008992,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "epilepsy": {
+          "n_hats": 6,
+          "items_per_hat": 21.0,
+          "centroid_distance": 0.007388099034627279,
+          "nn_similarity": 0.959044357140859,
+          "nn_overlap": 0.8375,
+          "null": {
+            "observed": 0.007388099034627279,
+            "null_mean": 0.01663088607788086,
+            "null_sd": 0.0027208170980371174,
+            "z": -3.3970629815291944,
+            "p": 0.001998001998001998,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "glp1": {
+          "n_hats": 6,
+          "items_per_hat": 19.0,
+          "centroid_distance": 0.009265124797821045,
+          "nn_similarity": 0.9529110193252563,
+          "nn_overlap": 0.8069444444444446,
+          "null": {
+            "observed": 0.009265124797821045,
+            "null_mean": 0.020305356442928316,
+            "null_sd": 0.003126392241083603,
+            "z": -3.531300871345798,
+            "p": 0.000999000999000999,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "crispr": {
+          "n_hats": 6,
+          "items_per_hat": 20.0,
+          "centroid_distance": 0.009360086917877198,
+          "nn_similarity": 0.953409751256307,
+          "nn_overlap": 0.8023148148148148,
+          "null": {
+            "observed": 0.009360086917877198,
+            "null_mean": 0.02131111894051234,
+            "null_sd": 0.0034411012510076402,
+            "z": -3.473025392419238,
+            "p": 0.001998001998001998,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "llm-cds": {
+          "n_hats": 6,
+          "items_per_hat": 21.0,
+          "centroid_distance": 0.007133388519287109,
+          "nn_similarity": 0.9540483792622884,
+          "nn_overlap": 0.7916666666666666,
+          "null": {
+            "observed": 0.007133388519287109,
+            "null_mean": 0.0177512753923734,
+            "null_sd": 0.002697872413281122,
+            "z": -3.9356519681273356,
+            "p": 0.000999000999000999,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        }
+      },
+      "mean": {
+        "centroid_distance": 0.008351687093575795,
+        "nn_similarity": 0.9568724925319354,
+        "nn_overlap": 0.8240162037037038,
+        "items_per_hat": 20.125
+      },
+      "sd": {
+        "centroid_distance": 0.0011597997578394286,
+        "nn_similarity": 0.003838286080235557,
+        "nn_overlap": 0.031110124445018168,
+        "items_per_hat": 0.8345229603962802
+      },
+      "count_matched": {
+        "n": 3,
+        "n_topics": 8,
+        "mean": {
+          "centroid_distance": 0.030882664521535236,
+          "nn_similarity": 0.945556820432345,
+          "nn_overlap": 0.8125,
+          "items_per_hat": 3.0
+        }
+      },
+      "size_curve": {
+        "1": {
+          "centroid_distance": 0.07839147100845972,
+          "n_topics": 8
+        },
+        "2": {
+          "centroid_distance": 0.04671203543742498,
+          "n_topics": 8
+        },
+        "3": {
+          "centroid_distance": 0.030882664521535236,
+          "n_topics": 8
+        },
+        "4": {
+          "centroid_distance": 0.02594720075527827,
+          "n_topics": 8
+        },
+        "5": {
+          "centroid_distance": 0.02336939523617427,
+          "n_topics": 8
+        },
+        "6": {
+          "centroid_distance": 0.021634409328301747,
+          "n_topics": 8
+        },
+        "7": {
+          "centroid_distance": 0.018425413966178895,
+          "n_topics": 8
+        },
+        "8": {
+          "centroid_distance": 0.015958121915658315,
+          "n_topics": 8
+        },
+        "9": {
+          "centroid_distance": 0.014758650958538056,
+          "n_topics": 8
+        },
+        "10": {
+          "centroid_distance": 0.013845296700795491,
+          "n_topics": 8
+        }
+      },
+      "counters": {
+        "calls": 0,
+        "parse_failures": 0,
+        "retries": 0,
+        "empty_outputs": 0,
+        "no_guidance": 0,
+        "stored": 0,
+        "skipped_dedup": 0,
+        "dropped_too_short": 0
+      }
+    },
+    "embed_only": {
+      "per_topic": {
+        "dmg": {
+          "n_hats": 6,
+          "items_per_hat": 2.8333333333333335,
+          "centroid_distance": 0.0533394455909729,
+          "nn_similarity": 0.9014197826385498,
+          "nn_overlap": 0.638888888888889,
+          "null": {
+            "observed": 0.0533394455909729,
+            "null_mean": 0.12906608835061392,
+            "null_sd": 0.03220444349616091,
+            "z": -2.3514346015222527,
+            "p": 0.017982017982017984,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "stroke": {
+          "n_hats": 6,
+          "items_per_hat": 2.8333333333333335,
+          "centroid_distance": 0.045193684101104734,
+          "nn_similarity": 0.9155489921569824,
+          "nn_overlap": 0.7444444444444442,
+          "null": {
+            "observed": 0.045193684101104734,
+            "null_mean": 0.12363789343833924,
+            "null_sd": 0.03239281745735117,
+            "z": -2.421654412757249,
+            "p": 0.02097902097902098,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "ms": {
+          "n_hats": 6,
+          "items_per_hat": 1.0,
+          "centroid_distance": 0.029228150844573975,
+          "nn_similarity": 0.970771849155426,
+          "nn_overlap": 1.0,
+          "null": {
+            "observed": 0.029228150844573975,
+            "null_mean": 0.029228150844573975,
+            "null_sd": 0.0,
+            "z": NaN,
+            "p": NaN,
+            "n_perm": 1000.0,
+            "degenerate": 1.0
+          }
+        },
+        "alzheimers": {
+          "n_hats": 6,
+          "items_per_hat": 2.6666666666666665,
+          "centroid_distance": 0.06663264830907185,
+          "nn_similarity": 0.8766272187232971,
+          "nn_overlap": 0.6722222222222222,
+          "null": {
+            "observed": 0.06663264830907185,
+            "null_mean": 0.1319070719718933,
+            "null_sd": 0.030397845743113303,
+            "z": -2.147337157193434,
+            "p": 0.025974025974025976,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "epilepsy": {
+          "n_hats": 6,
+          "items_per_hat": 2.3333333333333335,
+          "centroid_distance": 0.0721598227818807,
+          "nn_similarity": 0.8764609694480896,
+          "nn_overlap": 0.48333333333333334,
+          "null": {
+            "observed": 0.0721598227818807,
+            "null_mean": 0.14716751200358072,
+            "null_sd": 0.027855027857745886,
+            "z": -2.692788160355115,
+            "p": 0.003996003996003996,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "glp1": {
+          "n_hats": 6,
+          "items_per_hat": 2.6666666666666665,
+          "centroid_distance": 0.0620260755221049,
+          "nn_similarity": 0.8753914356231689,
+          "nn_overlap": 0.5277777777777778,
+          "null": {
+            "observed": 0.0620260755221049,
+            "null_mean": 0.1349825208147367,
+            "null_sd": 0.029950560163591444,
+            "z": -2.435895852836811,
+            "p": 0.013986013986013986,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "crispr": {
+          "n_hats": 6,
+          "items_per_hat": 2.6666666666666665,
+          "centroid_distance": 0.0579788605372111,
+          "nn_similarity": 0.8843628962834676,
+          "nn_overlap": 0.638888888888889,
+          "null": {
+            "observed": 0.0579788605372111,
+            "null_mean": 0.12986177484989167,
+            "null_sd": 0.02915798350901384,
+            "z": -2.465290999648821,
+            "p": 0.011988011988011988,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "llm-cds": {
+          "n_hats": 6,
+          "items_per_hat": 2.6666666666666665,
+          "centroid_distance": 0.04844213326772054,
+          "nn_similarity": 0.9269033710161845,
+          "nn_overlap": 0.7555555555555556,
+          "null": {
+            "observed": 0.04844213326772054,
+            "null_mean": 0.1333614935239156,
+            "null_sd": 0.03696096106589946,
+            "z": -2.297541995858503,
+            "p": 0.014985014985014986,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        }
+      },
+      "mean": {
+        "centroid_distance": 0.05437510261933009,
+        "nn_similarity": 0.9034358143806457,
+        "nn_overlap": 0.6826388888888889,
+        "items_per_hat": 2.458333333333333
+      },
+      "sd": {
+        "centroid_distance": 0.013580492813813447,
+        "nn_similarity": 0.03344989365421501,
+        "nn_overlap": 0.15923753235578092,
+        "items_per_hat": 0.6091237526412395
+      },
+      "count_matched": {
+        "n": 3,
+        "n_topics": 7,
+        "mean": {
+          "centroid_distance": 0.021452609130314416,
+          "nn_similarity": 0.9531620698315757,
+          "nn_overlap": 0.838095238095238,
+          "items_per_hat": 3.0
+        }
+      },
+      "size_curve": {
+        "1": {
+          "centroid_distance": 0.07839147647221884,
+          "n_topics": 8
+        },
+        "2": {
+          "centroid_distance": 0.0673457545893533,
+          "n_topics": 7
+        },
+        "3": {
+          "centroid_distance": 0.025028063853581747,
+          "n_topics": 6
+        }
+      },
+      "counters": {
+        "calls": 0,
+        "parse_failures": 0,
+        "retries": 0,
+        "empty_outputs": 0,
+        "no_guidance": 0,
+        "stored": 0,
+        "skipped_dedup": 0,
+        "dropped_too_short": 0
+      }
+    },
+    "static": {
+      "per_topic": {
+        "dmg": {
+          "n_hats": 5,
+          "items_per_hat": 1.4,
+          "centroid_distance": 0.19175800681114197,
+          "nn_similarity": 0.7668903827667236,
+          "nn_overlap": 0.175,
+          "null": {
+            "observed": 0.19175800681114197,
+            "null_mean": 0.2392025834441185,
+            "null_sd": 0.02676833821369998,
+            "z": -1.772413971095691,
+            "p": 0.07592407592407592,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "stroke": {
+          "n_hats": 5,
+          "items_per_hat": 2.0,
+          "centroid_distance": 0.17927461266517639,
+          "nn_similarity": 0.734893524646759,
+          "nn_overlap": 0.05,
+          "null": {
+            "observed": 0.17927461266517639,
+            "null_mean": 0.22068922185897827,
+            "null_sd": 0.020355851357652298,
+            "z": -2.034530930008636,
+            "p": 0.04195804195804196,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "ms": {
+          "n_hats": 5,
+          "items_per_hat": 2.0,
+          "centroid_distance": 0.21049254536628723,
+          "nn_similarity": 0.6947679817676544,
+          "nn_overlap": 0.0,
+          "null": {
+            "observed": 0.21049254536628723,
+            "null_mean": 0.22306033995747565,
+            "null_sd": 0.017675839193110113,
+            "z": -0.7110154405617833,
+            "p": 0.48951048951048953,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "alzheimers": {
+          "n_hats": 5,
+          "items_per_hat": 2.8,
+          "centroid_distance": 0.1842041790485382,
+          "nn_similarity": 0.6916318833827972,
+          "nn_overlap": 0.0,
+          "null": {
+            "observed": 0.1842041790485382,
+            "null_mean": 0.19701973532438277,
+            "null_sd": 0.018128538614867552,
+            "z": -0.7069271576769183,
+            "p": 0.4785214785214785,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "epilepsy": {
+          "n_hats": 6,
+          "items_per_hat": 2.5,
+          "centroid_distance": 0.21583568652470905,
+          "nn_similarity": 0.6694947997728984,
+          "nn_overlap": 0.05555555555555555,
+          "null": {
+            "observed": 0.21583568652470905,
+            "null_mean": 0.21437183982133864,
+            "null_sd": 0.01867113097510929,
+            "z": 0.07840160862895129,
+            "p": 0.9370629370629371,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "glp1": {
+          "n_hats": 5,
+          "items_per_hat": 1.6,
+          "centroid_distance": 0.18035557866096497,
+          "nn_similarity": 0.7757690846920013,
+          "nn_overlap": 0.2333333333333333,
+          "null": {
+            "observed": 0.18035557866096497,
+            "null_mean": 0.24659537019133568,
+            "null_sd": 0.03181161982345821,
+            "z": -2.0822514508212757,
+            "p": 0.022977022977022976,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "crispr": {
+          "n_hats": 5,
+          "items_per_hat": 2.0,
+          "centroid_distance": 0.2795595109462738,
+          "nn_similarity": 0.6418241918087005,
+          "nn_overlap": 0.0,
+          "null": {
+            "observed": 0.2795595109462738,
+            "null_mean": 0.280086843931675,
+            "null_sd": 0.024843689497608346,
+            "z": -0.021226033494419656,
+            "p": 0.9820179820179821,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "llm-cds": {
+          "n_hats": 5,
+          "items_per_hat": 1.4,
+          "centroid_distance": 0.24132128357887267,
+          "nn_similarity": 0.7265169560909271,
+          "nn_overlap": 0.0,
+          "null": {
+            "observed": 0.24132128357887267,
+            "null_mean": 0.27740851480960843,
+            "null_sd": 0.02749983586465205,
+            "z": -1.3122707862093768,
+            "p": 0.22677322677322678,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        }
+      },
+      "mean": {
+        "centroid_distance": 0.21035017545024554,
+        "nn_similarity": 0.7127236006160578,
+        "nn_overlap": 0.0642361111111111,
+        "items_per_hat": 1.9625
+      },
+      "sd": {
+        "centroid_distance": 0.035201260247247686,
+        "nn_similarity": 0.04668015135450762,
+        "nn_overlap": 0.09074740486812735,
+        "items_per_hat": 0.5012484413940855
+      },
+      "count_matched": {
+        "n": 3,
+        "n_topics": 2,
+        "mean": {
+          "centroid_distance": 0.2120422025521596,
+          "nn_similarity": 0.6523979604244232,
+          "nn_overlap": 0.0,
+          "items_per_hat": 3.0
+        }
+      },
+      "size_curve": {
+        "1": {
+          "centroid_distance": 0.2935771922270457,
+          "n_topics": 8
+        },
+        "2": {
+          "centroid_distance": 0.228366140127182,
+          "n_topics": 5
+        }
+      },
+      "counters": {
+        "calls": 161,
+        "parse_failures": 0,
+        "retries": 0,
+        "empty_outputs": 0,
+        "no_guidance": 0,
+        "stored": 81,
+        "skipped_dedup": 230,
+        "dropped_too_short": 0
+      }
+    },
+    "bear": {
+      "per_topic": {
+        "dmg": {
+          "n_hats": 5,
+          "items_per_hat": 1.6,
+          "centroid_distance": 0.1890483319759369,
+          "nn_similarity": 0.7468582153320312,
+          "nn_overlap": 0.125,
+          "null": {
+            "observed": 0.1890483319759369,
+            "null_mean": 0.22374552361369132,
+            "null_sd": 0.022873930149368758,
+            "z": -1.5168880647610068,
+            "p": 0.11688311688311688,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "stroke": {
+          "n_hats": 5,
+          "items_per_hat": 2.2,
+          "centroid_distance": 0.146561336517334,
+          "nn_similarity": 0.7583323001861573,
+          "nn_overlap": 0.1833333333333333,
+          "null": {
+            "observed": 0.146561336517334,
+            "null_mean": 0.19856485686302183,
+            "null_sd": 0.01975676550909779,
+            "z": -2.6321879622320132,
+            "p": 0.006993006993006993,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "ms": {
+          "n_hats": 5,
+          "items_per_hat": 2.2,
+          "centroid_distance": 0.17508549094200135,
+          "nn_similarity": 0.7694576025009155,
+          "nn_overlap": 0.255,
+          "null": {
+            "observed": 0.17508549094200135,
+            "null_mean": 0.24217091276049615,
+            "null_sd": 0.030852417941335523,
+            "z": -2.1743975446609953,
+            "p": 0.023976023976023976,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "alzheimers": {
+          "n_hats": 5,
+          "items_per_hat": 2.6,
+          "centroid_distance": 0.181265127658844,
+          "nn_similarity": 0.7050071060657501,
+          "nn_overlap": 0.075,
+          "null": {
+            "observed": 0.181265127658844,
+            "null_mean": 0.23139357710480693,
+            "null_sd": 0.02751736206459376,
+            "z": -1.8217025792040786,
+            "p": 0.060939060939060936,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "epilepsy": {
+          "n_hats": 6,
+          "items_per_hat": 3.0,
+          "centroid_distance": 0.18674639463424683,
+          "nn_similarity": 0.7137404998143514,
+          "nn_overlap": 0.2472222222222222,
+          "null": {
+            "observed": 0.18674639463424683,
+            "null_mean": 0.22340351145267487,
+            "null_sd": 0.022826559424007912,
+            "z": -1.6058975922527243,
+            "p": 0.10989010989010989,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "glp1": {
+          "n_hats": 5,
+          "items_per_hat": 2.2,
+          "centroid_distance": 0.1071581482887268,
+          "nn_similarity": 0.8351276814937592,
+          "nn_overlap": 0.55,
+          "null": {
+            "observed": 0.1071581482887268,
+            "null_mean": 0.19647978023290633,
+            "null_sd": 0.03289462828162718,
+            "z": -2.715386572526458,
+            "p": 0.008991008991008992,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "crispr": {
+          "n_hats": 6,
+          "items_per_hat": 3.5,
+          "centroid_distance": 0.18054286241531373,
+          "nn_similarity": 0.7256951649983724,
+          "nn_overlap": 0.17499999999999996,
+          "null": {
+            "observed": 0.18054286241531373,
+            "null_mean": 0.19641851183970768,
+            "null_sd": 0.02180208146865627,
+            "z": -0.728171273335418,
+            "p": 0.4965034965034965,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "llm-cds": {
+          "n_hats": 5,
+          "items_per_hat": 2.6,
+          "centroid_distance": 0.15295382142066954,
+          "nn_similarity": 0.771875923871994,
+          "nn_overlap": 0.3083333333333333,
+          "null": {
+            "observed": 0.15295382142066954,
+            "null_mean": 0.21165700377225874,
+            "null_sd": 0.030019853969319003,
+            "z": -1.9554786113078775,
+            "p": 0.04695304695304695,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        }
+      },
+      "mean": {
+        "centroid_distance": 0.16492018923163415,
+        "nn_similarity": 0.7532618117829164,
+        "nn_overlap": 0.23986111111111108,
+        "items_per_hat": 2.4875000000000003
+      },
+      "sd": {
+        "centroid_distance": 0.028004600664088306,
+        "nn_similarity": 0.041452030913579775,
+        "nn_overlap": 0.14586322444987146,
+        "items_per_hat": 0.5792544469278714
+      },
+      "count_matched": {
+        "n": 3,
+        "n_topics": 5,
+        "mean": {
+          "centroid_distance": 0.13767253279685973,
+          "nn_similarity": 0.7164011001586914,
+          "nn_overlap": 0.09111111111111111,
+          "items_per_hat": 3.0
+        }
+      },
+      "size_curve": {
+        "1": {
+          "centroid_distance": 0.26537392412622773,
+          "n_topics": 8
+        },
+        "2": {
+          "centroid_distance": 0.17225341233942246,
+          "n_topics": 6
+        },
+        "3": {
+          "centroid_distance": 0.11164397597312928,
+          "n_topics": 1
+        }
+      },
+      "counters": {
+        "calls": 161,
+        "parse_failures": 0,
+        "retries": 0,
+        "empty_outputs": 0,
+        "no_guidance": 0,
+        "stored": 106,
+        "skipped_dedup": 215,
+        "dropped_too_short": 0
+      }
+    },
+    "mismatch": {
+      "per_topic": {
+        "dmg": {
+          "n_hats": 5,
+          "items_per_hat": 1.8,
+          "centroid_distance": 0.14454548954963684,
+          "nn_similarity": 0.7751099228858948,
+          "nn_overlap": 0.1,
+          "null": {
+            "observed": 0.14454548954963684,
+            "null_mean": 0.19480510966777803,
+            "null_sd": 0.022534572157156818,
+            "z": -2.230333896185338,
+            "p": 0.012987012987012988,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "stroke": {
+          "n_hats": 5,
+          "items_per_hat": 2.8,
+          "centroid_distance": 0.13463445901870727,
+          "nn_similarity": 0.7422936260700226,
+          "nn_overlap": 0.175,
+          "null": {
+            "observed": 0.13463445901870727,
+            "null_mean": 0.18037726024985312,
+            "null_sd": 0.021060869026077077,
+            "z": -2.1719332271858383,
+            "p": 0.029970029970029972,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "ms": {
+          "n_hats": 5,
+          "items_per_hat": 1.6,
+          "centroid_distance": 0.2154700815677643,
+          "nn_similarity": 0.7417264521121979,
+          "nn_overlap": 0.1,
+          "null": {
+            "observed": 0.2154700815677643,
+            "null_mean": 0.2821285238087178,
+            "null_sd": 0.027232364623560757,
+            "z": -2.4477654864859693,
+            "p": 0.003996003996003996,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "alzheimers": {
+          "n_hats": 6,
+          "items_per_hat": 2.3333333333333335,
+          "centroid_distance": 0.213350244363149,
+          "nn_similarity": 0.6703895211219788,
+          "nn_overlap": 0.05555555555555555,
+          "null": {
+            "observed": 0.213350244363149,
+            "null_mean": 0.23133087337017058,
+            "null_sd": 0.018125751172833732,
+            "z": -0.991993591634996,
+            "p": 0.3206793206793207,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "epilepsy": {
+          "n_hats": 5,
+          "items_per_hat": 3.6,
+          "centroid_distance": 0.15181673765182496,
+          "nn_similarity": 0.7011590123176574,
+          "nn_overlap": 0.11166666666666666,
+          "null": {
+            "observed": 0.15181673765182496,
+            "null_mean": 0.16987647927999494,
+            "null_sd": 0.019305929238763626,
+            "z": -0.9354505242828988,
+            "p": 0.3226773226773227,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "glp1": {
+          "n_hats": 5,
+          "items_per_hat": 2.4,
+          "centroid_distance": 0.10923213958740234,
+          "nn_similarity": 0.7995321452617645,
+          "nn_overlap": 0.475,
+          "null": {
+            "observed": 0.10923213958740234,
+            "null_mean": 0.17306739110350608,
+            "null_sd": 0.029916482222764357,
+            "z": -2.13378200821785,
+            "p": 0.02197802197802198,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "crispr": {
+          "n_hats": 6,
+          "items_per_hat": 3.3333333333333335,
+          "centroid_distance": 0.1872685472170512,
+          "nn_similarity": 0.7040632009506226,
+          "nn_overlap": 0.10611111111111109,
+          "null": {
+            "observed": 0.1872685472170512,
+            "null_mean": 0.2040031478881836,
+            "null_sd": 0.021481588317108884,
+            "z": -0.7790206396332547,
+            "p": 0.44255744255744256,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        },
+        "llm-cds": {
+          "n_hats": 5,
+          "items_per_hat": 2.6,
+          "centroid_distance": 0.13559751510620116,
+          "nn_similarity": 0.7594606280326843,
+          "nn_overlap": 0.2833333333333333,
+          "null": {
+            "observed": 0.13559751510620116,
+            "null_mean": 0.17610982975959777,
+            "null_sd": 0.022855310543809668,
+            "z": -1.7725558607371152,
+            "p": 0.08091908091908091,
+            "n_perm": 1000.0,
+            "degenerate": 0.0
+          }
+        }
+      },
+      "mean": {
+        "centroid_distance": 0.16148940175771714,
+        "nn_similarity": 0.7367168135941029,
+        "nn_overlap": 0.17583333333333334,
+        "items_per_hat": 2.5583333333333336
+      },
+      "sd": {
+        "centroid_distance": 0.03922659614227084,
+        "nn_similarity": 0.04263332117565911,
+        "nn_overlap": 0.13938862476013616,
+        "items_per_hat": 0.6881652625434015
+      },
+      "count_matched": {
+        "n": 3,
+        "n_topics": 6,
+        "mean": {
+          "centroid_distance": 0.13938418726126353,
+          "nn_similarity": 0.7146634307172564,
+          "nn_overlap": 0.12777777777777777,
+          "items_per_hat": 3.0
+        }
+      },
+      "size_curve": {
+        "1": {
+          "centroid_distance": 0.29628865271806715,
+          "n_topics": 8
+        },
+        "2": {
+          "centroid_distance": 0.17400645727203007,
+          "n_topics": 7
+        },
+        "3": {
+          "centroid_distance": 0.15383791029453278,
+          "n_topics": 2
+        }
+      },
+      "counters": {
+        "calls": 161,
+        "parse_failures": 0,
+        "retries": 0,
+        "empty_outputs": 0,
+        "no_guidance": 0,
+        "stored": 108,
+        "skipped_dedup": 214,
+        "dropped_too_short": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,4120 @@
+{
+  "topic": "crispr",
+  "condition": "wrong-lens",
+  "started": "2026-09-19 21:05:44",
+  "last_updated": "2026-09-19 21:25:31",
+  "elapsed_seconds": 1186.9,
+  "n_turns": 127,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 1734,
+  "n_diffusion_skipped": 100,
+  "ingestions": [
+    {
+      "time": "21:06:04",
+      "turn": 1,
+      "hat": "source",
+      "title": "Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+      "chunks": 82,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "21:11:23",
+      "turn": 28,
+      "hat": "source",
+      "title": "Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+      "chunks": 94,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "21:16:30",
+      "turn": 54,
+      "hat": "source",
+      "title": "Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+      "chunks": 49,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {
+    "Plain:parse_failure": 1,
+    "Synthesis:parse_failure": 1
+  },
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 4,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866371290-12",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866388548-49",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866390329-56",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866375159-20",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 7,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866414871-109",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866396720-69",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866371290-12",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866376445-25",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 13,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866396720-69",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866385681-38",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866376942-27",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866386544-41",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866506707-316",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866502455-310",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866507262-318",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866502159-309",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866376942-27",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866414871-109",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866386234-40",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866413532-104",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866396720-69",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866385681-38",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866368541-4",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866396163-67",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866508697-323",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498853-304",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866512350-326",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866480604-259",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866486396-274",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866480301-258",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866460640-210",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866371290-12",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866433202-141",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866448922-182",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866412501-100",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866612898-547",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866617707-557",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866610945-544",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866626227-578",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866456636-202",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866480604-259",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866480301-258",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866548459-412",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866592055-503",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866547072-407",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866547333-408",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866396720-69",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866385681-38",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866445630-169",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866376942-27",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866514022-328",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866515411-332",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866506707-316",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866503001-312",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866659388-643",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866662964-652",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866652889-630",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866663776-653",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866682742-693",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866548459-412",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682463-692",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866548172-411",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866683147-694",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866617707-557",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866612898-547",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866450742-189",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866432249-138",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866426705-123",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866612898-547",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866683147-694",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866682463-692",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682742-693",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866674178-677",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866531961-369",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866691885-705",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866682742-693",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682170-691",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866568527-449",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866674178-677",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866690595-701",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866677349-683",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866676750-681",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866676404-680",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866688466-698",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866675078-679",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687874-696",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866683147-694",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866617707-557",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866617391-556",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866385681-38",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866704064-732",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866737007-798",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 41,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866689908-699",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866659388-643",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866662964-652",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866652889-630",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866681604-690",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866681189-689",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866680894-688",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866469350-232",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866802269-951",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866489512-281",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866674722-678",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866619696-563",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866632897-586",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866687874-696",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866489512-281",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866688173-697",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866666826-657",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866667417-659",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866689908-699",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866676404-680",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866838007-1025",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 48,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866802524-952",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866762656-864",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866489512-281",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866802269-951",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866912327-1196",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866921576-1214",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866909017-1186",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866620781-567",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866689908-699",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866659388-643",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866662964-652",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866652889-630",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866626501-579",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866626790-580",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866621044-568",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866715929-753",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866704064-732",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866723503-773",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866548459-412",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866889902-1141",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866904688-1179",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682742-693",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 54,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866752357-834",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866697978-716",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866690912-702",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866395406-64",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866470576-236",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866481177-261",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866988726-1356",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866992395-1359",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866480604-259",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866473480-240",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866480908-260",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866480301-258",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867000638-1372",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867005670-1382",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867006254-1384",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867005962-1383",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682463-692",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 60,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866480908-260",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866774189-883",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866776176-890",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866996401-1366",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867004959-1380",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866450742-189",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 62,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866661962-649",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867002322-1374",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866644044-613",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866952759-1281",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 63,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866456636-202",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866473480-240",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454316-197",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866992395-1359",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 65,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866495856-295",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866467087-225",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866475344-244",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866475684-245",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 66,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866538677-384",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866539257-386",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866543820-396",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866538946-385",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 67,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866984345-1344",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866689908-699",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866659388-643",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866662964-652",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 68,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866630251-585",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866623726-569",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866610316-542",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866620505-566",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 69,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866454316-197",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866477136-250",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866473480-240",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 70,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866992395-1359",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866679640-687",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 71,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866674178-677",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866987236-1351",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866997036-1368",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866591758-502",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 73,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866996401-1366",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867004959-1380",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867153875-1684",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 74,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789867124680-1632",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "limitations",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866624318-571",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867108327-1602",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867120795-1621",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 75,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866666826-657",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867140929-1663",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867128891-1640",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867130024-1644",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 76,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866612609-546",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866627066-581",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867108645-1600",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867123479-1628",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 77,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866455965-200",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866473480-240",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866456636-202",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789867050057-1473",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 78,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866548459-412",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866889902-1141",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867005362-1381",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 80,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866984345-1344",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867184203-1694",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867002822-1375",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866992163-1357",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 81,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866473480-240",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454584-198",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866456636-202",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866454316-197",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 82,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866992163-1357",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867002322-1374",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867009930-1391",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867184203-1694",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 83,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789867000638-1372",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866683147-694",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866993300-1361",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 84,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866988726-1356",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866799241-940",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866688466-698",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866988450-1355",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 85,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789867176707-1691",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866992395-1359",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 87,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866619696-563",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866618508-559",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866620238-565",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867149659-1678",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 88,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867153546-1683",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867005670-1382",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867184722-1695",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 89,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867006254-1384",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867005362-1381",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866682463-692",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 90,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866993300-1361",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 91,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866988178-1354",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866675078-679",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866688173-697",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 92,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866996401-1366",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867004959-1380",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867153875-1684",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 93,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867153546-1683",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867153217-1682",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866863568-1085",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 95,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866988726-1356",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866469047-231",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866995180-1362",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 96,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866656689-638",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867128347-1638",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867002322-1374",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867128891-1640",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 97,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866730349-785",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867015838-1402",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866406201-80",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867016762-1405",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 98,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789867176707-1691",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866992395-1359",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866692163-706",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 99,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789867321075-1701",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867321341-1702",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866639062-600",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866665400-656",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 100,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866548459-412",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866889902-1141",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867236081-1697",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867005362-1381",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 102,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867000942-1373",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866993300-1361",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866911770-1194",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 103,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866974997-1323",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866667417-659",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866967031-1308",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867130024-1644",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "introduction",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 104,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866946350-1265",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866666826-657",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867130024-1644",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "introduction",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866975635-1324",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 105,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789867176707-1691",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789867064125-1502",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866507262-318",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866834057-1017",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 106,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866612898-547",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867375707-1710",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866936485-1250",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 107,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866996401-1366",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867004959-1380",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867153875-1684",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 109,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867383617-1713",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866846260-1042",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866573805-460",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866587090-491",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 110,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789867353408-1709",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866811951-971",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866508697-323",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866814335-977",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 111,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866650922-623",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866972691-1318",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866942655-1260",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867143054-1668",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 112,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789866531650-368",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866849890-1055",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866904404-1178",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866549332-415",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 113,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789867024899-1426",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866385681-38",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867015240-1400",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867016762-1405",
+          "citation": "diffused document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Highly frequent undesired insertional mutagenesis during Drosophila genome editing (PLOS Genetics 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 114,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866688466-698",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866675078-679",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789867335745-1707",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 116,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866636974-597",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866639734-602",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866640399-604",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866636381-595",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 117,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789866508697-323",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866497822-300",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866508416-322",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789866498306-302",
+          "citation": "diffused document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Safer and efficient base editing and prime editing via ribonucleoproteins delivered through optimized lipid-nanoparticle formulations (Nature Biomedical Engineering 2024)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 118,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789866991971-1358",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866992163-1357",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789867184203-1694",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789866677349-683",
+          "citation": "diffused Plain",
+          "source": "diffusion",
+          "source_hat": "Plain",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 119,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789866688173-697",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866988726-1356",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789867258645-1698",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866988178-1354",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 120,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867236081-1697",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866904688-1179",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "references",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867383617-1713",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 121,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867149659-1678",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 122,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867006254-1384",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867236081-1697",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867322297-1705",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866996662-1367",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 123,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789866678458-686",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789866996401-1366",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867470039-1727",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789867004959-1380",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 124,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867005362-1381",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867322297-1705",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866900285-1165",
+          "citation": "diffused document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "source": "diffusion",
+          "source_hat": "document:Base editing corrects metabolic abnormalities in a humanized mouse model for glycogen storage disease type Ia (Nature Communications 2024)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867006254-1384",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 125,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789866671703-670",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866671994-671",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789867149659-1678",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789866992912-1360",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 126,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789867005962-1383",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867006254-1384",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789866987486-1352",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789867322297-1705",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 127,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789867335480-1706",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866688173-697",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789866687594-695",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789867258645-1698",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {
+      "methodologist": "statistician",
+      "statistician": "synthesizer",
+      "synthesizer": "skeptic",
+      "skeptic": "replicator",
+      "replicator": "communicator",
+      "communicator": "methodologist"
+    },
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_210544.md",
+  "completed": true,
+  "ended": "2026-09-19 21:25:35",
+  "duration_seconds": 1191.5
+}

@@ -1,0 +1,3087 @@
+{
+  "topic": "parkinsons",
+  "condition": "bear",
+  "started": "2026-09-19 18:16:29",
+  "last_updated": "2026-09-19 18:30:50",
+  "elapsed_seconds": 861.9,
+  "n_turns": 95,
+  "n_pdfs_ingested": 3,
+  "n_diffusion_stored": 924,
+  "n_diffusion_skipped": 92,
+  "ingestions": [
+    {
+      "time": "18:16:59",
+      "turn": 2,
+      "hat": "source",
+      "title": "Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+      "chunks": 45,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "18:19:42",
+      "turn": 18,
+      "hat": "source",
+      "title": "Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+      "chunks": 40,
+      "extractor": "mathpix",
+      "classification": []
+    },
+    {
+      "time": "18:21:56",
+      "turn": 29,
+      "hat": "source",
+      "title": "Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+      "chunks": 48,
+      "extractor": "mathpix",
+      "classification": []
+    }
+  ],
+  "diffusion_errors": {
+    "Skeptic:parse_failure": 1,
+    "Stats:parse_failure": 1
+  },
+  "n_gated": 0,
+  "gated": [],
+  "rag_events": [
+    {
+      "turn": 6,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856229712-21",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228693-17",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228444-16",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856227926-14",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 9,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856244251-51",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856268145-103",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856253777-70",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856258866-83",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 11,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856295573-167",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856299392-170",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856283073-136",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856294593-163",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 12,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856229712-21",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228693-17",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228444-16",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856227926-14",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 14,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856290204-154",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274071-117",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856273565-115",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856269959-109",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 15,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856322462-221",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856319877-211",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856313200-200",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856310360-195",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 16,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856225510-10",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856233564-28",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228444-16",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856233290-27",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 17,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856262419-91",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856254363-73",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856252344-65",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856263822-96",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 18,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856358399-297",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372088-321",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856363456-308",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 19,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856242375-44",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856238833-38",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856242936-46",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856239293-40",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 20,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856273258-114",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856299707-171",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856295573-167",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856295077-165",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 21,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856322462-221",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375335-328",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856319877-211",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856313200-200",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 22,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856268145-103",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856371780-320",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856256127-80",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856261279-87",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 23,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856358399-297",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372088-321",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856363456-308",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 24,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856232136-23",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856227664-13",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228444-16",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856222850-6",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 25,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856300591-174",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856445607-462",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856305059-186",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856312894-199",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 26,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856244251-51",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856268145-103",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856253777-70",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856403036-369",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 27,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856469209-510",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856470520-515",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856345273-270",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856331207-242",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 28,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856286576-150",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856437476-441",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856286112-148",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856281527-131",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 29,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856492506-554",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856494584-560",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498110-569",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 30,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856335360-245",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856500282-576",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856329167-234",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856326283-228",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 31,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856301087-176",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856449148-468",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856310360-195",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856322701-222",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 32,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 33,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856450925-474",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856446872-467",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856459709-490",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856460585-493",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 34,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856490358-550",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856499206-572",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856482022-529",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498581-570",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 35,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856328045-230",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856343112-262",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856337188-251",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856337469-252",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 36,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856449148-468",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856310360-195",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856457378-484",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375080-327",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 37,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856253487-69",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856399874-361",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856400524-363",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856251817-63",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 38,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856492506-554",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856494584-560",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498110-569",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 39,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856417833-405",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856442062-457",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856422332-415",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856433220-430",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 40,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856392817-345",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856390488-343",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856388699-337",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856523638-597",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 42,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856490358-550",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856482334-530",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856482022-529",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498581-570",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 43,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856422061-414",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417833-405",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856660951-870",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856418873-409",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 44,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856641890-837",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856650067-854",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856362937-306",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856649781-853",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 45,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856328602-232",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856612307-781",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856326283-228",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856335079-244",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 46,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856591215-740",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856597826-753",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856606188-767",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856445343-461",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 47,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856244251-51",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856268145-103",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856253777-70",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856542034-635",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 49,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856375335-328",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856301087-176",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856304301-183",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856304032-182",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 50,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856232136-23",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856222103-3",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856223372-8",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856222356-4",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 51,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856498110-569",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856490956-552",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856650749-856",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 52,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 53,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856666217-879",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856476109-523",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856474306-517",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856469209-510",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 55,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856322462-221",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856454986-478",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375335-328",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856459102-488",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 56,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856295573-167",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856283073-136",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856281527-131",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856270260-110",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 57,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856655618-863",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856500046-575",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856499786-574",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856329167-234",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 58,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856459102-488",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856444486-458",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856301843-179",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856455305-479",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 59,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856655326-862",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856665741-877",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856336903-250",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856630011-814",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 60,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856779457-888",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372088-321",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856641344-835",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 61,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 63,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856505218-581",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856659437-867",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856243733-49",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856239060-39",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 64,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856232136-23",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856222850-6",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856228195-15",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856227664-13",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 65,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856779706-889",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856358085-296",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 66,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856504804-580",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375080-327",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856820279-896",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856444809-459",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 67,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856630011-814",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856331207-242",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856464665-501",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856833998-899",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 68,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 70,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856355012-288",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856358085-296",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856355905-291",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856779706-889",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 71,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856555377-663",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856557423-670",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856254605-74",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856555946-665",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 72,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856490956-552",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856492506-554",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856489474-547",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856493129-556",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 73,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856632164-821",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856465255-503",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856631869-820",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856630295-815",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 74,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 75,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856663650-872",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856393658-348",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856394275-350",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856396422-355",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 77,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856494250-559",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498581-570",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856482022-529",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856499206-572",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 78,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856492506-554",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856369413-317",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856362937-306",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 79,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856505904-583",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856262690-92",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856544691-644",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856545225-646",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "results",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 80,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856328045-230",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856343112-262",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856630011-814",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856337188-251",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 81,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856322462-221",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856454986-478",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375335-328",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856459102-488",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 82,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856342480-260",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856833998-899",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856342783-261",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856329167-234",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "front",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 84,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856392817-345",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856390488-343",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856388699-337",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856523638-597",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 85,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856479724-528",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856475790-522",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856463372-496",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856482930-532",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 86,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856972504-919",
+          "citation": "diffused Stats",
+          "source": "diffusion",
+          "source_hat": "Stats",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498110-569",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856495800-564",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856494584-560",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 87,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856498110-569",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372088-321",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856492210-553",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 88,
+      "speaker": "Stats",
+      "items": [
+        {
+          "id": "diffusion-statistician-1789856336903-250",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856630011-814",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856485970-543",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-statistician-1789856655326-862",
+          "citation": "diffused Skeptic",
+          "source": "diffusion",
+          "source_hat": "Skeptic",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 89,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856275092-121",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856274367-118",
+          "citation": "diffused document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Digital measurement of ocular microtremor in Parkinson's disease: analytical and clinical validation (PLOS Digital Health 2026)",
+          "section": "abstract",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856417556-404",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856373492-325",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 90,
+      "speaker": "Methods",
+      "items": [
+        {
+          "id": "diffusion-methodologist-1789856410506-388",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856412006-393",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856412559-395",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-methodologist-1789856404801-376",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 91,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856450925-474",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856446621-466",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856665148-875",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856450114-471",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 92,
+      "speaker": "Plain",
+      "items": [
+        {
+          "id": "diffusion-communicator-1789856392817-345",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856390488-343",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856388699-337",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-communicator-1789856523638-597",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "methods",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 93,
+      "speaker": "Skeptic",
+      "items": [
+        {
+          "id": "diffusion-skeptic-1789856441253-454",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856375335-328",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856440953-453",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "front",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-skeptic-1789856450925-474",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 94,
+      "speaker": "Synthesis",
+      "items": [
+        {
+          "id": "diffusion-synthesizer-1789856492506-554",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856372376-322",
+          "citation": "diffused Replication",
+          "source": "diffusion",
+          "source_hat": "Replication",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856649477-852",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-synthesizer-1789856494584-560",
+          "citation": "diffused document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Enhancing gait training with an anti-gravity treadmill in patients with Parkinson's disease (PLOS ONE 2026)",
+          "section": "conclusion",
+          "classification": ""
+        }
+      ]
+    },
+    {
+      "turn": 95,
+      "speaker": "Replication",
+      "items": [
+        {
+          "id": "diffusion-replicator-1789856585983-733",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856585717-732",
+          "citation": "diffused document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "source": "diffusion",
+          "source_hat": "document:Risk of Parkinson's disease in patients with schizophrenia: impact of antipsychotic medication use (PLOS ONE 2026)",
+          "section": "discussion",
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856991013-922",
+          "citation": "diffused Synthesis",
+          "source": "diffusion",
+          "source_hat": "Synthesis",
+          "section": null,
+          "classification": ""
+        },
+        {
+          "id": "diffusion-replicator-1789856503634-577",
+          "citation": "diffused Methods",
+          "source": "diffusion",
+          "source_hat": "Methods",
+          "section": null,
+          "classification": ""
+        }
+      ]
+    }
+  ],
+  "answers": [],
+  "run_info": {
+    "session_default_llm": "openai/Qwen3.8-27B",
+    "llm_base_url": "http://localhost:8355/v1",
+    "override_model": true,
+    "speaking_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "diffusion": "per-hat",
+    "diffusion_llm": {
+      "methodologist": "openai/Qwen3.8-27B",
+      "statistician": "openai/Qwen3.8-27B",
+      "synthesizer": "openai/Qwen3.8-27B",
+      "skeptic": "openai/Qwen3.8-27B",
+      "replicator": "openai/Qwen3.8-27B",
+      "communicator": "openai/Qwen3.8-27B"
+    },
+    "lens_map": {},
+    "access_gate": true,
+    "insight_extractor": false,
+    "memory_manager": false,
+    "access_policy": {},
+    "document_diffusion": true,
+    "shared_knowledge": false,
+    "mathpix_credentials": true,
+    "bear_dev_commit": "f7e23c56f03a99c79def6a9a280cafa913a9b243",
+    "uncommitted_changes": true
+  },
+  "log_path": "/mnt/c/users/scott/documents/work/bear-dev/examples/bear_parlor/session_logs/scenarios/paper-review_20260919_181629.md",
+  "completed": true,
+  "ended": "2026-09-19 18:30:52",
+  "duration_seconds": 863.0
+}
