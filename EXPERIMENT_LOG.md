@@ -411,12 +411,31 @@ diseases to one imaging method made all three imaging topics near-duplicates.
 
 *Where notes come from.* Under `naive` every role's section distribution is
 identical (Cramer's V = 0.000 in all six topics). Under `bear` it depends on
-the role in five of six topics (V 0.12-0.18, permutation p = 0.0005);
-`parkinsons` is the exception (V 0.079, p = 0.69), its papers having the
-least differentiated section structure. Under `wrong-lens` the dependence
-returns (V 0.11-0.17, p = 0.0005) but follows the rotated lens: in 35 of 36
-role-topic cells the role's section pattern is closer to its lens donor's
-`bear` pattern than to its own.
+the role in all six (V 0.096-0.148; p = 0.0005 in four topics, 0.001 for
+`glp1`, 0.0045 for `llm-cds`, 0.025 for `parkinsons`). Under `wrong-lens`
+the dependence follows the rotated lens: in 36 of 36 role-topic cells the
+role's section pattern is closer to its lens donor's `bear` pattern than to
+its own (the dependence itself is significant in five of six topics;
+`llm-cds` V = 0.082, p = 0.117).
+
+**Section labels corrected (2026-09-20).** The first pass of this analysis
+found no role dependence for `parkinsons` (V = 0.079, p = 0.69). The cause
+was the section labeller, not the papers: it located chunks with
+`text.find(chunk[:80])`, which fails when a chunk's opening characters span
+a paragraph break, after which every later chunk inherited one early label
+(87% of one paper's chunks were labelled "abstract", 80% of another's
+"conclusion"); it also read a structured abstract's sublabels and
+author-contribution lines as section headings, and PLOS front-matter
+"Funding:" as the bibliography. Fixed in bear-dev `2cd14d4`: whitespace-
+insensitive chunk location, headings chosen as the longest chain increasing
+in both position and canonical rank and spaced at least 800 characters
+apart, and support for both IMRaD and the Nature-family order. The sessions
+were not re-run: chunking is deterministic and the papers are in the
+repository, so `evals/eval_review_provenance.py --relabel` recomputes each
+note's section from the paper it came from (19,838 notes relabelled, 318
+unmatched). The labels stored in the logs are those the sessions wrote. The
+papers were deliberately **not** changed: swapping them would have been
+fixing a measurement fault by selecting data on an outcome.
 
 *Store differentiation* (paired across the six topics): centroid distance
 0.051 under `bear` vs 0.000 under `naive` (6/6 topics, t p = 5.5e-06,

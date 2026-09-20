@@ -36,6 +36,67 @@ SECTIONS = ["front", "abstract", "introduction", "methods", "results", "discussi
             "limitations", "conclusion", "references"]
 
 
+def corrected_labels(scenario_dir: Path, parlor_dir: Path) -> dict:
+    """Recompute each chunk's section label from the papers themselves.
+
+    The labels stored in the logs came from the labeller as it was when the
+    sessions ran, which mislocated chunks whose opening characters spanned a
+    paragraph break and mistook a structured abstract's sublabels for section
+    headings. Relabelling offline needs no re-run: the papers are in the
+    repository and chunking is deterministic.
+
+    Returns {(paper_title, chunk_index): section}.
+    """
+    sys.path.insert(0, str(parlor_dir))
+    from ingest import extract_pdf_text
+    from knowledge_rag import KnowledgeStore, _chunk_text, _section_labels
+    import yaml
+
+    out: dict = {}
+    for case in sorted(p for p in scenario_dir.iterdir() if p.is_dir()):
+        spec_path = case / "session.yaml"
+        if not spec_path.exists():
+            continue
+        spec = yaml.safe_load(spec_path.read_text(encoding="utf-8"))
+        for doc in spec["documents"]:
+            pdf = case / doc["file"]
+            if not pdf.exists():
+                continue
+            title = doc.get("title") or pdf.stem
+            text = extract_pdf_text(pdf)
+            chunks = _chunk_text(text, KnowledgeStore.CHUNK_SIZE, KnowledgeStore.CHUNK_OVERLAP)
+            for i, label in enumerate(_section_labels(text, chunks)):
+                out[(title, i)] = label
+    return out
+
+
+def apply_corrected(knowledge: dict, table: dict) -> tuple[dict, int, int]:
+    """Replace each note's section with the corrected label of the chunk it
+    came from. A note records the document it was made from
+    (``source_hat`` = ``document:<title>``) and the chunk id, whose suffix is
+    the chunk index. Returns (knowledge, relabelled, unmatched)."""
+    done = miss = 0
+    for role, store in knowledge.items():
+        for m in store.get("metadatas", []):
+            m = m or {}
+            src_hat = str(m.get("source_hat", ""))
+            if m.get("source") != "diffusion" or not src_hat.startswith("document:"):
+                continue
+            title = src_hat[len("document:"):]
+            try:
+                idx = int(str(m.get("source_chunk", "")).rsplit("-", 1)[1])
+            except (IndexError, ValueError):
+                miss += 1
+                continue
+            label = table.get((title, idx))
+            if label is None:
+                miss += 1
+                continue
+            m["section"] = label
+            done += 1
+    return knowledge, done, miss
+
+
 def load(md_path: Path):
     stats_p = md_path.with_suffix("").with_suffix(".stats.json")
     kj_p = md_path.with_suffix("").with_suffix(".knowledge.json")
@@ -169,16 +230,29 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--log-dir", required=True)
     ap.add_argument("--out", default=str(ROOT / "evals" / "results" / "review_provenance.json"))
+    ap.add_argument("--relabel", action="store_true",
+                    help="recompute section labels from the papers with the corrected labeller "
+                         "(the labels stored in the logs came from the version that ran)")
+    ap.add_argument("--scenario-dir", default=str(ROOT / "scenarios" / "review"))
+    ap.add_argument("--parlor-dir", default=str(ROOT.parent / "bear-dev" / "examples" / "bear_parlor"))
     args = ap.parse_args()
     log_dir = Path(args.log_dir)
+    table = corrected_labels(Path(args.scenario_dir), Path(args.parlor_dir)) if args.relabel else None
+    if table:
+        print(f"relabelling from {len(table)} chunks of {len({t for t, _ in table})} papers\n")
     results = []
     counts_by = {}
     lens_maps = {}
+    relabelled = unmatched = 0
     for md in sorted(log_dir.glob("paper-review_*.md")):
         loaded = load(md)
         if not loaded:
             continue
         stats, knowledge = loaded
+        if table:
+            knowledge, d, m = apply_corrected(knowledge, table)
+            relabelled += d
+            unmatched += m
         key = (stats.get("topic"), stats.get("condition"))
         counts_by[key] = section_counts(knowledge)
         lens_maps[key] = (stats.get("run_info") or {}).get("lens_map") or {}
@@ -215,9 +289,13 @@ def main():
         print("  cross-role uptake (share of a speaker's retrieved items that came through another role's lens):")
         for sp, u in r["uptake"].items():
             print(f"    {sp:<14} n={u['n_retrieved']:<4} uptake={u['uptake']:.2f}")
+    if table:
+        print(f"\nsection labels recomputed for {relabelled} notes; {unmatched} could not be matched")
     out = Path(args.out)
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps({"log_dir": str(log_dir), "sessions": results}, indent=2), encoding="utf-8")
+    out.write_text(json.dumps({"log_dir": str(log_dir), "relabelled": bool(table),
+                               "notes_relabelled": relabelled, "notes_unmatched": unmatched,
+                               "sessions": results}, indent=2), encoding="utf-8")
     print(f"\nwritten: {out}")
 
 

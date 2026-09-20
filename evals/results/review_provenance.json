@@ -1,5 +1,8 @@
 {
   "log_dir": "bear_parlor/session_logs/scenarios",
+  "relabelled": true,
+  "notes_relabelled": 19838,
+  "notes_unmatched": 318,
   "sessions": [
     {
       "log": "paper-review_20260919_173332.md",
@@ -10,85 +13,85 @@
         "communicator": {
           "n_document_notes": 78,
           "by_section": {
-            "front": 0.16666666666666666,
-            "abstract": 0.038461538461538464,
+            "front": 0.10256410256410256,
+            "abstract": 0.07692307692307693,
             "introduction": 0.07692307692307693,
-            "methods": 0.02564102564102564,
-            "results": 0.2564102564102564,
-            "discussion": 0.38461538461538464,
+            "methods": 0.05128205128205128,
+            "results": 0.08974358974358974,
+            "discussion": 0.44871794871794873,
             "limitations": 0.0,
-            "conclusion": 0.01282051282051282,
-            "references": 0.038461538461538464
+            "conclusion": 0.14102564102564102,
+            "references": 0.01282051282051282
           }
         },
         "methodologist": {
           "n_document_notes": 165,
           "by_section": {
-            "front": 0.09696969696969697,
-            "abstract": 0.012121212121212121,
+            "front": 0.06666666666666667,
+            "abstract": 0.024242424242424242,
             "introduction": 0.03636363636363636,
-            "methods": 0.34545454545454546,
-            "results": 0.2606060606060606,
-            "discussion": 0.21212121212121213,
+            "methods": 0.28484848484848485,
+            "results": 0.2,
+            "discussion": 0.26666666666666666,
             "limitations": 0.0,
-            "conclusion": 0.0,
-            "references": 0.03636363636363636
+            "conclusion": 0.12121212121212122,
+            "references": 0.0
           }
         },
         "replicator": {
           "n_document_notes": 197,
           "by_section": {
-            "front": 0.1065989847715736,
-            "abstract": 0.01015228426395939,
-            "introduction": 0.05583756345177665,
-            "methods": 0.3248730964467005,
-            "results": 0.29949238578680204,
-            "discussion": 0.16243654822335024,
+            "front": 0.06091370558375635,
+            "abstract": 0.02030456852791878,
+            "introduction": 0.04060913705583756,
+            "methods": 0.29441624365482233,
+            "results": 0.2436548223350254,
+            "discussion": 0.2436548223350254,
             "limitations": 0.0,
-            "conclusion": 0.005076142131979695,
-            "references": 0.03553299492385787
+            "conclusion": 0.08121827411167512,
+            "references": 0.015228426395939087
           }
         },
         "skeptic": {
           "n_document_notes": 178,
           "by_section": {
-            "front": 0.10674157303370786,
-            "abstract": 0.02247191011235955,
-            "introduction": 0.06741573033707865,
-            "methods": 0.21348314606741572,
-            "results": 0.2696629213483146,
-            "discussion": 0.21910112359550563,
+            "front": 0.05056179775280899,
+            "abstract": 0.03932584269662921,
+            "introduction": 0.07303370786516854,
+            "methods": 0.1853932584269663,
+            "results": 0.19101123595505617,
+            "discussion": 0.29213483146067415,
             "limitations": 0.0,
-            "conclusion": 0.016853932584269662,
-            "references": 0.08426966292134831
+            "conclusion": 0.1404494382022472,
+            "references": 0.028089887640449437
           }
         },
         "statistician": {
           "n_document_notes": 162,
           "by_section": {
-            "front": 0.10493827160493827,
-            "abstract": 0.0,
-            "introduction": 0.030864197530864196,
-            "methods": 0.21604938271604937,
-            "results": 0.4074074074074074,
-            "discussion": 0.22839506172839505,
+            "front": 0.030864197530864196,
+            "abstract": 0.06172839506172839,
+            "introduction": 0.024691358024691357,
+            "methods": 0.18518518518518517,
+            "results": 0.32098765432098764,
+            "discussion": 0.2962962962962963,
             "limitations": 0.0,
-            "conclusion": 0.012345679012345678,
+            "conclusion": 0.08024691358024691,
             "references": 0.0
           }
         },
         "synthesizer": {
           "n_document_notes": 125,
           "by_section": {
-            "front": 0.128,
-            "abstract": 0.04,
-            "introduction": 0.088,
-            "methods": 0.056,
-            "results": 0.344,
-            "discussion": 0.32,
+            "front": 0.072,
+            "abstract": 0.056,
+            "introduction": 0.096,
+            "methods": 0.064,
+            "results": 0.2,
+            "discussion": 0.352,
             "limitations": 0.0,
-            "conclusion": 0.024,
-            "references": 0.0
+            "conclusion": 0.136,
+            "references": 0.024
           }
         }
       },
@@ -131,10 +134,10 @@
         }
       },
       "role_section_independence": {
-        "chi2": 120.43748200870544,
+        "chi2": 97.88272471625201,
         "dof": 35,
         "n_notes": 905,
-        "cramers_v": 0.1631441636206175,
+        "cramers_v": 0.14707665135485426,
         "p_perm": 0.0004997501249375312
       }
     },
@@ -147,85 +150,85 @@
         "communicator": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         },
         "methodologist": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         },
         "replicator": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         },
         "skeptic": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         },
         "statistician": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         },
         "synthesizer": {
           "n_document_notes": 168,
           "by_section": {
-            "front": 0.1130952380952381,
-            "abstract": 0.02976190476190476,
-            "introduction": 0.05952380952380952,
-            "methods": 0.21428571428571427,
-            "results": 0.2916666666666667,
-            "discussion": 0.18452380952380953,
+            "front": 0.07738095238095238,
+            "abstract": 0.03571428571428571,
+            "introduction": 0.06547619047619048,
+            "methods": 0.17261904761904762,
+            "results": 0.21428571428571427,
+            "discussion": 0.2619047619047619,
             "limitations": 0.0,
-            "conclusion": 0.02976190476190476,
-            "references": 0.07738095238095238
+            "conclusion": 0.11904761904761904,
+            "references": 0.05357142857142857
           }
         }
       },
@@ -284,85 +287,85 @@
         "communicator": {
           "n_document_notes": 171,
           "by_section": {
-            "front": 0.08187134502923976,
-            "abstract": 0.005847953216374269,
-            "introduction": 0.07017543859649122,
-            "methods": 0.391812865497076,
-            "results": 0.23976608187134502,
-            "discussion": 0.15204678362573099,
+            "front": 0.05263157894736842,
+            "abstract": 0.023391812865497075,
+            "introduction": 0.05263157894736842,
+            "methods": 0.3508771929824561,
+            "results": 0.19298245614035087,
+            "discussion": 0.2046783625730994,
             "limitations": 0.0,
-            "conclusion": 0.017543859649122806,
-            "references": 0.04093567251461988
+            "conclusion": 0.1111111111111111,
+            "references": 0.011695906432748537
           }
         },
         "methodologist": {
           "n_document_notes": 161,
           "by_section": {
-            "front": 0.07453416149068323,
-            "abstract": 0.0,
-            "introduction": 0.037267080745341616,
-            "methods": 0.20496894409937888,
-            "results": 0.453416149068323,
-            "discussion": 0.2111801242236025,
+            "front": 0.031055900621118012,
+            "abstract": 0.031055900621118012,
+            "introduction": 0.024844720496894408,
+            "methods": 0.16770186335403728,
+            "results": 0.2546583850931677,
+            "discussion": 0.39751552795031053,
             "limitations": 0.0,
-            "conclusion": 0.018633540372670808,
+            "conclusion": 0.09316770186335403,
             "references": 0.0
           }
         },
         "replicator": {
           "n_document_notes": 90,
           "by_section": {
-            "front": 0.13333333333333333,
-            "abstract": 0.05555555555555555,
-            "introduction": 0.1,
-            "methods": 0.06666666666666667,
-            "results": 0.28888888888888886,
-            "discussion": 0.28888888888888886,
+            "front": 0.08888888888888889,
+            "abstract": 0.044444444444444446,
+            "introduction": 0.12222222222222222,
+            "methods": 0.1,
+            "results": 0.17777777777777778,
+            "discussion": 0.35555555555555557,
             "limitations": 0.0,
-            "conclusion": 0.011111111111111112,
-            "references": 0.05555555555555555
+            "conclusion": 0.1,
+            "references": 0.011111111111111112
           }
         },
         "skeptic": {
           "n_document_notes": 210,
           "by_section": {
-            "front": 0.07142857142857142,
+            "front": 0.047619047619047616,
             "abstract": 0.01904761904761905,
             "introduction": 0.03333333333333333,
-            "methods": 0.34285714285714286,
-            "results": 0.3,
-            "discussion": 0.14761904761904762,
+            "methods": 0.28095238095238095,
+            "results": 0.23809523809523808,
+            "discussion": 0.29523809523809524,
             "limitations": 0.0,
-            "conclusion": 0.004761904761904762,
-            "references": 0.08095238095238096
+            "conclusion": 0.0761904761904762,
+            "references": 0.009523809523809525
           }
         },
         "statistician": {
           "n_document_notes": 120,
           "by_section": {
-            "front": 0.14166666666666666,
-            "abstract": 0.041666666666666664,
+            "front": 0.08333333333333333,
+            "abstract": 0.06666666666666667,
             "introduction": 0.1,
-            "methods": 0.075,
-            "results": 0.3416666666666667,
-            "discussion": 0.275,
+            "methods": 0.08333333333333333,
+            "results": 0.2,
+            "discussion": 0.3333333333333333,
             "limitations": 0.0,
-            "conclusion": 0.025,
-            "references": 0.0
+            "conclusion": 0.10833333333333334,
+            "references": 0.025
           }
         },
         "synthesizer": {
           "n_document_notes": 181,
           "by_section": {
-            "front": 0.11049723756906077,
-            "abstract": 0.022099447513812154,
-            "introduction": 0.04419889502762431,
-            "methods": 0.22099447513812154,
-            "results": 0.27624309392265195,
-            "discussion": 0.23204419889502761,
+            "front": 0.06077348066298342,
+            "abstract": 0.03314917127071823,
+            "introduction": 0.055248618784530384,
+            "methods": 0.16574585635359115,
+            "results": 0.19889502762430938,
+            "discussion": 0.3149171270718232,
             "limitations": 0.0,
-            "conclusion": 0.022099447513812154,
-            "references": 0.0718232044198895
+            "conclusion": 0.15469613259668508,
+            "references": 0.016574585635359115
           }
         }
       },
@@ -405,47 +408,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 133.0959336788443,
+        "chi2": 90.31868511602651,
         "dof": 35,
         "n_notes": 933,
-        "cramers_v": 0.16891046968531234,
+        "cramers_v": 0.13914351787707632,
         "p_perm": 0.0004997501249375312
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.04624394816063118,
-          "js_to_donor_bear": 0.0026224093497733535,
+          "js_to_own_bear": 0.020797257647418466,
+          "js_to_donor_bear": 0.008660886087446282,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.0468731161176973,
-          "js_to_donor_bear": 0.0019234620232033192,
+          "js_to_own_bear": 0.04574747734449927,
+          "js_to_donor_bear": 0.002012670568312985,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.06189170464212402,
-          "js_to_donor_bear": 0.001803844650478343,
+          "js_to_own_bear": 0.01732192683553585,
+          "js_to_donor_bear": 0.0024359524632985817,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.01808191812511202,
-          "js_to_donor_bear": 0.008720055868714181,
+          "js_to_own_bear": 0.019076500466281274,
+          "js_to_donor_bear": 0.002300380066052866,
           "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.06962494921230392,
-          "js_to_donor_bear": 0.011894390810853292,
+          "js_to_own_bear": 0.04784958203288808,
+          "js_to_donor_bear": 0.020903595596091094,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.1370560369725679,
-          "js_to_donor_bear": 0.013190926010190264,
+          "js_to_own_bear": 0.10929522303336395,
+          "js_to_donor_bear": 0.009121408860028279,
           "tracks_lens": true
         }
       }
@@ -459,85 +462,85 @@
         "communicator": {
           "n_document_notes": 110,
           "by_section": {
-            "front": 0.045454545454545456,
-            "abstract": 0.3181818181818182,
-            "introduction": 0.02727272727272727,
-            "methods": 0.05454545454545454,
-            "results": 0.16363636363636364,
-            "discussion": 0.12727272727272726,
+            "front": 0.01818181818181818,
+            "abstract": 0.08181818181818182,
+            "introduction": 0.13636363636363635,
+            "methods": 0.2545454545454545,
+            "results": 0.20909090909090908,
+            "discussion": 0.2727272727272727,
             "limitations": 0.0,
-            "conclusion": 0.2636363636363636,
-            "references": 0.0
+            "conclusion": 0.00909090909090909,
+            "references": 0.01818181818181818
           }
         },
         "methodologist": {
           "n_document_notes": 158,
           "by_section": {
-            "front": 0.06962025316455696,
-            "abstract": 0.4050632911392405,
-            "introduction": 0.006329113924050633,
-            "methods": 0.08860759493670886,
-            "results": 0.08227848101265822,
-            "discussion": 0.0949367088607595,
+            "front": 0.006329113924050633,
+            "abstract": 0.08860759493670886,
+            "introduction": 0.0949367088607595,
+            "methods": 0.37341772151898733,
+            "results": 0.17088607594936708,
+            "discussion": 0.22151898734177214,
             "limitations": 0.0,
-            "conclusion": 0.25316455696202533,
-            "references": 0.0
+            "conclusion": 0.006329113924050633,
+            "references": 0.0379746835443038
           }
         },
         "replicator": {
           "n_document_notes": 181,
           "by_section": {
-            "front": 0.049723756906077346,
-            "abstract": 0.35911602209944754,
-            "introduction": 0.011049723756906077,
-            "methods": 0.08839779005524862,
-            "results": 0.15469613259668508,
-            "discussion": 0.07734806629834254,
+            "front": 0.016574585635359115,
+            "abstract": 0.08287292817679558,
+            "introduction": 0.09392265193370165,
+            "methods": 0.3259668508287293,
+            "results": 0.20441988950276244,
+            "discussion": 0.2430939226519337,
             "limitations": 0.0,
-            "conclusion": 0.2596685082872928,
-            "references": 0.0
+            "conclusion": 0.0055248618784530384,
+            "references": 0.027624309392265192
           }
         },
         "skeptic": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.05263157894736842,
-            "abstract": 0.3684210526315789,
-            "introduction": 0.007518796992481203,
-            "methods": 0.06766917293233082,
-            "results": 0.09774436090225563,
-            "discussion": 0.14285714285714285,
+            "front": 0.0,
+            "abstract": 0.09022556390977443,
+            "introduction": 0.09774436090225563,
+            "methods": 0.2631578947368421,
+            "results": 0.17293233082706766,
+            "discussion": 0.3308270676691729,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
-            "references": 0.0
+            "conclusion": 0.015037593984962405,
+            "references": 0.03007518796992481
           }
         },
         "statistician": {
           "n_document_notes": 148,
           "by_section": {
-            "front": 0.06756756756756757,
-            "abstract": 0.2905405405405405,
-            "introduction": 0.013513513513513514,
-            "methods": 0.06756756756756757,
-            "results": 0.14864864864864866,
-            "discussion": 0.10135135135135136,
+            "front": 0.0,
+            "abstract": 0.08108108108108109,
+            "introduction": 0.05405405405405406,
+            "methods": 0.2972972972972973,
+            "results": 0.2905405405405405,
+            "discussion": 0.22972972972972974,
             "limitations": 0.0,
-            "conclusion": 0.3108108108108108,
-            "references": 0.0
+            "conclusion": 0.02702702702702703,
+            "references": 0.02027027027027027
           }
         },
         "synthesizer": {
           "n_document_notes": 106,
           "by_section": {
-            "front": 0.05660377358490566,
-            "abstract": 0.330188679245283,
-            "introduction": 0.018867924528301886,
-            "methods": 0.02830188679245283,
-            "results": 0.1509433962264151,
-            "discussion": 0.16037735849056603,
+            "front": 0.0,
+            "abstract": 0.11320754716981132,
+            "introduction": 0.11320754716981132,
+            "methods": 0.12264150943396226,
+            "results": 0.22641509433962265,
+            "discussion": 0.39622641509433965,
             "limitations": 0.0,
-            "conclusion": 0.25471698113207547,
-            "references": 0.0
+            "conclusion": 0.0,
+            "references": 0.02830188679245283
           }
         }
       },
@@ -580,11 +583,11 @@
         }
       },
       "role_section_independence": {
-        "chi2": 25.899422327903995,
-        "dof": 30,
+        "chi2": 53.032328020729715,
+        "dof": 35,
         "n_notes": 836,
-        "cramers_v": 0.07871489090215267,
-        "p_perm": 0.6891554222888556
+        "cramers_v": 0.11263729317402696,
+        "p_perm": 0.02498750624687656
       }
     },
     {
@@ -596,84 +599,84 @@
         "communicator": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         },
         "methodologist": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         },
         "replicator": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         },
         "skeptic": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         },
         "statistician": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         },
         "synthesizer": {
           "n_document_notes": 133,
           "by_section": {
-            "front": 0.06015037593984962,
-            "abstract": 0.3007518796992481,
-            "introduction": 0.022556390977443608,
-            "methods": 0.09022556390977443,
-            "results": 0.10526315789473684,
-            "discussion": 0.11278195488721804,
+            "front": 0.045112781954887216,
+            "abstract": 0.06015037593984962,
+            "introduction": 0.12781954887218044,
+            "methods": 0.23308270676691728,
+            "results": 0.18045112781954886,
+            "discussion": 0.2857142857142857,
             "limitations": 0.0,
-            "conclusion": 0.2631578947368421,
+            "conclusion": 0.022556390977443608,
             "references": 0.045112781954887216
           }
         }
@@ -733,85 +736,85 @@
         "communicator": {
           "n_document_notes": 157,
           "by_section": {
-            "front": 0.044585987261146494,
-            "abstract": 0.39490445859872614,
-            "introduction": 0.012738853503184714,
-            "methods": 0.10191082802547771,
-            "results": 0.08917197452229299,
-            "discussion": 0.10828025477707007,
+            "front": 0.006369426751592357,
+            "abstract": 0.07643312101910828,
+            "introduction": 0.09554140127388536,
+            "methods": 0.3503184713375796,
+            "results": 0.18471337579617833,
+            "discussion": 0.22929936305732485,
             "limitations": 0.0,
-            "conclusion": 0.2484076433121019,
-            "references": 0.0
+            "conclusion": 0.012738853503184714,
+            "references": 0.044585987261146494
           }
         },
         "methodologist": {
           "n_document_notes": 165,
           "by_section": {
-            "front": 0.048484848484848485,
-            "abstract": 0.28484848484848485,
-            "introduction": 0.006060606060606061,
-            "methods": 0.06666666666666667,
-            "results": 0.17575757575757575,
-            "discussion": 0.12121212121212122,
+            "front": 0.0,
+            "abstract": 0.07272727272727272,
+            "introduction": 0.048484848484848485,
+            "methods": 0.2787878787878788,
+            "results": 0.296969696969697,
+            "discussion": 0.24848484848484848,
             "limitations": 0.0,
-            "conclusion": 0.296969696969697,
-            "references": 0.0
+            "conclusion": 0.012121212121212121,
+            "references": 0.04242424242424243
           }
         },
         "replicator": {
           "n_document_notes": 99,
           "by_section": {
-            "front": 0.04040404040404041,
-            "abstract": 0.24242424242424243,
-            "introduction": 0.030303030303030304,
-            "methods": 0.050505050505050504,
-            "results": 0.15151515151515152,
-            "discussion": 0.09090909090909091,
+            "front": 0.010101010101010102,
+            "abstract": 0.09090909090909091,
+            "introduction": 0.12121212121212122,
+            "methods": 0.25252525252525254,
+            "results": 0.1111111111111111,
+            "discussion": 0.29292929292929293,
             "limitations": 0.0,
-            "conclusion": 0.31313131313131315,
-            "references": 0.08080808080808081
+            "conclusion": 0.09090909090909091,
+            "references": 0.030303030303030304
           }
         },
         "skeptic": {
           "n_document_notes": 164,
           "by_section": {
-            "front": 0.06097560975609756,
-            "abstract": 0.3597560975609756,
-            "introduction": 0.024390243902439025,
-            "methods": 0.07317073170731707,
-            "results": 0.0975609756097561,
-            "discussion": 0.11585365853658537,
+            "front": 0.024390243902439025,
+            "abstract": 0.06707317073170732,
+            "introduction": 0.10365853658536585,
+            "methods": 0.3475609756097561,
+            "results": 0.14634146341463414,
+            "discussion": 0.2621951219512195,
             "limitations": 0.0,
-            "conclusion": 0.2682926829268293,
-            "references": 0.0
+            "conclusion": 0.012195121951219513,
+            "references": 0.036585365853658534
           }
         },
         "statistician": {
           "n_document_notes": 111,
           "by_section": {
-            "front": 0.09009009009009009,
-            "abstract": 0.34234234234234234,
-            "introduction": 0.05405405405405406,
-            "methods": 0.036036036036036036,
-            "results": 0.13513513513513514,
-            "discussion": 0.14414414414414414,
+            "front": 0.02702702702702703,
+            "abstract": 0.14414414414414414,
+            "introduction": 0.11711711711711711,
+            "methods": 0.12612612612612611,
+            "results": 0.1981981981981982,
+            "discussion": 0.35135135135135137,
             "limitations": 0.0,
-            "conclusion": 0.1981981981981982,
-            "references": 0.0
+            "conclusion": 0.009009009009009009,
+            "references": 0.02702702702702703
           }
         },
         "synthesizer": {
           "n_document_notes": 151,
           "by_section": {
-            "front": 0.059602649006622516,
-            "abstract": 0.33112582781456956,
-            "introduction": 0.026490066225165563,
-            "methods": 0.07947019867549669,
-            "results": 0.11920529801324503,
-            "discussion": 0.1390728476821192,
+            "front": 0.006622516556291391,
+            "abstract": 0.11258278145695365,
+            "introduction": 0.11258278145695365,
+            "methods": 0.24503311258278146,
+            "results": 0.16556291390728478,
+            "discussion": 0.31125827814569534,
             "limitations": 0.0,
-            "conclusion": 0.2251655629139073,
-            "references": 0.019867549668874173
+            "conclusion": 0.013245033112582781,
+            "references": 0.033112582781456956
           }
         }
       },
@@ -854,47 +857,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 77.78530163564699,
+        "chi2": 81.58227012585832,
         "dof": 35,
         "n_notes": 847,
-        "cramers_v": 0.13552582595484555,
+        "cramers_v": 0.13879415769958328,
         "p_perm": 0.0004997501249375312
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.017328691298006328,
-          "js_to_donor_bear": 0.0026207376538371478,
+          "js_to_own_bear": 0.01937102562389673,
+          "js_to_donor_bear": 0.003994683849477955,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.019133316836591398,
-          "js_to_donor_bear": 0.008845404923901498,
+          "js_to_own_bear": 0.05099103662524472,
+          "js_to_donor_bear": 0.014600220102925367,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.015320914215540559,
-          "js_to_donor_bear": 0.011815638340529826,
+          "js_to_own_bear": 0.022291772658364878,
+          "js_to_donor_bear": 0.003590339345067183,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.0032990116773366114,
-          "js_to_donor_bear": 0.007162911582691247,
-          "tracks_lens": false
+          "js_to_own_bear": 0.015055020771880123,
+          "js_to_donor_bear": 0.00463807565340635,
+          "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.04042096349374825,
-          "js_to_donor_bear": 0.0334282124455821,
+          "js_to_own_bear": 0.03472839572598774,
+          "js_to_donor_bear": 0.02891847166329566,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.013124015766867673,
-          "js_to_donor_bear": 0.0024968478705350537,
+          "js_to_own_bear": 0.011476404503211135,
+          "js_to_donor_bear": 0.0012593907294698062,
           "tracks_lens": true
         }
       }
@@ -908,85 +911,85 @@
         "communicator": {
           "n_document_notes": 124,
           "by_section": {
-            "front": 0.008064516129032258,
-            "abstract": 0.03225806451612903,
-            "introduction": 0.08064516129032258,
-            "methods": 0.08064516129032258,
-            "results": 0.3467741935483871,
-            "discussion": 0.33064516129032256,
+            "front": 0.016129032258064516,
+            "abstract": 0.04838709677419355,
+            "introduction": 0.0967741935483871,
+            "methods": 0.07258064516129033,
+            "results": 0.3064516129032258,
+            "discussion": 0.28225806451612906,
             "limitations": 0.0,
-            "conclusion": 0.0967741935483871,
-            "references": 0.024193548387096774
+            "conclusion": 0.06451612903225806,
+            "references": 0.11290322580645161
           }
         },
         "methodologist": {
           "n_document_notes": 260,
           "by_section": {
             "front": 0.007692307692307693,
-            "abstract": 0.023076923076923078,
-            "introduction": 0.09230769230769231,
-            "methods": 0.3576923076923077,
-            "results": 0.27307692307692305,
-            "discussion": 0.18076923076923077,
+            "abstract": 0.026923076923076925,
+            "introduction": 0.07307692307692308,
+            "methods": 0.3230769230769231,
+            "results": 0.3230769230769231,
+            "discussion": 0.1346153846153846,
             "limitations": 0.0,
-            "conclusion": 0.03461538461538462,
-            "references": 0.03076923076923077
+            "conclusion": 0.015384615384615385,
+            "references": 0.09615384615384616
           }
         },
         "replicator": {
           "n_document_notes": 272,
           "by_section": {
             "front": 0.03308823529411765,
-            "abstract": 0.01838235294117647,
-            "introduction": 0.058823529411764705,
-            "methods": 0.3492647058823529,
-            "results": 0.2610294117647059,
-            "discussion": 0.1875,
-            "limitations": 0.007352941176470588,
-            "conclusion": 0.04779411764705882,
-            "references": 0.03676470588235294
+            "abstract": 0.03676470588235294,
+            "introduction": 0.0625,
+            "methods": 0.29044117647058826,
+            "results": 0.28308823529411764,
+            "discussion": 0.14338235294117646,
+            "limitations": 0.0,
+            "conclusion": 0.01838235294117647,
+            "references": 0.1323529411764706
           }
         },
         "skeptic": {
           "n_document_notes": 203,
           "by_section": {
-            "front": 0.0049261083743842365,
-            "abstract": 0.024630541871921183,
-            "introduction": 0.10344827586206896,
-            "methods": 0.2315270935960591,
-            "results": 0.2413793103448276,
-            "discussion": 0.2857142857142857,
+            "front": 0.014778325123152709,
+            "abstract": 0.029556650246305417,
+            "introduction": 0.1330049261083744,
+            "methods": 0.18719211822660098,
+            "results": 0.2512315270935961,
+            "discussion": 0.22167487684729065,
             "limitations": 0.0,
-            "conclusion": 0.06403940886699508,
-            "references": 0.04433497536945813
+            "conclusion": 0.014778325123152709,
+            "references": 0.1477832512315271
           }
         },
         "statistician": {
           "n_document_notes": 201,
           "by_section": {
             "front": 0.0,
-            "abstract": 0.014925373134328358,
-            "introduction": 0.05472636815920398,
-            "methods": 0.3383084577114428,
-            "results": 0.3880597014925373,
+            "abstract": 0.03482587064676617,
+            "introduction": 0.06965174129353234,
+            "methods": 0.26865671641791045,
+            "results": 0.373134328358209,
             "discussion": 0.15422885572139303,
-            "limitations": 0.004975124378109453,
-            "conclusion": 0.024875621890547265,
-            "references": 0.01990049751243781
+            "limitations": 0.0,
+            "conclusion": 0.01990049751243781,
+            "references": 0.07960199004975124
           }
         },
         "synthesizer": {
           "n_document_notes": 163,
           "by_section": {
             "front": 0.0,
-            "abstract": 0.024539877300613498,
-            "introduction": 0.1165644171779141,
-            "methods": 0.06748466257668712,
-            "results": 0.3496932515337423,
-            "discussion": 0.39263803680981596,
+            "abstract": 0.03680981595092025,
+            "introduction": 0.12269938650306748,
+            "methods": 0.06134969325153374,
+            "results": 0.32515337423312884,
+            "discussion": 0.3374233128834356,
             "limitations": 0.0,
-            "conclusion": 0.024539877300613498,
-            "references": 0.024539877300613498
+            "conclusion": 0.03067484662576687,
+            "references": 0.08588957055214724
           }
         }
       },
@@ -1029,10 +1032,10 @@
         }
       },
       "role_section_independence": {
-        "chi2": 154.23001178137594,
-        "dof": 40,
+        "chi2": 133.3054134105202,
+        "dof": 35,
         "n_notes": 1223,
-        "cramers_v": 0.15881306051431185,
+        "cramers_v": 0.1476473519619535,
         "p_perm": 0.0004997501249375312
       }
     },
@@ -1045,85 +1048,85 @@
         "communicator": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         },
         "methodologist": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         },
         "replicator": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         },
         "skeptic": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         },
         "statistician": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         },
         "synthesizer": {
           "n_document_notes": 200,
           "by_section": {
-            "front": 0.03,
-            "abstract": 0.03,
-            "introduction": 0.085,
-            "methods": 0.235,
-            "results": 0.29,
-            "discussion": 0.22,
-            "limitations": 0.005,
-            "conclusion": 0.05,
-            "references": 0.055
+            "front": 0.035,
+            "abstract": 0.035,
+            "introduction": 0.1,
+            "methods": 0.195,
+            "results": 0.285,
+            "discussion": 0.215,
+            "limitations": 0.0,
+            "conclusion": 0.025,
+            "references": 0.11
           }
         }
       },
@@ -1167,7 +1170,7 @@
       },
       "role_section_independence": {
         "chi2": 0.0,
-        "dof": 40,
+        "dof": 35,
         "n_notes": 1200,
         "cramers_v": 0.0,
         "p_perm": 1.0
@@ -1183,84 +1186,84 @@
           "n_document_notes": 245,
           "by_section": {
             "front": 0.00816326530612245,
-            "abstract": 0.04897959183673469,
-            "introduction": 0.07346938775510205,
-            "methods": 0.37142857142857144,
-            "results": 0.24897959183673468,
-            "discussion": 0.17551020408163265,
+            "abstract": 0.053061224489795916,
+            "introduction": 0.061224489795918366,
+            "methods": 0.3306122448979592,
+            "results": 0.2938775510204082,
+            "discussion": 0.12653061224489795,
             "limitations": 0.0,
-            "conclusion": 0.02857142857142857,
-            "references": 0.044897959183673466
+            "conclusion": 0.012244897959183673,
+            "references": 0.11428571428571428
           }
         },
         "methodologist": {
           "n_document_notes": 215,
           "by_section": {
             "front": 0.0,
-            "abstract": 0.0,
-            "introduction": 0.07906976744186046,
-            "methods": 0.2558139534883721,
+            "abstract": 0.027906976744186046,
+            "introduction": 0.06511627906976744,
+            "methods": 0.20930232558139536,
             "results": 0.39069767441860465,
-            "discussion": 0.23255813953488372,
-            "limitations": 0.004651162790697674,
-            "conclusion": 0.037209302325581395,
-            "references": 0.0
+            "discussion": 0.20465116279069767,
+            "limitations": 0.0,
+            "conclusion": 0.027906976744186046,
+            "references": 0.07441860465116279
           }
         },
         "replicator": {
           "n_document_notes": 122,
           "by_section": {
-            "front": 0.00819672131147541,
-            "abstract": 0.040983606557377046,
-            "introduction": 0.09836065573770492,
-            "methods": 0.05737704918032787,
-            "results": 0.3442622950819672,
-            "discussion": 0.36885245901639346,
+            "front": 0.01639344262295082,
+            "abstract": 0.05737704918032787,
+            "introduction": 0.12295081967213115,
+            "methods": 0.02459016393442623,
+            "results": 0.30327868852459017,
+            "discussion": 0.30327868852459017,
             "limitations": 0.0,
-            "conclusion": 0.06557377049180328,
-            "references": 0.01639344262295082
+            "conclusion": 0.05737704918032787,
+            "references": 0.11475409836065574
           }
         },
         "skeptic": {
           "n_document_notes": 258,
           "by_section": {
             "front": 0.011627906976744186,
-            "abstract": 0.003875968992248062,
+            "abstract": 0.015503875968992248,
             "introduction": 0.08527131782945736,
-            "methods": 0.36046511627906974,
-            "results": 0.29457364341085274,
-            "discussion": 0.1821705426356589,
-            "limitations": 0.011627906976744186,
-            "conclusion": 0.050387596899224806,
-            "references": 0.0
+            "methods": 0.29844961240310075,
+            "results": 0.3449612403100775,
+            "discussion": 0.13178294573643412,
+            "limitations": 0.0,
+            "conclusion": 0.01937984496124031,
+            "references": 0.09302325581395349
           }
         },
         "statistician": {
           "n_document_notes": 163,
           "by_section": {
-            "front": 0.0,
-            "abstract": 0.049079754601226995,
-            "introduction": 0.11042944785276074,
-            "methods": 0.13496932515337423,
-            "results": 0.37423312883435583,
-            "discussion": 0.3006134969325153,
+            "front": 0.006134969325153374,
+            "abstract": 0.06134969325153374,
+            "introduction": 0.12269938650306748,
+            "methods": 0.11042944785276074,
+            "results": 0.3374233128834356,
+            "discussion": 0.2883435582822086,
             "limitations": 0.0,
-            "conclusion": 0.012269938650306749,
-            "references": 0.018404907975460124
+            "conclusion": 0.03067484662576687,
+            "references": 0.04294478527607362
           }
         },
         "synthesizer": {
           "n_document_notes": 218,
           "by_section": {
             "front": 0.0045871559633027525,
-            "abstract": 0.027522935779816515,
-            "introduction": 0.0963302752293578,
-            "methods": 0.23853211009174313,
+            "abstract": 0.03669724770642202,
+            "introduction": 0.12385321100917432,
+            "methods": 0.1926605504587156,
             "results": 0.24311926605504589,
-            "discussion": 0.2706422018348624,
+            "discussion": 0.21559633027522937,
             "limitations": 0.0,
-            "conclusion": 0.045871559633027525,
-            "references": 0.07339449541284404
+            "conclusion": 0.027522935779816515,
+            "references": 0.1559633027522936
           }
         }
       },
@@ -1303,47 +1306,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 159.83724034990385,
-        "dof": 40,
+        "chi2": 130.51512711997063,
+        "dof": 35,
         "n_notes": 1221,
-        "cramers_v": 0.16180657017154898,
+        "cramers_v": 0.14621353973093731,
         "p_perm": 0.0004997501249375312
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.03433274796837007,
-          "js_to_donor_bear": 0.020670917826737047,
+          "js_to_own_bear": 0.015768285839348844,
+          "js_to_donor_bear": 0.004335132755480342,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.04704252153289788,
-          "js_to_donor_bear": 0.012392029899382056,
+          "js_to_own_bear": 0.038843823669483406,
+          "js_to_donor_bear": 0.011899657566832792,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.04592194000128515,
-          "js_to_donor_bear": 0.00280241607404159,
+          "js_to_own_bear": 0.03433973650528234,
+          "js_to_donor_bear": 0.0027892456768187825,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.03932856274356735,
-          "js_to_donor_bear": 0.020044390586523297,
+          "js_to_own_bear": 0.02304205695451464,
+          "js_to_donor_bear": 0.009197910316340468,
           "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.09010247590388357,
-          "js_to_donor_bear": 0.00409492201098292,
+          "js_to_own_bear": 0.09400068216603744,
+          "js_to_donor_bear": 0.007467837135327872,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.07911637169901882,
-          "js_to_donor_bear": 0.004091065341405756,
+          "js_to_own_bear": 0.07247577106366807,
+          "js_to_donor_bear": 0.0033508594311315565,
           "tracks_lens": true
         }
       }
@@ -1357,85 +1360,85 @@
         "communicator": {
           "n_document_notes": 127,
           "by_section": {
-            "front": 0.047244094488188976,
-            "abstract": 0.14173228346456693,
+            "front": 0.14960629921259844,
+            "abstract": 0.0,
             "introduction": 0.031496062992125984,
-            "methods": 0.25196850393700787,
-            "results": 0.29133858267716534,
-            "discussion": 0.23622047244094488,
-            "limitations": 0.0,
+            "methods": 0.2992125984251969,
+            "results": 0.2125984251968504,
+            "discussion": 0.16535433070866143,
+            "limitations": 0.047244094488188976,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.09448818897637795
           }
         },
         "methodologist": {
           "n_document_notes": 226,
           "by_section": {
-            "front": 0.02654867256637168,
-            "abstract": 0.05752212389380531,
-            "introduction": 0.04424778761061947,
-            "methods": 0.4469026548672566,
-            "results": 0.24778761061946902,
-            "discussion": 0.1504424778761062,
-            "limitations": 0.0,
+            "front": 0.05752212389380531,
+            "abstract": 0.0,
+            "introduction": 0.030973451327433628,
+            "methods": 0.3185840707964602,
+            "results": 0.23008849557522124,
+            "discussion": 0.11061946902654868,
+            "limitations": 0.061946902654867256,
             "conclusion": 0.0,
-            "references": 0.02654867256637168
+            "references": 0.1902654867256637
           }
         },
         "replicator": {
           "n_document_notes": 239,
           "by_section": {
-            "front": 0.008368200836820083,
-            "abstract": 0.058577405857740586,
-            "introduction": 0.04184100418410042,
-            "methods": 0.39748953974895396,
-            "results": 0.25523012552301255,
-            "discussion": 0.18410041841004185,
-            "limitations": 0.0,
+            "front": 0.04184100418410042,
+            "abstract": 0.0,
+            "introduction": 0.029288702928870293,
+            "methods": 0.3179916317991632,
+            "results": 0.2175732217573222,
+            "discussion": 0.12552301255230125,
+            "limitations": 0.06276150627615062,
             "conclusion": 0.0,
-            "references": 0.05439330543933055
+            "references": 0.20502092050209206
           }
         },
         "skeptic": {
           "n_document_notes": 223,
           "by_section": {
-            "front": 0.03139013452914798,
-            "abstract": 0.07623318385650224,
+            "front": 0.07174887892376682,
+            "abstract": 0.0,
             "introduction": 0.04035874439461883,
-            "methods": 0.30493273542600896,
-            "results": 0.3004484304932735,
-            "discussion": 0.20179372197309417,
-            "limitations": 0.0,
+            "methods": 0.3273542600896861,
+            "results": 0.2242152466367713,
+            "discussion": 0.14349775784753363,
+            "limitations": 0.053811659192825115,
             "conclusion": 0.0,
-            "references": 0.04484304932735426
+            "references": 0.13901345291479822
           }
         },
         "statistician": {
           "n_document_notes": 154,
           "by_section": {
-            "front": 0.01948051948051948,
-            "abstract": 0.032467532467532464,
-            "introduction": 0.032467532467532464,
-            "methods": 0.36363636363636365,
-            "results": 0.43506493506493504,
-            "discussion": 0.11688311688311688,
-            "limitations": 0.0,
+            "front": 0.03896103896103896,
+            "abstract": 0.0,
+            "introduction": 0.012987012987012988,
+            "methods": 0.24025974025974026,
+            "results": 0.2857142857142857,
+            "discussion": 0.18831168831168832,
+            "limitations": 0.07142857142857142,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.16233766233766234
           }
         },
         "synthesizer": {
           "n_document_notes": 176,
           "by_section": {
-            "front": 0.03409090909090909,
-            "abstract": 0.08522727272727272,
-            "introduction": 0.03977272727272727,
-            "methods": 0.22727272727272727,
-            "results": 0.3977272727272727,
-            "discussion": 0.21022727272727273,
-            "limitations": 0.0,
+            "front": 0.09659090909090909,
+            "abstract": 0.0,
+            "introduction": 0.03409090909090909,
+            "methods": 0.2840909090909091,
+            "results": 0.30113636363636365,
+            "discussion": 0.14772727272727273,
+            "limitations": 0.06818181818181818,
             "conclusion": 0.0,
-            "references": 0.005681818181818182
+            "references": 0.06818181818181818
           }
         }
       },
@@ -1478,11 +1481,11 @@
         }
       },
       "role_section_independence": {
-        "chi2": 86.4042734544152,
+        "chi2": 52.90386436361085,
         "dof": 30,
         "n_notes": 1145,
-        "cramers_v": 0.12285133093169258,
-        "p_perm": 0.0004997501249375312
+        "cramers_v": 0.09612933824020485,
+        "p_perm": 0.004497751124437781
       }
     },
     {
@@ -1494,85 +1497,85 @@
         "communicator": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         },
         "methodologist": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         },
         "replicator": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         },
         "skeptic": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         },
         "statistician": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         },
         "synthesizer": {
           "n_document_notes": 219,
           "by_section": {
-            "front": 0.0228310502283105,
-            "abstract": 0.0821917808219178,
-            "introduction": 0.0365296803652968,
-            "methods": 0.3105022831050228,
-            "results": 0.2785388127853881,
-            "discussion": 0.1735159817351598,
-            "limitations": 0.0,
+            "front": 0.0821917808219178,
+            "abstract": 0.0,
+            "introduction": 0.0319634703196347,
+            "methods": 0.2922374429223744,
+            "results": 0.2146118721461187,
+            "discussion": 0.1278538812785388,
+            "limitations": 0.045662100456621,
             "conclusion": 0.0,
-            "references": 0.0958904109589041
+            "references": 0.2054794520547945
           }
         }
       },
@@ -1630,85 +1633,85 @@
         "communicator": {
           "n_document_notes": 229,
           "by_section": {
-            "front": 0.021834061135371178,
-            "abstract": 0.0611353711790393,
-            "introduction": 0.048034934497816595,
-            "methods": 0.4192139737991266,
-            "results": 0.2794759825327511,
-            "discussion": 0.14410480349344978,
-            "limitations": 0.0,
+            "front": 0.05240174672489083,
+            "abstract": 0.0,
+            "introduction": 0.034934497816593885,
+            "methods": 0.2838427947598253,
+            "results": 0.23580786026200873,
+            "discussion": 0.13537117903930132,
+            "limitations": 0.06986899563318777,
             "conclusion": 0.0,
-            "references": 0.026200873362445413
+            "references": 0.18777292576419213
           }
         },
         "methodologist": {
           "n_document_notes": 166,
           "by_section": {
-            "front": 0.012048192771084338,
-            "abstract": 0.04819277108433735,
-            "introduction": 0.04819277108433735,
-            "methods": 0.3433734939759036,
-            "results": 0.46987951807228917,
-            "discussion": 0.0783132530120482,
-            "limitations": 0.0,
+            "front": 0.04216867469879518,
+            "abstract": 0.0,
+            "introduction": 0.024096385542168676,
+            "methods": 0.25301204819277107,
+            "results": 0.3493975903614458,
+            "discussion": 0.1566265060240964,
+            "limitations": 0.03614457831325301,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.13855421686746988
           }
         },
         "replicator": {
           "n_document_notes": 132,
           "by_section": {
-            "front": 0.030303030303030304,
-            "abstract": 0.11363636363636363,
-            "introduction": 0.022727272727272728,
-            "methods": 0.29545454545454547,
-            "results": 0.3181818181818182,
-            "discussion": 0.2196969696969697,
-            "limitations": 0.0,
+            "front": 0.10606060606060606,
+            "abstract": 0.0,
+            "introduction": 0.030303030303030304,
+            "methods": 0.32575757575757575,
+            "results": 0.2196969696969697,
+            "discussion": 0.17424242424242425,
+            "limitations": 0.030303030303030304,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.11363636363636363
           }
         },
         "skeptic": {
           "n_document_notes": 250,
           "by_section": {
-            "front": 0.016,
-            "abstract": 0.06,
-            "introduction": 0.052,
-            "methods": 0.376,
-            "results": 0.3,
-            "discussion": 0.148,
-            "limitations": 0.0,
+            "front": 0.052,
+            "abstract": 0.0,
+            "introduction": 0.032,
+            "methods": 0.284,
+            "results": 0.252,
+            "discussion": 0.128,
+            "limitations": 0.056,
             "conclusion": 0.0,
-            "references": 0.048
+            "references": 0.196
           }
         },
         "statistician": {
           "n_document_notes": 180,
           "by_section": {
-            "front": 0.027777777777777776,
-            "abstract": 0.08888888888888889,
-            "introduction": 0.027777777777777776,
-            "methods": 0.25,
-            "results": 0.37222222222222223,
-            "discussion": 0.23333333333333334,
-            "limitations": 0.0,
+            "front": 0.09444444444444444,
+            "abstract": 0.0,
+            "introduction": 0.022222222222222223,
+            "methods": 0.3111111111111111,
+            "results": 0.2777777777777778,
+            "discussion": 0.15,
+            "limitations": 0.06666666666666667,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.07777777777777778
           }
         },
         "synthesizer": {
           "n_document_notes": 223,
           "by_section": {
-            "front": 0.03587443946188341,
-            "abstract": 0.06726457399103139,
-            "introduction": 0.03587443946188341,
-            "methods": 0.33183856502242154,
-            "results": 0.30493273542600896,
-            "discussion": 0.17937219730941703,
-            "limitations": 0.0,
+            "front": 0.08071748878923767,
+            "abstract": 0.0,
+            "introduction": 0.03139013452914798,
+            "methods": 0.34080717488789236,
+            "results": 0.22869955156950672,
+            "discussion": 0.12556053811659193,
+            "limitations": 0.04932735426008968,
             "conclusion": 0.0,
-            "references": 0.04484304932735426
+            "references": 0.14349775784753363
           }
         }
       },
@@ -1751,47 +1754,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 74.75659547350946,
+        "chi2": 39.78262305713321,
         "dof": 30,
         "n_notes": 1180,
-        "cramers_v": 0.11256380147405178,
-        "p_perm": 0.0004997501249375312
+        "cramers_v": 0.0821146604895296,
+        "p_perm": 0.11694152923538231
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.03749726802207935,
-          "js_to_donor_bear": 0.004382916710289504,
+          "js_to_own_bear": 0.014627091766931357,
+          "js_to_donor_bear": 0.006704835935976903,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.02365737697917729,
-          "js_to_donor_bear": 0.0034680396340890556,
+          "js_to_own_bear": 0.0176058168191143,
+          "js_to_donor_bear": 0.0013449880480208528,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.01782173349954249,
-          "js_to_donor_bear": 0.0009035277342325763,
+          "js_to_own_bear": 0.012213844654124183,
+          "js_to_donor_bear": 0.0008575204763095702,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.006085988134246925,
-          "js_to_donor_bear": 0.0030230746708553797,
+          "js_to_own_bear": 0.004875402161837635,
+          "js_to_donor_bear": 0.0015702175918352011,
           "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.03435614891864576,
-          "js_to_donor_bear": 0.0033730771205835878,
+          "js_to_own_bear": 0.018762484238553093,
+          "js_to_donor_bear": 0.0036120774496662235,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.03679366556903176,
-          "js_to_donor_bear": 0.0009138124738416712,
+          "js_to_own_bear": 0.022341382912223894,
+          "js_to_donor_bear": 0.0013848005411405124,
           "tracks_lens": true
         }
       }
@@ -1805,12 +1808,12 @@
         "communicator": {
           "n_document_notes": 101,
           "by_section": {
-            "front": 0.13861386138613863,
-            "abstract": 0.0297029702970297,
-            "introduction": 0.019801980198019802,
-            "methods": 0.06930693069306931,
-            "results": 0.49504950495049505,
-            "discussion": 0.24752475247524752,
+            "front": 0.09900990099009901,
+            "abstract": 0.019801980198019802,
+            "introduction": 0.039603960396039604,
+            "methods": 0.0,
+            "results": 0.6138613861386139,
+            "discussion": 0.22772277227722773,
             "limitations": 0.0,
             "conclusion": 0.0,
             "references": 0.0
@@ -1819,29 +1822,29 @@
         "methodologist": {
           "n_document_notes": 409,
           "by_section": {
-            "front": 0.05623471882640587,
-            "abstract": 0.0024449877750611247,
-            "introduction": 0.012224938875305624,
-            "methods": 0.49877750611246946,
-            "results": 0.33251833740831294,
-            "discussion": 0.07579462102689487,
-            "limitations": 0.007334963325183374,
+            "front": 0.08801955990220049,
+            "abstract": 0.009779951100244499,
+            "introduction": 0.004889975550122249,
+            "methods": 0.061124694376528114,
+            "results": 0.43765281173594134,
+            "discussion": 0.33985330073349634,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.014669926650366748
+            "references": 0.05867970660146699
           }
         },
         "replicator": {
           "n_document_notes": 452,
           "by_section": {
-            "front": 0.05752212389380531,
-            "abstract": 0.004424778761061947,
+            "front": 0.09070796460176991,
+            "abstract": 0.00663716814159292,
             "introduction": 0.008849557522123894,
-            "methods": 0.48451327433628316,
-            "results": 0.3030973451327434,
-            "discussion": 0.08849557522123894,
-            "limitations": 0.008849557522123894,
+            "methods": 0.061946902654867256,
+            "results": 0.4004424778761062,
+            "discussion": 0.36283185840707965,
+            "limitations": 0.035398230088495575,
             "conclusion": 0.0,
-            "references": 0.04424778761061947
+            "references": 0.033185840707964605
           }
         },
         "skeptic": {
@@ -1849,39 +1852,39 @@
           "by_section": {
             "front": 0.125,
             "abstract": 0.015,
-            "introduction": 0.015,
-            "methods": 0.28,
-            "results": 0.39,
-            "discussion": 0.155,
-            "limitations": 0.01,
+            "introduction": 0.02,
+            "methods": 0.025,
+            "results": 0.47,
+            "discussion": 0.31,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.01
+            "references": 0.035
           }
         },
         "statistician": {
           "n_document_notes": 226,
           "by_section": {
-            "front": 0.05309734513274336,
-            "abstract": 0.004424778761061947,
-            "introduction": 0.008849557522123894,
-            "methods": 0.30973451327433627,
-            "results": 0.49557522123893805,
-            "discussion": 0.12389380530973451,
-            "limitations": 0.004424778761061947,
+            "front": 0.061946902654867256,
+            "abstract": 0.0,
+            "introduction": 0.01327433628318584,
+            "methods": 0.048672566371681415,
+            "results": 0.5752212389380531,
+            "discussion": 0.2831858407079646,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.017699115044247787
           }
         },
         "synthesizer": {
           "n_document_notes": 167,
           "by_section": {
-            "front": 0.17365269461077845,
-            "abstract": 0.023952095808383235,
-            "introduction": 0.017964071856287425,
-            "methods": 0.0658682634730539,
-            "results": 0.5089820359281437,
-            "discussion": 0.16167664670658682,
-            "limitations": 0.04790419161676647,
+            "front": 0.18562874251497005,
+            "abstract": 0.017964071856287425,
+            "introduction": 0.029940119760479042,
+            "methods": 0.0,
+            "results": 0.5329341317365269,
+            "discussion": 0.23353293413173654,
+            "limitations": 0.0,
             "conclusion": 0.0,
             "references": 0.0
           }
@@ -1926,10 +1929,10 @@
         }
       },
       "role_section_independence": {
-        "chi2": 264.23677700016304,
+        "chi2": 139.41865467207757,
         "dof": 35,
         "n_notes": 1555,
-        "cramers_v": 0.1843513969469477,
+        "cramers_v": 0.13390914742801344,
         "p_perm": 0.0004997501249375312
       }
     },
@@ -1943,84 +1946,84 @@
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         },
         "methodologist": {
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         },
         "replicator": {
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         },
         "skeptic": {
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         },
         "statistician": {
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         },
         "synthesizer": {
           "n_document_notes": 225,
           "by_section": {
             "front": 0.09333333333333334,
-            "abstract": 0.017777777777777778,
-            "introduction": 0.017777777777777778,
-            "methods": 0.35555555555555557,
-            "results": 0.3333333333333333,
-            "discussion": 0.1288888888888889,
+            "abstract": 0.008888888888888889,
+            "introduction": 0.022222222222222223,
+            "methods": 0.035555555555555556,
+            "results": 0.4533333333333333,
+            "discussion": 0.32,
             "limitations": 0.008888888888888889,
             "conclusion": 0.0,
-            "references": 0.044444444444444446
+            "references": 0.057777777777777775
           }
         }
       },
@@ -2078,41 +2081,41 @@
         "communicator": {
           "n_document_notes": 418,
           "by_section": {
-            "front": 0.05502392344497608,
-            "abstract": 0.0023923444976076554,
-            "introduction": 0.01674641148325359,
-            "methods": 0.5215311004784688,
-            "results": 0.28708133971291866,
-            "discussion": 0.08373205741626795,
-            "limitations": 0.0215311004784689,
+            "front": 0.07416267942583732,
+            "abstract": 0.009569377990430622,
+            "introduction": 0.007177033492822967,
+            "methods": 0.07655502392344497,
+            "results": 0.44258373205741625,
+            "discussion": 0.3349282296650718,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.011961722488038277
+            "references": 0.05502392344497608
           }
         },
         "methodologist": {
           "n_document_notes": 238,
           "by_section": {
-            "front": 0.09243697478991597,
+            "front": 0.10504201680672269,
             "abstract": 0.0,
             "introduction": 0.004201680672268907,
-            "methods": 0.31932773109243695,
-            "results": 0.4831932773109244,
-            "discussion": 0.09663865546218488,
-            "limitations": 0.004201680672268907,
+            "methods": 0.04201680672268908,
+            "results": 0.5882352941176471,
+            "discussion": 0.2184873949579832,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.04201680672268908
           }
         },
         "replicator": {
           "n_document_notes": 114,
           "by_section": {
-            "front": 0.15789473684210525,
+            "front": 0.14912280701754385,
             "abstract": 0.017543859649122806,
-            "introduction": 0.017543859649122806,
-            "methods": 0.07894736842105263,
-            "results": 0.4824561403508772,
-            "discussion": 0.21929824561403508,
-            "limitations": 0.017543859649122806,
+            "introduction": 0.02631578947368421,
+            "methods": 0.008771929824561403,
+            "results": 0.5877192982456141,
+            "discussion": 0.20175438596491227,
+            "limitations": 0.0,
             "conclusion": 0.0,
             "references": 0.008771929824561403
           }
@@ -2120,29 +2123,29 @@
         "skeptic": {
           "n_document_notes": 450,
           "by_section": {
-            "front": 0.07555555555555556,
-            "abstract": 0.0044444444444444444,
-            "introduction": 0.011111111111111112,
-            "methods": 0.4444444444444444,
-            "results": 0.3333333333333333,
-            "discussion": 0.08444444444444445,
-            "limitations": 0.02,
+            "front": 0.09333333333333334,
+            "abstract": 0.006666666666666667,
+            "introduction": 0.006666666666666667,
+            "methods": 0.04666666666666667,
+            "results": 0.4577777777777778,
+            "discussion": 0.3422222222222222,
+            "limitations": 0.015555555555555555,
             "conclusion": 0.0,
-            "references": 0.02666666666666667
+            "references": 0.03111111111111111
           }
         },
         "statistician": {
           "n_document_notes": 165,
           "by_section": {
-            "front": 0.1393939393939394,
+            "front": 0.12727272727272726,
             "abstract": 0.01818181818181818,
-            "introduction": 0.01818181818181818,
-            "methods": 0.05454545454545454,
-            "results": 0.5272727272727272,
-            "discussion": 0.2,
-            "limitations": 0.04242424242424243,
+            "introduction": 0.024242424242424242,
+            "methods": 0.0,
+            "results": 0.6121212121212121,
+            "discussion": 0.21212121212121213,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.0
+            "references": 0.006060606060606061
           }
         },
         "synthesizer": {
@@ -2150,13 +2153,13 @@
           "by_section": {
             "front": 0.11627906976744186,
             "abstract": 0.013953488372093023,
-            "introduction": 0.013953488372093023,
-            "methods": 0.2651162790697674,
-            "results": 0.386046511627907,
-            "discussion": 0.17209302325581396,
-            "limitations": 0.009302325581395349,
+            "introduction": 0.018604651162790697,
+            "methods": 0.03255813953488372,
+            "results": 0.4558139534883721,
+            "discussion": 0.3302325581395349,
+            "limitations": 0.0,
             "conclusion": 0.0,
-            "references": 0.023255813953488372
+            "references": 0.03255813953488372
           }
         }
       },
@@ -2199,47 +2202,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 231.41312136408135,
+        "chi2": 104.83727699712978,
         "dof": 35,
         "n_notes": 1600,
-        "cramers_v": 0.17007833539434164,
+        "cramers_v": 0.11447558527756573,
         "p_perm": 0.0004997501249375312
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.026946667761569704,
-          "js_to_donor_bear": 0.005569830015416936,
+          "js_to_own_bear": 0.017554815784106496,
+          "js_to_donor_bear": 0.008848725496178354,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.07610509636692156,
-          "js_to_donor_bear": 0.002585229182003838,
+          "js_to_own_bear": 0.03407250609331869,
+          "js_to_donor_bear": 0.006615116732664499,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.055279952283015805,
-          "js_to_donor_bear": 0.0017924565540760465,
+          "js_to_own_bear": 0.03305254146094683,
+          "js_to_donor_bear": 0.0005860170814977331,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.023352267018637483,
-          "js_to_donor_bear": 0.0036993230293807713,
+          "js_to_own_bear": 0.011269008415344475,
+          "js_to_donor_bear": 0.003735171214045917,
           "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.12800505772002957,
-          "js_to_donor_bear": 0.010883676808345698,
+          "js_to_own_bear": 0.055020210512628134,
+          "js_to_donor_bear": 0.009871339751107289,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.1609911428369616,
-          "js_to_donor_bear": 0.003132534084939194,
+          "js_to_own_bear": 0.065705311572467,
+          "js_to_donor_bear": 0.0008844695750068611,
           "tracks_lens": true
         }
       }
@@ -2254,84 +2257,84 @@
           "n_document_notes": 95,
           "by_section": {
             "front": 0.010526315789473684,
-            "abstract": 0.021052631578947368,
-            "introduction": 0.07368421052631578,
-            "methods": 0.16842105263157894,
-            "results": 0.2736842105263158,
-            "discussion": 0.4,
+            "abstract": 0.07368421052631578,
+            "introduction": 0.08421052631578947,
+            "methods": 0.14736842105263157,
+            "results": 0.14736842105263157,
+            "discussion": 0.43157894736842106,
             "limitations": 0.0,
-            "conclusion": 0.042105263157894736,
-            "references": 0.010526315789473684
+            "conclusion": 0.021052631578947368,
+            "references": 0.08421052631578947
           }
         },
         "methodologist": {
           "n_document_notes": 234,
           "by_section": {
             "front": 0.017094017094017096,
-            "abstract": 0.029914529914529916,
-            "introduction": 0.042735042735042736,
-            "methods": 0.3418803418803419,
+            "abstract": 0.0641025641025641,
+            "introduction": 0.02564102564102564,
+            "methods": 0.26495726495726496,
             "results": 0.20512820512820512,
             "discussion": 0.23931623931623933,
             "limitations": 0.0,
-            "conclusion": 0.02564102564102564,
-            "references": 0.09829059829059829
+            "conclusion": 0.008547008547008548,
+            "references": 0.1752136752136752
           }
         },
         "replicator": {
           "n_document_notes": 221,
           "by_section": {
             "front": 0.03619909502262444,
-            "abstract": 0.058823529411764705,
-            "introduction": 0.027149321266968326,
-            "methods": 0.29411764705882354,
-            "results": 0.248868778280543,
+            "abstract": 0.10407239819004525,
+            "introduction": 0.03619909502262444,
+            "methods": 0.23076923076923078,
+            "results": 0.2171945701357466,
             "discussion": 0.25339366515837103,
             "limitations": 0.0,
-            "conclusion": 0.04072398190045249,
-            "references": 0.04072398190045249
+            "conclusion": 0.004524886877828055,
+            "references": 0.11764705882352941
           }
         },
         "skeptic": {
           "n_document_notes": 177,
           "by_section": {
             "front": 0.02824858757062147,
-            "abstract": 0.03954802259887006,
-            "introduction": 0.06779661016949153,
-            "methods": 0.23728813559322035,
-            "results": 0.22033898305084745,
-            "discussion": 0.3389830508474576,
+            "abstract": 0.0903954802259887,
+            "introduction": 0.07344632768361582,
+            "methods": 0.20903954802259886,
+            "results": 0.14689265536723164,
+            "discussion": 0.3107344632768362,
             "limitations": 0.0,
-            "conclusion": 0.05084745762711865,
-            "references": 0.01694915254237288
+            "conclusion": 0.011299435028248588,
+            "references": 0.12994350282485875
           }
         },
         "statistician": {
           "n_document_notes": 193,
           "by_section": {
             "front": 0.0051813471502590676,
-            "abstract": 0.03626943005181347,
-            "introduction": 0.046632124352331605,
-            "methods": 0.3005181347150259,
-            "results": 0.27979274611398963,
-            "discussion": 0.26424870466321243,
+            "abstract": 0.08808290155440414,
+            "introduction": 0.05699481865284974,
+            "methods": 0.23834196891191708,
+            "results": 0.23316062176165803,
+            "discussion": 0.25906735751295334,
             "limitations": 0.0,
-            "conclusion": 0.05699481865284974,
-            "references": 0.010362694300518135
+            "conclusion": 0.015544041450777202,
+            "references": 0.10362694300518134
           }
         },
         "synthesizer": {
           "n_document_notes": 122,
           "by_section": {
             "front": 0.01639344262295082,
-            "abstract": 0.03278688524590164,
-            "introduction": 0.08196721311475409,
-            "methods": 0.14754098360655737,
-            "results": 0.27049180327868855,
-            "discussion": 0.4098360655737705,
+            "abstract": 0.09836065573770492,
+            "introduction": 0.09016393442622951,
+            "methods": 0.12295081967213115,
+            "results": 0.13934426229508196,
+            "discussion": 0.45901639344262296,
             "limitations": 0.0,
-            "conclusion": 0.040983606557377046,
-            "references": 0.0
+            "conclusion": 0.02459016393442623,
+            "references": 0.04918032786885246
           }
         }
       },
@@ -2374,11 +2377,11 @@
         }
       },
       "role_section_independence": {
-        "chi2": 90.73666666434848,
+        "chi2": 74.39582823244481,
         "dof": 35,
         "n_notes": 1042,
-        "cramers_v": 0.13196918929106075,
-        "p_perm": 0.0004997501249375312
+        "cramers_v": 0.11949656732792116,
+        "p_perm": 0.0009995002498750624
       }
     },
     {
@@ -2391,84 +2394,84 @@
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         },
         "methodologist": {
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         },
         "replicator": {
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         },
         "skeptic": {
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         },
         "statistician": {
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         },
         "synthesizer": {
           "n_document_notes": 158,
           "by_section": {
             "front": 0.05063291139240506,
-            "abstract": 0.02531645569620253,
-            "introduction": 0.08227848101265822,
-            "methods": 0.25316455696202533,
-            "results": 0.21518987341772153,
-            "discussion": 0.25949367088607594,
+            "abstract": 0.08227848101265822,
+            "introduction": 0.06962025316455696,
+            "methods": 0.2088607594936709,
+            "results": 0.15822784810126583,
+            "discussion": 0.2848101265822785,
             "limitations": 0.0,
-            "conclusion": 0.056962025316455694,
-            "references": 0.056962025316455694
+            "conclusion": 0.02531645569620253,
+            "references": 0.12025316455696203
           }
         }
       },
@@ -2528,84 +2531,84 @@
           "n_document_notes": 232,
           "by_section": {
             "front": 0.017241379310344827,
-            "abstract": 0.04310344827586207,
-            "introduction": 0.04741379310344827,
-            "methods": 0.3232758620689655,
-            "results": 0.21120689655172414,
-            "discussion": 0.20689655172413793,
+            "abstract": 0.07327586206896551,
+            "introduction": 0.021551724137931036,
+            "methods": 0.27155172413793105,
+            "results": 0.1896551724137931,
+            "discussion": 0.22844827586206898,
             "limitations": 0.0,
-            "conclusion": 0.021551724137931036,
-            "references": 0.12931034482758622
+            "conclusion": 0.008620689655172414,
+            "references": 0.1896551724137931
           }
         },
         "methodologist": {
           "n_document_notes": 191,
           "by_section": {
             "front": 0.010471204188481676,
-            "abstract": 0.041884816753926704,
-            "introduction": 0.04712041884816754,
-            "methods": 0.28272251308900526,
-            "results": 0.2879581151832461,
-            "discussion": 0.27225130890052357,
+            "abstract": 0.08376963350785341,
+            "introduction": 0.06282722513089005,
+            "methods": 0.24607329842931938,
+            "results": 0.19895287958115182,
+            "discussion": 0.3193717277486911,
             "limitations": 0.0,
-            "conclusion": 0.05235602094240838,
-            "references": 0.005235602094240838
+            "conclusion": 0.010471204188481676,
+            "references": 0.06806282722513089
           }
         },
         "replicator": {
           "n_document_notes": 103,
           "by_section": {
             "front": 0.038834951456310676,
-            "abstract": 0.019417475728155338,
-            "introduction": 0.0970873786407767,
-            "methods": 0.11650485436893204,
-            "results": 0.2912621359223301,
-            "discussion": 0.34951456310679613,
+            "abstract": 0.06796116504854369,
+            "introduction": 0.1262135922330097,
+            "methods": 0.13592233009708737,
+            "results": 0.13592233009708737,
+            "discussion": 0.3883495145631068,
             "limitations": 0.0,
-            "conclusion": 0.06796116504854369,
-            "references": 0.019417475728155338
+            "conclusion": 0.019417475728155338,
+            "references": 0.08737864077669903
           }
         },
         "skeptic": {
           "n_document_notes": 211,
           "by_section": {
             "front": 0.02843601895734597,
-            "abstract": 0.04739336492890995,
-            "introduction": 0.052132701421800945,
-            "methods": 0.3033175355450237,
-            "results": 0.22274881516587677,
-            "discussion": 0.22748815165876776,
+            "abstract": 0.07109004739336493,
+            "introduction": 0.04265402843601896,
+            "methods": 0.26540284360189575,
+            "results": 0.1943127962085308,
+            "discussion": 0.26540284360189575,
             "limitations": 0.0,
-            "conclusion": 0.03317535545023697,
-            "references": 0.08530805687203792
+            "conclusion": 0.014218009478672985,
+            "references": 0.11848341232227488
           }
         },
         "statistician": {
           "n_document_notes": 136,
           "by_section": {
             "front": 0.029411764705882353,
-            "abstract": 0.029411764705882353,
-            "introduction": 0.11029411764705882,
-            "methods": 0.17647058823529413,
-            "results": 0.2647058823529412,
-            "discussion": 0.35294117647058826,
+            "abstract": 0.08823529411764706,
+            "introduction": 0.08823529411764706,
+            "methods": 0.18382352941176472,
+            "results": 0.1323529411764706,
+            "discussion": 0.40441176470588236,
             "limitations": 0.0,
-            "conclusion": 0.03676470588235294,
-            "references": 0.0
+            "conclusion": 0.022058823529411766,
+            "references": 0.051470588235294115
           }
         },
         "synthesizer": {
           "n_document_notes": 178,
           "by_section": {
             "front": 0.028089887640449437,
-            "abstract": 0.016853932584269662,
-            "introduction": 0.06741573033707865,
-            "methods": 0.23595505617977527,
-            "results": 0.2303370786516854,
-            "discussion": 0.3146067415730337,
+            "abstract": 0.07303370786516854,
+            "introduction": 0.056179775280898875,
+            "methods": 0.2247191011235955,
+            "results": 0.12921348314606743,
+            "discussion": 0.3202247191011236,
             "limitations": 0.0,
-            "conclusion": 0.03932584269662921,
-            "references": 0.06741573033707865
+            "conclusion": 0.011235955056179775,
+            "references": 0.15730337078651685
           }
         }
       },
@@ -2648,47 +2651,47 @@
         }
       },
       "role_section_independence": {
-        "chi2": 96.4639641554657,
+        "chi2": 70.73469595673288,
         "dof": 35,
         "n_notes": 1051,
-        "cramers_v": 0.1354865525752575,
-        "p_perm": 0.0004997501249375312
+        "cramers_v": 0.116019205041596,
+        "p_perm": 0.0009995002498750624
       },
       "lens_tracking": {
         "methodologist": {
           "lens_from": "statistician",
-          "js_to_own_bear": 0.03423595218335394,
-          "js_to_donor_bear": 0.0012308704605030656,
+          "js_to_own_bear": 0.020427077706963774,
+          "js_to_donor_bear": 0.004941074059086982,
           "tracks_lens": true
         },
         "statistician": {
           "lens_from": "synthesizer",
-          "js_to_own_bear": 0.027661887749427464,
-          "js_to_donor_bear": 0.0038122967027019684,
+          "js_to_own_bear": 0.027963996719885323,
+          "js_to_donor_bear": 0.005076615927855691,
           "tracks_lens": true
         },
         "synthesizer": {
           "lens_from": "skeptic",
-          "js_to_own_bear": 0.03489373184277285,
-          "js_to_donor_bear": 0.011079694720838756,
+          "js_to_own_bear": 0.03373414001075102,
+          "js_to_donor_bear": 0.002151927018939541,
           "tracks_lens": true
         },
         "skeptic": {
           "lens_from": "replicator",
-          "js_to_own_bear": 0.021651869288571227,
-          "js_to_donor_bear": 0.007512895791951113,
+          "js_to_own_bear": 0.007084193876518198,
+          "js_to_donor_bear": 0.004237283645505971,
           "tracks_lens": true
         },
         "replicator": {
           "lens_from": "communicator",
-          "js_to_own_bear": 0.04385077571215071,
-          "js_to_donor_bear": 0.010706414320499,
+          "js_to_own_bear": 0.03682393082430055,
+          "js_to_donor_bear": 0.007317578150521283,
           "tracks_lens": true
         },
         "communicator": {
           "lens_from": "methodologist",
-          "js_to_own_bear": 0.06531080725230629,
-          "js_to_donor_bear": 0.0025503343079917766,
+          "js_to_own_bear": 0.04864655972028184,
+          "js_to_donor_bear": 0.0006201644979868201,
           "tracks_lens": true
         }
       }
